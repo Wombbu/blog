@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         primary: ["var(--work-sans)", ...fontFamily.sans],
       },
+      textDecorationThickness: {
+        3: "3px",
+      },
     },
   },
   plugins: [],
