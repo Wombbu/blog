@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (
-  <header className="bg-white flex items-start sm:items-center justify-between p-6 sticky top-0">
+  <header className="bg-white flex items-start sm:items-center justify-between p-6">
     <Link
       href="/"
       className="font-primary font-bold text-2xl sm:text-3xl text-black h-11"

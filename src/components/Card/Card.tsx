@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./Card.module.css";
 
-export const Card = () => (
-  <Link href="/" className="flex flex-col">
+type Props = {
+  date: string;
+  coverImage: string;
+  title: string;
+  readingTime: string;
+  slug: string;
+};
+
+export const Card = ({ date, coverImage, title, readingTime, slug }: Props) => (
+  <Link href={`posts/${slug}`} className={`${styles.card} flex flex-col`}>
     <Image
-      src="/temp.jpg"
-      alt="Image of tampere"
+      src={coverImage}
+      alt={title}
       width={600}
       height={600}
       className="object-cover mb-5 w-full"
@@ -13,12 +22,12 @@ export const Card = () => (
         aspectRatio: "3/4",
       }}
     />
-
     <h5 className="font-primary font-medium text-gray-600 text-xl mb-4">
-      5. joulukuuta 2022 - 5 min lukuaika
+      {new Date(date).toLocaleDateString("FI-fi", {})} - {readingTime} min
+      lukuaika
     </h5>
     <h4 className="font-primary font-medium text-black text-2xl mb-4">
-      60-luku oli villiä aikaa kaupunkisuunnittelussa
+      {title}
     </h4>
   </Link>
 );

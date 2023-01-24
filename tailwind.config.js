@@ -12,6 +12,12 @@ module.exports = {
       textDecorationThickness: {
         3: "3px",
       },
+      borderWidth: {
+        3: "3px",
+      },
+      boxShadow: {
+        outline: "0 0 0 3px rgba(0, 0, 0, 0.8)",
+      },
     },
   },
   plugins: [],

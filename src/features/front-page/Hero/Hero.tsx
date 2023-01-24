@@ -7,15 +7,16 @@ export const Hero = () => (
       alt="Image of me"
       width={160}
       height={160}
-      className=" border-2 border-gray-800 mr-8 rounded-full mb-8 sm:mb-0"
+      className="shadow-outline mr-8 rounded-full mb-8 sm:mb-0"
     />
     <div className="flex-auto" style={{ maxWidth: "425px" }}>
       <h1 className="font-primary font-bold text-4xl sm:text-6xl mb-2 text-gray-800">
-        Moro!
+        Moro.
       </h1>
-      <p className="font-primary text-md font-medium text-gray-700">
+      <p className="font-primary text-md font-medium text-gray-600">
         Olen Tampereelta, kirjoitan kaupunkikehityksestä. Kehitän kiinteistöalan
-        toiminnanohjausjärjestelmää käyttöliittymäohjelmistoarkkitehtina.
+        toiminnanohjausjärjestelmää johtavana
+        käyttöliittymäohjelmistokehittäjänä.
       </p>
     </div>
   </section>
