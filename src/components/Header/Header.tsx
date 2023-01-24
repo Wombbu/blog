@@ -4,16 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (
-  <header className="h-24 bg-white flex items-center justify-around sticky top-0">
-    <Link href="/" className="font-primary font-bold text-3xl text-black">
+  <header className="bg-white flex items-start sm:items-center justify-between p-6 sticky top-0">
+    <Link
+      href="/"
+      className="font-primary font-bold text-2xl sm:text-3xl text-black h-11"
+    >
       Lauri Nevanperä.
     </Link>
-    <div className="[&>*]:ml-2 md:[&>*]:ml-6">
-      <HeaderLink href="/blogi">Blogi</HeaderLink>
+    <div className="[&>*]:ml-2 sm:[&>*]:ml-6">
+      <HeaderLink href="/blogi">Artikkelit</HeaderLink>
       <HeaderLink href="/minä">Minä</HeaderLink>
       <HeaderLink href="/työ">Työ</HeaderLink>
     </div>
-    <div className="[&>*]:ml-2 hidden md:flex">
+    <div className="[&>*]:ml-2 hidden sm:flex">
       <SocialMediaLink
         href="https://twitter.com/laurinevanpera"
         src="/twitter-logo-blue.svg"

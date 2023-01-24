@@ -13,7 +13,7 @@ export const SocialMediaLink = ({ size = 27, src, alt, ...aProps }: Props) => {
     <a
       target="_blank"
       rel="noreferrer"
-      className="rounded-full hover:bg-gray-100 p-3"
+      className="rounded-full hover:bg-gray-100 p-2"
       {...aProps}
     >
       <Image
