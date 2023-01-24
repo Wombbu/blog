@@ -1,8 +1,15 @@
 import "./globals.css";
-import { Work_Sans } from "@next/font/google";
 import { Header } from "@/components/Header/Header";
-// https://levelup.gitconnected.com/how-to-make-next-js-13s-optimized-fonts-work-with-tailwind-css-c3c5e57d38aa
-const work = Work_Sans({ subsets: ["latin"] });
+import { Work_Sans, Vollkorn } from "@next/font/google";
+
+const primaryFontFamily = Work_Sans({
+  subsets: ["latin"],
+  variable: "--font-family-primary",
+});
+const secondaryFontFamily = Vollkorn({
+  subsets: ["latin"],
+  variable: "--font-family-secondary",
+});
 
 export default function RootLayout({
   children,
@@ -11,19 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <style jsx global>
-        {`
-          :root {
-            --work-sans: ${work.style.fontFamily};
-          }
-        `}
-      </style>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body>{children}</body>
+      <body
+        className={`font-sans ${primaryFontFamily.variable}  ${secondaryFontFamily.variable}`}
+      >
+        <Header />
+        <main className={`max-w-screen-lg mx-auto px-6 sm:px-8`}>
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

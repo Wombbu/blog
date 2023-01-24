@@ -1,9 +1,10 @@
 import "../src/app/globals.css";
 import React from "react";
-import { Work_Sans } from "@next/font/google";
+import { Work_Sans, Vollkorn } from "@next/font/google";
 
 // https://levelup.gitconnected.com/how-to-make-next-js-13s-optimized-fonts-work-with-tailwind-css-c3c5e57d38aa
-const work = Work_Sans({ subsets: ["latin"] });
+const primaryFontFamily = Work_Sans({ subsets: ["latin"] });
+const secondaryFontFamily = Vollkorn({ subsets: ["latin"] });
 
 export const decorators = [
   (Story) => (
@@ -11,7 +12,8 @@ export const decorators = [
       <style jsx global>
         {`
           :root {
-            --work-sans: ${work.style.fontFamily};
+            --font-family-primary: ${primaryFontFamily.style.fontFamily};
+            --font-family-secondary: ${secondaryFontFamily.style.fontFamily};
           }
         `}
       </style>
