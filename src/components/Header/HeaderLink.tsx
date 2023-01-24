@@ -6,7 +6,7 @@ export const HeaderLink = (props: Props) => {
   return (
     <Link
       {...props}
-      className="text-gray-900 font-primary text-xl font-bold hover:underline decoration-3"
+      className="text-gray-900 font-primary text-xl font-medium hover:underline decoration-2"
     />
   );
 };

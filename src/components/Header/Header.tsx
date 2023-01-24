@@ -1,4 +1,5 @@
 import { HeaderLink } from "@/components/Header/HeaderLink";
+import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,48 +8,17 @@ export const Header = () => (
     <Link href="/" className="font-primary font-bold text-3xl text-black">
       Lauri Nevanperä.
     </Link>
-    <div className="[&>*]:ml-6">
-      <HeaderLink href="/työ">Työ</HeaderLink>
+    <div className="[&>*]:ml-2 md:[&>*]:ml-6">
       <HeaderLink href="/blogi">Blogi</HeaderLink>
       <HeaderLink href="/minä">Minä</HeaderLink>
+      <HeaderLink href="/työ">Työ</HeaderLink>
     </div>
-    <div className="flex [&>*]:ml-6">
-      <a
+    <div className="[&>*]:ml-2 hidden md:flex">
+      <SocialMediaLink
         href="https://twitter.com/laurinevanpera"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          src="/twitter-logo-blue.svg"
-          alt="Twitter"
-          width={27}
-          height={27}
-        />
-      </a>
-      <a
-        href="https://twitter.com/laurinevanpera"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          src="/twitter-logo-blue.svg"
-          alt="Twitter"
-          width={27}
-          height={27}
-        />
-      </a>
-      <a
-        href="https://twitter.com/laurinevanpera"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          src="/twitter-logo-blue.svg"
-          alt="Twitter"
-          width={27}
-          height={27}
-        />
-      </a>
+        src="/twitter-logo-blue.svg"
+        alt="Twitter"
+      />
     </div>
   </header>
 );
