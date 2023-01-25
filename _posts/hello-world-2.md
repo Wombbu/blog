@@ -8,6 +8,4 @@ ogImage:
 readingTime: "5"
 ---
 
-## Temp
-
 Lorem impsum

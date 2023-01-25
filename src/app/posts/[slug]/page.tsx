@@ -2,6 +2,10 @@ import { getAllPosts, getPostBySlug } from "@/features/posts/md-utils/api";
 import PostBody from "@/features/posts/components/PostBody/PostBody";
 import markdownToHtml from "@/features/posts/md-utils/markdownToHtml";
 import Image from "next/image";
+import { typography } from "@/essentials/theme/typography";
+import module from "./PostHero.module.css";
+import Link from "next/link";
+import { button } from "@/essentials/theme/button";
 
 type Props = {
   params: {
@@ -19,20 +23,50 @@ export default async function Post(props: Props) {
     "content",
     "ogImage",
     "coverImage",
+    "excerpt",
+    "readingTime",
   ]);
 
   const contentHtml = await markdownToHtml(post.content || "");
 
   return (
     <>
-      <Image
-        src={post.coverImage}
-        alt={post.title}
-        width={1000}
-        height={1000}
-        className="object-cover mb-5 w-full h-80"
-      />
+      <div className={module.heroContainer}>
+        <Image
+          src={post.coverImage}
+          alt={post.title}
+          width={1000}
+          height={1000}
+          className={module.heroImage}
+        />
+        <Link
+          href="/blog"
+          className={`${button.variants.smolInverted} absolute bottom-4 left-4`}
+        >
+          Takaisin artikkeleihin
+        </Link>
+      </div>
+      <h5
+        className={`${typography.palette.secondary} font-primary text-xl mt-12 mb-1`}
+      >
+        {new Date(post.date).toLocaleDateString("FI-fi", {})} -{" "}
+        {post.readingTime} min lukuaika
+      </h5>
+      <h1
+        className={`${typography.palette.primary} font-primary text-3xl font-bold mb-12`}
+      >
+        {post.title}
+      </h1>
+      <p
+        className={`${typography.palette.primary} text-2xl font-secondary italic mb-12`}
+      >
+        {post.excerpt}
+      </p>
+
       <PostBody content={contentHtml} />
+      <Link href="/blog" className={`${button.variants.large} w-full`}>
+        Takaisin artikkeleihin
+      </Link>
     </>
   );
   //   return (

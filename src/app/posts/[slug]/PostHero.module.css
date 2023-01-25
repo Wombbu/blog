@@ -1,0 +1,24 @@
+.heroImage {
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+
+.heroContainer {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+@screen md {
+  .heroImage {
+    aspect-ratio: 3/2;
+  }
+  .heroContainer {
+    width: auto;
+    left: auto;
+  }
+}

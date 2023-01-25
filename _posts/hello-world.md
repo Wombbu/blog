@@ -1,6 +1,6 @@
 ---
-title: "Liikennesuunnittelu nykypäivänä"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "Kaupunkisuunnittelun ideologia 70-luvulla"
+excerpt: "Miksi Suomessa rakennettiin kontuloita uusien töölöjen sijaan 60-70 luvuilla nopeimman kaupungistumisen aikaan?"
 coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 ogImage:
@@ -8,6 +8,6 @@ ogImage:
 readingTime: "3"
 ---
 
-## Nykyhetki Suomessa
+Suomen vaikutusvaltaisin asemakaava-arkkitehti, 60-luku ”Turun ja Tampereen liikekeskuksissa on vielä toistaiseksi huomattava määrä asuntoja, kouluja ja muita niissä myöhemmin tarpeettomia huoneistoja jotka pidemmälle kehittyneissä amerikkalaisissa oloissa ovat niistä hävinneet” Suomen vaikutusvaltaisin asemakaava-arkkitehti, 60-luku ”Turun ja Tampereen liikekeskuksissa on vielä toistaiseksi huomattava määrä asuntoja, kouluja ja muita niissä myöhemmin tarpeettomia huoneistoja jotka pidemmälle kehittyneissä amerikkalaisissa oloissa ovat niistä hävinneet”
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum <strong>MENNIMUNA</strong>facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Suomen vaikutusvaltaisin asemakaava-arkkitehti, 60-luku ”Turun ja Tampereen liikekeskuksissa on vielä toistaiseksi huomattava määrä asuntoja, kouluja ja muita niissä myöhemmin tarpeettomia huoneistoja jotka pidemmälle kehittyneissä amerikkalaisissa oloissa ovat niistä hävinneet” Suomen vaikutusvaltaisin asemakaava-arkkitehti, 60-luku ”Turun ja Tampereen liikekeskuksissa on vielä toistaiseksi huomattava määrä asuntoja, kouluja ja muita niissä myöhemmin tarpeettomia huoneistoja jotka pidemmälle kehittyneissä amerikkalaisissa oloissa ovat niistä hävinneet”

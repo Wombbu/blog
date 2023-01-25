@@ -17,8 +17,6 @@ export default async function Home(props: Props) {
     "readingTime",
   ]);
 
-  console.log(allPosts);
-
   return (
     <div>
       <Hero />
