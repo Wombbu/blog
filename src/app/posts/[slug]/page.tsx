@@ -41,7 +41,7 @@ export default async function Post(props: Props) {
         />
         <Link
           href="/blog"
-          className={`${button.variants.smolInverted} absolute bottom-4 left-4`}
+          className={`${button.variants.smolInverted} absolute top-4 left-4`}
         >
           Takaisin artikkeleihin
         </Link>

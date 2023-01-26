@@ -5,9 +5,9 @@ export const Hero = () => (
     <Image
       src="/lauri.jpg"
       alt="Image of me"
-      width={160}
-      height={160}
-      className="shadow-outline mr-8 rounded-full mb-8 sm:mb-0"
+      width={256}
+      height={256}
+      className="shadow-outline object-cover mr-8 rounded-full mb-8 sm:mb-0 h-52 w-52"
     />
     <div className="flex-auto" style={{ maxWidth: "425px" }}>
       <h1 className="font-primary font-bold text-4xl sm:text-6xl mb-2 text-gray-800">

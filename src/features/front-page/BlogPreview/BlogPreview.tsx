@@ -8,7 +8,7 @@ type Props = {
 export const BlogPreview = ({ posts }: Props) => (
   <section className="max-w-screen-lg">
     <Link href="/blogi">
-      <h2 className={typography.variants.sectionTitle}>Artikkelit</h2>
+      <h2 className={typography.variants.sectionTitle}>Uusimmat</h2>
     </Link>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post) => (
