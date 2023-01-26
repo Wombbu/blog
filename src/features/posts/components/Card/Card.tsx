@@ -1,3 +1,4 @@
+import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Card.module.css";
@@ -23,8 +24,7 @@ export const Card = ({ date, coverImage, title, readingTime, slug }: Props) => (
       }}
     />
     <h5 className="font-primary font-medium text-gray-600 text-xl mb-4">
-      {new Date(date).toLocaleDateString("FI-fi", {})} - {readingTime} min
-      lukuaika
+      {formatDateStr(date)} - {readingTime} min lukuaika
     </h5>
     <h4 className="font-primary font-medium text-black text-2xl mb-4">
       {title}

@@ -1,11 +1,17 @@
-import { getAllPosts, getPostBySlug } from "@/features/posts/md-utils/api";
+import {
+  getAllPosts,
+  getPostBySlug,
+} from "@/features/posts/utils/md-utils/api";
 import PostBody from "@/features/posts/components/PostBody/PostBody";
-import markdownToHtml from "@/features/posts/md-utils/markdownToHtml";
+import markdownToHtml from "@/features/posts/utils/md-utils/markdownToHtml";
 import Image from "next/image";
 import { typography } from "@/essentials/theme/typography";
 import module from "./PostHero.module.css";
 import Link from "next/link";
 import { button } from "@/essentials/theme/button";
+import { formatDateStr } from "@/essentials/utils/formatDateStr";
+import { routes } from "@/essentials/utils/routes";
+import { palette } from "@/essentials/theme/palette";
 
 type Props = {
   params: {
@@ -30,7 +36,12 @@ export default async function Post(props: Props) {
   const contentHtml = await markdownToHtml(post.content || "");
 
   return (
-    <>
+    <article>
+      <h1
+        className={`${typography.variants.pageTitle} text-center mb-10 mt-10`}
+      >
+        Artikkeli
+      </h1>
       <div className={module.heroContainer}>
         <Image
           src={post.coverImage}
@@ -40,34 +51,33 @@ export default async function Post(props: Props) {
           className={module.heroImage}
         />
         <Link
-          href="/blog"
+          href={routes.posts}
           className={`${button.variants.smolInverted} absolute top-4 left-4`}
         >
           Takaisin artikkeleihin
         </Link>
       </div>
       <h5
-        className={`${typography.palette.secondary} font-primary text-xl mt-12 mb-1`}
+        className={`${palette.text.secondary} font-primary text-xl mt-12 mb-1`}
       >
-        {new Date(post.date).toLocaleDateString("FI-fi", {})} -{" "}
-        {post.readingTime} min lukuaika
+        {formatDateStr(post.date)} - {post.readingTime} min lukuaika
       </h5>
       <h1
-        className={`${typography.palette.primary} font-primary text-3xl font-bold mb-12`}
+        className={`${palette.text.primary} font-primary text-3xl font-bold mb-12`}
       >
         {post.title}
       </h1>
       <p
-        className={`${typography.palette.primary} text-2xl font-secondary italic mb-12`}
+        className={`${palette.text.primary} text-2xl font-secondary italic mb-12`}
       >
         {post.excerpt}
       </p>
 
       <PostBody content={contentHtml} />
-      <Link href="/blog" className={`${button.variants.large} w-full`}>
+      <Link href={routes.posts} className={`${button.variants.large} w-full`}>
         Takaisin artikkeleihin
       </Link>
-    </>
+    </article>
   );
   //   return (
   //     <Layout preview={preview}>

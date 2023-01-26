@@ -9,5 +9,5 @@ export type PostMetadata = {
   ogImage: {
     url: string;
   };
-  readingTime: number;
+  readingTime: string;
 };
