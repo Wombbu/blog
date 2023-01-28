@@ -31,11 +31,11 @@ export default async function Posts(props: Props) {
       <FeaturedPost
         title={featuredPost.title}
         coverImage={featuredPost.coverImage}
-        date={featuredPost.date}
-        readingTime={featuredPost.readingTime}
         slug={featuredPost.slug}
         excerpt={featuredPost.excerpt}
+        readingTime={featuredPost.readingTime}
       />
+      <h2 className={typography.variants.sectionTitle}>Uusimmat</h2>
       <PostGrid
         posts={allPosts.map((it) => ({
           date: it.date,

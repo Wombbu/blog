@@ -57,10 +57,8 @@ export default async function Post(props: Props) {
           Takaisin artikkeleihin
         </Link>
       </div>
-      <h5
-        className={`${palette.text.secondary} font-primary text-xl mt-12 mb-1`}
-      >
-        {formatDateStr(post.date)} - {post.readingTime} min lukuaika
+      <h5 className={`${typography.variants.secondaryTitle} mt-12 mb-1`}>
+        {formatDateStr(post.date)} - {post.readingTime} min luettava
       </h5>
       <h1
         className={`${palette.text.primary} font-primary text-3xl font-bold mb-12`}

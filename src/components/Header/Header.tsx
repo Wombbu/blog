@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (
-  <header className="bg-white flex items-start sm:items-center justify-between p-6">
+  <header className="bg-white flex items-start sm:items-center justify-between p-4 sm:p-8">
     <Link
       href={routes.home}
       className={`${palette.text.primary} font-primary font-bold text-2xl sm:text-3xl mh-11`}

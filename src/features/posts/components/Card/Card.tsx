@@ -1,3 +1,4 @@
+import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,8 +24,8 @@ export const Card = ({ date, coverImage, title, readingTime, slug }: Props) => (
         aspectRatio: "3/4",
       }}
     />
-    <h5 className="font-primary font-medium text-gray-600 text-xl mb-4">
-      {formatDateStr(date)} - {readingTime} min lukuaika
+    <h5 className={`${typography.variants.secondaryTitle} mb-4`}>
+      {formatDateStr(date)} - {readingTime} min luettava
     </h5>
     <h4 className="font-primary font-medium text-black text-2xl mb-4">
       {title}

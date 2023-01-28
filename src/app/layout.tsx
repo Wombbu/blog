@@ -23,7 +23,7 @@ export default function RootLayout({
         className={`font-sans ${primaryFontFamily.variable}  ${secondaryFontFamily.variable}`}
       >
         <Header />
-        <main className={`max-w-screen-lg mx-auto px-6 sm:px-8 pb-6`}>
+        <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-6`}>
           {children}
         </main>
       </body>

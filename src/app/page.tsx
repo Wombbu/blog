@@ -26,7 +26,11 @@ export default async function Home(props: Props) {
       <Hero />
       <section>
         <Link href={routes.posts}>
-          <h2 className={typography.variants.sectionTitle}>Uusimmat</h2>
+          <h2
+            className={`${typography.variants.sectionTitle}  hover:underline decoration-3`}
+          >
+            Uusimmat artikkelit
+          </h2>
         </Link>
         <PostGrid
           posts={allPosts.slice(0, 3).map((it) => ({
