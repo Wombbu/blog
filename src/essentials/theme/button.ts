@@ -1,5 +1,5 @@
 const buttonBase =
-  "inline-block text-center border-gray-800 font-primary text-gray-800 font-semibold hover:bg-gray-800 hover:text-white";
+  "flex justify-center items-center inline-block border-gray-800 font-primary text-gray-800 font-semibold hover:bg-gray-800 hover:text-white";
 const inverted = `${buttonBase} bg-gray-800 text-white hover:bg-white hover:text-gray-800`;
 
 const variants = {

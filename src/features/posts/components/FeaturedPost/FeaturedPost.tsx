@@ -23,25 +23,31 @@ export const FeaturedPost = ({
   return (
     <Link
       href={routes.post(slug)}
-      className={`${palette.border.primary} p-4 sm:p-8 border-3 flex flex-col md:flex-row items-stretch mb-8 cursor-pointer`}
+      className={`${palette.border.primary} p-4 sm:p-8 border-3 flex flex-col sm:flex-row items-stretch cursor-pointer`}
     >
-      <div className="flex-4 mr-8 flex flex-col break-words">
-        <h2 className={typography.variants.secondaryTitle}>Nosto</h2>
-        <h1 className={typography.variants.sectionTitle}>{title}</h1>
-        <p className={typography.variants.textBody}>{excerpt}</p>
+      <div className="flex-1 sm:mr-8 flex flex-col break-words relative">
+        <h2
+          className={`${typography.variants.secondaryTitle} text-center bg-black p-2 mb-6 text-gray-100`}
+        >
+          Nosto
+        </h2>
+        <h1 className={typography.variants.sectionTitle()}>{title}</h1>
+        <p className={`${typography.variants.textBody} mb-4`}>{excerpt}</p>
         <p
-          className={`${typography.variants.subtitle} mt-6 md:mt-auto hover:underline decoration-2`}
+          className={`${typography.variants.subtitle} mt-auto hover:underline decoration-2`}
         >
           Lue koko artikkeli ({readingTime} min)
         </p>
       </div>
-      <Image
-        src={coverImage}
-        alt={excerpt}
-        height={400}
-        width={400}
-        className="aspect-square lg:aspect-sd mt-8 md:mt-0 object-cover self-stretch min-w-0 min-h-0 w-full h-full"
-      />
+      <div className={`mt-8 sm:mt-0 flex-1`}>
+        <Image
+          src={coverImage}
+          alt={excerpt}
+          height={400}
+          width={400}
+          className="aspect-sd object-cover min-w-full min-h-full"
+        />
+      </div>
     </Link>
   );
 };

@@ -27,7 +27,7 @@ export default async function Home(props: Props) {
       <section>
         <Link href={routes.posts}>
           <h2
-            className={`${typography.variants.sectionTitle}  hover:underline decoration-3`}
+            className={`${typography.variants.sectionTitle()}  hover:underline decoration-3`}
           >
             Uusimmat artikkelit
           </h2>

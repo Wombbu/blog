@@ -24,11 +24,9 @@ export const Card = ({ date, coverImage, title, readingTime, slug }: Props) => (
         aspectRatio: "3/4",
       }}
     />
-    <h5 className={`${typography.variants.secondaryTitle} mb-4`}>
+    <h5 className={`${typography.variants.secondaryTitle} mb-2`}>
       {formatDateStr(date)} - {readingTime} min luettava
     </h5>
-    <h4 className="font-primary font-medium text-black text-2xl mb-4">
-      {title}
-    </h4>
+    <h4 className="font-primary font-medium text-black text-2xl">{title}</h4>
   </Link>
 );

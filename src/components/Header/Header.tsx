@@ -19,12 +19,5 @@ export const Header = () => (
       <HeaderLink href={routes.about}>Minä</HeaderLink>
       <HeaderLink href={routes.work}>Työ</HeaderLink>
     </div>
-    {/* <div className="[&>*]:ml-2 hidden sm:flex">
-      <SocialMediaLink
-        href="https://twitter.com/laurinevanpera"
-        src="/twitter-logo-blue.svg"
-        alt="Twitter"
-      />
-    </div> */}
   </header>
 );
