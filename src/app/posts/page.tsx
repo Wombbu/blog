@@ -8,7 +8,7 @@ type Props = {
   allPosts: { [key: string]: string };
 };
 
-export default async function Home(props: Props) {
+export default async function Posts(props: Props) {
   const allPosts = await getAllPosts([
     "title",
     "date",
