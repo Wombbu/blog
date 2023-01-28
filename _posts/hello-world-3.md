@@ -1,10 +1,10 @@
 ---
 title: "Miksi politiikkaan"
 excerpt: "Miksi Suomessa rakennettiin kontuloita uusien töölöjen sijaan 60-70 luvuilla nopeimman kaupungistumisen aikaan?"
-coverImage: "/assets/blog/hello-world/cover2.png"
+coverImage: "/assets/blog/hello-world/cover3.jpg"
 date: "2020-02-10T05:35:07.322Z"
 ogImage:
-  url: "/assets/blog/hello-world/cover2.png"
+  url: "/assets/blog/hello-world/cover3.jpg"
 readingTime: "3"
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "Katusuunnittelusta"
 excerpt: "Miksi Suomessa rakennettiin kontuloita uusien töölöjen sijaan 60-70 luvuilla nopeimman kaupungistumisen aikaan?"
-coverImage: "/assets/blog/hello-world/cover.jpg"
+coverImage: "/assets/blog/hello-world/cover6.jpg"
 date: "2020-03-16T05:35:07.322Z"
 ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+  url: "/assets/blog/hello-world/cover6.jpg"
 readingTime: "6"
 ---
 
