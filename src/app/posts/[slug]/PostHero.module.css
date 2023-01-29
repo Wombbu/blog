@@ -23,3 +23,7 @@
     @apply mt-4;
   }
 }
+
+.imgOverlayButton {
+  @apply bg-gray-900 border-gray-900;
+}

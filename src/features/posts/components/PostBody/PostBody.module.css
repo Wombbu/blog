@@ -44,11 +44,11 @@
 }
 
 .markdown code {
-  @apply bg-gray-100 rounded px-2 font-mono;
+  @apply bg-gray-100 rounded px-2 font-mono break-words overflow-scroll;
 }
 
 .markdown pre {
-  @apply bg-gray-100 rounded p-4 font-mono;
+  @apply bg-gray-100 rounded p-4 font-mono break-words overflow-scroll;
 }
 
 .markdown hr {
@@ -56,5 +56,5 @@
 }
 
 .markdown img {
-  @apply max-w-md mx-auto my-8 inline;
+  @apply mx-auto my-8;
 }

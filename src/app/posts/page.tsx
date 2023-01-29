@@ -39,6 +39,7 @@ export default async function Posts(props: Props) {
             excerpt={featuredPost.excerpt}
             readingTime={featuredPost.readingTime}
             tags={featuredPost.tags}
+            audio={featuredPost.audio}
           />
         }
         posts={allPosts.map((it) => ({

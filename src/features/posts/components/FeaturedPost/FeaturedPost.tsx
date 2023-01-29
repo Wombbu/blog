@@ -13,6 +13,7 @@ type Props = {
   readingTime: string;
   slug: string;
   tags: string;
+  audio: string | undefined;
 };
 
 export const FeaturedPost = ({
@@ -22,6 +23,7 @@ export const FeaturedPost = ({
   readingTime,
   slug,
   tags,
+  audio,
 }: Props) => {
   return (
     <Link
@@ -50,7 +52,7 @@ export const FeaturedPost = ({
           width={400}
           className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
         />
-        <ImageOverlayTags tags={tags} />
+        <ImageOverlayTags tags={tags} hasAudio={!!audio} />
       </div>
     </Link>
   );

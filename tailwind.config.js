@@ -16,7 +16,7 @@ module.exports = {
         3: "3px",
       },
       boxShadow: {
-        outline: "0 0 0 3px rgba(0, 0, 0, 0.8)",
+        outline: "0 0 0 3px rgba(0, 0, 0, 0.9)",
       },
       aspectRatio: {
         sd: "4/3",

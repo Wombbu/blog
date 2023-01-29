@@ -43,6 +43,9 @@ export default async function Post(props: Props) {
     "coverImage",
     "excerpt",
     "readingTime",
+    "tags",
+    "excerpt",
+    "audio",
   ]);
 
   const contentHtml = await markdownToHtml(post.content || "");
@@ -50,11 +53,11 @@ export default async function Post(props: Props) {
   return (
     <>
       <article>
-        <h1
+        {/* <h1
           className={`${typography.variants.pageTitle} text-center mb-10 mt-10`}
         >
           Artikkeli
-        </h1>
+        </h1> */}
         <div className={module.heroContainer}>
           <Image
             src={post.coverImage}
@@ -65,30 +68,39 @@ export default async function Post(props: Props) {
           />
           <Link
             href={routes.posts}
-            className={`${button.variants.smolInverted} absolute top-4 left-4`}
+            className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute top-4 left-4`}
           >
             Takaisin artikkeleihin
           </Link>
         </div>
-        <h5 className={`${typography.variants.secondaryTitle} mt-12 mb-1`}>
-          {formatDateStr(post.date)} - {post.readingTime} min luettava
-        </h5>
         <h2
-          className={`${palette.text.primary} font-primary text-3xl font-bold mb-12`}
+          className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center`}
         >
           {post.title}
         </h2>
-        <p
-          className={`${palette.text.primary} text-2xl font-secondary italic mb-12`}
-        >
-          {post.excerpt}
-        </p>
-        {post.audio ? (
-          <audio controls preload="none" className="mb-12">
-            <source src={post.audio} type="audio/x-m4a" />
-          </audio>
-        ) : null}
-        <PostBody content={contentHtml} />
+        <div className="m-auto" style={{ maxWidth: "600px" }}>
+          <p
+            className={`${palette.text.primary} text-xl md:text-2xl font-secondary italic mb-12 text-center`}
+          >
+            {post.excerpt}
+          </p>
+          {post.audio ? (
+            <audio controls preload="none" className="mb-12 m-auto">
+              <source src={post.audio} type="audio/x-m4a" />
+            </audio>
+          ) : null}
+          <address className="font-bold font-primary text-md not-italic">
+            Lauri Nevanperä
+          </address>
+          <time
+            itemProp="datepublished"
+            dateTime={post.date}
+            className={`font-primary ${palette.text.secondary} text-md mt-12 mb-4`}
+          >
+            {formatDateStr(post.date)} - {post.readingTime} min luettava
+          </time>
+          <PostBody content={contentHtml} />
+        </div>
       </article>
 
       <section className="mt-12">
@@ -126,6 +138,9 @@ export default async function Post(props: Props) {
             coverImage: post.coverImage,
             readingTime: post.readingTime,
             slug: post.slug,
+            excerpt: post.excerpt,
+            audio: post.audio,
+            tags: post.tags,
           }))}
         />
         <Link
