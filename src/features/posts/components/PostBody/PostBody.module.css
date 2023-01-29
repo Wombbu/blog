@@ -3,10 +3,12 @@
 }
 
 .markdown p,
-.markdown ul,
-.markdown ol,
 .markdown blockquote {
   @apply my-6;
+}
+
+.markdown h1 {
+  @apply text-4xl mt-12 mb-4 leading-snug;
 }
 
 .markdown h2 {
@@ -19,4 +21,40 @@
 
 .markdown *:first-child {
   @apply mt-0;
+}
+
+.markdown blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic;
+}
+
+.markdown a {
+  @apply text-blue-500 underline;
+}
+
+.markdown ul {
+  @apply list-disc list-inside pl-8;
+}
+
+.markdown ol {
+  @apply list-decimal list-inside pl-8;
+}
+
+.markdown ol p {
+  @apply inline;
+}
+
+.markdown code {
+  @apply bg-gray-100 rounded px-2 font-mono;
+}
+
+.markdown pre {
+  @apply bg-gray-100 rounded p-4 font-mono;
+}
+
+.markdown hr {
+  @apply border-0 border-b-2 border-gray-200;
+}
+
+.markdown img {
+  @apply max-w-md mx-auto my-8 inline;
 }
