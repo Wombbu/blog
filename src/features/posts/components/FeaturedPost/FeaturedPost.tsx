@@ -4,6 +4,7 @@ import styles from "./FeaturedPost.module.css";
 import { routes } from "@/essentials/utils/routes";
 import Image from "next/image";
 import Link from "next/link";
+import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
 
 type Props = {
   title: string;
@@ -11,6 +12,7 @@ type Props = {
   coverImage: string;
   readingTime: string;
   slug: string;
+  tags: string;
 };
 
 export const FeaturedPost = ({
@@ -19,6 +21,7 @@ export const FeaturedPost = ({
   coverImage,
   readingTime,
   slug,
+  tags,
 }: Props) => {
   return (
     <Link
@@ -39,7 +42,7 @@ export const FeaturedPost = ({
           Lue koko artikkeli ({readingTime} min)
         </p>
       </div>
-      <div className={`mt-8 sm:mt-0 flex-1`}>
+      <div className={`mt-8 sm:mt-0 flex-1 relative`}>
         <Image
           src={coverImage}
           alt={excerpt}
@@ -47,6 +50,7 @@ export const FeaturedPost = ({
           width={400}
           className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
         />
+        <ImageOverlayTags tags={tags} />
       </div>
     </Link>
   );

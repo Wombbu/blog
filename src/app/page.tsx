@@ -19,6 +19,9 @@ export default async function Home(props: Props) {
     "coverImage",
     "excerpt",
     "readingTime",
+    "tags",
+    "excerpt",
+    "audio",
   ]);
 
   return (
@@ -39,6 +42,9 @@ export default async function Home(props: Props) {
             title: it.title,
             readingTime: it.readingTime,
             slug: it.slug,
+            tags: it.tags,
+            excerpt: it.excerpt,
+            audio: it.audio,
           }))}
         />
         <Link

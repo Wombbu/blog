@@ -1,8 +1,5 @@
 import { Card } from "@/features/posts/components/Card/Card";
-import { button } from "@/essentials/theme/button";
-import { typography } from "@/essentials/theme/typography";
-import Link from "next/link";
-import { routes } from "@/essentials/utils/routes";
+
 type Props = {
   posts: React.ComponentProps<typeof Card>[];
   extraContent?: React.ReactNode;
@@ -25,7 +22,8 @@ export const PostGrid = ({ posts, extraContent }: Props) => (
         title={post.title}
         readingTime={post.readingTime}
         slug={post.slug}
-        audio={post.audio}
+        tags={post.tags}
+        excerpt={post.excerpt}
       />
     ))}
   </div>

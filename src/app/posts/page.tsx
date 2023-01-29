@@ -17,6 +17,8 @@ export default async function Posts(props: Props) {
     "coverImage",
     "excerpt",
     "readingTime",
+    "tags",
+    "audio",
   ]);
 
   const featuredPost = allPosts[3];
@@ -36,6 +38,7 @@ export default async function Posts(props: Props) {
             slug={featuredPost.slug}
             excerpt={featuredPost.excerpt}
             readingTime={featuredPost.readingTime}
+            tags={featuredPost.tags}
           />
         }
         posts={allPosts.map((it) => ({
@@ -44,6 +47,9 @@ export default async function Posts(props: Props) {
           title: it.title,
           readingTime: it.readingTime,
           slug: it.slug,
+          tags: it.tags,
+          excerpt: it.excerpt,
+          audio: it.audio,
         }))}
       />
     </>
