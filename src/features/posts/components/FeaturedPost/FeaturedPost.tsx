@@ -1,6 +1,6 @@
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
-import { formatDateStr } from "@/essentials/utils/formatDateStr";
+import styles from "./FeaturedPost.module.css";
 import { routes } from "@/essentials/utils/routes";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,7 +23,7 @@ export const FeaturedPost = ({
   return (
     <Link
       href={routes.post(slug)}
-      className={`${palette.border.primary} p-4 sm:p-8 border-3 flex flex-col sm:flex-row items-stretch cursor-pointer`}
+      className={`${styles.featuredPost} ${palette.border.primary} p-4 sm:p-8 border-3 flex flex-col sm:flex-row items-stretch cursor-pointer`}
     >
       <div className="flex-1 sm:mr-8 flex flex-col break-words relative">
         <h2
@@ -45,7 +45,7 @@ export const FeaturedPost = ({
           alt={excerpt}
           height={400}
           width={400}
-          className="aspect-sd object-cover min-w-full min-h-full"
+          className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
         />
       </div>
     </Link>

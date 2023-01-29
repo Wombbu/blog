@@ -32,6 +32,7 @@ export default async function Post(props: Props) {
     "coverImage",
     "excerpt",
     "readingTime",
+    "audio",
   ]);
 
   const recommended = getAllPosts([
@@ -82,6 +83,11 @@ export default async function Post(props: Props) {
         >
           {post.excerpt}
         </p>
+        {post.audio ? (
+          <audio controls preload="none" className="mb-12">
+            <source src={post.audio} type="audio/x-m4a" />
+          </audio>
+        ) : null}
         <PostBody content={contentHtml} />
       </article>
 

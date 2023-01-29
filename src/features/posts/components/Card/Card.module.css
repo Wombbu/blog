@@ -1,3 +1,3 @@
-.card:hover > img {
+.card:hover .imgWrapper {
   @apply shadow-outline;
 }

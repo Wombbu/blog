@@ -3,6 +3,7 @@ export const palette = {
     primary: "text-gray-800",
     secondary: "text-gray-600",
     accent: "text-black",
+    white: "text-gray-100",
   },
   border: {
     primary: "border-gray-800",

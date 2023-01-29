@@ -10,4 +10,5 @@ export type PostMetadata = {
     url: string;
   };
   readingTime: string;
+  audio?: string;
 };

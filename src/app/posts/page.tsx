@@ -29,18 +29,15 @@ export default async function Posts(props: Props) {
         Artikkelit
       </h1>
       <PostGrid
-        extraContent={{
-          element: (
-            <FeaturedPost
-              title={featuredPost.title}
-              coverImage={featuredPost.coverImage}
-              slug={featuredPost.slug}
-              excerpt={featuredPost.excerpt}
-              readingTime={featuredPost.readingTime}
-            />
-          ),
-          row: 2,
-        }}
+        extraContent={
+          <FeaturedPost
+            title={featuredPost.title}
+            coverImage={featuredPost.coverImage}
+            slug={featuredPost.slug}
+            excerpt={featuredPost.excerpt}
+            readingTime={featuredPost.readingTime}
+          />
+        }
         posts={allPosts.map((it) => ({
           date: it.date,
           coverImage: it.coverImage,

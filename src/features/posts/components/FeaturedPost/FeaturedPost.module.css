@@ -1,0 +1,3 @@
+.featuredPost:hover .image {
+  @apply shadow-outline;
+}
