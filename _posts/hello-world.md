@@ -16,7 +16,7 @@ tendentemque utinam Auroram utinam. Quoque ramus; tura corruat
 vacuae illa nequiquam, Phiale et colla sensisse pressus, est exta cetera
 albentibus.
 
-![](/tampere.svg)
+![](/assets/blog/hello-world/cover5.jpg)
 
 > Luctus admissum miscent, et ad iacentia adfusique gestamina humus fortissimus
 > saxa tellure Tritoniacam docui quaerens deerat liquerat frustra. Cinyran enim
@@ -33,6 +33,8 @@ digitosque et noster. Tuo Ityosque dentibus, Latios!
 2. Lina deum mundi isse
 3. Se poenas
 
+![](/assets/blog/hello-world/cover3.jpg)
+
 ## Flammis nascique
 
 Victor ut faveas constitit infans pedem montis quodsi! Doloris semine
@@ -40,6 +42,8 @@ Victor ut faveas constitit infans pedem montis quodsi! Doloris semine
 namque, vir. Teucer sine tela rubentia; sed urbes te Glaucus Idmon summa
 vertitur avidaeque undam [Appenninigenae recusat
 timor](http://deum.net/non-parte) quod Tarpeia et.
+
+![](/assets/blog/hello-world/cover6.jpg)
 
 Sociam et divae ille nymphae et fallis mentem, sive latet? Et arma. Inmensos
 illa recepta veluti suus. Gravi sunt, noctis sufficit infames. Tamen sed
