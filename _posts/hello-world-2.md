@@ -6,6 +6,7 @@ date: "2020-03-16T05:35:07.322Z"
 ogImage:
   url: "/assets/blog/hello-world/cover2.jpg"
 readingTime: "5"
+tags: "Tampere Liikennesuunnittelu"
 ---
 
 Lorem impsum

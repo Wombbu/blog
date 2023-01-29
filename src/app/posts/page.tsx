@@ -1,6 +1,5 @@
 import { getAllPosts } from "@/features/posts/utils/md-utils/api";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
-import { Hero } from "@/features/front-page/Hero/Hero";
 import { FeaturedPost } from "@/features/posts/components/FeaturedPost/FeaturedPost";
 import { typography } from "@/essentials/theme/typography";
 

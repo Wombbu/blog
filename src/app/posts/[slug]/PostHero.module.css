@@ -20,7 +20,6 @@
   .heroContainer {
     width: auto;
     left: auto;
-    @apply mt-4;
   }
 }
 
