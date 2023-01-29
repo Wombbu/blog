@@ -74,7 +74,7 @@ export default async function Post(props: Props) {
           </Link>
         </div>
         <h2
-          className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center`}
+          className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
         >
           {post.title}
         </h2>
@@ -95,7 +95,7 @@ export default async function Post(props: Props) {
           <time
             itemProp="datepublished"
             dateTime={post.date}
-            className={`font-primary ${palette.text.secondary} text-md mt-12 mb-4`}
+            className={`${typography.variants.secondaryTitle} mt-12 mb-4`}
           >
             {formatDateStr(post.date)} - {post.readingTime} min luettava
           </time>

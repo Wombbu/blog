@@ -28,7 +28,7 @@ export const Card = ({
   audio,
 }: Props) => (
   <Link href={`posts/${slug}`} className={`${styles.card} flex flex-col`}>
-    <div className={`${styles.imgWrapper} mb-5 relative`}>
+    <div className={`${styles.imgWrapper} mb-3 relative`}>
       <Image
         src={coverImage}
         alt={title}
@@ -50,7 +50,7 @@ export const Card = ({
       ) : null} */}
     </div>
 
-    <h5 className={`${typography.variants.secondaryTitle} mb-2`}>
+    <h5 className={`${typography.variants.secondaryTitle}`}>
       {formatDateStr(date)} - {readingTime} min luettava
     </h5>
     <h4

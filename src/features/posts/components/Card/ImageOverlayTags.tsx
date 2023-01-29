@@ -13,7 +13,7 @@ const specialTags = [
           alt="Tampere"
           width={15}
           height={15}
-          className="inline w-auto mr-0.5"
+          className="inline w-auto mr-1.5"
           style={{
             maxHeight: "15px",
           }}
@@ -31,7 +31,7 @@ const specialTags = [
           alt="Helsinki"
           width={15}
           height={15}
-          className="inline w-auto mr-0.5"
+          className="inline w-auto mr-1.5"
           style={{
             maxHeight: "15px",
           }}
@@ -49,7 +49,7 @@ const specialTags = [
           alt="Turku"
           width={15}
           height={15}
-          className="inline w-auto mr-0.5"
+          className="inline w-auto mr-1.5"
           style={{
             maxHeight: "15px",
           }}
@@ -67,7 +67,7 @@ const specialTags = [
           alt="Oulu"
           width={15}
           height={15}
-          className="inline w-auto mr-0.5"
+          className="inline w-auto mr-1.5"
           style={{
             maxHeight: "15px",
           }}
@@ -94,7 +94,7 @@ export const ImageOverlayTags = ({
       {[...tags.split(" "), ...(hasAudio ? [RECORDING] : [])].map((tag) => (
         <div
           key={tag}
-          className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0"
+          className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
         >
           {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
             tag}

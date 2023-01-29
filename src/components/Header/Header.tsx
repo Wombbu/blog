@@ -16,8 +16,8 @@ export const Header = () => (
     </Link>
     <div className="[&>*]:ml-0 sm:[&>*]:ml-4">
       <HeaderLink href={routes.posts}>Artikkelit</HeaderLink>
-      <HeaderLink href={routes.about}>Minä</HeaderLink>
-      <HeaderLink href={routes.work}>Työ</HeaderLink>
+      {/* <HeaderLink href={routes.about}>Minä</HeaderLink> */}
+      {/* <HeaderLink href={routes.work}>Työ</HeaderLink> */}
     </div>
     {/* <div className="[&>*]:ml-2 hidden sm:flex">
       <SocialMediaLink
