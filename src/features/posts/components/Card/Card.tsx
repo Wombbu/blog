@@ -53,7 +53,7 @@ export const Card = ({
     </div>
 
     <h5 className={`${typography.variants.secondaryTitle}`}>
-      {formatDateStr(date)} - {readingTime} min luettava
+      {formatDateStr(date)} - {readingTime} min kesto
     </h5>
     <h4
       className="font-primary font-medium text-black text-2xl hover:underline decoration-3"

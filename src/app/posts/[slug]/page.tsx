@@ -33,6 +33,10 @@ export default async function Post(props: Props) {
     "excerpt",
     "readingTime",
     "audio",
+    "coverImageDesc",
+    "coverImageCredit",
+    "coverImageLicense",
+    "coverImageLicenseLink",
   ]);
 
   const recommended = getAllPosts([
@@ -58,7 +62,7 @@ export default async function Post(props: Props) {
         >
           Artikkeli
         </h1> */}
-        <div className={module.heroContainer}>
+        <figure className={module.heroContainer}>
           <Image
             src={post.coverImage}
             alt={post.title}
@@ -72,7 +76,29 @@ export default async function Post(props: Props) {
           >
             Takaisin artikkeleihin
           </Link>
-        </div>
+          <figcaption
+            className={`${typography.variants.caption} mt-1 px-4 md:pl-0`}
+          >
+            {post.coverImageDesc ? post.coverImageDesc + " " : null}
+            {post.coverImageCredit ? (
+              <>
+                KUVA: {post.coverImageCredit}
+                {post.coverImageLicense ? (
+                  <>
+                    {" / "}
+                    <a
+                      href={post.coverImageLicenseLink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {post.coverImageLicense}
+                    </a>
+                  </>
+                ) : null}
+              </>
+            ) : null}
+          </figcaption>
+        </figure>
         <h2
           className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
         >
@@ -97,7 +123,7 @@ export default async function Post(props: Props) {
             dateTime={post.date}
             className={`${typography.variants.secondaryTitle} mt-12 mb-4`}
           >
-            {formatDateStr(post.date)} - {post.readingTime} min luettava
+            {formatDateStr(post.date)} - {post.readingTime} min kesto
           </time>
           <PostBody content={contentHtml} />
         </div>

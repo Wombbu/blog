@@ -10,6 +10,7 @@ export const variants = {
   textBody: `${palette.text.primary} font-primary text-base font-medium`,
   secondaryTitle: `${palette.text.secondary} font-primary text-md`,
   pageTitle: `${palette.text.accent} text-5xl font-primary font-bold`,
+  caption: `${palette.text.secondary} font-primary text-sm`,
 };
 
 export const typography = { variants };

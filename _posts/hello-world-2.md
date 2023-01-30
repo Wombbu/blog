@@ -1,14 +1,16 @@
 ---
-title: "Tampereen liikennesuunnittelun historia"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/hello-world/cover2.jpg"
+title: "Kaupunkisuunnittelu on ideologista"
+excerpt: "Mikäli kaupunkisuunnittelun ideologia kiinnostaa, tämä video on sinulle. Videolla verrataan kahta täysin eri ideologialla rakennettua kaupunkia."
+coverImage: "/assets/blog/hello-world/groningen.jpeg"
+coverImageDesc: "Groningenin ostoskatu."
+coverImageCredit: "C messier / Wikimedia Commons"
+coverImageLicense: "CC BY-SA 4.0"
+coverImageLicenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
 date: "2020-03-16T05:35:07.322Z"
 ogImage:
   url: "/assets/blog/hello-world/cover2.jpg"
-readingTime: "5"
-tags: "Tampere Liikennesuunnittelu video"
+readingTime: "10"
+tags: "video Kaupunkisuunnittelu Ideologia Tampere"
 ---
 
-Lorem impsum
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jaHvLNhJtjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="600" height="335" src="https://www.youtube.com/embed/jaHvLNhJtjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

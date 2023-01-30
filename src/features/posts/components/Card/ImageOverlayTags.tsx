@@ -1,8 +1,14 @@
 import { PostMetadata } from "@/features/posts/types/PostMetadata";
 import Image from "next/image";
 
-const RECORDING = "recording";
-const VIDEO = "video";
+export enum CustomTags {
+  Tampere = "Tampere",
+  Helsinki = "Helsinki",
+  Turku = "Turku",
+  Oulu = "Oulu",
+  Recording = "recording",
+  Video = "video",
+}
 
 const EmojiTag = ({
   emoji,
@@ -31,7 +37,7 @@ const EmojiTag = ({
 
 const specialTags = [
   {
-    name: "Tampere",
+    name: CustomTags.Tampere,
     tag: (
       <>
         <Image
@@ -49,7 +55,7 @@ const specialTags = [
     ),
   },
   {
-    name: "Helsinki",
+    name: CustomTags.Helsinki,
     tag: (
       <>
         <Image
@@ -67,7 +73,7 @@ const specialTags = [
     ),
   },
   {
-    name: "Turku",
+    name: CustomTags.Turku,
     tag: (
       <>
         <Image
@@ -85,7 +91,7 @@ const specialTags = [
     ),
   },
   {
-    name: "Oulu",
+    name: CustomTags.Oulu,
     tag: (
       <>
         <Image
@@ -103,11 +109,11 @@ const specialTags = [
     ),
   },
   {
-    name: RECORDING,
+    name: CustomTags.Recording,
     tag: <EmojiTag emoji="🎧" text="Kuuntele" />,
   },
   {
-    name: VIDEO,
+    name: CustomTags.Video,
     tag: <EmojiTag emoji="📼" text="Video" shadow />,
   },
 ];
@@ -121,15 +127,17 @@ export const ImageOverlayTags = ({
 }) => {
   return tags?.length ? (
     <div className="absolute top-0 left-0 flex gap-2 flex-wrap p-2">
-      {[...tags.split(" "), ...(hasAudio ? [RECORDING] : [])].map((tag) => (
-        <div
-          key={tag}
-          className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
-        >
-          {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
-            tag}
-        </div>
-      ))}
+      {[...tags.split(" "), ...(hasAudio ? [CustomTags.Recording] : [])].map(
+        (tag) => (
+          <div
+            key={tag}
+            className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
+          >
+            {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
+              tag}
+          </div>
+        )
+      )}
     </div>
   ) : null;
 };

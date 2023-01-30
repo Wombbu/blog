@@ -4,6 +4,10 @@ export type PostMetadata = {
   title: string;
   excerpt: string;
   coverImage: string;
+  coverImageDesc?: string;
+  coverImageCredit?: string;
+  coverImageLicense?: string;
+  coverImageLicenseLink?: string;
   date: string;
   author: Author;
   ogImage: {
