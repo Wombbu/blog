@@ -8,6 +8,7 @@ export enum CustomTags {
   Oulu = "Oulu",
   Recording = "recording",
   Video = "video",
+  New = "new",
 }
 
 const EmojiTag = ({
@@ -116,28 +117,36 @@ const specialTags = [
     name: CustomTags.Video,
     tag: <EmojiTag emoji="📼" text="Video" shadow />,
   },
+  {
+    name: CustomTags.New,
+    tag: <EmojiTag emoji="🎉" text="Uusi" shadow />,
+  },
 ];
 
 export const ImageOverlayTags = ({
   tags,
   hasAudio,
+  isNew,
 }: {
   tags?: PostMetadata["tags"];
   hasAudio: boolean;
+  isNew: boolean;
 }) => {
   return tags?.length ? (
     <div className="absolute top-0 left-0 flex gap-2 flex-wrap p-2">
-      {[...tags.split(" "), ...(hasAudio ? [CustomTags.Recording] : [])].map(
-        (tag) => (
-          <div
-            key={tag}
-            className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
-          >
-            {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
-              tag}
-          </div>
-        )
-      )}
+      {[
+        ...(isNew ? [CustomTags.New] : []),
+        ...tags.split(" "),
+        ...(hasAudio ? [CustomTags.Recording] : []),
+      ].map((tag) => (
+        <div
+          key={tag}
+          className="bg-gray-900 p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
+        >
+          {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
+            tag}
+        </div>
+      ))}
     </div>
   ) : null;
 };

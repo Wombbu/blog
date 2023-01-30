@@ -18,6 +18,14 @@ type Props = {
   href: string;
 };
 
+const lessThan2Weeks = (date: string) => {
+  const now = new Date();
+  const postDate = new Date(date);
+  const diff = now.getTime() - postDate.getTime();
+  const diffDays = diff / (1000 * 3600 * 24);
+  return diffDays < 14;
+};
+
 export const Card = ({
   date,
   coverImage,
@@ -41,7 +49,11 @@ export const Card = ({
           aspectRatio: "3/4",
         }}
       />
-      <ImageOverlayTags tags={tags} hasAudio={!!audio} />
+      <ImageOverlayTags
+        tags={tags}
+        hasAudio={!!audio}
+        isNew={lessThan2Weeks(date)}
+      />
       {/* {audio ? (
         <div className="bg-white bg-opacity-50 p-4 flex items-center justify-center absolute left-0 right-0 bottom-0">
            <audio controls preload="none">

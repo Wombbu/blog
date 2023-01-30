@@ -32,7 +32,7 @@ export const FeaturedPost = ({
     >
       <div className="flex-1 sm:mr-8 flex flex-col break-words relative">
         <h2
-          className={`${typography.variants.secondaryTitle} text-center bg-black p-2 mb-6 text-gray-100`}
+          className={`font-primary text-md text-center bg-black p-2 mb-6 text-gray-100`}
         >
           Nosto
         </h2>
@@ -52,7 +52,7 @@ export const FeaturedPost = ({
           width={400}
           className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
         />
-        <ImageOverlayTags tags={tags} hasAudio={!!audio} />
+        <ImageOverlayTags tags={tags} hasAudio={!!audio} isNew={false} />
       </div>
     </Link>
   );

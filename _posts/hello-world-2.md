@@ -6,7 +6,7 @@ coverImageDesc: "Groningenin ostoskatu."
 coverImageCredit: "C messier / Wikimedia Commons"
 coverImageLicense: "CC BY-SA 4.0"
 coverImageLicenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
-date: "2020-03-16T05:35:07.322Z"
+date: "2023-01-26T05:35:07.322Z"
 ogImage:
   url: "/assets/blog/hello-world/cover2.jpg"
 readingTime: "10"
