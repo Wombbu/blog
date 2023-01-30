@@ -45,6 +45,7 @@ export default async function Home(props: Props) {
             tags: it.tags,
             excerpt: it.excerpt,
             audio: it.audio,
+            href: routes.post(it.slug),
           }))}
         />
         <Link

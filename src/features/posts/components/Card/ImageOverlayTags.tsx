@@ -2,6 +2,32 @@ import { PostMetadata } from "@/features/posts/types/PostMetadata";
 import Image from "next/image";
 
 const RECORDING = "recording";
+const VIDEO = "video";
+
+const EmojiTag = ({
+  emoji,
+  text,
+  shadow,
+}: {
+  emoji: string;
+  text: string;
+  shadow?: boolean;
+}) => (
+  <>
+    <span
+      className="mr-1.5 text-lg flex align-center"
+      style={{
+        textShadow: shadow ? "0px 0px 5px rgba(255,255,255)" : undefined,
+        height: "16px",
+        lineHeight: "16px",
+        fontSize: "16px",
+      }}
+    >
+      {emoji}
+    </span>{" "}
+    {text}
+  </>
+);
 
 const specialTags = [
   {
@@ -78,7 +104,11 @@ const specialTags = [
   },
   {
     name: RECORDING,
-    tag: "🎧 Kuuntele",
+    tag: <EmojiTag emoji="🎧" text="Kuuntele" />,
+  },
+  {
+    name: VIDEO,
+    tag: <EmojiTag emoji="📼" text="Video" shadow />,
   },
 ];
 
@@ -90,7 +120,7 @@ export const ImageOverlayTags = ({
   hasAudio: boolean;
 }) => {
   return tags?.length ? (
-    <div className="absolute top-2 left-2 flex gap-2 flex-wrap">
+    <div className="absolute top-0 left-0 flex gap-2 flex-wrap p-2">
       {[...tags.split(" "), ...(hasAudio ? [RECORDING] : [])].map((tag) => (
         <div
           key={tag}

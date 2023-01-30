@@ -15,6 +15,7 @@ type Props = {
   slug: string;
   tags?: string;
   audio?: string;
+  href: string;
 };
 
 export const Card = ({
@@ -26,8 +27,9 @@ export const Card = ({
   tags,
   excerpt,
   audio,
+  href,
 }: Props) => (
-  <Link href={`posts/${slug}`} className={`${styles.card} flex flex-col`}>
+  <Link href={href} className={`${styles.card} flex flex-col`}>
     <div className={`${styles.imgWrapper} mb-3 relative`}>
       <Image
         src={coverImage}

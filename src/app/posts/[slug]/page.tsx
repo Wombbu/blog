@@ -141,6 +141,7 @@ export default async function Post(props: Props) {
             excerpt: post.excerpt,
             audio: post.audio,
             tags: post.tags,
+            href: routes.post(post.slug),
           }))}
         />
         <Link

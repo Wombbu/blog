@@ -59,3 +59,7 @@
   @apply mx-auto my-8;
   max-height: 500px;
 }
+
+.markdown iframe {
+  @apply mx-auto;
+}

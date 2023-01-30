@@ -25,6 +25,7 @@ export const PostGrid = ({ posts, extraContent }: Props) => (
         tags={post.tags}
         excerpt={post.excerpt}
         audio={post.audio}
+        href={post.href}
       />
     ))}
   </div>
