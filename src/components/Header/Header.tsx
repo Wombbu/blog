@@ -12,7 +12,7 @@ export const Header = () => (
       href={routes.home}
       className={`${palette.text.primary} font-primary font-bold text-2xl sm:text-3xl mh-11`}
     >
-      Lauri Nevanperä.
+      Lauri Nevanperä
     </Link>
     <div className="[&>*]:ml-0 sm:[&>*]:ml-4">
       <HeaderLink href={routes.posts}>Artikkelit</HeaderLink>

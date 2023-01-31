@@ -4,19 +4,19 @@
 
 .markdown p,
 .markdown blockquote {
-  @apply my-6;
+  @apply mb-6;
 }
 
 .markdown h1 {
-  @apply text-4xl mt-12 mb-4 leading-snug;
+  @apply text-3xl mt-12 leading-snug;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-2xl mt-12 leading-snug font-medium;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-xl mt-8 leading-snug;
 }
 
 .markdown *:first-child {
@@ -32,7 +32,7 @@
 }
 
 .markdown ul {
-  @apply list-disc list-inside pl-8;
+  @apply list-disc list-inside pl-8 mb-6;
 }
 
 .markdown ol {
@@ -56,10 +56,10 @@
 }
 
 .markdown img {
-  @apply mx-auto my-8;
-  max-height: 500px;
+  @apply mx-auto;
+  max-height: 400px;
 }
 
 .markdown iframe {
-  @apply mx-auto;
+  @apply mx-auto w-full;
 }

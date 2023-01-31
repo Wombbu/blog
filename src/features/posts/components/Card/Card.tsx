@@ -8,7 +8,7 @@ import styles from "./Card.module.css";
 
 type Props = {
   date: string;
-  coverImage: string;
+  imageSrc: string;
   title: string;
   excerpt: string;
   readingTime: string;
@@ -16,6 +16,7 @@ type Props = {
   tags?: string;
   audio?: string;
   href: string;
+  priority?: boolean;
 };
 
 const lessThan2Weeks = (date: string) => {
@@ -28,33 +29,36 @@ const lessThan2Weeks = (date: string) => {
 
 export const Card = ({
   date,
-  coverImage,
+  imageSrc,
   title,
   readingTime,
-  slug,
+  // slug,
   tags,
   excerpt,
   audio,
   href,
+  priority,
 }: Props) => (
-  <Link href={href} className={`${styles.card} flex flex-col`}>
-    <div className={`${styles.imgWrapper} mb-3 relative`}>
-      <Image
-        src={coverImage}
-        alt={title}
-        width={600}
-        height={600}
-        className="object-cover w-full z-10 flex"
-        style={{
-          aspectRatio: "3/4",
-        }}
-      />
-      <ImageOverlayTags
-        tags={tags}
-        hasAudio={!!audio}
-        isNew={lessThan2Weeks(date)}
-      />
-      {/* {audio ? (
+  <Link href={href} className={`${styles.card} flex flex-col`} scroll>
+    <figure>
+      <div className={`${styles.imgWrapper} mb-3 relative`}>
+        <Image
+          src={imageSrc}
+          alt={title}
+          width={342}
+          height={456}
+          className="object-cover w-full z-10 flex"
+          style={{
+            aspectRatio: "3/4",
+          }}
+          priority={priority}
+        />
+        <ImageOverlayTags
+          tags={tags}
+          hasAudio={!!audio}
+          isNew={lessThan2Weeks(date)}
+        />
+        {/* {audio ? (
         <div className="bg-white bg-opacity-50 p-4 flex items-center justify-center absolute left-0 right-0 bottom-0">
            <audio controls preload="none">
             <source src={audio} type="audio/x-m4a" />
@@ -62,16 +66,17 @@ export const Card = ({
           <AudioPlayer src={audio} />
         </div>
       ) : null} */}
-    </div>
+      </div>
 
-    <h5 className={`${typography.variants.secondaryTitle}`}>
-      {formatDateStr(date)} - {readingTime} min kesto
-    </h5>
-    <h4
-      className="font-primary font-medium text-black text-2xl hover:underline decoration-3"
-      title={excerpt}
-    >
-      {title}
-    </h4>
+      <figcaption className={`${typography.variants.secondaryTitle}`}>
+        {formatDateStr(date)} - {readingTime} min kesto
+      </figcaption>
+      <figcaption
+        className="font-primary font-medium text-black text-2xl hover:underline decoration-3"
+        title={excerpt}
+      >
+        {title}
+      </figcaption>
+    </figure>
   </Link>
 );

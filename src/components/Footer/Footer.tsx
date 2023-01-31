@@ -14,7 +14,7 @@ export const Footer = () => {
         href={`https://twitter.com/LauriNevanpera`}
         target="_blank"
         src="/twitter-logo-blue.svg"
-        alt="Jaa Twitterissä"
+        alt="Profiili Twitterissä"
       />
     </footer>
   );

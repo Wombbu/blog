@@ -1,14 +1,21 @@
 ---
-title: "Kaupunkisuunnittelun ideologia Suomessa"
+title: "Reference"
 excerpt: "Miksi Suomessa rakennettiin kontuloita uusien töölöjen sijaan 60-70 luvuilla?"
-coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+  url: "/assets/blog/reference-post/cover.jpg"
 readingTime: "3"
-tags: "Tampere Kaupunkisuunnittelu"
-audio: "/assets/blog/hello-world/audio.m4a"
+tags: "Tampere Oulu Helsinki Turku Reference video"
+audio: "/assets/blog/reference-post/audio.m4a"
+coverImage:
+  url: "/assets/blog/reference-post/cover.jpg"
+  desc: "Hämeensilta 70-luvulla."
+  credit: "C messier / Wikimedia Commons"
+  license: "CC BY-SA 4.0"
+  licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
 ---
+
+# This post showcases every functionality in the blog
 
 Lorem markdownum Tartara in iam iuventus Achaide Pindo fateor sic dilecta tantum
 tendentemque utinam Auroram utinam. Quoque ramus; tura corruat

@@ -14,11 +14,11 @@ export const PostGrid = ({ posts, extraContent }: Props) => (
         {extraContent}
       </div>
     ) : null}
-    {posts.map((post) => (
+    {posts.map((post, index) => (
       <Card
         key={post.title}
         date={post.date}
-        coverImage={post.coverImage}
+        imageSrc={post.imageSrc}
         title={post.title}
         readingTime={post.readingTime}
         slug={post.slug}
@@ -26,6 +26,7 @@ export const PostGrid = ({ posts, extraContent }: Props) => (
         excerpt={post.excerpt}
         audio={post.audio}
         href={post.href}
+        priority={index < 3}
       />
     ))}
   </div>

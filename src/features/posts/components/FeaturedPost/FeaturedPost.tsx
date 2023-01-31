@@ -9,7 +9,7 @@ import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayT
 type Props = {
   title: string;
   excerpt: string;
-  coverImage: string;
+  imageSrc: string;
   readingTime: string;
   slug: string;
   tags: string;
@@ -19,7 +19,7 @@ type Props = {
 export const FeaturedPost = ({
   title,
   excerpt,
-  coverImage,
+  imageSrc,
   readingTime,
   slug,
   tags,
@@ -46,7 +46,7 @@ export const FeaturedPost = ({
       </div>
       <div className={`mt-8 sm:mt-0 flex-1 relative`}>
         <Image
-          src={coverImage}
+          src={imageSrc}
           alt={excerpt}
           height={400}
           width={400}

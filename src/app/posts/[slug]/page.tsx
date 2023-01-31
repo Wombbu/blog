@@ -33,10 +33,6 @@ export default async function Post(props: Props) {
     "excerpt",
     "readingTime",
     "audio",
-    "coverImageDesc",
-    "coverImageCredit",
-    "coverImageLicense",
-    "coverImageLicenseLink",
   ]);
 
   const recommended = getAllPosts([
@@ -64,7 +60,7 @@ export default async function Post(props: Props) {
         </h1> */}
         <figure className={module.heroContainer}>
           <Image
-            src={post.coverImage}
+            src={post.coverImage.url}
             alt={post.title}
             width={1000}
             height={1000}
@@ -79,19 +75,19 @@ export default async function Post(props: Props) {
           <figcaption
             className={`${typography.variants.caption} mt-1 px-4 md:pl-0`}
           >
-            {post.coverImageDesc ? post.coverImageDesc + " " : null}
-            {post.coverImageCredit ? (
+            {post.coverImage.desc ? post.coverImage.desc + " " : null}
+            {post.coverImage.credit ? (
               <>
-                KUVA: {post.coverImageCredit}
-                {post.coverImageLicense ? (
+                KUVA: {post.coverImage.credit}
+                {post.coverImage.license ? (
                   <>
                     {" / "}
                     <a
-                      href={post.coverImageLicenseLink}
+                      href={post.coverImage.licenseLink}
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {post.coverImageLicense}
+                      {post.coverImage.license}
                     </a>
                   </>
                 ) : null}
@@ -99,11 +95,11 @@ export default async function Post(props: Props) {
             ) : null}
           </figcaption>
         </figure>
-        <h2
+        <h1
           className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
         >
           {post.title}
-        </h2>
+        </h1>
         <div className="m-auto" style={{ maxWidth: "600px" }}>
           <p
             className={`${palette.text.primary} text-xl md:text-2xl font-secondary italic mb-12 text-center`}
@@ -158,17 +154,20 @@ export default async function Post(props: Props) {
           Sinua saattaa kiinnostaa
         </h2>
         <PostGrid
-          posts={recommended.slice(3).map((post) => ({
-            title: post.title,
-            date: post.date,
-            coverImage: post.coverImage,
-            readingTime: post.readingTime,
-            slug: post.slug,
-            excerpt: post.excerpt,
-            audio: post.audio,
-            tags: post.tags,
-            href: routes.post(post.slug),
-          }))}
+          posts={recommended
+            .filter((it) => it.slug !== post.slug)
+            .slice(0, 3)
+            .map((post) => ({
+              title: post.title,
+              date: post.date,
+              imageSrc: post.coverImage.url,
+              readingTime: post.readingTime,
+              slug: post.slug,
+              excerpt: post.excerpt,
+              audio: post.audio,
+              tags: post.tags,
+              href: routes.post(post.slug),
+            }))}
         />
         <Link
           href={routes.posts}
@@ -179,34 +178,6 @@ export default async function Post(props: Props) {
       </section>
     </>
   );
-  //   return (
-  //     <Layout preview={preview}>
-  //       <Container>
-  //         <Header />
-  //         {router.isFallback ? (
-  //           <PostTitle>Loading…</PostTitle>
-  //         ) : (
-  //           <>
-  //             <article className="mb-32">
-  //               <Head>
-  //                 <title>
-  //                   {post.title} | Next.js Blog Example with {CMS_NAME}
-  //                 </title>
-  //                 <meta property="og:image" content={post.ogImage.url} />
-  //               </Head>
-  //               <PostHeader
-  //                 title={post.title}
-  //                 coverImage={post.coverImage}
-  //                 date={post.date}
-  //                 author={post.author}
-  //               />
-  //               <PostBody content={post.content} />
-  //             </article>
-  //           </>
-  //         )}
-  //       </Container>
-  //     </Layout>
-  //   )
 }
 
 export async function generateStaticParams() {

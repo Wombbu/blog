@@ -14,9 +14,8 @@ export const Hero = () => (
         Moro.
       </h1>
       <p className="font-primary text-md font-medium text-gray-600">
-        Olen Tampereelta, kirjoitan kaupunkikehityksestä. Kehitän kiinteistöalan
-        toiminnanohjausjärjestelmää johtavana
-        käyttöliittymäohjelmistokehittäjänä.
+        Olen Tampereelta, kirjoitan kaupunkikehityksestä. Leipätyökseni kehitän
+        kiinteistöalan toiminnanohjausjärjestelmää.
       </p>
     </div>
   </section>

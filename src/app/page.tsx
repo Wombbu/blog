@@ -38,7 +38,7 @@ export default async function Home(props: Props) {
         <PostGrid
           posts={allPosts.slice(0, 3).map((it) => ({
             date: it.date,
-            coverImage: it.coverImage,
+            imageSrc: it.coverImage.url,
             title: it.title,
             readingTime: it.readingTime,
             slug: it.slug,
