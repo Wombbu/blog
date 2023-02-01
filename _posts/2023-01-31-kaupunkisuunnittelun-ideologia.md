@@ -18,4 +18,6 @@ coverImage:
 
 Lehtien kommenttipalstoilla näkee usein puhuttavan ideologisesta kaupunkisuunnittelusta. Tämä video vertaa Alankomaiden Groningenia, Yhdysvaltain Anchoragea sekä Suomen Tamperetta. Esimerkit todella todistavat että n. 200 000 asukkaan kaupungin voi rakentaa monella eri tavalla.
 
-<iframe width="600" height="335" src="https://www.youtube.com/embed/jaHvLNhJtjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Yksi asia on varma: Kaupunkisuunnittelu on aina ollut ja tulee aina olemaan ideologista.
+
+<iframe src="https://www.youtube.com/embed/jaHvLNhJtjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

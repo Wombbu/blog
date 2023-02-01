@@ -21,6 +21,9 @@ module.exports = {
       aspectRatio: {
         sd: "4/3",
       },
+      maxWidth: {
+        article: "612px",
+      },
     },
   },
   plugins: [],

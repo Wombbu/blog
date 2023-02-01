@@ -95,12 +95,12 @@ export default async function Post(props: Props) {
             ) : null}
           </figcaption>
         </figure>
-        <h1
-          className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
-        >
-          {post.title}
-        </h1>
-        <div className="m-auto" style={{ maxWidth: "600px" }}>
+        <div className="m-auto max-w-article">
+          <h1
+            className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
+          >
+            {post.title}
+          </h1>
           <p
             className={`${palette.text.primary} text-xl md:text-2xl font-secondary italic mb-12 text-center`}
           >
@@ -121,8 +121,8 @@ export default async function Post(props: Props) {
           >
             {formatDateStr(post.date)} - {post.readingTime} min kesto
           </time>
-          <PostBody content={contentHtml} />
         </div>
+        <PostBody content={contentHtml} />
       </article>
 
       <section className="mt-12">

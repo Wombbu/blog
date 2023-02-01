@@ -15,21 +15,26 @@ coverImage:
   licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
 ---
 
-# This post showcases every functionality in the blog
-
 Lorem markdownum Tartara in iam iuventus Achaide Pindo fateor sic dilecta tantum
 tendentemque utinam Auroram utinam. Quoque ramus; tura corruat
 [et](http://exigit-et.io/) dextra, mediae et victoria. Alcyonen caesaries pluma
 vacuae illa nequiquam, Phiale et colla sensisse pressus, est exta cetera
 albentibus.
 
-![](/assets/blog/hello-world/cover5.jpg)
+# This post showcases every functionality in the blog
+
+<figure>
+  <img src="/assets/blog/reference-post/cover.jpg" />
+  <figcaption>This is large image</figcaption>
+</figure>
 
 > Luctus admissum miscent, et ad iacentia adfusique gestamina humus fortissimus
 > saxa tellure Tritoniacam docui quaerens deerat liquerat frustra. Cinyran enim
 > opem _distat studioque propiore_ sumus accensis, fortuna madidum condat non
 > cupiens. Solida movet; sic solent quoque relinquunt Arachnes haec, viribus
 > super: visus.
+
+![](/assets/blog/reference-post/cover.jpg)
 
 ## Modo crimen et dubita
 
@@ -40,8 +45,6 @@ digitosque et noster. Tuo Ityosque dentibus, Latios!
 2. Lina deum mundi isse
 3. Se poenas
 
-![](/assets/blog/hello-world/cover3.jpg)
-
 ## Flammis nascique
 
 Victor ut faveas constitit infans pedem montis quodsi! Doloris semine
@@ -49,8 +52,6 @@ Victor ut faveas constitit infans pedem montis quodsi! Doloris semine
 namque, vir. Teucer sine tela rubentia; sed urbes te Glaucus Idmon summa
 vertitur avidaeque undam [Appenninigenae recusat
 timor](http://deum.net/non-parte) quod Tarpeia et.
-
-![](/assets/blog/hello-world/cover6.jpg)
 
 Sociam et divae ille nymphae et fallis mentem, sive latet? Et arma. Inmensos
 illa recepta veluti suus. Gravi sunt, noctis sufficit infames. Tamen sed

@@ -2,25 +2,42 @@
   @apply text-lg leading-relaxed font-secondary;
 }
 
+.markdown > * {
+  @apply mx-auto mb-6 max-w-article;
+}
+
+.markdown *:first-child {
+  @apply mt-0;
+}
+
+.markdown img {
+  @apply w-full max-w-none;
+}
+.markdown iframe {
+  @apply w-full max-w-none aspect-video;
+}
+.markdown figure {
+  @apply w-full mb-6 max-w-none;
+}
+.markdown figcaption {
+  @apply text-gray-500 font-primary text-sm text-center mt-2;
+}
+
 .markdown p,
 .markdown blockquote {
   @apply mb-6;
 }
 
 .markdown h1 {
-  @apply text-3xl mt-12 leading-snug;
+  @apply text-3xl mt-12 leading-snug mb-0;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-12 leading-snug font-medium;
+  @apply text-2xl mt-12 leading-snug font-medium mb-0;
 }
 
 .markdown h3 {
-  @apply text-xl mt-8 leading-snug;
-}
-
-.markdown *:first-child {
-  @apply mt-0;
+  @apply text-xl mt-8 leading-snug mb-0;
 }
 
 .markdown blockquote {
@@ -32,7 +49,7 @@
 }
 
 .markdown ul {
-  @apply list-disc list-inside pl-8 mb-6;
+  @apply list-disc list-inside pl-8;
 }
 
 .markdown ol {
@@ -53,13 +70,4 @@
 
 .markdown hr {
   @apply border-0 border-b-2 border-gray-200;
-}
-
-.markdown img {
-  @apply mx-auto;
-  max-height: 400px;
-}
-
-.markdown iframe {
-  @apply mx-auto w-full;
 }
