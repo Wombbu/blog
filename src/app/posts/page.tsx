@@ -21,7 +21,7 @@ export default async function Posts(props: Props) {
     "audio",
   ]);
 
-  const featuredPost = allPosts[3];
+  const featuredPost = allPosts[0];
 
   return (
     <>
@@ -41,20 +41,23 @@ export default async function Posts(props: Props) {
               readingTime={featuredPost.readingTime}
               tags={featuredPost.tags}
               audio={featuredPost.audio}
+              date={featuredPost.date}
             />
           ) : null
         }
-        posts={allPosts.map((it) => ({
-          date: it.date,
-          imageSrc: it.coverImage.url,
-          title: it.title,
-          readingTime: it.readingTime,
-          slug: it.slug,
-          tags: it.tags,
-          excerpt: it.excerpt,
-          audio: it.audio,
-          href: routes.post(it.slug),
-        }))}
+        posts={allPosts
+          .filter((it) => it.slug !== featuredPost.slug)
+          .map((it) => ({
+            date: it.date,
+            imageSrc: it.coverImage.url,
+            title: it.title,
+            readingTime: it.readingTime,
+            slug: it.slug,
+            tags: it.tags,
+            excerpt: it.excerpt,
+            audio: it.audio,
+            href: routes.post(it.slug),
+          }))}
       />
     </>
   );

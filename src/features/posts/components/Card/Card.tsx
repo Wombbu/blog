@@ -1,5 +1,6 @@
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
+import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
 import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
 // import { AudioPlayer } from "@/features/posts/components/AudioPlayer";
 import Image from "next/image";
@@ -17,14 +18,6 @@ type Props = {
   audio?: string;
   href: string;
   priority?: boolean;
-};
-
-const lessThan2Weeks = (date: string) => {
-  const now = new Date();
-  const postDate = new Date(date);
-  const diff = now.getTime() - postDate.getTime();
-  const diffDays = diff / (1000 * 3600 * 24);
-  return diffDays < 14;
 };
 
 export const Card = ({

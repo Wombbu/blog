@@ -5,6 +5,7 @@ import { routes } from "@/essentials/utils/routes";
 import Image from "next/image";
 import Link from "next/link";
 import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
+import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
 
 type Props = {
   title: string;
@@ -14,6 +15,7 @@ type Props = {
   slug: string;
   tags: string;
   audio: string | undefined;
+  date: string;
 };
 
 export const FeaturedPost = ({
@@ -24,6 +26,7 @@ export const FeaturedPost = ({
   slug,
   tags,
   audio,
+  date,
 }: Props) => {
   return (
     <Link
@@ -52,7 +55,11 @@ export const FeaturedPost = ({
           width={400}
           className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
         />
-        <ImageOverlayTags tags={tags} hasAudio={!!audio} isNew={false} />
+        <ImageOverlayTags
+          tags={tags}
+          hasAudio={!!audio}
+          isNew={lessThan2Weeks(date)}
+        />
       </div>
     </Link>
   );
