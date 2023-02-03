@@ -37,9 +37,11 @@ export const FeaturedPost = ({
         <h2
           className={`font-primary text-md text-center bg-black p-2 mb-6 text-gray-100`}
         >
-          Nosto
+          Uusin
         </h2>
-        <h1 className={typography.variants.sectionTitle()}>{title}</h1>
+        <h1 className={`${typography.variants.sectionTitle()} hover:underline`}>
+          {title}
+        </h1>
         <p className={`${typography.variants.textBody} mb-4`}>{excerpt}</p>
         <p
           className={`${typography.variants.subtitle} mt-auto hover:underline decoration-2`}
