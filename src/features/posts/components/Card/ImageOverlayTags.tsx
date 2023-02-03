@@ -119,7 +119,7 @@ const specialTags = [
   },
   {
     name: CustomTags.New,
-    tag: <EmojiTag emoji="🎉" text="Uusi" />,
+    tag: <EmojiTag emoji="🎉" text="Uusi 2 vk" />,
   },
 ];
 

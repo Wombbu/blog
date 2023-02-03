@@ -34,13 +34,13 @@ export const FeaturedPost = ({
   return (
     <Link
       href={routes.post(slug)}
-      className={`${styles.featuredPost} ${palette.border.primary} p-4 sm:p-6 border-3 flex flex-col sm:flex-row gap-4 sm:gap-6 items-stretch cursor-pointer`}
+      className={`${styles.featuredPost} ${palette.border.primary} p-4 sm:p-6 border-3 flex flex-col sm:flex-row gap-4 sm:gap-6 items-stretch cursor-pointer relative`}
     >
       <div className={`${styles.textWrapper}`}>
         <h2
-          className={`font-primary text-md font-semibold text-center bg-black p-2 mb-6 text-gray-100`}
+          className={`font-primary text-md font-semibold text-center border-3 border-black p-2 px-3 text-gray-900 inline self-start mb-4`}
         >
-          Tuorein
+          Tuorein artikkeli
         </h2>
         <h1 className={`${typography.variants.sectionTitle()} hover:underline`}>
           {title}
