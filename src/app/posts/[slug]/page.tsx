@@ -14,6 +14,8 @@ import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
 import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
+import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
+import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
 
 type Props = {
   params: {
@@ -33,6 +35,7 @@ export default async function Post(props: Props) {
     "excerpt",
     "readingTime",
     "audio",
+    "tags",
   ]);
 
   const recommended = getAllPosts([
@@ -59,19 +62,26 @@ export default async function Post(props: Props) {
           Artikkeli
         </h1> */}
         <figure className={module.heroContainer}>
-          <Image
-            src={post.coverImage.url}
-            alt={post.title}
-            width={1000}
-            height={1000}
-            className={module.heroImage}
-          />
-          <Link
-            href={routes.posts}
-            className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute top-4 left-4`}
-          >
-            Takaisin artikkeleihin
-          </Link>
+          <div className="relative">
+            <ImageOverlayTags
+              tags={post.tags}
+              hasAudio={!!post.audio}
+              isNew={lessThan2Weeks(post.date)}
+            />
+            <Image
+              src={post.coverImage.url}
+              alt={post.title}
+              width={1000}
+              height={1000}
+              className={module.heroImage}
+            />
+            <Link
+              href={routes.posts}
+              className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute bottom-2 left-2`}
+            >
+              Takaisin artikkeleihin
+            </Link>
+          </div>
           <figcaption
             className={`${typography.variants.caption} mt-1 px-4 md:pl-0`}
           >

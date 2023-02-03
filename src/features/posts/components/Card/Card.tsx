@@ -49,7 +49,7 @@ export const Card = ({
         <ImageOverlayTags
           tags={tags}
           hasAudio={!!audio}
-          isNew={lessThan2Weeks(date)}
+          isNew={/* lessThan2Weeks(date) */ false} // Do not show "new" tag on cards since it'll create clutter
         />
         {/* {audio ? (
         <div className="bg-white bg-opacity-50 p-4 flex items-center justify-center absolute left-0 right-0 bottom-0">

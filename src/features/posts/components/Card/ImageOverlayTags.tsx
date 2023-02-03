@@ -6,9 +6,9 @@ export enum CustomTags {
   Helsinki = "Helsinki",
   Turku = "Turku",
   Oulu = "Oulu",
-  Recording = "recording",
-  Video = "video",
-  New = "new",
+  Recording = "Recording",
+  Video = "Video",
+  New = "New",
 }
 
 const EmojiTag = ({
@@ -119,25 +119,23 @@ const specialTags = [
   },
   {
     name: CustomTags.New,
-    tag: <EmojiTag emoji="🎉" text="Uusi" shadow />,
+    tag: <EmojiTag emoji="🎉" text="Uusi" />,
   },
 ];
 
-export const ImageOverlayTags = ({
-  tags,
-  hasAudio,
-  isNew,
-}: {
+type Props = {
   tags?: PostMetadata["tags"];
   hasAudio: boolean;
   isNew: boolean;
-}) => {
+};
+
+export const TagList = ({ tags, hasAudio, isNew }: Props) => {
   return tags?.length ? (
-    <div className="absolute top-0 left-0 flex gap-2 flex-wrap p-2">
+    <>
       {[
-        ...(isNew ? [CustomTags.New] : []),
-        ...tags.split(" "),
+        ...tags.split(", "),
         ...(hasAudio ? [CustomTags.Recording] : []),
+        ...(isNew ? [CustomTags.New] : []),
       ].map((tag) => (
         <div
           key={tag}
@@ -147,6 +145,14 @@ export const ImageOverlayTags = ({
             tag}
         </div>
       ))}
-    </div>
+    </>
   ) : null;
+};
+
+export const ImageOverlayTags = (props: Props) => {
+  return (
+    <div className="flex gap-2 flex-wrap absolute top-0 left-0  p-2">
+      <TagList {...props} />
+    </div>
+  );
 };

@@ -5,7 +5,7 @@ date: "2020-03-16T05:35:07.322Z"
 ogImage:
   url: "/assets/blog/reference-post/cover.jpg"
 readingTime: "3"
-tags: "Tampere Oulu Helsinki Turku Reference video"
+tags: "Tampere, Oulu, Helsinki, Turku, Referenssi, Video"
 audio: "/assets/blog/reference-post/audio.m4a"
 coverImage:
   url: "/assets/blog/reference-post/cover.jpg"

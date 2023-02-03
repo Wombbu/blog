@@ -1,9 +1,9 @@
 ---
 title: "Kaupunkisuunnittelu on ideologista"
-excerpt: "Mikäli kaupunkisuunnittelun ideologia kiinnostaa, tämä video on sinulle."
+excerpt: "Miten Tamperetta on kehitetty verrattuna samankokoisiin kaupunkeihin USA:ssa tai Alankomaissa? Mikäli kaupunkisuunnittelun ideologia kiinnostaa, tämä video on sinulle."
 date: "2023-01-31T05:35:07.322Z"
 readingTime: "10"
-tags: "video Kaupunkisuunnittelu Ideologia Tampere"
+tags: "Tampere, Kaupunkisuunnittelun ideologia, Video"
 
 ogImage:
   url: "/assets/blog/2023-01-31-kaupunkisuunnittelun-ideologia/cover.jpeg"
@@ -16,7 +16,7 @@ coverImage:
   licenseLink: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
 ---
 
-Lehtien kommenttipalstoilla näkee usein puhuttavan ideologisesta kaupunkisuunnittelusta. Tämä video vertaa Alankomaiden Groningenia, Yhdysvaltain Anchoragea sekä Suomen Tamperetta. Esimerkit todella todistavat että n. 200 000 asukkaan kaupungin voi rakentaa monella eri tavalla.
+Lehtien kommenttipalstoilla näkee usein puhuttavan ideologisesta kaupunkisuunnittelusta. Videolla vertaan Alankomaiden Groningenia, Yhdysvaltain Anchoragea sekä Suomen Tamperetta. Esimerkit todella todistavat että n. 200 000 asukkaan kaupungin voi rakentaa monella eri tavalla.
 
 Yksi asia on varma: Kaupunkisuunnittelu on aina ollut ja tulee aina olemaan ideologista.
 

@@ -1,3 +1,19 @@
-.featuredPost:hover .image {
-  @apply shadow-outline;
+.image {
+  aspect-ratio: 3/4;
+}
+
+.textWrapper {
+  @apply flex flex-col break-words relative;
+  flex: 16;
+}
+
+.imageWrapper {
+  @apply relative;
+  flex: 12;
+}
+
+@screen lg {
+  .imageWrapper {
+    flex: 9;
+  }
 }

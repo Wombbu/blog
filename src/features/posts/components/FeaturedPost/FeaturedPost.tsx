@@ -4,7 +4,10 @@ import styles from "./FeaturedPost.module.css";
 import { routes } from "@/essentials/utils/routes";
 import Image from "next/image";
 import Link from "next/link";
-import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
+import {
+  ImageOverlayTags,
+  TagList,
+} from "@/features/posts/components/Card/ImageOverlayTags";
 import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
 
 type Props = {
@@ -31,36 +34,38 @@ export const FeaturedPost = ({
   return (
     <Link
       href={routes.post(slug)}
-      className={`${styles.featuredPost} ${palette.border.primary} p-4 sm:p-8 border-3 flex flex-col sm:flex-row items-stretch cursor-pointer`}
+      className={`${styles.featuredPost} ${palette.border.primary} p-4 sm:p-6 border-3 flex flex-col sm:flex-row gap-4 sm:gap-6 items-stretch cursor-pointer`}
     >
-      <div className="flex-1 sm:mr-8 flex flex-col break-words relative">
+      <div className={`${styles.textWrapper}`}>
         <h2
-          className={`font-primary text-md text-center bg-black p-2 mb-6 text-gray-100`}
+          className={`font-primary text-md font-semibold text-center bg-black p-2 mb-6 text-gray-100`}
         >
-          Uusin
+          Tuorein
         </h2>
         <h1 className={`${typography.variants.sectionTitle()} hover:underline`}>
           {title}
         </h1>
-        <p className={`${typography.variants.textBody} mb-4`}>{excerpt}</p>
+        <p className={`${typography.variants.textBody} mb-6`}>{excerpt}</p>
+        <div className="flex gap-2 flex-wrap mb-auto">
+          <TagList
+            tags={tags}
+            hasAudio={!!audio}
+            isNew={lessThan2Weeks(date)}
+          />
+        </div>
         <p
-          className={`${typography.variants.subtitle} mt-auto hover:underline decoration-2`}
+          className={`${typography.variants.subtitle} hover:underline decoration-2 mt-4`}
         >
           Lue koko artikkeli ({readingTime} min)
         </p>
       </div>
-      <div className={`mt-8 sm:mt-0 flex-1 relative`}>
+      <div className={`${styles.imageWrapper}`}>
         <Image
           src={imageSrc}
           alt={excerpt}
           height={400}
           width={400}
-          className={`${styles.image} aspect-sd object-cover min-w-full min-h-full`}
-        />
-        <ImageOverlayTags
-          tags={tags}
-          hasAudio={!!audio}
-          isNew={lessThan2Weeks(date)}
+          className={`${styles.image} object-cover min-w-full min-h-full`}
         />
       </div>
     </Link>

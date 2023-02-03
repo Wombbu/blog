@@ -13,9 +13,9 @@ export const Hero = () => (
       <h1 className="font-primary font-bold text-4xl sm:text-6xl mb-2 text-gray-800">
         Moro.
       </h1>
-      <p className="font-primary text-md font-medium text-gray-600">
-        Olen Tampereelta, kirjoitan kaupunkikehityksestä. Leipätyökseni kehitän
-        kiinteistöalan toiminnanohjausjärjestelmää.
+      <p className="font-primary text-md font-medium">
+        Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
+        toiminnanohjausjärjestelmää Tampereella.
       </p>
     </div>
   </section>
