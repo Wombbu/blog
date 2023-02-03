@@ -183,7 +183,7 @@ export default async function Post(props: Props) {
           href={routes.posts}
           className={`${button.variants.large} flex-1 col-start-1 col-end-3 mt-8`}
         >
-          Takaisin artikkeleihin
+          Katso kaikki artikkelit
         </Link>
       </section>
     </>
