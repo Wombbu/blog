@@ -2,6 +2,35 @@
   @apply text-lg leading-relaxed font-secondary;
 }
 
+.markdown native-gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  gap: 16px;
+  max-height: 70vh;
+}
+
+.markdown native-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.markdown native-gallery:not(.-loaded) [loading="lazy"] {
+  /* without display none images with loading="lazy" are loaded immediately */
+  display: none;
+}
+
+.markdown native-gallery img {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  -webkit-user-drag: none;
+  user-select: none;
+  scroll-snap-align: center;
+}
+
 .markdown > * {
   @apply mx-auto mb-6 max-w-article;
 }

@@ -28,6 +28,12 @@ albentibus.
   <figcaption>This is large image</figcaption>
 </figure>
 
+<native-gallery>
+  <img src="/assets/blog/reference-post/cover.jpg" id="img1" />
+  <img src="/assets/blog/reference-post/cover.jpg" id="img2" />
+  <img src="/assets/blog/reference-post/cover.jpg" id="img3" />
+</native-gallery>
+
 > Luctus admissum miscent, et ad iacentia adfusique gestamina humus fortissimus
 > saxa tellure Tritoniacam docui quaerens deerat liquerat frustra. Cinyran enim
 > opem _distat studioque propiore_ sumus accensis, fortuna madidum condat non
