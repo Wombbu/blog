@@ -71,5 +71,6 @@ export const Card = ({
         {title}
       </figcaption>
     </figure>
+    <p className={`${typography.variants.textBody} mt-2`}>{excerpt}</p>
   </Link>
 );
