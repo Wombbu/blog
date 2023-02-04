@@ -2,18 +2,20 @@
   aspect-ratio: 3/4;
 }
 
-.textWrapper {
-  @apply flex flex-col break-words relative;
-  flex: 16;
+@screen sm {
+  .image {
+    aspect-ratio: 4/3;
+  }
 }
 
-.imageWrapper {
-  @apply relative;
-  flex: 12;
+@screen md {
+  .image {
+    aspect-ratio: 4/2;
+  }
 }
 
 @screen lg {
-  .imageWrapper {
-    flex: 9;
+  .image {
+    aspect-ratio: 3/4;
   }
 }

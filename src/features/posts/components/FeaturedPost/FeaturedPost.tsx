@@ -34,9 +34,11 @@ export const FeaturedPost = ({
   return (
     <Link
       href={routes.post(slug)}
-      className={`${styles.featuredPost} ${palette.border.primary} sm:p-6 border-3 flex flex-col-reverse sm:flex-row sm:gap-6 items-stretch cursor-pointer relative`}
+      className={`${styles.featuredPost} ${palette.border.primary} border-3 grid lg:grid-cols-3 lg:grid-rows-1 gap-8 items-stretch cursor-pointer relative`}
     >
-      <div className={`${styles.textWrapper} p-4 sm:p-0`}>
+      <div
+        className={`flex flex-col break-words lg:col-start-1 lg:col-end-3 p-4 pb-0 sm:p-8 sm:pb-0 lg:pb-6 lg:pr-0`}
+      >
         <h2
           className={`font-primary text-md font-semibold text-center border-3 border-black p-2 px-3 text-gray-900 inline self-start mb-4`}
         >
