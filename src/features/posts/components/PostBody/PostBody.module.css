@@ -9,7 +9,18 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
   gap: 16px;
-  max-height: 70vh;
+}
+
+.markdown native-gallery-wrapper {
+  @apply max-w-article block;
+  position: relative;
+}
+
+.markdown native-gallery-wrapper::after {
+  @apply bottom-1 bg-gray-900 absolute p-1 text-white text-center font-primary font-semibold;
+  content: "Liu'uta";
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .markdown native-gallery::-webkit-scrollbar {

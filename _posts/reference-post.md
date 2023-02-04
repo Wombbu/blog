@@ -28,12 +28,6 @@ albentibus.
   <figcaption>This is large image</figcaption>
 </figure>
 
-<native-gallery>
-  <img src="/assets/blog/reference-post/cover.jpg" id="img1" />
-  <img src="/assets/blog/reference-post/cover.jpg" id="img2" />
-  <img src="/assets/blog/reference-post/cover.jpg" id="img3" />
-</native-gallery>
-
 > Luctus admissum miscent, et ad iacentia adfusique gestamina humus fortissimus
 > saxa tellure Tritoniacam docui quaerens deerat liquerat frustra. Cinyran enim
 > opem _distat studioque propiore_ sumus accensis, fortuna madidum condat non
@@ -58,6 +52,14 @@ Victor ut faveas constitit infans pedem montis quodsi! Doloris semine
 namque, vir. Teucer sine tela rubentia; sed urbes te Glaucus Idmon summa
 vertitur avidaeque undam [Appenninigenae recusat
 timor](http://deum.net/non-parte) quod Tarpeia et.
+
+<native-gallery-wrapper>
+  <native-gallery>
+    <img src="/assets/blog/reference-post/cover.jpg" id="img1" />
+    <img src="/assets/blog/reference-post/cover.jpg" id="img2" />
+    <img src="/assets/blog/reference-post/cover.jpg" id="img3" />
+  </native-gallery>
+</native-gallery-wrapper>
 
 Sociam et divae ille nymphae et fallis mentem, sive latet? Et arma. Inmensos
 illa recepta veluti suus. Gravi sunt, noctis sufficit infames. Tamen sed
