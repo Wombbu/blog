@@ -1,13 +1,14 @@
 export default function Head() {
   return (
     <>
-      <title>Lauri Nevanperä | Asiaa kaupungeista</title>
+      <title>Lauri Nevanperä - Kantaaottavaa asiaa kaupungeista</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
-        content="Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta"
+        content="Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta."
       />
       <link rel="icon" href="/favicon.ico" />
+      <meta property="og:locale" content="fi_FI" />
     </>
   );
 }
