@@ -10,7 +10,7 @@ export const Footer = () => {
           className={`${typography.variants.caption} block`}
           style={{ fontSize: "12px" }}
         >
-          Tehty ❤️'lla Tampereella
+          Tehty ❤️&apos;lla Tampereella
         </span>
         <a
           href="mailto:lauri.nevanpera@gmail.com"

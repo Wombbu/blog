@@ -66,9 +66,10 @@ export default async function Post(props: Props) {
             <Image
               src={post.coverImage.url}
               alt={post.coverImage.desc || "Kansikuva"}
-              width={1000}
-              height={1000}
+              width={960}
+              height={640}
               className={module.heroImage}
+              loading="eager"
             />
             <Link
               href={routes.posts}
@@ -131,11 +132,11 @@ export default async function Post(props: Props) {
       </article>
 
       <section className="mt-12">
-        <h3
+        <h1
           className={`${palette.text.primary} font-primary text-3xl font-bold mb-4 text-center`}
         >
           Kiitos kun luit.
-        </h3>
+        </h1>
         <div className="flex justify-center mb-12">
           <SocialMediaLink
             href={`https://twitter.com/intent/tweet?text=https://www.laurinevanpera.fi${routes.post(

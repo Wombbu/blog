@@ -1,7 +1,6 @@
 import { getPostBySlug } from "@/features/posts/utils/md-utils/api";
 
 export default function Head(props: { params: { slug: string } }) {
-  console.log(props);
   const params = props.params;
   const post = getPostBySlug(params.slug, [
     "title",

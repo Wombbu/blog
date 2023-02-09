@@ -38,8 +38,8 @@ export const Card = ({
         <Image
           src={imageSrc}
           alt={title}
-          width={342}
-          height={456}
+          width={300}
+          height={400}
           className="object-cover w-full z-10 flex aspect-sdInverse "
           priority={priority}
           style={{
