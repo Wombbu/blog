@@ -36,8 +36,8 @@ export const VisualPost = ({
         <Image
           src={imageSrc}
           alt={title}
-          width={342}
-          height={456}
+          width={756}
+          height={756}
           className="object-cover w-full z-10 flex aspect-videoInverse sm:aspect-square lg:aspect-sd"
           priority={priority}
           style={{
@@ -62,7 +62,7 @@ export const VisualPost = ({
             {excerpt}
           </p>
           <figcaption
-            className={`${typography.variants.secondaryTitle} text-gray-100 text-center mt-2 sm:mt-3 text-sm`}
+            className={`${typography.variants.secondaryTitle} text-gray-100 text-center mt-2 sm:mt-3 text-sm hidden sm:block`}
           >
             {formatDateStr(date)} - {readingTime} min kesto
           </figcaption>
