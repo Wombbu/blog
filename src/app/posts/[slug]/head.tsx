@@ -25,7 +25,7 @@ export default function Head(props: { params: { slug: string } }) {
       {/* TODO */}
       <meta
         name="og:image"
-        content={`http://localhost:3000/api/og?imgPath=${post.coverImage.url}`}
+        content={`http://localhost:3000/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
       />
       {post.coverImage.desc ? (
         <meta property="og:image:alt" content={post.coverImage.desc} />

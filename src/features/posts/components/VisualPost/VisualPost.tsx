@@ -5,7 +5,7 @@ import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayT
 // import { AudioPlayer } from "@/features/posts/components/AudioPlayer";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./Card.module.css";
+import styles from "./VisualPost.module.css";
 
 type Props = {
   date: string;
@@ -13,19 +13,17 @@ type Props = {
   title: string;
   excerpt: string;
   readingTime: string;
-  slug: string;
   tags?: string;
   audio?: string;
   href: string;
   priority?: boolean;
 };
 
-export const Card = ({
+export const VisualPost = ({
   date,
   imageSrc,
   title,
   readingTime,
-  // slug,
   tags,
   excerpt,
   audio,
@@ -40,7 +38,7 @@ export const Card = ({
           alt={title}
           width={342}
           height={456}
-          className="object-cover w-full z-10 flex aspect-sdInverse "
+          className="object-cover w-full z-10 flex aspect-videoInverse sm:aspect-square lg:aspect-sd"
           priority={priority}
           style={{
             width: "100vw",
@@ -49,29 +47,27 @@ export const Card = ({
         <ImageOverlayTags
           tags={tags}
           hasAudio={!!audio}
-          isNew={/* lessThan2Weeks(date) */ false} // Do not show "new" tag on cards since it'll create clutter
+          isNew={lessThan2Weeks(date)}
         />
-        {/* {audio ? (
-        <div className="bg-white bg-opacity-50 p-4 flex items-center justify-center absolute left-0 right-0 bottom-0">
-           <audio controls preload="none">
-            <source src={audio} type="audio/x-m4a" />
-          </audio>
-          <AudioPlayer src={audio} />
+        <div className="absolute bottom-2 left-2 right-2 bg-black p-4 break-words">
+          <figcaption
+            className="font-primary font-bold text-gray-100 text-2xl sm:text-3xl hover:underline decoration-3 text-center"
+            title={excerpt}
+          >
+            {title}
+          </figcaption>
+          <p
+            className={`${typography.variants.textBody} text-sm sm:text-base mt-2 sm:mt-3 font-bold text-gray-100 text-center`}
+          >
+            {excerpt}
+          </p>
+          <figcaption
+            className={`${typography.variants.secondaryTitle} text-gray-100 text-center mt-2 sm:mt-3 text-sm`}
+          >
+            {formatDateStr(date)} - {readingTime} min kesto
+          </figcaption>
         </div>
-      ) : null} */}
       </div>
-      <figcaption
-        className="font-primary font-bold text-black text-2xl hover:underline decoration-3 mt-5"
-        title={excerpt}
-      >
-        {title}
-      </figcaption>
     </figure>
-    <p className={`${typography.variants.textBody} text-black mt-3`}>
-      {excerpt}
-    </p>
-    <figcaption className={`font-primary text-black text-sm mt-3`}>
-      {formatDateStr(date)} - {readingTime} min kesto
-    </figcaption>
   </Link>
 );

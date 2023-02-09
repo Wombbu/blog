@@ -8,6 +8,7 @@ export const config = {
 export default function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const imgPath = searchParams.get("imgPath");
+  const title = searchParams.get("title");
 
   return new ImageResponse(
     (
@@ -39,9 +40,7 @@ export default function handler(req: NextRequest) {
             right: 0,
           }}
         />
-        <p tw="text-5xl text-white font-bold font-primary p-8 bg-gray-900">
-          Kaupunkisuunnittelu on ideologista
-        </p>
+        <p tw="text-5xl text-white font-bold p-8 bg-black">{title}</p>
       </div>
     ),
     {

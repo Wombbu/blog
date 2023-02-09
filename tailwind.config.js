@@ -20,6 +20,8 @@ module.exports = {
       },
       aspectRatio: {
         sd: "4/3",
+        sdInverse: "3/4",
+        videoInverse: "9/16",
       },
       maxWidth: {
         article: "612px",

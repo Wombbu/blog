@@ -1,3 +1,5 @@
-.card:hover .imgWrapper {
-  @apply shadow-outline;
+@screen sm {
+  .card:hover .imgWrapper {
+    @apply shadow-outline;
+  }
 }

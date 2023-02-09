@@ -56,11 +56,6 @@ export default async function Post(props: Props) {
   return (
     <>
       <article>
-        {/* <h1
-          className={`${typography.variants.pageTitle} text-center mb-10 mt-10`}
-        >
-          Artikkeli
-        </h1> */}
         <figure className={module.heroContainer}>
           <div className="relative">
             <ImageOverlayTags
@@ -70,7 +65,7 @@ export default async function Post(props: Props) {
             />
             <Image
               src={post.coverImage.url}
-              alt={post.title}
+              alt={post.coverImage.desc || "Kansikuva"}
               width={1000}
               height={1000}
               className={module.heroImage}
@@ -107,17 +102,17 @@ export default async function Post(props: Props) {
         </figure>
         <div className="m-auto max-w-article">
           <h1
-            className={`${palette.text.primary} font-serif text-3xl md:text-5xl font-bold mt-12 mb-12 text-center break-words`}
+            className={`${palette.text.primary} font-serif text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-8 sm:mb-12 sm:mt-12 text-center break-words`}
           >
             {post.title}
           </h1>
           <p
-            className={`${palette.text.primary} text-xl md:text-2xl font-secondary italic mb-12 text-center`}
+            className={`${palette.text.primary} text-xl md:text-2xl font-secondary italic mb-8 sm:mb-12 text-center`}
           >
             {post.excerpt}
           </p>
           {post.audio ? (
-            <audio controls preload="none" className="mb-12 m-auto">
+            <audio controls preload="none" className="mb-8 sm:mb-12 m-auto">
               <source src={post.audio} type="audio/x-m4a" />
             </audio>
           ) : null}
