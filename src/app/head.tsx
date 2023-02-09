@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Lauri Nevanperä - Kantaaottavaa asiaa kaupungeista</title>
+      <title>Lauri Nevanperä - Kohti vahvempia kaupunkeja</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"

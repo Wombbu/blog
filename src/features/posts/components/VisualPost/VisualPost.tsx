@@ -49,7 +49,7 @@ export const VisualPost = ({
           hasAudio={!!audio}
           isNew={lessThan2Weeks(date)}
         />
-        <div className="absolute bottom-2 left-2 right-2 bg-black p-4 break-words">
+        <div className="absolute bottom-2 left-2 right-2 bg-black p-2 sm:p-4 break-words">
           <figcaption
             className="font-primary font-bold text-gray-100 text-2xl sm:text-3xl hover:underline decoration-3 text-center"
             title={excerpt}

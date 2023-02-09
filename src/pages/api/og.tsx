@@ -5,10 +5,17 @@ export const config = {
   runtime: "edge",
 };
 
-export default function handler(req: NextRequest) {
+const font = fetch(new URL("public/WorkSans-Bold.ttf", import.meta.url)).then(
+  (res) => res.arrayBuffer()
+);
+
+export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const imgPath = searchParams.get("imgPath");
   const title = searchParams.get("title");
+  const fontData = await font;
+
+  const domain = req.nextUrl.origin;
 
   return new ImageResponse(
     (
@@ -27,10 +34,11 @@ export default function handler(req: NextRequest) {
           position: "relative",
         }}
       >
+        {/* eslint-disable-next-line */}
         <img
           width="1200"
           height="627"
-          src={`http:localhost:3000/${imgPath}`}
+          src={`${domain}${imgPath}`}
           style={{
             objectFit: "cover",
             position: "absolute",
@@ -40,12 +48,25 @@ export default function handler(req: NextRequest) {
             right: 0,
           }}
         />
-        <p tw="text-5xl text-white font-bold p-8 bg-black">{title}</p>
+        <div
+          tw="text-white font-bold p-8 bg-black flex flex-col"
+          style={{ fontFamily: "WorkSans_Bold" }}
+        >
+          <div tw="text-5xl">{title}</div>
+          <div tw="text-2xl mt-2">Lauri Nevanperä</div>
+        </div>
       </div>
     ),
     {
       width: 1200,
       height: 627,
+      fonts: [
+        {
+          name: "WorkSans_Bold",
+          data: fontData,
+          style: "normal",
+        },
+      ],
     }
   );
 }
