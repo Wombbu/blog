@@ -29,6 +29,10 @@ export default function Head(props: { params: { slug: string } }) {
         name="og:image:secure_url"
         content={`https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
       />
+      <meta
+        name="og:image"
+        content={`https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
+      />
       {post.coverImage.desc ? (
         <meta property="og:image:alt" content={post.coverImage.desc} />
       ) : null}
