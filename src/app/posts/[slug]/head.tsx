@@ -26,8 +26,8 @@ export default function Head(props: { params: { slug: string } }) {
       <meta name="og:title" content={post.title} />
       <meta name="og:description" content={post.excerpt} />
       <meta
-        name="og:image"
-        content={`https://laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
+        name="og:image:secure_url"
+        content={`https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
       />
       {post.coverImage.desc ? (
         <meta property="og:image:alt" content={post.coverImage.desc} />
@@ -40,7 +40,7 @@ export default function Head(props: { params: { slug: string } }) {
       {post.audio ? (
         <meta
           name="og:audio"
-          content={`https://laurinevanpera.fi${post.audio}`}
+          content={`https://www.laurinevanpera.fi${post.audio}`}
         />
       ) : null}
       <meta name="section" content="Kaupunkisuunnittelu" />
@@ -54,9 +54,10 @@ export default function Head(props: { params: { slug: string } }) {
       <meta name="twitter:description" content={post.excerpt}></meta>
       <meta
         name="twitter:image"
-        content={`https://laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
+        content={`https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
       ></meta>
       <meta name="twitter:site" content="@LauriNevanpera"></meta>
+      <meta name="twitter:creator" content="@LauriNevanpera"></meta>
       <meta name="twitter:label1" content="Arvioitu lukuaika"></meta>
       <meta
         name="twitter:data1"
