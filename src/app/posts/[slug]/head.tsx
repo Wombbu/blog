@@ -19,6 +19,10 @@ export default function Head(props: { params: { slug: string } }) {
       <title>{`${post.title} - Lauri Nevanperä`}</title>
       <meta name="description" content={post.excerpt} />
 
+      <meta
+        property="og:url"
+        content={`https://www.laurinevanpera.fi/posts/${params.slug}`}
+      />
       <meta name="og:title" content={post.title} />
       <meta name="og:description" content={post.excerpt} />
       <meta
@@ -45,6 +49,7 @@ export default function Head(props: { params: { slug: string } }) {
       ))}
 
       <meta name="twitter:card" content="summary_large_image"></meta>
+      <meta name="twitter:domain" content="laurinevanpera.fi"></meta>
       <meta name="twitter:title" content={post.title}></meta>
       <meta name="twitter:description" content={post.excerpt}></meta>
       <meta
