@@ -21,7 +21,6 @@ export default function Head(props: { params: { slug: string } }) {
 
       <meta name="og:title" content={post.title} />
       <meta name="og:description" content={post.excerpt} />
-      {/* TODO */}
       <meta
         name="og:image"
         content={`https://laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
@@ -34,11 +33,12 @@ export default function Head(props: { params: { slug: string } }) {
       <meta name="article:published_time" content={post.date} />
       <meta name="article:author" content="Lauri Nevanperä" />
       <meta name="og:site_name" content="Lauri Nevanperä" />
-      {/* TODO */}
-      <meta
-        name="og:audio"
-        content={`TODO TODO TODO TODO TODO TODO${post.audio}`}
-      />
+      {post.audio ? (
+        <meta
+          name="og:audio"
+          content={`https://laurinevanpera.fi${post.audio}`}
+        />
+      ) : null}
       <meta name="section" content="Kaupunkisuunnittelu" />
       {post.tags.split(", ").map((tag) => (
         <meta name="article:tag" content={tag} key={tag} />
@@ -47,7 +47,10 @@ export default function Head(props: { params: { slug: string } }) {
       <meta name="twitter:card" content="summary_large_image"></meta>
       <meta name="twitter:title" content={post.title}></meta>
       <meta name="twitter:description" content={post.excerpt}></meta>
-      <meta name="twitter:image" content="TODO"></meta>
+      <meta
+        name="twitter:image"
+        content={`https://laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`}
+      ></meta>
       <meta name="twitter:site" content="@LauriNevanpera"></meta>
       <meta name="twitter:label1" content="Arvioitu lukuaika"></meta>
       <meta
