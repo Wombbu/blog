@@ -155,6 +155,7 @@ export default async function Post(props: Props) {
           Sinua saattaa kiinnostaa
         </h2>
         <PostGrid
+          disableLargeFirstPost
           posts={recommended
             .filter((it) => it.slug !== post.slug)
             .slice(0, 3)

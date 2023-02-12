@@ -3,7 +3,7 @@ title: "Kaupunkisuunnittelu on ideologista"
 excerpt: "Miten Tamperetta on kehitetty verrattuna samankokoisiin kaupunkeihin USA:ssa tai Alankomaissa? Mikäli kaupunkisuunnittelun ideologia kiinnostaa, tämä video on sinulle."
 date: "2023-01-31T05:35:07.322Z"
 readingTime: "10"
-tags: "Tampere, Kaupunkisuunnittelun ideologia, Video"
+tags: "Tampere, Video"
 
 ogImage:
   url: "/assets/blog/2023-01-31-kaupunkisuunnittelun-ideologia/cover.jpeg"

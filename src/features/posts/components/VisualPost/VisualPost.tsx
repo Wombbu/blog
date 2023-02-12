@@ -1,7 +1,7 @@
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
-import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
+import { TagList } from "@/features/posts/components/Card/ImageOverlayTags";
 // import { AudioPlayer } from "@/features/posts/components/AudioPlayer";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,12 +49,10 @@ export const VisualPost = ({
           priority={priority}
           style={{}}
         />
-        <ImageOverlayTags
-          tags={tags}
-          hasAudio={!!audio}
-          isNew={lessThan2Weeks(date)}
-        />
         <div className="absolute bottom-0 left-0 right-0 px-2 sm:px-4 pt-28 break-words bg-gradient-to-t from-black to-transparent">
+          <div className="flex gap-2 flex-wrap p-2 justify-center ">
+            <TagList tags={tags} hasAudio={!!audio} isNew={false} />
+          </div>
           <figcaption
             className="font-primary font-bold text-white text-2xl sm:text-3xl hover:underline decoration-3 text-center"
             title={excerpt}
