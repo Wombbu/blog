@@ -14,8 +14,7 @@ import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
 import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
-import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
-import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
+import { CommentOnTwitter } from "@/components/CommentOnTwitter/CommentOnTwitter";
 
 type Props = {
   params: {
@@ -36,6 +35,7 @@ export default async function Post(props: Props) {
     "readingTime",
     "audio",
     "tags",
+    "tweet",
   ]);
 
   const recommended = getAllPosts([
@@ -55,14 +55,9 @@ export default async function Post(props: Props) {
 
   return (
     <>
-      <article>
+      <article className="relative">
         <figure className={module.heroContainer}>
           <div className="relative">
-            <ImageOverlayTags
-              tags={post.tags}
-              hasAudio={!!post.audio}
-              isNew={lessThan2Weeks(post.date)}
-            />
             <Image
               src={post.coverImage.url}
               alt={post.coverImage.desc || "Kansikuva"}
@@ -73,7 +68,7 @@ export default async function Post(props: Props) {
             />
             <Link
               href={routes.posts}
-              className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute bottom-2 left-2`}
+              className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute top-2 left-2`}
             >
               Takaisin artikkeleihin
             </Link>
@@ -129,15 +124,12 @@ export default async function Post(props: Props) {
           </time>
         </div>
         <PostBody content={contentHtml} />
-      </article>
-
-      <section className="mt-12">
         <h1
-          className={`${palette.text.primary} font-primary text-3xl font-bold mb-4 text-center`}
+          className={`${palette.text.primary} font-primary text-3xl font-bold mb-4 text-center mt-6`}
         >
           Kiitos kun luit.
         </h1>
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-6 mt-6">
           <SocialMediaLink
             href={`https://twitter.com/intent/tweet?text=https://www.laurinevanpera.fi${routes.post(
               props.params.slug
@@ -156,6 +148,9 @@ export default async function Post(props: Props) {
             className="ml-4"
           />
         </div>
+        {post.tweet ? <CommentOnTwitter tweetUrl={post.tweet} /> : null}
+      </article>
+      <section className="mt-12">
         <h2 className={`${typography.variants.sectionTitle()}`}>
           Sinua saattaa kiinnostaa
         </h2>
