@@ -50,6 +50,7 @@ const specialTags = [
           style={{
             maxHeight: "15px",
           }}
+          loading="eager"
         />{" "}
         Tampere
       </>
@@ -68,6 +69,7 @@ const specialTags = [
           style={{
             maxHeight: "15px",
           }}
+          loading="eager"
         />{" "}
         Helsinki
       </>
@@ -86,6 +88,7 @@ const specialTags = [
           style={{
             maxHeight: "15px",
           }}
+          loading="eager"
         />{" "}
         Turku
       </>
@@ -104,6 +107,7 @@ const specialTags = [
           style={{
             maxHeight: "15px",
           }}
+          loading="eager"
         />{" "}
         Oulu
       </>
