@@ -32,7 +32,7 @@ export const Card = ({
   href,
   priority,
 }: Props) => (
-  <Link href={href} className={`${styles.card} flex flex-col`} scroll>
+  <Link href={href} className={`${styles.card} flex flex-col`}>
     <figure>
       <div className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}>
         <Image

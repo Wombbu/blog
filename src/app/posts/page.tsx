@@ -27,33 +27,17 @@ export default async function Posts(props: Props) {
   return (
     <>
       <PostGrid
-        extraContent={
-          featuredPost ? (
-            <VisualPost
-              href={routes.post(featuredPost.slug)}
-              title={featuredPost.title}
-              imageSrc={featuredPost.coverImage.url}
-              excerpt={featuredPost.excerpt}
-              readingTime={featuredPost.readingTime}
-              tags={featuredPost.tags}
-              audio={featuredPost.audio}
-              date={featuredPost.date}
-            />
-          ) : null
-        }
-        posts={allPosts
-          .filter((it) => it.slug !== featuredPost.slug)
-          .map((it) => ({
-            date: it.date,
-            imageSrc: it.coverImage.url,
-            title: it.title,
-            readingTime: it.readingTime,
-            slug: it.slug,
-            tags: it.tags,
-            excerpt: it.excerpt,
-            audio: it.audio,
-            href: routes.post(it.slug),
-          }))}
+        posts={allPosts.map((it) => ({
+          date: it.date,
+          imageSrc: it.coverImage.url,
+          title: it.title,
+          readingTime: it.readingTime,
+          slug: it.slug,
+          tags: it.tags,
+          excerpt: it.excerpt,
+          audio: it.audio,
+          href: routes.post(it.slug),
+        }))}
       />
     </>
   );

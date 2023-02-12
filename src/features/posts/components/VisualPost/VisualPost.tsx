@@ -17,6 +17,7 @@ type Props = {
   audio?: string;
   href: string;
   priority?: boolean;
+  imgClassName?: string;
 };
 
 export const VisualPost = ({
@@ -29,29 +30,33 @@ export const VisualPost = ({
   audio,
   href,
   priority,
+  imgClassName,
 }: Props) => (
-  <Link href={href} className={`${styles.card} flex flex-col`} scroll>
+  <Link href={href} className={`${styles.card} flex flex-col`}>
     <figure>
-      <div className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}>
+      <div
+        className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}
+        style={{
+          borderBottom: "24px solid black",
+        }}
+      >
         <Image
           src={imageSrc}
           alt={title}
           width={756}
           height={756}
-          className="object-cover w-full z-10 flex aspect-videoInverse sm:aspect-square lg:aspect-sd"
+          className={`object-cover w-full z-10 flex ${imgClassName}`}
           priority={priority}
-          style={{
-            width: "100vw",
-          }}
+          style={{}}
         />
         <ImageOverlayTags
           tags={tags}
           hasAudio={!!audio}
           isNew={lessThan2Weeks(date)}
         />
-        <div className="absolute bottom-2 left-2 right-2 bg-black p-2 sm:p-4 break-words">
+        <div className="absolute bottom-0 left-0 right-0 px-2 sm:px-4 pt-28 break-words bg-gradient-to-t from-black to-transparent">
           <figcaption
-            className="font-primary font-bold text-gray-100 text-2xl sm:text-3xl hover:underline decoration-3 text-center"
+            className="font-primary font-bold text-white text-2xl sm:text-3xl hover:underline decoration-3 text-center"
             title={excerpt}
           >
             {title}
@@ -62,7 +67,7 @@ export const VisualPost = ({
             {excerpt}
           </p>
           <figcaption
-            className={`${typography.variants.secondaryTitle} text-gray-100 text-center mt-2 sm:mt-3 text-sm hidden sm:block`}
+            className={`${typography.variants.secondaryTitle} text-gray-100 text-center mt-2 sm:mt-3 text-sm  sm:block`}
           >
             {formatDateStr(date)} - {readingTime} min kesto
           </figcaption>

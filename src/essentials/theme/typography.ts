@@ -9,7 +9,7 @@ export const variants = {
   headerLink: `${palette.text.primary} font-primary text-lg font-bold hover:underline decoration-2`,
   textBody: `${palette.text.primary} font-primary text-base font-medium`,
   secondaryTitle: `${palette.text.secondary} font-primary text-md`,
-  pageTitle: `${palette.text.accent} text-5xl font-primary font-bold`,
+  pageTitle: `${palette.text.primary} text-4xl font-primary font-bold`,
   caption: `${palette.text.secondary} font-primary text-sm`,
 };
 

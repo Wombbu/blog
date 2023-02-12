@@ -8,7 +8,6 @@ export type PostMetadata = {
   readingTime: string;
   audio?: string;
   tags: string;
-
   coverImage: {
     url: string;
     desc?: string;
@@ -16,8 +15,8 @@ export type PostMetadata = {
     license?: string;
     licenseLink?: string;
   };
-
   ogImage: {
     url: string;
   };
+  tweet?: string;
 };
