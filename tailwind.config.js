@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["var(--font-family-primary)", ...fontFamily.sans],
-        secondary: ["var(--font-family-secondary)", ...fontFamily.serif],
       },
       textDecorationThickness: {
         3: "3px",

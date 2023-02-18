@@ -7,7 +7,7 @@ export const Hero = () => (
       alt="Image of me"
       width={256}
       height={256}
-      className="shadow-outline object-cover rounded-full sm:mb-0 h-52 w-52"
+      className=" object-cover rounded-full sm:mb-0 h-52 w-52"
       loading="eager"
     />
     <div className="flex-auto" style={{ maxWidth: "425px" }}>
