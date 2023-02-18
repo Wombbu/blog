@@ -2,6 +2,7 @@ import "./globals.css";
 import { Header } from "@/components/Header/Header";
 import { Work_Sans } from "@next/font/google";
 import { Footer } from "@/components/Footer/Footer";
+import { AnalyticsWrapper } from "@/components/Analytics";
 
 const primaryFontFamily = Work_Sans({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <AnalyticsWrapper />
       </body>
     </html>
   );
