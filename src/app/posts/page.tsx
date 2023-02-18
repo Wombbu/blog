@@ -1,15 +1,8 @@
 import { getAllPosts } from "@/features/posts/utils/md-utils/api";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
-import { FeaturedPost } from "@/features/posts/components/FeaturedPost/FeaturedPost";
-import { typography } from "@/essentials/theme/typography";
 import { routes } from "@/essentials/utils/routes";
-import { VisualPost } from "@/features/posts/components/VisualPost/VisualPost";
 
-type Props = {
-  allPosts: { [key: string]: string };
-};
-
-export default async function Posts(props: Props) {
+export default async function Posts() {
   const allPosts = await getAllPosts([
     "title",
     "date",
@@ -21,8 +14,6 @@ export default async function Posts(props: Props) {
     "tags",
     "audio",
   ]);
-
-  const featuredPost = allPosts[0];
 
   return (
     <>
