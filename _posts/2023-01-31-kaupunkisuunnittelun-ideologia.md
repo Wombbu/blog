@@ -4,10 +4,6 @@ excerpt: "Miten Tamperetta on kehitetty verrattuna samankokoisiin kaupunkeihin U
 date: "2023-01-31T05:35:07.322Z"
 readingTime: "10"
 tags: "Tampere, Video"
-
-ogImage:
-  url: "/assets/blog/2023-01-31-kaupunkisuunnittelun-ideologia/cover.jpeg"
-
 coverImage:
   url: "/assets/blog/2023-01-31-kaupunkisuunnittelun-ideologia/cover.jpeg"
   desc: "Groningenin ostoskatu."

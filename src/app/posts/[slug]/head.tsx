@@ -7,7 +7,6 @@ export default function Head(props: { params: { slug: string } }) {
     "date",
     "author",
     "content",
-    "ogImage",
     "coverImage",
     "excerpt",
     "readingTime",

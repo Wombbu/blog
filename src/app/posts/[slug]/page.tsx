@@ -29,7 +29,6 @@ export default async function Post(props: Props) {
     "slug",
     "author",
     "content",
-    "ogImage",
     "coverImage",
     "excerpt",
     "readingTime",

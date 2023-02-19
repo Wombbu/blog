@@ -2,8 +2,6 @@
 title: "Reference"
 excerpt: "Miksi Suomessa rakennettiin kontuloita uusien töölöjen sijaan 60-70 luvuilla?"
 date: "2020-03-16T05:35:07.322Z"
-ogImage:
-  url: "/assets/blog/reference-post/cover.jpg"
 readingTime: "3"
 tags: "Tampere, Oulu, Helsinki, Turku, Referenssi, Video"
 audio: "/assets/blog/reference-post/audio.m4a"
