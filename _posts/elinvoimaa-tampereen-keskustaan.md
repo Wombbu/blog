@@ -1,8 +1,8 @@
 ---
 title: "Lisää elinvoimaa Tampereen keskustaan"
 excerpt: "Tampereen keskustan liikenneverkkosuunnitelma ja vaiheyleiskaava ovat tärkeitä vahvan, elävän keskustan kannalta, mutta niihin sisältyy riskejä. Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista jos suunnitelmat tehdään hyvin."
-date: "2023-02-28T17:00:00.00Z"
-readingTime: "3"
+date: "2023-02-25T17:00:00.00Z"
+readingTime: "8"
 tags: "Tampere"
 coverImage:
   url: "/assets/blog/elinvoimaa-kyttälään/cover.png"
@@ -26,7 +26,7 @@ Ideaparkin perustaja, Toivo Sukari on todennut:
 Ideaparkia on alusta pitäen kehitetty elämykselliseksi paikaksi jossa on mukava olla ja käydä kauppaa. Resepti on johtanut kaupalliseen menestykseen. Lempääläläiset voivat olla syystäkin ylpeitä kauppakeskuksestaan. **Kun kaiken saa tilattua kotiovelleen halvalla, määränpään on oltava houkutteleva**
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/ideapark.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/ideapark.jpg" style=" object-fit: cover;" />
   <figcaption>Ideapark / Kuva Harri Hedman / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">CC BY 3.0</a></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Lähtökohtana pidän vuoden 2021-2024 vaiheyleiskaavan tavoitteita
 - Liiketoimintaa, viihtyvyyttä ja asukasmukavuutta haittaava läpiajo siirrettävä keskustan kehälle
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/kyttala-kartta.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kyttala-kartta.png" style=" object-fit: cover;" />
   <figcaption>Vision alue koskee Eteläistä kyttälää</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.c
 **Kadun kummassakin päässä tulee olemaan tärkeä viheralue.** Toisessa päässä tuleva asemapuisto ja toisessa koskenranta <a href="https://www.tampere.fi/kaupunkisuunnittelu/kaupunkiymparisto-uudistuu/takonraitti" target="_blank">Takonraitteineen</a>.
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/asemakeskus-terminaali.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/asemakeskus-terminaali.png" style=" object-fit: cover;" />
   <figcaption>Asemakeskuksen katettu joukkoliikenneterminaali tulee olemaan Verkatehtaankadun kohdalla</figcaption>
 </figure>
 
@@ -100,24 +100,24 @@ Kun kävelykatu tehdään oikeaan paikkaan, sillä on suuri potentiaali lisätä
 > hyötyivät taloudellisesti Mikonkadun kahvilat ja ravintolat.<cite><a href="https://docplayer.fi/24339777-Kenen-aleksi-sen-helsinki.html" target="_blank">Kenen Aleksi, sen Helsinki</a></cite>
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/mikonkatu.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/mikonkatu.jpg" style=" object-fit: cover;" />
   <figcaption>Helsingin Mikonkatu on kaupallinen menestys</figcaption>
 </figure>
 
 ## Miltä Verkatehtaankatu voisi näyttää vuonna 2040 mikäli vaiheyleiskaava ja keskustan liikennesuunnitelma onnistuvat
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-asemapuisto.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-asemapuisto.jpg" style=" object-fit: cover;" />
   <figcaption>Asemapuisto tulee avautumaan Verkatehtaankadun Rautatienkadun päädyssä</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/cover.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/cover.png" style=" object-fit: cover;" />
   <figcaption>Kävelykatu mahdollistaa pysyvät istutukset, penkit sekä katupuut</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-talvi2.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-talvi2.png" style=" object-fit: cover;" />
   <figcaption>Vahva katuympäristö mahdollistaa yrittäjille talviterassit, ja houkuttelee kävelijöitä vuoden ympäri. Kuvassa panimoravintola Plevnan terasseja leikattuna Verkatehtaankadulle</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Lyhyesti sanottuna Verkatahtaankatua tulee liikennejärjestelmäsuunnitelmassa j
 Otavalankatu yhdistää Rautatienkadun Koskikeskukseen. Viimeisimmissä liikennemittauksissa Otavalankadulla kulki illan huipputunnin aikana **283 jalankulkijaa** ja **127 autoa**. Katu ei ole yhtä kävelty kuin Verkatehtaankatu, mutta kävelijöitä on silti tuplamäärä autoihin verrattuna. Kävelijämäärien voidaan olettaa lisääntyvän Asemakeskus-projektin tornitalojen sekä Tullin täydennysrakentamisen myötä.
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/otavalankatu-kesa.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/otavalankatu-kesa.jpg" style=" object-fit: cover;" />
   <figcaption>Otavalankadulla on potentiaalia olla kaunis katu. Edessä avautuu tulevaisuudessa asemapuisto</figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ Toisin kuin Verkatehtaankadun kahta korttelia Rautatienkadun vieressä, Otavalan
 Kadulla on paljon ravintoloita, ja ravintoloille tulee mahdollistaa katutilan käyttö niin kesällä kuin talvellakin. Kadulta on kaadettu viime vuosina katupuita, ja näiden tilalle tulee saada uutta varjostusta, mieluusti koko kadun mitalle.
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/otavalankatu.jpg" style="object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/otavalankatu.jpg" style="object-fit: cover;" />
   <figcaption>Otavalankadun kävelykadunpätkä on uusittu ja tässä yhteydessä useita katupuita on kaadettu.</figcaption>
 </figure>
 
@@ -153,42 +153,66 @@ Kadulla on paljon ravintoloita, ja ravintoloille tulee mahdollistaa katutilan k�
 
 Tuomiokirkonkadun kävelykatusuunnitelma on saanut alkunsa vuonna 1991 kun TKL halusi Tuomiokirkonkadun päädyt kävelykaduksi nysseliikenteen ruuhkautumisen vuoksi. 2010-luvulla Tuomiokirkonkadusta on suunniteltu luomaan selkeä kävelyreitti Hämeenkadulta Areenalle. Tai tarkemmin ottaen Sorin aukiolle muutaman sadan metrin päähän areenasta. Katu on keskustan leveimpiä, ellei levein. Itse asiassa mielestäni katu on turhan leveä kävelykaduksi. Katu onkin saanut lähes ennennäkemättömän yksimielisen tyrmäyksen. Katu on tyrmätty jopa kävelykatuhankkeisiin hyvin positiivisesti suhtautuvassa Lisää kaupunkia Tampereelle facebook-ryhmässä, ja kadun karuudesta on useita some-ketjuja, mielipidekirjoituksia sekä uutisia. Tässä osa: <a href="https://www.facebook.com/groups/399167496814768/permalink/1928162287248607/" target="_blank">Ketju</a> <a href="https://www.aamulehti.fi/moro/art-2000007572319.html" target="_blank">Uutinen 1</a> <a href="https://www.aamulehti.fi/moro/art-2000007573849.html" target="_blank">Uutinen 2</a>
 
-![](/assets/blog/elinvoimaa-kyttälään/huono4.HEIC)
-![](/assets/blog/elinvoimaa-kyttälään/tkk1.png)
+<figure>
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/huono4.HEIC" style="object-fit: cover;" />
+  <figcaption>Tuomiokirkonkatu</figcaption>
+</figure>
 
 Verrattaessa läntisen keskustan Kuninkaankatuun, ero on selkeä. Seuraavat kuvat ovat otettu samana iltana. On mielenkiintoista huomata mitä viisinkertainen määrä puita tekee viihtyvyydelle ja houkuttelevuudelle myös talvisin.
-![](/assets/blog/elinvoimaa-kyttälään/kuninkaankatu-illalla.jpg)
-![](/assets/blog/elinvoimaa-kyttälään/tuomiokirkonkatu-illalla.jpg)
+
+<figure>
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kuninkaankatu-illalla.jpg" style="object-fit: cover;" />
+  <figcaption>Kuninkaankatu läntisessä keskustassa</figcaption>
+</figure>
+<figure>
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/tuomiokirkonkatu-illalla.jpg" style="object-fit: cover;" />
+  <figcaption>Tuomiokirkonkatu</figcaption>
+</figure>
 
 **Verrataan vastaavanlevyiseen kävelykatuun Kokkolassa**
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/kokkola2.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kokkola2.jpg" style=" object-fit: cover;" />
+  <figcaption>Kokkolassa kaupunkivihreä on nostettu jalustalle</figcaption>
 </figure>
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/kokkola1.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kokkola1.jpg" style=" object-fit: cover;" />
+  <figcaption>Katu on upea myös öisin. Pylväsvalaisimet ja valotaideteokset luovat tunnelmaa</figcaption>
 </figure>
 
 Kokkolaan ja läntiseen keskustaan verratessa lienee oikeutettua todeta, että Tuomiokirkonkadun ympäristösuunnittelu on pettänyt pahemman kerran.
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/tkk.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/tkk.jpg" style=" object-fit: cover;" />
   <figcaption>Leveä katu tyhjänä kenttänä turhauttaa niin autoilijoita, kävelijöitä kuin pysäköinninvalvontaakin</figcaption>
 </figure>
 
 Oman lusikkansa soppaan luo lämpösaarekeilmiö. <a href="https://www.hs.fi/paakirjoitukset/art-2000009221572.html" target="_blank">OECD:n vertailussa Tampereella on Suomen kaupungeista pahin lämpösaarekeilmiö</a>. Tampereella Tuomiokirkonkatu kuuluu kaikkein pahimpaan lämpösaarekealueeseen
 
-![](/assets/blog/elinvoimaa-kyttälään/tre-lampo.jpg)
+<figure>
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/tre-lampo.jpg" style=" object-fit: cover;" />
+  <figcaption>Kyttälä on kesähelteillä Suomen tukalin paikka</figcaption>
+</figure>
 
-Kasvillisuus haihduttaa vettä ja tätä kautta tekee katuilmastosta viileämmän. Artikkelista:
+Kasvillisuus haihduttaa vettä ympäri vuorokauden ja tätä kautta tekee katuilmastosta siedettävämmän. Artikkelista:
 
-> Ilmiöön voidaan vaikuttaa kaupunkisuunnittelulla, kuten kaupungin ilmankiertoa parantamalla, puita ja viherrakenteita lisäämällä
+> Ilmiöön voidaan vaikuttaa ... puita ja viherrakenteita lisäämällä
 
 **Tuomiokirkonkadun ympäristösuunnittelu täytyy tilata uudelta toimittajalta, ja lähtökohdaksi tulee ottaa vaiheyleiskaavan lähtökohdissa mainittu laadukas viherympäristö Kokkolan malliin**
 
 <h2 id="kokonaiskuva">Kokonaiskuva</h2>
 
 <figure>
-  <img src="/assets/blog/elinvoimaa-kyttälään/etelainen-kyttala-kartta.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/etelainen-kyttala-kartta.png" style=" object-fit: cover;" />
   <figcaption>Suunnitelman mukainen Kyttälä ohjaa läpiajon keskustan kehälle sekä säilyttää pohjois-etelä yhteydet</figcaption>
 </figure>
+
+**Vaiheyleiskaavan** tavoitteet täyttyvät visiossa
+
+- Vahvistaa alueen elinvoimaa vaiheyleiskaavan lähtökohtien mukaisesti
+- Mahdollistaa katuvihreää vaiheyleiskaavan lähtökohtien mukaisesti
+- Ottaa huomioon kaikki kulkumuodot vaiheyleiskaavan lähtökohtien mukaisesti
+
+**Yrittäjien** kannalta elintärkeää on onnistua houkuttelemaan mahdollisimman paljon kävelijöitä Hämeenkadulta, Hatanpään valtatien joukkoliikennekeskittymästä, Asemakeskuksesta sekä Hämpin parkista. Ihmisvirta luo liikevaihtoa, ja Verkatehtaakadun liikennemäärillä kolmanneksen lisäys kävelijöissä tarkoittaisi **220** potentiaalista asiakasta tunnissa. <a href="https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf" target="_blank">Suomen kävelykaduilla myynti on 23% mediaanimyyntiä suurempaa</a>. Osalle yrittäjistä muutos on taatusti epämieluisa, ja tästä syystä suunnitelmia tulisi testata kesäkatujen muodossa **laadukkaasti**. Kävelykatukokeiluja tehdessä ei riitä että läpiajo kielletään, vaan kaduista tulee tehdä aidosti houkuttelevia ja yrittäjiä tulee osallistaa. Tuomiokirkonkadun sekä Kuninkaankadun vuoden 2022 kokeilut ovat hyviä esimerkkejä onnistuneista kokeiluista.
+
+**Asukkaalle** alueesta tulee miellyttävämpi kun yöllinen kortteliralli loppuu ja kaduille mahdollistuu katuvihreä.
