@@ -23,10 +23,6 @@
   transform: translateX(-50%);
 }
 
-.markdown native-gallery::-webkit-scrollbar {
-  display: none;
-}
-
 .markdown native-gallery:not(.-loaded) [loading="lazy"] {
   /* without display none images with loading="lazy" are loaded immediately */
   display: none;
@@ -50,8 +46,15 @@
   @apply mt-0;
 }
 
+.markdown cite {
+  @apply block pt-2 text-sm;
+}
+
 .markdown img {
-  @apply w-full max-w-none;
+  @apply m-auto;
+  width: auto;
+  height: auto;
+  max-height: 720px;
 }
 .markdown iframe {
   @apply w-full max-w-none aspect-video;
@@ -69,11 +72,11 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-12 leading-snug mb-0;
+  @apply text-3xl mt-12 leading-snug mb-0 font-bold;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-12 leading-snug font-medium mb-0;
+  @apply text-2xl mt-12 leading-snug font-bold mb-0;
 }
 
 .markdown h3 {
