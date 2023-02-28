@@ -37,7 +37,7 @@ export const VisualPost = ({
       <div
         className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}
         style={{
-          borderBottom: "24px solid black",
+          borderBottom: "48px solid black",
         }}
       >
         <Image

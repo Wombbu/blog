@@ -5,7 +5,7 @@ date: "2023-02-25T17:00:00.00Z"
 readingTime: "8"
 tags: "Tampere"
 coverImage:
-  url: "/assets/blog/elinvoimaa-kyttälään/cover.png"
+  url: "/assets/blog/elinvoimaa-kyttälään/cover.jpg"
   desc: "Verkatehtaankatu vehreänä kävelykatuna"
   credit: "Lauri Nevanperä / Dall-E tekoäly"
 tweet: "https://twitter.com/LauriNevanpera/status/1539932433289805825"
@@ -23,11 +23,13 @@ Ideaparkin perustaja, Toivo Sukari on todennut:
 
 > Verkkokauppa on tullut, eivätkä kauppakeskukset elä enää pelkällä kaupalla. Yhdysvalloissa on suljettu isoja kauppakeskuksia samasta syystä. Tarvitaan muuta, tarvitaan viihtymisen elementtejä <cite><a href="https://lvs.fi/2020/10/14/toivo-sukari-ideapark-on-kaupan-ja-viihtymisen-keskus/" target="_blank" referrer="noref">Lempäälän sanomat</a></cite>
 
-Ideaparkia on alusta pitäen kehitetty elämykselliseksi paikaksi jossa on mukava olla ja käydä kauppaa. Resepti on johtanut kaupalliseen menestykseen. Lempääläläiset voivat olla syystäkin ylpeitä kauppakeskuksestaan. **Kun kaiken saa tilattua kotiovelleen halvalla, määränpään on oltava houkutteleva**
+Ideaparkia on alusta pitäen kehitetty elämykselliseksi paikaksi jossa on mukava olla ja käydä kauppaa. Resepti on johtanut kaupalliseen menestykseen. Lempääläläiset voivat olla syystäkin ylpeitä kauppakeskuksestaan.
+
+**Kun kaiken saa tilattua kotiovelleen halvalla, määränpään on oltava houkutteleva**
 
 <figure>
   <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/ideapark.jpg" style=" object-fit: cover;" />
-  <figcaption>Ideapark / Kuva Harri Hedman / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">CC BY 3.0</a></figcaption>
+  <figcaption>Ideaparkia on alusta pitäen kehitetty viihtyisäksi ja elämykselliseksi määränpääksi / Kuva Harri Hedman / <a href="https://creativecommons.org/licenses/by/3.0/deed.en" target="_blank">CC BY 3.0</a></figcaption>
 </figure>
 
 ## Visio
@@ -65,14 +67,14 @@ Viimeisimmässä liikennemittauksessa Verkatehtaankadulla kulki illan huipputunn
 Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.com/media/rfi/tampereen-asiointitutkimus" target="_blank">Kestävillä liikennemuodoilla tulee 71% Tampereen keskustassa käytetystä rahasta.</a> Tutkimus koskee koko keskustaa. Muuhun keskustaan verrattuna Verkatehtaankadulla on erityisen paljon kävelijöitä ja erityisen vähän autoliikennettä. Verkatehtaankatu on suhteellisen kapea, ja mittakaavaltaan täydellistä kävely-ympäristöä.
 
 <figure>
- <video muted autoplay loop>
+ <video muted autoplay loop playsinline>
   <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu.mp4" type="video/mp4">
 </video>
 <figcaption>Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022</figcaption>
 </figure>
 
 <figure>
- <video muted autoplay loop>
+ <video muted autoplay loop playsinline>
   <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-talvi.mov" type="video/mp4">
 </video>
 <figcaption>Ihmisvilinää Verkatehtaankadulla lauantai-aamupäivänä 25.2.2023</figcaption>
@@ -112,7 +114,7 @@ Kun kävelykatu tehdään oikeaan paikkaan, sillä on suuri potentiaali lisätä
 </figure>
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/cover.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/cover.jpg" style=" object-fit: cover;" />
   <figcaption>Kävelykatu mahdollistaa pysyvät istutukset, penkit sekä katupuut</figcaption>
 </figure>
 
@@ -127,7 +129,7 @@ Verkatehtaankadulla ei saa olla nykyisenlaista läpiajoliikennettä. Ainoa tarpe
 
 > Lähtökohtaisesti kun tehdään pihakatu, oletus ei ole se, että se on jatkuva läpikulkukatu. Nyt siinä ajetaan kuin kaksikaistaisella ajoradalla ja pysäköidään kadun varrelle kuin missä tahansa muualla <cite><a href="https://www.hs.fi/kotimaa/turku/art-2000009034243.html" target="_blank" referrer="noref">Turun pysäköinninvalvonnan valvontakoordinaattori Turun shared spaceista</a></cite>
 
-Lyhyesti sanottuna Verkatahtaankatua tulee liikennejärjestelmäsuunnitelmassa ja vaiheyleiskaavassa käsitellä tärkeänä kävelyliikenteen reittinä, ja ajo tulee kieltää soveltuvilta osin muulta kuin tontti- huolto- tai asiointiliikenteeltä. Myöhemmässä suunnittelussa katuympäristön laatuun ja valaistukseen täytyy kiinnittää erityistä huomiota.
+Lyhyesti sanottuna Verkatahtaankatua tulee liikennejärjestelmäsuunnitelmassa ja vaiheyleiskaavassa käsitellä tärkeänä kävelyliikenteen reittinä, ja ajo tulee kieltää soveltuvilta osin muulta kuin tontti- huolto- tai asiointiliikenteeltä. Myöhemmässä suunnittelussa katu- ja viherympäristön laatuun sekä valaistukseen täytyy kiinnittää erityistä huomiota.
 
 **Yhdelläkään Tampereen kadulla ei ole näin vahvaa pohjaa nousta kaupalliseksi ja kaupunkikuvalliseksi menestykseksi**
 
@@ -213,6 +215,6 @@ Kasvillisuus haihduttaa vettä ympäri vuorokauden ja tätä kautta tekee katuil
 - Mahdollistaa katuvihreää vaiheyleiskaavan lähtökohtien mukaisesti
 - Ottaa huomioon kaikki kulkumuodot vaiheyleiskaavan lähtökohtien mukaisesti
 
-**Yrittäjien** kannalta elintärkeää on onnistua houkuttelemaan mahdollisimman paljon kävelijöitä Hämeenkadulta, Hatanpään valtatien joukkoliikennekeskittymästä, Asemakeskuksesta sekä Hämpin parkista. Ihmisvirta luo liikevaihtoa, ja Verkatehtaakadun liikennemäärillä kolmanneksen lisäys kävelijöissä tarkoittaisi **220** potentiaalista asiakasta tunnissa. <a href="https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf" target="_blank">Suomen kävelykaduilla myynti on 23% mediaanimyyntiä suurempaa</a>. Osalle yrittäjistä muutos on taatusti epämieluisa, ja tästä syystä suunnitelmia tulisi testata kesäkatujen muodossa **laadukkaasti**. Kävelykatukokeiluja tehdessä ei riitä että läpiajo kielletään, vaan kaduista tulee tehdä aidosti houkuttelevia ja yrittäjiä tulee osallistaa. Tuomiokirkonkadun sekä Kuninkaankadun vuoden 2022 kokeilut ovat hyviä esimerkkejä onnistuneista kokeiluista.
+**Yrittäjien** kannalta elintärkeää on onnistua houkuttelemaan mahdollisimman paljon kävelijöitä Hämeenkadulta, Hatanpään valtatien joukkoliikennekeskittymästä, Asemakeskuksesta sekä Hämpin parkista. Ihmisvirta luo liikevaihtoa, ja Verkatehtaakadun liikennemäärillä kolmanneksen lisäys kävelijöissä tarkoittaisi **220** potentiaalista asiakasta tunnissa. <a href="https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf" target="_blank">Suomen kävelykaduilla myynti on 23% mediaanimyyntiä suurempaa</a>. Osalle yrittäjistä muutos on taatusti epämieluisa, ja tästä syystä suunnitelmia tulisi testata kesäkatujen muodossa **laadukkaasti**. Kävelykatukokeiluja tehdessä ei riitä että läpiajo kielletään, vaan kaduista tulee tehdä aidosti houkuttelevia ja yrittäjiä tulee osallistaa katutilan käyttöön. Tuomiokirkonkadun sekä Kuninkaankadun vuoden 2022 kokeilut ovat hyviä esimerkkejä onnistuneista kokeiluista. Lastaus on sallittava myös yksityishenkilöille, sillä osa kaupoista vastaanottaa ajoittain suuria kuormia yksityishenkilöiltä.
 
 **Asukkaalle** alueesta tulee miellyttävämpi kun yöllinen kortteliralli loppuu ja kaduille mahdollistuu katuvihreä.
