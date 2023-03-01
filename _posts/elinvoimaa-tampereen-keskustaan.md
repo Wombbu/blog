@@ -1,6 +1,6 @@
 ---
 title: "Lisää elinvoimaa Tampereen keskustaan"
-excerpt: "Tampereen keskustan liikenneverkkosuunnitelma ja vaiheyleiskaava ovat tärkeitä vahvan, elävän keskustan kannalta, mutta niihin sisältyy riskejä. Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista jos suunnitelmat tehdään hyvin."
+excerpt: "Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista mikäli Tampereen keskustan liikenneverkkosuunnitelma sekä vaiheyleiskaava tehdään hyvin. Suunnitelmat ovat tärkeitä elävän keskustan kannalta, mutta niihin sisältyy riskejä."
 date: "2023-02-25T17:00:00.00Z"
 readingTime: "8"
 tags: "Tampere"
@@ -8,7 +8,7 @@ coverImage:
   url: "/assets/blog/elinvoimaa-kyttälään/cover.jpg"
   desc: "Verkatehtaankatu vehreänä kävelykatuna"
   credit: "Lauri Nevanperä / Dall-E tekoäly"
-tweet: "https://twitter.com/LauriNevanpera/status/1539932433289805825"
+tweet: "https://twitter.com/LauriNevanpera/status/1630938813156536321"
 ---
 
 Kaupunkikeskustojen elinvoima on syystäkin ollut viime vuosina keskustelunaiheena. Kauppakeskukset, verkkokauppa, korona ja etätyö ovat asettaneet kysymysmerkkejä kaupunkikeskustojen elävyydelle.
