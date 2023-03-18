@@ -34,12 +34,7 @@ export const VisualPost = ({
 }: Props) => (
   <Link href={href} className={`${styles.card} flex flex-col`}>
     <figure>
-      <div
-        className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}
-        style={{
-          borderBottom: "48px solid black",
-        }}
-      >
+      <div className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}>
         <Image
           src={imageSrc}
           alt={title}
@@ -49,7 +44,8 @@ export const VisualPost = ({
           priority={priority}
           style={{}}
         />
-        <div className="absolute bottom-0 left-0 right-0 px-2 sm:px-4 pt-28 break-words bg-gradient-to-t from-black to-transparent">
+        <div className="bg-black h-12" />
+        <div className="absolute bottom-12 left-0 right-0 px-2 sm:px-4 pt-40 break-words bg-gradient-to-t from-black to-transparent">
           <div className="flex gap-2 flex-wrap p-2 justify-center ">
             <TagList tags={tags} hasAudio={!!audio} isNew={false} />
           </div>
