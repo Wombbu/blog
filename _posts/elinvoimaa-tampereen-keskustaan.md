@@ -1,6 +1,6 @@
 ---
 title: "Lisää elinvoimaa Tampereen keskustaan"
-excerpt: "Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista mikäli Tampereen keskustan liikenneverkkosuunnitelma sekä vaiheyleiskaava tehdään hyvin. Suunnitelmat ovat tärkeitä elävän keskustan kannalta, mutta niihin sisältyy riskejä."
+excerpt: "Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista mikäli Tampereen keskustan liikenneverkkosuunnitelma sekä vaiheyleiskaava tehdään hyvin."
 date: "2023-02-25T17:00:00.00Z"
 readingTime: "8"
 tags: "Tampere"
@@ -68,7 +68,7 @@ Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.c
 
 <figure>
  <video muted autoplay loop playsinline>
-  <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu.mp4" type="video/mp4">
+  <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu.mov" type="video/mp4">
 </video>
 <figcaption>Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022</figcaption>
 </figure>
