@@ -1,45 +1,45 @@
-name: Build and Deploy Eleventy
+# name: Build and Deploy Eleventy
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  build:
-    runs-on: ubuntu-20.04
+# jobs:
+#   build:
+#     runs-on: ubuntu-20.04
 
-    strategy:
-      matrix:
-        node-version: [16.x]
+#     strategy:
+#       matrix:
+#         node-version: [16.x]
 
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+#     steps:
+#       - uses: actions/checkout@v2
+#         with:
+#           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
+#       - name: Use Node.js ${{ matrix.node-version }}
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies & build
-        run: |
-          npm install
+#       - name: Install dependencies & build
+#         run: |
+#           npm install
 
-      - name: Process blog posts and post to Twitter
-        run: |
-          node .github/scripts/add-twitter-link.js
-        env:
-          TWITTER_APP_KEY: ${{ secrets.TWITTER_APP_KEY }}
-          TWITTER_APP_SECRET: ${{ secrets.TWITTER_APP_SECRET }}
-          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+#       - name: Process blog posts and post to Twitter
+#         run: |
+#           node .github/scripts/add-twitter-link.js
+#         env:
+#           TWITTER_APP_KEY: ${{ secrets.TWITTER_APP_KEY }}
+#           TWITTER_APP_SECRET: ${{ secrets.TWITTER_APP_SECRET }}
+#           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+#           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
 
-      - name: Commit changes and push again
-        uses: EndBug/add-and-commit@v9 # You can change this to use a specific version
-        with:
-          add: "_posts"
-          message: "Added Twitter comment links"
-          default_author: github_actions
-          push: true
+#       - name: Commit changes and push again
+#         uses: EndBug/add-and-commit@v9 # You can change this to use a specific version
+#         with:
+#           add: "_posts"
+#           message: "Added Twitter comment links"
+#           default_author: github_actions
+#           push: true
