@@ -60,7 +60,7 @@
   @apply w-full max-w-none aspect-video;
 }
 .markdown figure {
-  @apply w-full mb-6 max-w-none;
+  @apply w-full mb-6 max-w-none flex flex-col items-center;
 }
 .markdown figcaption {
   @apply text-gray-500 font-primary text-sm text-center mt-2;
