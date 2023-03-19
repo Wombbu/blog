@@ -1,9 +1,9 @@
 ---
 title: "50 kiloa ostoksia polkupyörällä?"
 excerpt: "Kuormapyörät ovat yleistyneet Suomessa. Onko niissä kuitenkaan ainesta henkilöauton korvaajaksi?"
-date: "2023-03-18T17:00:00.000Z"
-readingTime: "10"
-tags: "Kuormapyörä, Talous"
+date: "2023-03-19T17:00:00.000Z"
+readingTime: "3"
+tags: "Liikkuminen, Talous"
 coverImage:
   url: "/assets/blog/50-kiloa-pyoralla/kuva14.jpeg"
   desc: "Ikean Ivar-kaappi matkalla kotiin"
@@ -41,9 +41,9 @@ Vanhemmat raportoivat lastensa rakastavan kuormapyörämatkoja, ja kieltämätt�
 
 Mikäli päivittäiset palvelusi ja työpaikkasi ovat alle 10 kilometrin etäisyydellä, sinulla on lapsia tai jostain muusta syystä tarvitset tavaran- tai ihmistenkuljetuskapasiteettia, auton vaihto kuormapyörään voi olla sinulle käytännöllistä. <a href="https://yle.fi/a/3-10042081" target="_blank">Autoliiton laskelmien mukaan keskihintaisen auton omistaminen maksaa 500 euroa kuukaudessa</a>, ja uskoisin että hyvin monet löytäisivät rahalle muutakin käyttöä.
 
-Mikäli asut kaukana palveluista ja joudut ajamaan päivittäin pitkiä matkoja, kuormapyörä ei todennäköisesti ole sinulle käytännöllinen kulkuneuvo. Nyrkkisääntönä päivittäisistä matkoista voi pitää seuraavaa listaa
+Mikäli asut kaukana palveluista tai joudut ajamaan päivittäin pitkiä matkoja, kuormapyörä ei todennäköisesti ole sinulle käytännöllinen auton korvaaja. Nyrkkisääntönä päivittäisistä matkoista voi pitää seuraavaa:
 
-- **0 - 5 km** Kevyesti (0 - 20 min)
+- **0 - 5 km** Kevyt (0 - 20 min)
 - **5 - 7 km** Ok (20 min - 30 min)
 - **7 - 10 km** Ajettavissa (30 min - 45 min)
 - **10 - 20 km** Tilastojen mukaan tälläisiä päivittäismatkoja taitetaan lähinnä sähköpyörillä
