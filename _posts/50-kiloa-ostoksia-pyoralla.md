@@ -10,7 +10,7 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Kuormapyörät ovat yleistyneet katukuvassa. Taloudellisessa mielessä pyörä onkin järkevä hankinta. Tavara kulkee, kunto kohenee ja rahaa jää käytettäväksi paikallisten yrittäjien palveluksiin auton lyhennysten ja käyttökulujen sijaan. Selvää on kuitenkin että mökkireissuja ei näillä tehdä. Tässä lyhyessä, hyvin visuaalisessa artikkelissa käyn läpi mihin kuormapyörä soveltuu ja mihin ei.
+Kuormapyörät ovat yleistyneet katukuvassa. Taloudellisessa mielessä pyörä onkin järkevä hankinta. Tavara kulkee, kunto kohenee ja rahaa jää käytettäväksi paikallisten yrittäjien palveluksiin auton lyhennysten ja käyttökulujen sijaan. Kaupunkielämään kuormapyörä soveltuukin hyvin. Selvää on kuitenkin että mökkireissuja ei näillä tehdä. Tässä lyhyessä, hyvin visuaalisessa artikkelissa käyn läpi mihin kuormapyörä soveltuu ja mihin ei.
 
 ## Mitä näillä voi kuljettaa?
 
