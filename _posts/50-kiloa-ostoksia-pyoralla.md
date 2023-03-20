@@ -8,6 +8,7 @@ coverImage:
   url: "/assets/blog/50-kiloa-pyoralla/kuva14.jpeg"
   desc: "Ikean Ivar-kaappi matkalla kotiin"
   credit: "Lauri Nevanperä"
+tweet: "https://twitter.com/LauriNevanpera/status/1637881500711395333"
 ---
 
 Kuormapyörät ovat yleistyneet katukuvassa. Suomalaiset kaupungit ovat 60-luvulla alkaneen hajauttamisen jälkeen alkaneet jälleen tiivistyä, ja monet alkavat löytämään päivittäiset palvelunsa kävely- tai pyöräilymatkan etäisyydeltä. Kuormapyörä onkin noussut yhä useammalle järkeväksi valinnaksi auton korvaajana.
