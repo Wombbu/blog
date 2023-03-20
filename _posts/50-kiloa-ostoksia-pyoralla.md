@@ -10,11 +10,13 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Kuormapyörät ovat yleistyneet katukuvassa. Taloudellisessa mielessä pyörä onkin järkevä hankinta. Tavara kulkee, kunto kohenee ja rahaa jää käytettäväksi paikallisten yrittäjien palveluksiin auton lyhennysten ja käyttökulujen sijaan. Kaupunkielämään kuormapyörä soveltuukin hyvin. Selvää on kuitenkin että mökkireissuja ei näillä tehdä. Tässä lyhyessä, hyvin visuaalisessa artikkelissa käyn läpi mihin kuormapyörä soveltuu ja mihin ei.
+Kuormapyörät ovat yleistyneet katukuvassa. Suomalaiset kaupungit ovat 60-luvulla alkaneen hajauttamisen jälkeen alkaneet jälleen tiivistyä, ja monet alkavat löytämään päivittäiset palvelunsa kävely- tai pyöräilymatkan etäisyydeltä. Kuormapyörä onkin noussut yhä useammalle järkeväksi valinnaksi auton korvaajana.
+
+Etenkin taloudellisessa mielessä kuormapyörä on järkevä hankinta. Tavara kulkee, kunto kohenee ja rahaa jää käytettäväksi paikallisten yrittäjien palveluksiin auton lyhennysten ja käyttökulujen sijaan. Selvää on kuitenkin että mökkireissuja ei näillä tehdä. Tässä lyhyessä, hyvin visuaalisessa artikkelissa käyn läpi mihin kuormapyörä soveltuu ja mihin ei.
 
 ## Mitä näillä voi kuljettaa?
 
-Aloitetaan ilmiselvästä kysymyksestä. Miten näillä kulkee tavara? Kuva kertoo enemmän kuin tuhat sanaa, joten seuraavassa kuvia kuormapyöristä tositoimissa Tampereella.
+Aloitetaan ilmiselvästä kysymyksestä. Miten näillä kulkee tavara? Kuva kertoo enemmän kuin tuhat sanaa, joten seuraavassa kuvia kuormapyöristä tositoimissa.
 
 <figure>
   <img loading="lazy" src="/assets/blog/50-kiloa-pyoralla/kuva19.jpeg" style=" object-fit: cover;" />
@@ -30,8 +32,6 @@ Aloitetaan ilmiselvästä kysymyksestä. Miten näillä kulkee tavara? Kuva kert
   <img loading="lazy" src="/assets/blog/50-kiloa-pyoralla/kuva37.jpeg" style=" object-fit: cover;" />
   <figcaption>Neljä baarijakkaraa / Kuva Mari Heiskanen</figcaption>
 </figure>
-
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">Myyjä katsoo päässäni olevaa kypärää:<br>– Niin ootko millä liikenteessä?<br>– Pyörällä.<br>– Niin tiiätkö minkä kokonen se paketti on?<br>– Joo!<br><br>(Ps. Ooni 16 -pizzauunit -50% K-raudassa!)<a href="https://twitter.com/hashtag/kuormahaaste?src=hash&amp;ref_src=twsrc%5Etfw">#kuormahaaste</a> <a href="https://twitter.com/hashtag/RadWagon?src=hash&amp;ref_src=twsrc%5Etfw">#RadWagon</a> <a href="https://twitter.com/hashtag/ooni?src=hash&amp;ref_src=twsrc%5Etfw">#ooni</a> <a href="https://t.co/xF8e7pqq9Z">pic.twitter.com/xF8e7pqq9Z</a></p>&mdash; Erkka Peitso (@erkka) <a href="https://twitter.com/erkka/status/1635247883128823808?ref_src=twsrc%5Etfw">March 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Tavara kulkee, ja oikeastaan hyvin. Pyörän koosta ja mallista riippuen nyrkkisääntönä voi pitää, että mikäli ostokset mahtuvat ostoskärryyn, ne saa kuljetettua kuormapyörällä kotiin.
 
