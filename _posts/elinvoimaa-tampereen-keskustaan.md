@@ -68,7 +68,7 @@ Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.c
 
 <figure>
  <video muted autoplay loop playsinline>
-  <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu.mov" type="video/mp4">
+  <source src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu.mp4" type="video/mp4">
 </video>
 <figcaption>Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022</figcaption>
 </figure>
