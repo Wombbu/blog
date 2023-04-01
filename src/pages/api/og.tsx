@@ -49,7 +49,7 @@ export default async function handler(req: NextRequest) {
           }}
         />
         <div
-          tw="text-white font-bold p-8 bg-black flex flex-col"
+          tw="text-white font-bold p-8 bg-black flex flex-col mx-8"
           style={{ fontFamily: "WorkSans_Bold" }}
         >
           <div tw="text-5xl">{title}</div>

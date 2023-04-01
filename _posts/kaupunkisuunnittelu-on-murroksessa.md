@@ -1,11 +1,11 @@
 ---
-title: "Vuosi 2023. Kaupunkisuunnittelu on murroksessa. Miksi?"
+title: "Vuosi 2023. Kaupunkisuunnittelu on murroksessa."
 excerpt: ""
 date: "2023-03-31T17:00:00.000Z"
 readingTime: "5"
 tags: "Tampere, Helsinki"
 coverImage:
-  url: "/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 6.jpeg"
+  url: "/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 6.jpeg"
   desc: "Vartin kaupungissa työmatka voi olla 10 min kävelyä koskenrannassa"
   credit: "Lauri Nevanperä"
 tweet: "https://twitter.com/LauriNevanpera"
@@ -32,7 +32,7 @@ Ideana ei tosin ollut kertoa tylsästä arjestani, vaan homman pihvi tulee täss
 
 <figure>
  <video muted autoplay loop playsinline>
-  <source src="/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 8.mov" type="video/mp4">
+  <source src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 8.mov" type="video/mp4">
 </video>
 <figcaption>Työmatkaliikennettä. Huomatkaa säntillinen ryhmittyminen. / Video: Lauri Nevanperä</figcaption>
 </figure>
@@ -42,7 +42,7 @@ Kävellen tai pyörällä kulkien ensimmäinen tunti on ilmaista, sillä liikunt
 Tarina on arkinen, mutta vartin kaupungin mahdollistaman vapauden toivoisi mahdollistuvan mahdollisimman monelle. Tämä ei valitettavasti ole ollut kaupunkisuunnittelun ideologia 60-luvulta eteenpäin. Päinvastoin, asutusta on tarkoituksella hajautettu palveluttomiin lähiöihin. Miksi?
 
 <figure>
-  <img loading="lazy" src="/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 1.jpeg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 1.jpeg" style=" object-fit: cover;" />
   <figcaption>Miltä työmatka voi näyttää vartin kaupungissa / Kuva: Lauri Nevanperä</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Tarina on arkinen, mutta vartin kaupungin mahdollistaman vapauden toivoisi mahdo
 Vartin kaupunki on uudesta tulemisestaan huolimatta tapa jolla kaupunkeja on kehitetty vuosituhansia. Kaupungin toiminnot muotoutuvat sekoittuneesti keskustan ympärille. Kotoa töihin on lyhyt matka jonka voi taittaa kävellen tai myöhemmin pyörällä. 1800-luvulla malli sai ansaittua kritiikkiä, sillä teollistumisen, kehittymättömien viemäröintien sekä puulla tai hiilellä lämpiävien asuntojen vuoksi kaupungeista tuli likaisia ja saastuneita.
 
 <figure>
-  <img loading="lazy" src="/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 3.jpeg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 3.jpeg" style=" object-fit: cover;" />
   <figcaption>Lontoo, 1902 / Kuva: Wikipedia CC0</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Ideologia sai jalansijaa Euroopassa sekä Suomessa etenkin toisen maailmansodan 
 **Töölöt, Punavuoret sekä Pyynikit** alettiin nähdä vanhanaikaisina ja tilalle alettiin rakentamaan moderneja metsälähiöitä kuten **Kontula, Hervanta, Varissuo ja Multisilta.** Uudet kaukana olevat lähiöt vaativat paljon kallista infraa. **Kontula oli kalliimpi rakentaa kuin Töölö** Keskusta haluttiin pyhittää kaupalle ja tekniset työpaikat keskitettiin ensin teollisuusalueille kuten Hatanpää ja myöhemmin business parkeihin kuten Hermia.
 
 <figure>
-  <img loading="lazy" src="/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 5.jpeg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 5.jpeg" style=" object-fit: cover;" />
   <figcaption>Töölö nähtiin 60-luvulla vanhanaikaisena. Kontula oli uusi ideaali / Kuva: Simo Räsänen <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">CC BY-SA 4.0</a></figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ Kiinnostavaa on, että nykyisin juuri edellämainituissa autolähiöissä auton 
 Lienee turha edes todeta, että syrjäisten lähiöiden rakentaminen on nostanut keskustaa lähellä olevien asuntojen hintoja. Samalla lähiössä kärsitään liikenneköyhyydestä, kun autolähiössä autotta eläminen ei ole aina kätevää.
 
 <figure>
-  <img loading="lazy" src="/assets/blog/tarina-vartin-kaupungista/vartin-kaupunki - 9.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 9.jpg" style=" object-fit: cover;" />
   <figcaption>Lähiöissä kärsitään paikoin liikenneköyhyydestä, mutta tilanteeseen on tulossa muutosta / Kuva: Lauri Nevanperä</figcaption>
 </figure>
 
