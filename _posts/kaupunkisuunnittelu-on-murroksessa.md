@@ -8,7 +8,7 @@ coverImage:
   url: "/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 6.jpeg"
   desc: "Vartin kaupungissa työmatka voi olla 10 min kävelyä koskenrannassa"
   credit: "Lauri Nevanperä"
-tweet: "https://twitter.com/LauriNevanpera"
+tweet: "https://twitter.com/LauriNevanpera/status/1642195897994952706"
 ---
 
 Vartin kaupunki on viime vuosina noussut termi, joka tarkoittaa kaupunkia jossa asutus, työpaikat ja palvelut ovat sekoittuneet. Tälläisessä kaupungissa kaikki tarvittava on vartin kävely- pyöräily tai joukkoliikennematkan etäisyydellä.
