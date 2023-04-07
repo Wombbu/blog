@@ -10,7 +10,7 @@ export const CommentOnTwitter = ({ tweetUrl }: Props) => {
         href={tweetUrl}
         target="_blank"
         rel="noreferrer"
-        className={`${palette.text.secondary} flex justify-center items-center h-10 rounded-full font-primary text-md  bg-white hover:bg-gray-100 px-6`}
+        className={`${palette.text.secondary} flex justify-center items-center h-10 rounded-full font-primary text-md  bg-white hover:bg-gray-100 pr-6 pl-5`}
         style={{
           boxShadow: "rgb(0 0 0 / 10%) 0px 2px 10px 0px",
         }}
@@ -18,8 +18,8 @@ export const CommentOnTwitter = ({ tweetUrl }: Props) => {
         <Image
           src="/twitter-logo-blue.svg"
           alt="twitter-logo"
-          width={16}
-          height={16}
+          width={20}
+          height={20}
           className={`mr-2`}
         />{" "}
         Kommentoi
