@@ -172,7 +172,7 @@ export default async function Post(props: Props) {
         />
         <Link
           href={routes.posts}
-          className={`${button.variants.large} flex-1 col-start-1 col-end-3 mt-8`}
+          className={`${button.variants.large} flex-1 col-start-1 col-end-3 mt-4 sm:mt-2`}
         >
           Katso kaikki artikkelit
         </Link>
