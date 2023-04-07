@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed font-primary;
+  @apply text-base md:text-lg leading-relaxed font-primary;
 }
 
 .markdown native-gallery {
