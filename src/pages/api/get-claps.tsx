@@ -34,11 +34,13 @@ export default async function getClaps(
   }
 
   // Fetch the document for-real
-  const document = await client.query(
-    q.Get(q.Match(q.Index("claps_by_slug"), slug))
-  );
+  const document: {
+    data: {
+      claps: number;
+    };
+  } = await client.query(q.Get(q.Match(q.Index("claps_by_slug"), slug)));
 
   return res.status(200).json({
-    claps: document.data.claps,
+    claps: Number(document.data.claps) || 0,
   });
 }
