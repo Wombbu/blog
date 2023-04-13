@@ -3,6 +3,29 @@ import { Header } from "@/components/Header/Header";
 import { Work_Sans } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { AnalyticsWrapper } from "@/components/Analytics";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Lauri Nevanperä",
+  description:
+    "Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta.",
+  openGraph: {
+    locale: "fi_FI",
+    type: "website",
+    url: "https://www.laurinevanpera.fi/",
+    title: "Lauri Nevanperä",
+    description:
+      "Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta.",
+    images: [
+      {
+        url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola1.jpg&title=Asiaa%20kaupungeista",
+        width: 1200,
+        height: 630,
+        alt: "Lauri Nevanperä",
+      },
+    ],
+  },
+};
 
 const primaryFontFamily = Work_Sans({
   subsets: ["latin"],
@@ -16,7 +39,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
+      <head></head>
       <body className={`font-sans ${primaryFontFamily.variable}`}>
         <Header />
         <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-6 sm:pb-8`}>

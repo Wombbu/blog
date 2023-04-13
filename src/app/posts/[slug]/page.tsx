@@ -15,6 +15,7 @@ import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
 import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
 import { CommentOnTwitter } from "@/components/CommentOnTwitter/CommentOnTwitter";
+import { Metadata } from "next";
 
 type Props = {
   params: {
@@ -187,4 +188,65 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  console.log("late", params);
+  const post = getPostBySlug(params.slug, [
+    "title",
+    "date",
+    "author",
+    "content",
+    "coverImage",
+    "excerpt",
+    "readingTime",
+    "audio",
+    "tags",
+  ]);
+  return {
+    title: `${post.title} - Lauri Nevanperä`,
+    description: post.excerpt,
+    twitter: {
+      card: "summary_large_image",
+      site: "@LauriNevanpera",
+      creator: "@LauriNevanpera",
+      title: post.title,
+      description: post.excerpt,
+      images: {
+        url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
+        width: 1200,
+        height: 630,
+        alt: post.coverImage.desc,
+      },
+    },
+    openGraph: {
+      url: `https://www.laurinevanpera.fi/posts/${params.slug}`,
+      title: post.title,
+      description: post.excerpt,
+      images: [
+        {
+          url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
+          width: 1200,
+          height: 630,
+          alt: post.coverImage.desc,
+        },
+      ],
+      type: "article",
+      locale: "fi_FI",
+      publishedTime: post.date,
+      authors: ["Lauri Nevanperä"],
+      tags: post.tags.split(", ").map((tag) => tag.trim()),
+    },
+    viewport: "width=device-width, initial-scale=1",
+    icons: [
+      {
+        rel: "icon",
+        url: "/favicon.ico",
+      },
+    ],
+  };
 }
