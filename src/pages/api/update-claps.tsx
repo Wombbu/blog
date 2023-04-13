@@ -25,10 +25,10 @@ export default async function updateClaps(
     });
   }
 
-  if (!count || isNaN(Number(incrementClapsCount))) {
+  if (!count || isNaN(incrementClapsCount) || incrementClapsCount > 16) {
     return res.status(400).json({
       message:
-        "Clap count not provided or is of wrong format. Please provide 'slug' and 'count' query parameters",
+        "Clap count not provided or is of wrong format or is too large. Please provide 'slug' and 'count' query parameters",
     });
   }
 
