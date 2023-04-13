@@ -44,9 +44,12 @@ export default async function updateClaps(
     );
   }
   // Fetch the document for-real
-  const document = await client.query(
-    q.Get(q.Match(q.Index("claps_by_slug"), slug))
-  );
+  const document: {
+    ref: faunadb.ExprArg;
+    data: {
+      claps: number;
+    };
+  } = await client.query(q.Get(q.Match(q.Index("claps_by_slug"), slug)));
 
   await client.query(
     q.Update(document.ref, {
