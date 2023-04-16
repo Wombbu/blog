@@ -13,9 +13,22 @@ import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
-import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
-import { CommentOnTwitter } from "@/components/CommentOnTwitter/CommentOnTwitter";
+import { DiscussOnTwitter } from "@/components/DiscussOnTwitter";
 import { Metadata } from "next";
+import { ShareOnFacebook } from "@/components/ShareOnFacebook";
+import { ShareOnReddit } from "@/components/ShareOnReddit";
+import { ShareOnTwitter } from "@/components/ShareOnTwitter";
+import dynamic from "next/dynamic";
+
+// Do not server side render clap button to be able to use static rendering on this route
+// https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
+const LazyClapButton = dynamic(
+  () => import("../../../components/ClapButton/ClapButton.controller"),
+  {
+    loading: () => null,
+    ssr: false,
+  }
+);
 
 type Props = {
   params: {
@@ -125,30 +138,25 @@ export default async function Post(props: Props) {
         </div>
         <PostBody content={contentHtml} />
         <h1
-          className={`${palette.text.primary} font-primary text-3xl font-bold mb-4 text-center mt-6`}
+          className={`${palette.text.primary} font-primary text-3xl font-bold mb-2 text-center mt-10`}
         >
           Kiitos kun luit.
         </h1>
-        <div className="flex justify-center mb-6 mt-6">
-          <SocialMediaLink
-            href={`https://twitter.com/intent/tweet?text=https://www.laurinevanpera.fi${routes.post(
-              props.params.slug
-            )}`}
-            target="_blank"
-            src="/twitter-logo-blue.svg"
-            alt="Jaa Twitterissä"
-          />
-          <SocialMediaLink
-            href={`https://www.facebook.com/sharer/sharer.php?u=https://www.laurinevanpera.fi${routes.post(
-              props.params.slug
-            )}`}
-            target="_blank"
-            src="/fb-logo.svg"
-            alt="Jaa Facebookissa"
-            className="ml-4"
-          />
+        <div className={`${typography.variants.caption} text-center mb-4`}>
+          Halutessasi voit taputtaa tai keskustella artikkelista somessa
         </div>
-        {post.tweet ? <CommentOnTwitter tweetUrl={post.tweet} /> : null}
+        <div className="sticky bottom-4 flex items-center justify-center gap-4">
+          <LazyClapButton slug={props.params.slug} />
+        </div>
+        <div className="flex items-center gap-4 justify-center mt-4 flex-wrap">
+          {post.tweet ? (
+            <DiscussOnTwitter url={post.tweet} />
+          ) : (
+            <ShareOnTwitter slug={props.params.slug} />
+          )}
+          <ShareOnFacebook slug={props.params.slug} />
+          <ShareOnReddit slug={props.params.slug} title={post.title} />
+        </div>
       </article>
       <section className="mt-12">
         <h2 className={`${typography.variants.sectionTitle()}`}>
@@ -195,7 +203,6 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  console.log("late", params);
   const post = getPostBySlug(params.slug, [
     "title",
     "date",
@@ -219,7 +226,7 @@ export async function generateMetadata({
       images: {
         url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
         width: 1200,
-        height: 630,
+        height: 627,
         alt: post.coverImage.desc,
       },
     },
@@ -231,7 +238,7 @@ export async function generateMetadata({
         {
           url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
           width: 1200,
-          height: 630,
+          height: 627,
           alt: post.coverImage.desc,
         },
       ],

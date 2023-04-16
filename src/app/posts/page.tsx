@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       {
         url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola1.jpg&title=Asiaa%20kaupungeista",
         width: 1200,
-        height: 630,
+        height: 627,
         alt: "Lauri Nevanperä",
       },
     ],

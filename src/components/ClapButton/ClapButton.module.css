@@ -1,0 +1,71 @@
+/* ---- clapButton ---- */
+.clapButton {
+  @apply rounded-full flex items-center justify-center bg-white shadow-lg h-10 pr-6 pl-5 hover:bg-gray-100;
+  /* transition: all 0.15s ease-in; */
+  border: 1px solid lightgrey;
+}
+
+.clapButton:hover .clapIcon {
+  @apply fill-green-700 stroke-0;
+}
+
+.clapButton:active {
+  transform: scale(1.05);
+  transition: all 0.05s;
+}
+
+@keyframes shockwave {
+  0% {
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 1);
+  }
+  70% {
+    box-shadow: 0 0 5px 10px rgba(21, 128, 61, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 0);
+  }
+}
+
+/* ---- clapIcon ---- */
+
+.clapIcon {
+  @apply mr-1 stroke-gray-500 fill-green-700 stroke-0;
+  width: 30px;
+  height: 30px;
+  /* stroke-width: 2px; */
+  /* fill: none; */
+}
+
+/* ---- clapCount ---- */
+
+.clapCount {
+  @apply bg-green-700 text-white text-sm absolute -top-9 w-9 h-9 rounded-full flex items-center justify-center opacity-0;
+}
+
+.clapCountAnimation {
+  animation: clapCount 1s cubic-bezier(0.18, 0.89, 0.32, 1.27) forwards;
+}
+
+@keyframes clapCount {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    transform: scale(1.1) translateY(-15px);
+    opacity: 1;
+  }
+
+  30% {
+    transform: scale(1) translateY(-15px);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1) translateY(-15px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+}
