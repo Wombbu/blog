@@ -1,7 +1,7 @@
 type Response = {};
 
 const urlBuilder = (slug: string, count: number) =>
-  `http://localhost:3000/api/update-claps?slug=${slug}&count=${count}`;
+  `/api/update-claps?slug=${slug}&count=${count}`;
 
 export const postClaps = async (
   slug: string,

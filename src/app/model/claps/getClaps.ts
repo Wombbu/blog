@@ -4,8 +4,7 @@ type Response = {
   claps: number;
 };
 
-const urlBuilder = (slug: string) =>
-  `http://localhost:3000/api/get-claps?slug=${slug}`;
+const urlBuilder = (slug: string) => `/api/get-claps?slug=${slug}`;
 
 export const fetchClaps = async (slug: string): Promise<Response> => {
   const response = await fetch(urlBuilder(slug));
