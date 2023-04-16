@@ -21,7 +21,10 @@ export const ClapButton = ({
   const buttonRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="flex flex-col items-center relative" ref={buttonRef}>
+    <div
+      className={`${styles.wrapper} flex flex-col items-center relative`}
+      ref={buttonRef}
+    >
       <div
         className={`${styles.clapCount} ${
           noClapsSentInThisSession ? null : styles.clapCountAnimation
