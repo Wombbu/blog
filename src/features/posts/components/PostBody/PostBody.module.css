@@ -2,7 +2,7 @@
   @apply text-base md:text-lg leading-relaxed font-primary;
 }
 
-.markdown a[target="_blank"]::after {
+.markdown p > a[target="_blank"]::after {
   content: "";
   width: 1em;
   height: 1em;
@@ -86,22 +86,22 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-12 leading-snug mb-0 font-bold;
+  @apply text-3xl mt-12 leading-snug mb-2 font-bold;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-12 leading-snug font-bold mb-0;
+  @apply text-2xl mt-12 leading-snug font-bold mb-2;
 }
 
 .markdown h3 {
-  @apply text-xl mt-8 leading-snug mb-0;
+  @apply text-xl mt-8 leading-snug mb-2;
 }
 
 .markdown blockquote {
   @apply border-l-4 border-gray-300 pl-4 italic;
 }
 
-.markdown a {
+.markdown p > a {
   @apply text-blue-600 underline;
 }
 
@@ -127,4 +127,33 @@
 
 .markdown hr {
   @apply border-0 border-b-2 border-gray-200;
+}
+
+.markdown :global(.link-preview-widget) {
+  @apply grid grid-cols-5 cursor-pointer w-full border-black border-2;
+  min-height: 140px;
+}
+
+.markdown :global(.link-preview-widget) a:first-child {
+  @apply col-span-5 sm:col-span-3 p-4 no-underline;
+}
+
+.markdown :global(.link-preview-widget):hover a {
+  @apply underline decoration-2;
+}
+
+.markdown :global(.link-preview-widget-image) {
+  @apply bg-no-repeat bg-center bg-cover col-span-5 sm:col-span-2 aspect-video sm:aspect-auto min-h-full row-start-1;
+}
+
+.markdown :global(.link-preview-widget-title) {
+  @apply font-primary font-bold text-black text-lg mb-2;
+}
+
+.markdown :global(.link-preview-widget-description) {
+  @apply font-primary text-gray-500 text-sm;
+}
+
+.markdown :global(.link-preview-widget-url) {
+  @apply hidden;
 }

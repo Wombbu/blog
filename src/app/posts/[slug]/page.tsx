@@ -111,12 +111,12 @@ export default async function Post(props: Props) {
         </figure>
         <div className="m-auto max-w-article">
           <h1
-            className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-8 sm:mb-12 sm:mt-12 text-center break-words`}
+            className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-8 sm:mb-8 sm:mt-12 text-center break-words`}
           >
             {post.title}
           </h1>
           <p
-            className={`${palette.text.primary} text-xl md:text-xl font-primary mb-8 sm:mb-12 text-center`}
+            className={`${palette.text.primary} text-lg md:text-xl font-primary mb-8 sm:mb-12 text-center`}
           >
             {post.excerpt}
           </p>
