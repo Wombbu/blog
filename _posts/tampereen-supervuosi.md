@@ -1,6 +1,6 @@
 ---
 title: "Tampereen supervuosi 2022"
-excerpt: "Vuosi 2022 oli Tampereelle yhtä uutistykitystä. Tässä muutama"
+excerpt: "Vuosi 2022 oli Tampereelle yhtä uutistykitystä"
 date: "2023-04-25T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere"
@@ -8,6 +8,7 @@ coverImage:
   url: "/assets/blog/tampereen-supervuosi/kansi4.jpg"
   desc: "Näsinneula"
   credit: "Lauri Nevanperä"
+tweet: "https://twitter.com/LauriNevanpera/status/1650935210307887108"
 ---
 
 Jossain vaiheessa vuotta 2022 aloin huomaamaan, että Tampereesta tehdään poikkeuksellisen paljon positiivisia uutisartikkeleita. Uutisia julkaistiin muun muassa muuttovoitosta, Suomen parhaasta vetovoimasta, yritysjohtajien kiinnostuksesta, joukkoliikenteen matkustajaennätyksistä sekä Brad Pittin ja Nick Caven näyttelyistä.
