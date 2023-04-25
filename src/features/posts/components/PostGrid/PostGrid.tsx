@@ -22,7 +22,6 @@ export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
           imageSrc={post.imageSrc}
           title={post.title}
           readingTime={post.readingTime}
-          // slug={post.slug}
           tags={post.tags}
           excerpt={post.excerpt}
           audio={post.audio}

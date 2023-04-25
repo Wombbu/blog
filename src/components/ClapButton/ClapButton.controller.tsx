@@ -5,7 +5,7 @@ import { ClapButton } from "@/components/ClapButton/ClapButton.view";
 import { useDebounce } from "@/essentials/utils/useDebounce";
 import React, { useState } from "react";
 
-const MAX_CLAPS_PER_SESSION = 50;
+const MAX_CLAPS_PER_SESSION = 20;
 
 export default function ClapButtonController({ slug }: { slug: string }) {
   const localStorageKey = `${slug}.claps`;

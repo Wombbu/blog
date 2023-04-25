@@ -126,7 +126,7 @@
 }
 
 .markdown hr {
-  @apply border-0 border-b-2 border-gray-200;
+  @apply border-0 border-b-2 border-gray-200 aspect-videoInverse;
 }
 
 .markdown :global(.link-preview-widget) {
@@ -139,7 +139,7 @@
 }
 
 .markdown :global(.link-preview-widget):hover a {
-  @apply underline decoration-2;
+  @apply no-underline decoration-2;
 }
 
 .markdown :global(.link-preview-widget-image) {
@@ -149,11 +149,33 @@
 .markdown :global(.link-preview-widget-title) {
   @apply font-primary font-bold text-black text-lg mb-2;
 }
+.markdown :global(.link-preview-widget-title):hover {
+  @apply underline decoration-2;
+}
+
+.markdown :global(.link-preview-widget-title)::after {
+  content: "";
+  width: 1em;
+  height: 1em;
+  margin: 0 0.05em 2px 4px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij48cGF0aCBkPSJNOSAyTDkgMyAxMi4zIDMgNiA5LjMgNi43IDEwIDEzIDMuNyAxMyA3IDE0IDcgMTQgMlpNNCA0QzIuOSA0IDIgNC45IDIgNkwyIDEyQzIgMTMuMSAyLjkgMTQgNCAxNEwxMCAxNEMxMS4xIDE0IDEyIDEzLjEgMTIgMTJMMTIgNyAxMSA4IDExIDEyQzExIDEyLjYgMTAuNiAxMyAxMCAxM0w0IDEzQzMuNCAxMyAzIDEyLjYgMyAxMkwzIDZDMyA1LjQgMy40IDUgNCA1TDggNSA5IDRaIi8+PC9zdmc+)
+    no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
 
 .markdown :global(.link-preview-widget-description) {
   @apply font-primary text-gray-500 text-sm;
+
+  /* Limit text row count */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
 }
 
 .markdown :global(.link-preview-widget-url) {
-  @apply hidden;
+  @apply font-primary text-black text-xs mt-2;
 }
