@@ -30,6 +30,16 @@ const LazyClapButton = dynamic(
   }
 );
 
+// Do not server side render clap button to be able to use static rendering on this route
+// https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
+const LazyShareOnWhatsapp = dynamic(
+  () => import("../../../components/ShareOnWhatsapp"),
+  {
+    loading: () => null,
+    ssr: false,
+  }
+);
+
 type Props = {
   params: {
     slug: string;
@@ -143,7 +153,7 @@ export default async function Post(props: Props) {
           Kiitos kun luit.
         </h1>
         <div className={`${typography.variants.caption} text-center mb-4`}>
-          Halutessasi voit taputtaa tai keskustella artikkelista somessa
+          Halutessasi voit antaa palautetta tai keskustella artikkelista somessa
         </div>
         <div className="sticky bottom-4 flex items-center justify-center gap-4">
           <LazyClapButton slug={props.params.slug} />
@@ -155,6 +165,7 @@ export default async function Post(props: Props) {
             <ShareOnTwitter slug={props.params.slug} />
           )}
           <ShareOnFacebook slug={props.params.slug} />
+          <LazyShareOnWhatsapp slug={props.params.slug} />
           <ShareOnReddit slug={props.params.slug} title={post.title} />
         </div>
       </article>
@@ -166,7 +177,7 @@ export default async function Post(props: Props) {
           disableLargeFirstPost
           posts={recommended
             .filter((it) => it.slug !== post.slug)
-            .slice(0, 3)
+            .slice(0, 20)
             .map((post) => ({
               title: post.title,
               date: post.date,
@@ -213,7 +224,15 @@ export async function generateMetadata({
     "readingTime",
     "audio",
     "tags",
+    "coverImage",
+    "ogImageType",
   ]);
+  const ogImageUrl = `https://www.laurinevanpera.fi/api/og?imgPath=${
+    post.coverImage.url
+  }&readingTime=${post.readingTime}&title=${
+    post.ogImageType === "ONLY_NAME" ? "" : post.title
+  }`;
+
   return {
     title: `${post.title} - Lauri Nevanperä`,
     description: post.excerpt,
@@ -224,7 +243,7 @@ export async function generateMetadata({
       title: post.title,
       description: post.excerpt,
       images: {
-        url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
+        url: ogImageUrl,
         width: 1200,
         height: 627,
         alt: post.coverImage.desc,
@@ -236,7 +255,7 @@ export async function generateMetadata({
       description: post.excerpt,
       images: [
         {
-          url: `https://www.laurinevanpera.fi/api/og?imgPath=${post.coverImage.url}&title=${post.title}`,
+          url: ogImageUrl,
           width: 1200,
           height: 627,
           alt: post.coverImage.desc,

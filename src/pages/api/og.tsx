@@ -12,6 +12,7 @@ export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const imgPath = searchParams.get("imgPath");
   const title = searchParams.get("title");
+  const readingTime = searchParams.get("readingTime");
   const fontData = await font;
 
   const domain = req.nextUrl.origin;
@@ -47,13 +48,26 @@ export default async function handler(req: NextRequest) {
             right: 0,
           }}
         />
-        <div
-          tw="text-white font-bold p-8 bg-black flex flex-col mx-8"
-          style={{ fontFamily: "WorkSans_Bold" }}
-        >
-          <div tw="text-2xl mb-1">Lauri Nevanperä</div>
-          <div tw="text-5xl">{title}</div>
-        </div>
+        {title ? (
+          <div
+            tw="text-white font-bold p-8 bg-black flex flex-col items-stretch mx-8"
+            style={{ fontFamily: "WorkSans_Bold" }}
+          >
+            <div tw="text-2xl mb-1">Lauri Nevanperä</div>
+            <div tw="text-5xl">{title}</div>
+            <div tw="text-2xl mt-1 text-right self-end">
+              {readingTime + " min lukuaika"}
+            </div>
+          </div>
+        ) : null}
+        {title ? null : (
+          <div
+            tw="absolute right-0 bottom-0 text-white font-bold p-6 bg-black flex flex-col m-8 text-3xl"
+            style={{ fontFamily: "WorkSans_Bold" }}
+          >
+            <div>{readingTime + " min lukuaika"}</div>
+          </div>
+        )}
       </div>
     ),
     {

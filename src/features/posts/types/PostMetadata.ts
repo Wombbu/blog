@@ -15,5 +15,6 @@ export type PostMetadata = {
     license?: string;
     licenseLink?: string;
   };
+  ogImageType?: "ONLY_NAME";
   tweet?: string;
 };

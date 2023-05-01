@@ -102,7 +102,7 @@ Kun kävelykatu tehdään oikeaan paikkaan, sillä on suuri potentiaali lisätä
 > hyötyivät taloudellisesti Mikonkadun kahvilat ja ravintolat.<cite><a href="https://docplayer.fi/24339777-Kenen-aleksi-sen-helsinki.html" target="_blank">Kenen Aleksi, sen Helsinki</a></cite>
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/mikonkatu.jpg" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/mikonkatu.jpg" style="object-fit: cover;" />
   <figcaption>Helsingin Mikonkatu on kaupallinen menestys</figcaption>
 </figure>
 
