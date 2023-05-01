@@ -44,13 +44,15 @@ Keskustasta onkin tullut korostuneesti kävelijöiden, joukkoliikenteen ja pyör
 
 ## Autoilun sujuvuus ja parkkipaikat
 
-Nostan tämän, sillä keskustojen ongelmista syytetään usein autoilun unohtamista.
+Nostan tämän, sillä keskustojen ongelmista syytetään usein autoilun unohtamista. Minusta on tärkeää että autolla pääsee sujuvasti keskustaan, ja mielestäni asia on tilankäytölliset ja taloudelliset realiteetit huomioiden varsin hyvällä tolalla.
 
-Minusta on tärkeää että autolla pääsee sujuvasti keskustaan, ja mielestäni asia on tilankäytölliset ja taloudelliset realiteetit huomioiden varsin hyvällä tolalla. [Helsingissä tyytyväisyys autoliikenteen sujuvuuteen ja parkkipaikkoihin kasvanut viimeiset 25 vuotta niin asukkaiden kuin yritystenkin mielestä.](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/julkaisut/julkaisu-04-23.pdf). Tampereella keskustan autoliikennettä palvelemaan on rakennettu viime vuosina Ratapihankatu, Hämpin parkki, Rantatunneli sekä Vuolteenkatu, ja keskustassa on 8000 autohallipaikkaa. [Helsingin kantakaupungin katutilasta 86% on varattu autoille](https://hri.fi/data/fi/showcase/helsingin-kantakaupungin-katutilasta-86-on-varattu-autoille).
+**Tampereella** keskustan autoliikennettä palvelemaan on rakennettu viime vuosina valtatiet yhdistävä Ratapihankatu josta pääsee suoraan pääkadun alle tuhannen paikan Hämpin parkkiluolaan. Tampereen keskustassa on 8000 autohallipaikkaa.
 
-Näivettymiskeskustelua käydään myös [Salossa](https://www.sss.fi/2023/04/paakirjoitussalon-keskusta-naivettyy-hengilta/) ja [Lahdessa](https://yle.fi/a/74-20011377), jotka ovat tunnettuja autoilukeskustoistaan.
+[**Helsingissä** tyytyväisyys autoliikenteen sujuvuuteen ja parkkipaikkoihin kasvanut viimeiset 25 vuotta niin asukkaiden kuin yritystenkin mielestä.](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/julkaisut/julkaisu-04-23.pdf). Samaten [Helsingin kantakaupungin katutilasta 86% on varattu autoille.](https://hri.fi/data/fi/showcase/helsingin-kantakaupungin-katutilasta-86-on-varattu-autoille).
 
-Tilastoista ja kehityshankkeista johtuen en oikein voi kallistua tämän syyn kannalle. Jokaista katua ei ole tarkoituksenmukaista täyttää läpiajolla ja parkkeerauksella, sillä tutkimusten mukaan [Kävelykaduilla myynti on 20% mediaanimyyntiä suurempaa](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf).
+Näivettymiskeskustelua käydään myös [**Salossa**](https://www.sss.fi/2023/04/paakirjoitussalon-keskusta-naivettyy-hengilta/) ja [**Lahdessa**](https://yle.fi/a/74-20011377), jotka tunnetaan autoilukeskustoistaan.
+
+Tilastoista ja kehityshankkeista johtuen en oikein voi kallistua tämän syyn kannalle. Jokaista katua ei ole tarkoituksenmukaista täyttää läpiajolla ja parkkeerauksella, sillä tutkimusten mukaan [Kävelykaduilla myynti on 20% mediaanimyyntiä suurempaa.](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf)
 
 Totean kuitenkin että autoliikenne tulee ottaa vastaisuudessakin huomioon keskustaan saapuessa, ja keskustan ympärillä tulisi olla autoliikenteelle priorisoitu keskustan kehä. Kaupunkikeskustan täytyy palvella koko kaupunkiseutua. Logistiikka, pelastustyö ja kunnossapito täytyy huomioida.
 
@@ -60,19 +62,21 @@ Totean kuitenkin että autoliikenne tulee ottaa vastaisuudessakin huomioon kesku
 
 ## Korona
 
-Toisin kuin muut mainitsemani teemat, korona ei ole pitkäaikainen trendi vaan lyhytaikainen sokki. Sillä oli kuitenkin valtavat vaikutukset
+Toisin kuin muut mainitsemani teemat, korona ei ole pitkäaikainen trendi vaan lyhytaikainen sokki. Sillä oli kuitenkin valtavat vaikutukset etenkin Helsingin ydinkeskustaan. Trendi on onneksi jo ylöspäin, sillä [Helsingin ydinkeskustassa asiakasmäärät ovat kasvaneet vuodessa **21 % - 32 %**](https://yle.fi/a/74-20024636).
 
-Korona ajoi ihmiset pois joukkoliikenteestä. [Joukkoliikenne tuo 60-70% Helsingin keskustan rahasta](https://fi.ramboll.com/media/rfi/helsingin-keskustan-asiointiselvitys)
+### Näistä syistä korona runteli Helsingin keskustaa
 
-Korona lopetti turismin lähes kokonaan
-
-Korona ajoi ihmiset etätöihin
+- Korona ajoi ihmiset pois joukkoliikenteestä. [Joukkoliikenne tuo 60-70% Helsingin keskustan rahasta](https://fi.ramboll.com/media/rfi/helsingin-keskustan-asiointiselvitys)
+- Korona lopetti turismin lähes kokonaan. [Helsingissä matkailun koko on 2 miljardia euroa](https://matkailusaatio.fi/wp-content/uploads/2021/09/Helsingin_matkailun_potentiaali_2X.pdf)
+- Korona ajoi ihmiset etätöihin. [Helsingin keskustassa on huomattavan paljon toimistotilaa asuntoihin suhteutettuina](https://www.rakli.fi/blogi/ratkaisu-helsingin-ydinkeskustan-naivettymiseen-tyhjat-toimistot-asunnoiksi/)
 
 ![Kuvaaja. Etätyö pomppaa kun koronaepidemia alkaa.](/assets/blog/keskustojen-naivettyminen/etatyo.webp)
 
 <figcaption><a href="https://nepton.fi/uutiset/etatyo-tilastot-koronakriisin-aikana/" target="_blank">Työajanseurantayritys Neptonin tilastossa etätyö nelinkertaistui koronan myötä</a></figcaption>
 
 ## Mikä avuksi
+
+> Asiakkaat haluavat kasvavassa määrin perinteisen shoppailun lisäksi viettää aikaa ja viihtyä keskustassa, Kluuvista vastaava asset manager Mikael Orkovaara sanoo <cite><a href="https://yle.fi/a/74-20024636">Yle.fi</a></cite>
 
 Asiantuntijat kautta linjan tuntuvat olevan samaa mieltä: Vähittäiskaupan siirtyessä verkkoon ja kauppakeskuksiin, keskustan on luotava nahkansa viihtyisänä, elämyksellisenä paikkana jossa viettää aikaa mielellään. [Resepti on sama kuin Ideaparkissa](https://lvs.fi/2020/10/14/toivo-sukari-ideapark-on-kaupan-ja-viihtymisen-keskus/).
 

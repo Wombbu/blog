@@ -94,14 +94,14 @@
 }
 
 .markdown h3 {
-  @apply text-xl mt-8 leading-snug mb-2;
+  @apply text-lg font-bold mt-8 leading-snug mb-2;
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-gray-300 pl-4 italic;
+  @apply border-l-4 border-black pl-2 italic;
 }
 
-.markdown p > a {
+.markdown a {
   @apply text-blue-600 underline;
 }
 
