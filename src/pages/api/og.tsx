@@ -56,11 +56,11 @@ export default async function handler(req: NextRequest) {
             <div tw="text-2xl mb-1">Lauri Nevanperä</div>
             <div tw="text-5xl">{title}</div>
             <div tw="text-2xl mt-1 text-right self-end">
-              {readingTime + " min lukuaika"}
+              {readingTime ? `${readingTime} min lukuaika` : ""}
             </div>
           </div>
         ) : null}
-        {title ? null : (
+        {title || !readingTime ? null : (
           <div
             tw="absolute right-0 bottom-0 text-white font-bold p-6 bg-black flex flex-col m-8 text-3xl"
             style={{ fontFamily: "WorkSans_Bold" }}
