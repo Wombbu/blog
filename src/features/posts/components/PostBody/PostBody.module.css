@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-base md:text-lg leading-relaxed font-primary;
+  @apply text-base md:text-lg leading-relaxed font-secondary;
 }
 
 .markdown p > a[target="_blank"]::after {
@@ -82,27 +82,27 @@
 
 .markdown p,
 .markdown blockquote {
-  @apply mb-6;
+  @apply mb-8;
 }
 
 .markdown h1 {
-  @apply text-3xl mt-12 leading-snug mb-2 font-bold;
+  @apply text-3xl mt-10 leading-snug mb-2 font-bold font-primary;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-12 leading-snug font-bold mb-2;
+  @apply text-2xl mt-10 leading-snug font-bold mb-2 font-primary;
 }
 
 .markdown h3 {
-  @apply text-lg font-bold mt-8 leading-snug mb-2;
+  @apply text-lg font-bold mt-8 leading-snug mb-2 font-primary;
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-black pl-2 italic;
+  @apply border-l-2 border-black pl-4 italic;
 }
 
 .markdown a {
-  @apply text-blue-600 underline;
+  @apply text-blue-600 underline break-words;
 }
 
 .markdown ul {
@@ -178,4 +178,8 @@
 
 .markdown :global(.link-preview-widget-url) {
   @apply font-primary text-black text-xs mt-2;
+}
+
+.markdown :after(:global(.twitter-tweet)) {
+  @apply mt-4;
 }

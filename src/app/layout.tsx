@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Header } from "@/components/Header/Header";
-import { Work_Sans } from "next/font/google";
+import { Work_Sans, Source_Serif_4 } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { AnalyticsWrapper } from "@/components/Analytics";
 import { Metadata } from "next";
@@ -25,11 +25,22 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: [
+    {
+      rel: "icon",
+      url: "/favicon-2.ico",
+    },
+  ],
 };
 
 const primaryFontFamily = Work_Sans({
   subsets: ["latin"],
   variable: "--font-family-primary",
+});
+
+const secondaryFontFamily = Source_Serif_4({
+  subsets: ["latin"],
+  variable: "--font-family-secondary",
 });
 
 export default function RootLayout({
@@ -40,7 +51,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head></head>
-      <body className={`font-sans ${primaryFontFamily.variable}`}>
+      <body
+        className={`font-sans ${primaryFontFamily.variable} ${secondaryFontFamily.variable}`}
+      >
         <Header />
         <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-6 sm:pb-8`}>
           {children}

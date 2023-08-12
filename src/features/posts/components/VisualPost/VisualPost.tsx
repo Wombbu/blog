@@ -45,18 +45,18 @@ export const VisualPost = ({
           style={{}}
         />
         <div className="bg-black h-12" />
-        <div className="absolute bottom-12 left-0 right-0 px-2 sm:px-4 pt-40 break-words bg-gradient-to-t from-black to-transparent">
+        <div className="absolute bottom-12 left-0 right-0 px-2 sm:px-4 pt-40 break-words bg-gradient-to-t from-black to-transparent flex flex-col items-center">
           <div className="flex gap-2 flex-wrap p-2 justify-center ">
             <TagList tags={tags} hasAudio={!!audio} isNew={false} />
           </div>
           <figcaption
-            className="font-primary font-bold text-white text-2xl sm:text-3xl hover:underline decoration-3 text-center"
+            className="font-primary font-bold text-white text-2xl sm:text-3xl hover:underline decoration-3 text-center max-w-xl"
             title={excerpt}
           >
             {title}
           </figcaption>
           <p
-            className={`${typography.variants.textBody} text-sm sm:text-base mt-2 sm:mt-3 font-bold text-gray-100 text-center`}
+            className={`${typography.variants.textBody} text-sm sm:text-base mt-2 sm:mt-3 font-bold text-gray-100 text-center max-w-xl`}
           >
             {excerpt}
           </p>

@@ -1,12 +1,12 @@
 ---
-title: "Kaupunkikeskustat näivettyvät"
-excerpt: "Mutta miksi?"
+title: "Kaupunkikeskustat näivettyvät. Miksi?"
+excerpt: ""
 date: "2023-05-01T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere, Helsinki"
 coverImage:
-  url: "/assets/blog/keskustojen-naivettyminen/cover2.jpg"
-  desc: "Virtain keskustassa liiketila maksaa 92€ / neliö"
+  url: "/assets/blog/keskustojen-naivettyminen/tre-keskusta - 5-1.jpeg"
+  desc: "Pieni lelukauppa lopettaa Tampereella"
   credit: "Lauri Nevanperä"
 ---
 

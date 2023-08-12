@@ -56,7 +56,7 @@ export default async function handler(req: NextRequest) {
             <div tw="text-2xl mb-1">Lauri Nevanperä</div>
             <div tw="text-5xl">{title}</div>
             <div tw="text-2xl mt-1 text-right self-end">
-              {readingTime ? `${readingTime} min lukuaika` : ""}
+              {readingTime != null ? `${readingTime} min lukuaika` : ""}
             </div>
           </div>
         ) : null}

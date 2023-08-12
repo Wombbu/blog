@@ -126,7 +126,7 @@ export default async function Post(props: Props) {
             {post.title}
           </h1>
           <p
-            className={`${palette.text.primary} text-lg md:text-xl font-primary mb-8 sm:mb-12 text-center`}
+            className={`${palette.text.primary} text-xl md:text-2xl font-primary mb-8 sm:mb-12 text-center font-light`}
           >
             {post.excerpt}
           </p>
@@ -135,16 +135,32 @@ export default async function Post(props: Props) {
               <source src={post.audio} type="audio/x-m4a" />
             </audio>
           ) : null}
-          <address className="font-bold font-primary text-md not-italic">
-            Lauri Nevanperä
-          </address>
-          <time
-            itemProp="datepublished"
-            dateTime={post.date}
-            className={`${typography.variants.secondaryTitle} mt-12 mb-4`}
-          >
-            {formatDateStr(post.date)} - {post.readingTime} min kesto
-          </time>
+          <div className="flex gap-3  mb-6">
+            <a href="https://twitter.com/LauriNevanpera" target="_blank">
+              <Image
+                src="/lauri.jpg"
+                width={66}
+                height={66}
+                alt="Lauri Nevanperä"
+                className="height-auto rounded-full"
+              />
+            </a>
+            <div className="self-center">
+              <address className="font-bold font-primary text-md not-italic">
+                Lauri Nevanperä
+                <span className={`${palette.text.secondary} font-normal`}>
+                  {" | "}Tampere
+                </span>
+              </address>
+              <time
+                itemProp="datepublished"
+                dateTime={post.date}
+                className={`${typography.variants.secondaryTitle}`}
+              >
+                {formatDateStr(post.date)} | {post.readingTime} min lukuaika
+              </time>
+            </div>
+          </div>
         </div>
         <PostBody content={contentHtml} />
         <h1
@@ -153,7 +169,8 @@ export default async function Post(props: Props) {
           Kiitos kun luit.
         </h1>
         <div className={`${typography.variants.caption} text-center mb-4`}>
-          Halutessasi voit antaa palautetta tai keskustella artikkelista somessa
+          Halutessasi voit antaa palautetta tai keskustella artikkelista
+          somessa.
         </div>
         <div className="sticky bottom-4 flex items-center justify-center gap-4">
           <LazyClapButton slug={props.params.slug} />
@@ -268,11 +285,5 @@ export async function generateMetadata({
       tags: post.tags.split(", ").map((tag) => tag.trim()),
     },
     viewport: "width=device-width, initial-scale=1",
-    icons: [
-      {
-        rel: "icon",
-        url: "/favicon.ico",
-      },
-    ],
   };
 }

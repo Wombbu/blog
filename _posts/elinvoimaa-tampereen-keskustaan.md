@@ -1,6 +1,6 @@
 ---
-title: "Lisää elinvoimaa Tampereen keskustaan"
-excerpt: "Näytän tekoälyllä generoitujen kuvien avulla mikä on mahdollista mikäli Tampereen keskustan liikenneverkkosuunnitelma sekä vaiheyleiskaava tehdään hyvin."
+title: "Lisää elinvoimaa Tampereen keskustaan. Visio Kyttälä"
+excerpt: ""
 date: "2023-02-25T17:00:00.00Z"
 readingTime: "8"
 tags: "Tampere"

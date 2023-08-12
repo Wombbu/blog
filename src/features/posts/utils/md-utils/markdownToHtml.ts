@@ -2,6 +2,70 @@ import MarkdownIt from "markdown-it";
 import linkPreview from "markdown-it-link-preview";
 import iterator from "markdown-it-for-inline";
 
+// function dataBarPlugin(md: MarkdownIt) {
+//   md.renderer.rules.text = (tokens, idx, _options, _env, self) => {
+//     const token = tokens[idx];
+//     const text = token.content.trim();
+//     const regex = /@\[(\d{1,3})\]/;
+
+//     if (regex.test(text)) {
+//       const matches = text.match(regex);
+//       const dataValue = parseInt(matches[1]);
+
+//       // Ensure dataValue is within the valid range (0 to 100)
+//       const value = Math.min(100, Math.max(0, dataValue));
+
+//       // Create an animated data bar using inline CSS styles
+//       return `
+//         <div style="border: 2px solid black; color: white;">
+//           <div style="width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
+//           ${value} %
+//           </div>
+//         </div>
+//       `;
+//     }
+
+//     return self.renderInlineAsText(tokens, _options);
+//   };
+// }
+
+function dataBarPlugin(md: MarkdownIt) {
+  // @ts-ignore
+  const defaultRender = md.renderer.rules.text.bind(md.renderer.rules);
+
+  md.renderer.rules.text = (tokens, idx, _options, _env, self) => {
+    const token = tokens[idx];
+    const text = token.content.trim();
+    const regex = /@graph\[(\d{1,3})\s+([^\]]+)\]/;
+
+    if (regex.test(text)) {
+      const matches = text.match(regex);
+      // @ts-ignore
+      const dataValue = parseInt(matches[1]);
+      // @ts-ignore
+      const title = matches[2];
+
+      // Ensure dataValue is within the valid range (0 to 100)
+      const value = Math.min(100, Math.max(0, dataValue));
+
+      // Create an animated data bar using inline CSS styles
+      return `
+      <div style="display: flex; flex-direction: column; align-items: stretch;">
+        <div style="border: 2px solid black; color: white;">
+          <div style="width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
+            ${value} %
+          </div>
+        </div>
+        <span style="">${title}</span>
+      </div>
+      `;
+    }
+
+    // @ts-ignore
+    return defaultRender(tokens, idx, _options, _env, self);
+  };
+}
+
 const md = new MarkdownIt({
   html: true,
   linkify: true,
@@ -16,7 +80,8 @@ const md = new MarkdownIt({
       tokens[idx].attrs[aIndex][1] = "_blank";
     }
   })
-  .use(linkPreview);
+  .use(linkPreview)
+  .use(dataBarPlugin);
 
 export default function markdownToHtml(markdown: string) {
   const result = md.render(markdown);
