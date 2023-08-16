@@ -172,10 +172,7 @@ export default async function Post(props: Props) {
           Halutessasi voit antaa palautetta tai keskustella artikkelista
           somessa.
         </div>
-        <div className="sticky bottom-4 flex items-center justify-center gap-4">
-          <LazyClapButton slug={props.params.slug} />
-        </div>
-        <div className="flex items-center gap-4 justify-center mt-4 flex-wrap">
+        <div className="flex items-center gap-4 justify-center mb-4 flex-wrap">
           {post.tweet ? (
             <DiscussOnTwitter url={post.tweet} />
           ) : (
@@ -184,6 +181,9 @@ export default async function Post(props: Props) {
           <ShareOnFacebook slug={props.params.slug} />
           <LazyShareOnWhatsapp slug={props.params.slug} />
           <ShareOnReddit slug={props.params.slug} title={post.title} />
+        </div>
+        <div className="sticky bottom-4 flex items-center justify-center gap-4">
+          <LazyClapButton slug={props.params.slug} />
         </div>
       </article>
       <section className="mt-12">
