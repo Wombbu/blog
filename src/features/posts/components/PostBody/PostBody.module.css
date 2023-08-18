@@ -98,7 +98,25 @@
 }
 
 .markdown blockquote {
-  @apply border-l-2 border-black pl-4 italic;
+  @apply border-black px-6 font-semibold text-xl font-primary text-center;
+}
+.markdown blockquote > p {
+  @apply mb-0;
+}
+.markdown blockquote a {
+  @apply text-sm block font-normal pt-2;
+}
+
+.markdown blockquote::before {
+  @apply italic text-5xl font-primary font-bold flex justify-center items-center text-center;
+
+  content: "''";
+}
+
+.markdown blockquote::after {
+  @apply italic text-5xl font-primary font-bold flex justify-center items-center text-center mt-5;
+
+  content: "''";
 }
 
 .markdown a {
