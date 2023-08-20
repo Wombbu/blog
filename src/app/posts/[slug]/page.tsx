@@ -138,7 +138,7 @@ export default async function Post(props: Props) {
           <div className="flex gap-3  mb-6">
             <a href="https://twitter.com/LauriNevanpera" target="_blank">
               <Image
-                src="/lauri.jpg"
+                src="/profiili.jpg"
                 width={66}
                 height={66}
                 alt="Lauri Nevanperä"

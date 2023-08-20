@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Hero = () => (
   <section className="flex items-center justify-center flex-col sm:flex-row py-8 sm:py-16 mb-3 sm:mb-8 flex-1 gap-8 ">
     <Image
-      src="/lauri.jpg"
+      src="/profiili.jpg"
       alt="Image of me"
       width={256}
       height={256}
