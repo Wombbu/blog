@@ -70,9 +70,9 @@ Kaava on toistuva:
 Kuitenkin, kävelykaduksi muuttaminen kasvattaa asiakasvirtoja massiivisesti. Kohtasin konkreettisimman esimerkin tästä tänä keväänä Tampereen Tuomiokirkonkadulla. Kulkijamäärä ja tunnelma muuttuu täysin, kun katu vaihtuu kävelykaduksi. Esimerkki on äärimmäinen, mutta kuvastaa kävelykatujen vetovoimaa.
 
 <figure>
- <video muted autoplay loop>
-  <source src="/assets/blog/keskustat-autoilu-ja-yrittajat/tuomiokirkonkatu.mp4" type="video/mp4">
-</video>
+  <video muted autoplay loop playsinline>
+    <source src="/assets/blog/keskustat-autoilu-ja-yrittajat/tuomiokirkonkatu.mp4" type="video/mp4">
+  </video>
 </figure>
 
 > Suomessa jalankulkijoiden määrän on havaittu kasvavan usein 30–100 % [FCG - Kävelykatujen lisääminen keskusteluttaa – mitä tiedämme vaikutuksista kivijalkakauppoihin?](https://www.fcg.fi/nakemyksia/kavelykatujen-lisaaminen-keskusteluttaa-mita-tiedamme-vaikutuksista-kivijalkakauppoihin/)
@@ -83,7 +83,7 @@ Kuitenkin, kävelykaduksi muuttaminen kasvattaa asiakasvirtoja massiivisesti. Ko
 
 ## Mitä kaupunki voi tehdä
 
-Kaupungit kerätäävät dataa ja teettävät tutkimuksia enemmän kuin koskaan. Ei riitä, että datasta julkaistaan raportteja, vaan datan tulisi olla helposti saavutettavaa ja ymmärrettävää. **Kerättyä tietoa tulisi aktiivisesti jakaa yrittäjille ja asukkaille ymmärrettävässä muodossa**. Pyrin itse jakamaan tilastoja ja tulkintoja datasta [Twitterissä](https://twitter.com/LauriNevanpera)
+Kaupungit keräävät dataa ja teettävät tutkimuksia enemmän kuin koskaan. Ei riitä, että datasta julkaistaan raportteja, vaan datan tulisi olla helposti saavutettavaa ja ymmärrettävää. **Kerättyä tietoa tulisi aktiivisesti jakaa yrittäjille ja asukkaille ymmärrettävässä muodossa**. Pyrin itse jakamaan tilastoja ja tulkintoja datasta [Twitterissä](https://twitter.com/LauriNevanpera)
 
 Työn tulee olla jatkuvaa ja näkyvää, sillä disinformaatio leviää somessa helposti. Esimerkiksi [Kruunusillat-raitiotietä](https://fi.wikipedia.org/wiki/Kruunusillat) on spinnattu "Miljardin polkupyörä- ja raitiovaunusillaksi", vaikka todellisuudessa hanke sisältää kymmenen kilometriä raitotietä, kolme siltaa sekä pysäkit. Hanke maksaa **kokonaisuudessaan 326 M€**. Disinformaatio levisi nopeasti hyvin laajalle.
 
