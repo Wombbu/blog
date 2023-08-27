@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-base md:text-lg leading-relaxed font-secondary;
+  @apply text-lg leading-snug sm:leading-normal font-secondary font-normal;
 }
 
 .markdown p > a[target="_blank"]::after {
