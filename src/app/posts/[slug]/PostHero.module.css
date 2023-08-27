@@ -1,6 +1,7 @@
 .heroImage {
   object-fit: cover;
   aspect-ratio: 3/4;
+  width: 100%;
 }
 
 .heroContainer {
@@ -19,11 +20,27 @@
     aspect-ratio: 3/2;
   }
   .heroContainer {
-    width: auto;
-    left: auto;
+    /* width: auto; */
+    /* left: auto; */
   }
 }
 
-.imgOverlayButton {
-  @apply bg-gray-900 border-gray-900;
+@screen xl {
+  .heroImage {
+    aspect-ratio: 18/10;
+  }
+}
+
+.heroCaption {
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 1422px) {
+  .heroCaption {
+    padding-left: 0px;
+  }
+}
+
+.imageWrapper {
+  max-width: 1422px;
 }

@@ -7,7 +7,7 @@ type Props = { slug: string; title: string };
 export const ShareOnReddit = ({ slug, title }: Props) => {
   return (
     <RoundedLinkButton
-      href={`http://www.reddit.com/submit?url=https://www.laurinevanpera.fi${routes.post(
+      href={`https://reddit.com/submit?url=https://www.laurinevanpera.fi${routes.post(
         slug
       )}&title=${title}`}
       target="_blank"
@@ -20,7 +20,7 @@ export const ShareOnReddit = ({ slug, title }: Props) => {
         height={20}
         className={`mr-2`}
       />{" "}
-      Jaa Redditissä
+      Reddit
     </RoundedLinkButton>
   );
 };

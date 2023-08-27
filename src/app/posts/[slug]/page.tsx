@@ -13,11 +13,7 @@ import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
-import { DiscussOnTwitter } from "@/components/DiscussOnTwitter";
 import { Metadata } from "next";
-import { ShareOnFacebook } from "@/components/ShareOnFacebook";
-import { ShareOnReddit } from "@/components/ShareOnReddit";
-import { ShareOnTwitter } from "@/components/ShareOnTwitter";
 import dynamic from "next/dynamic";
 
 // Do not server side render clap button to be able to use static rendering on this route
@@ -30,15 +26,11 @@ const LazyClapButton = dynamic(
   }
 );
 
-// Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazyShareOnWhatsapp = dynamic(
-  () => import("../../../components/ShareOnWhatsapp"),
-  {
-    loading: () => null,
-    ssr: false,
-  }
-);
+const LazySocialMediaShare = dynamic(() => import("./SocialMediaShare"), {
+  loading: () => null,
+  ssr: false,
+});
 
 type Props = {
   params: {
@@ -80,44 +72,46 @@ export default async function Post(props: Props) {
     <>
       <article className="relative">
         <figure className={module.heroContainer}>
-          <div className="relative">
-            <Image
-              src={post.coverImage.url}
-              alt={post.coverImage.desc || "Kansikuva"}
-              width={960}
-              height={640}
-              className={module.heroImage}
-              loading="eager"
-            />
-            <Link
-              href={routes.posts}
-              className={`${button.variants.smolInverted} ${module.imgOverlayButton} absolute top-2 left-2`}
+          <div className={`m-auto w-full ${module.imageWrapper}`}>
+            <div className="relative">
+              <Image
+                src={post.coverImage.url}
+                alt={post.coverImage.desc || "Kansikuva"}
+                width={960}
+                height={640}
+                className={module.heroImage}
+                loading="eager"
+              />
+              <Link
+                href={routes.posts}
+                className={`${button.variants.smolInverted} absolute top-2 left-2`}
+              >
+                Takaisin artikkeleihin
+              </Link>
+            </div>
+            <figcaption
+              className={`${typography.variants.caption} ${module.heroCaption} mt-1`}
             >
-              Takaisin artikkeleihin
-            </Link>
+              {post.coverImage.desc ? post.coverImage.desc + " " : null}
+              {post.coverImage.credit ? (
+                <>
+                  KUVA: {post.coverImage.credit}
+                  {post.coverImage.license ? (
+                    <>
+                      {" / "}
+                      <a
+                        href={post.coverImage.licenseLink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {post.coverImage.license}
+                      </a>
+                    </>
+                  ) : null}
+                </>
+              ) : null}
+            </figcaption>
           </div>
-          <figcaption
-            className={`${typography.variants.caption} mt-1 px-4 md:pl-0`}
-          >
-            {post.coverImage.desc ? post.coverImage.desc + " " : null}
-            {post.coverImage.credit ? (
-              <>
-                KUVA: {post.coverImage.credit}
-                {post.coverImage.license ? (
-                  <>
-                    {" / "}
-                    <a
-                      href={post.coverImage.licenseLink}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {post.coverImage.license}
-                    </a>
-                  </>
-                ) : null}
-              </>
-            ) : null}
-          </figcaption>
         </figure>
         <div className="m-auto max-w-article">
           <h1
@@ -126,7 +120,7 @@ export default async function Post(props: Props) {
             {post.title}
           </h1>
           <p
-            className={`${palette.text.primary} text-xl md:text-2xl font-primary mb-8 sm:mb-12 text-center font-light`}
+            className={`${typography.variants.subtitle} mb-8 sm:mb-12 text-center font-light`}
           >
             {post.excerpt}
           </p>
@@ -163,32 +157,59 @@ export default async function Post(props: Props) {
           </div>
         </div>
         <PostBody content={contentHtml} />
-        <h1
-          className={`${palette.text.primary} font-primary text-3xl font-bold mb-2 text-center mt-10`}
-        >
-          Kiitos kun luit.
-        </h1>
-        <div className={`${typography.variants.caption} text-center mb-4`}>
-          Halutessasi voit antaa palautetta tai keskustella artikkelista
-          somessa.
-        </div>
-        <div className="flex items-center gap-4 justify-center mb-4 flex-wrap">
-          {post.tweet ? (
-            <DiscussOnTwitter url={post.tweet} />
-          ) : (
-            <ShareOnTwitter slug={props.params.slug} />
-          )}
-          <ShareOnFacebook slug={props.params.slug} />
-          <LazyShareOnWhatsapp slug={props.params.slug} />
-          <ShareOnReddit slug={props.params.slug} title={post.title} />
-        </div>
-        <div className="sticky bottom-4 flex items-center justify-center gap-4">
-          <LazyClapButton slug={props.params.slug} />
-        </div>
       </article>
-      <section className="mt-12">
+
+      {/* <h1
+        className={`${palette.text.primary} font-primary text-3xl font-bold mb-10 text-center mt-10`}
+      >
+        Kiitos kun luit.
+      </h1> */}
+
+      {/* <div className="flex flex-col gap-4 justify-center my-4 flex-wrap max-w-article mx-auto bg-black p-4">
+        <h3
+          className={`${typography.variants.sectionTitle}`}
+          style={{ color: "white" }}
+        >
+          Kiinnostuitko?
+        </h3>
+        <div className="flex gap-2 p-2 items-stretch border-2 border-black bg-white">
+          <input
+            type="email"
+            placeholder="sinun@sahkopostisi.com"
+            className="flex-1 px-2"
+          />
+
+          <button className={`${button.variants.smolInverted}`}>
+            Tilaa artikkelit
+          </button>
+        </div>
+        <div
+          className={`${typography.variants.caption} text-center`}
+          style={{ color: "white" }}
+        >
+          Tieto uusista artikkeleista muutaman viikon välein. Ei spämmiä, ei
+          turhuuksia. Lopeta tilaus koska vain.
+        </div>
+      </div> */}
+
+      <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 mt-20">
+        <h3
+          className={`${typography.variants.sectionTitle}`}
+          // style={{ color: "white" }}
+        >
+          Jaa somessa ❤️
+        </h3>
+        <LazySocialMediaShare post={post} slug={props.params.slug} />
+      </div>
+      <div
+        className="fixed bottom-4 z-50"
+        style={{ left: "50%", transform: "translate(-50%, -50%)" }}
+      >
+        <LazyClapButton slug={props.params.slug} />
+      </div>
+      <section className="mt-10">
         <h2 className={`${typography.variants.sectionTitle()}`}>
-          Sinua saattaa kiinnostaa
+          Lisää samankaltaista
         </h2>
         <PostGrid
           disableLargeFirstPost

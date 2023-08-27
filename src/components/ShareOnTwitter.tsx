@@ -20,7 +20,7 @@ export const ShareOnTwitter = ({ slug }: Props) => {
         height={20}
         className={`mr-2`}
       />{" "}
-      Jaa Twitterissä
+      Twitter
     </RoundedLinkButton>
   );
 };

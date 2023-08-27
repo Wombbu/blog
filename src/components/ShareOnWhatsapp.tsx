@@ -23,7 +23,7 @@ export default function ShareOnWhatsapp({ slug }: Props) {
         height={22}
         className={`mr-2`}
       />{" "}
-      Jaa Whatsappissa
+      Whatsapp
     </RoundedLinkButton>
   ) : null;
 }

@@ -1,4 +1,5 @@
 import { ClapIcon } from "@/components/ClapButton/ClapIcon.view";
+import { button } from "@/essentials/theme/button";
 import { palette } from "@/essentials/theme/palette";
 import React, { useRef } from "react";
 
@@ -33,7 +34,7 @@ export const ClapButton = ({
         +{userClaps}
       </div>
       <button
-        className={`${styles.clapButton} ${palette.text.secondary} `}
+        className={`${styles.clapButton} ${palette.text.secondary} ${button.variants.rounded} `}
         onClick={() => {
           buttonRef.current
             ?.getAnimations({ subtree: true })

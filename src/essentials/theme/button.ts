@@ -8,6 +8,7 @@ const variants = {
   smol: `${buttonPrimary} p-2 border-2`,
   largeInverted: `${buttonInverted} p-4 border-3 text-xl`,
   smolInverted: `${buttonInverted} p-2 border-2`,
+  rounded: `rounded-full flex items-center justify-center bg-white h-10 pr-6 pl-5 hover:bg-gray-100 border-2 border-gray-300 font-primary font-semibold`,
 };
 
 export const button = { variants };

@@ -13,7 +13,7 @@ export const DiscussOnTwitter = ({ url }: Props) => {
         height={20}
         className={`mr-2`}
       />{" "}
-      Keskustele Twitterissä
+      Twitter
     </RoundedLinkButton>
   );
 };

@@ -1,9 +1,4 @@
 /* ---- clapButton ---- */
-.clapButton {
-  @apply rounded-full flex items-center justify-center bg-white shadow-lg h-10 pr-6 pl-5 hover:bg-gray-100;
-  /* transition: all 0.15s ease-in; */
-  border: 1px solid lightgrey;
-}
 
 .clapButton:hover .clapIcon {
   @apply fill-green-700 stroke-0;

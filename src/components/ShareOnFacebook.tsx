@@ -15,12 +15,12 @@ export const ShareOnFacebook = ({ slug }: Props) => {
     >
       <Image
         src="/fb-logo.svg"
-        alt="twitter-logo"
+        alt="fb-logo"
         width={20}
         height={20}
         className={`mr-2`}
       />{" "}
-      Jaa Facebookissa
+      Facebook
     </RoundedLinkButton>
   );
 };
