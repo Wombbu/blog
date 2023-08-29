@@ -20,7 +20,7 @@ Koska olen perehtynyt tutkimuksiin ja keskustojen elinvoimaisuusdataan, vastustu
 
 Kaikki kokemukset sekä tilastot kertovat, että nimenomaan Vikströmin yritys hyötyisi kokeilusta. Miksi hän vastustaa kokeilua? Vastaus tuli hieman yllättäen vastaan Twitter-virrassani.
 
-<blockquote style="margin-bottom: 24px" class="twitter-tweet" data-conversation="none"><p lang="fi" dir="ltr">Meillä ei ole tästä tarkkaa dataa, mutta eri konsepteihin ja eri tilanteita varten tullaan eri kulkuneuvoilla. Esimerkiksi työssäkäyvien ja sitä kautta lounasasiakkaiden osuudesta autoilijat ovat varmasti enemmistöä. Vastaavasti yökerhoasiakas harvemmin tulee autolla.</p>&mdash; Aku Vikström (@AkuVikstrm) <a href="https://twitter.com/AkuVikstrm/status/1661423927984259078?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote style="margin-bottom: 24px" class="twitter-tweet" data-conversation="none"><p lang="fi" dir="ltr">Meillä ei ole tästä tarkkaa dataa, mutta eri konsepteihin ja eri tilanteita varten tullaan eri kulkuneuvoilla. Esimerkiksi työssäkäyvien ja sitä kautta lounasasiakkaiden osuudesta autoilijat ovat varmasti enemmistöä. Vastaavasti yökerhoasiakas harvemmin tulee autolla.</p>&mdash; Aku Vikström (@AkuVikstrm) <a href="https://twitter.com/AkuVikstrm/status/1661423927984259078?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote>
 
 Vikströmin mukaan työssäkäyvistä, eli lounasasiakkaista autoilijat ovat **"varmasti enemmistöä"**.
 
@@ -48,7 +48,7 @@ Mikäli kärkijohtajan oletukset ovat näin pahasti pielessä, voinee olettaa et
 
 Ilmiö on tuttu Suomesta ja maailmalta. Samat keskustelut käydään vuodesta toiseen. Tutkimustulokset ja kokemukset ovat kuitenkin samanlaisia ympäri maailman, vuosikymmenestä toiseen.
 
-**Muutama esimerkki:**
+### Muutama esimerkki
 
 - Tampereen kokoisessa Groningenissa päätettiin 60-luvulla kehittää kävelykeskustaa. [Yrittäjät raivostuivat. Poliitikkoja joutui poliisisuojeluun](https://www.theguardian.com/cities/2015/jul/29/how-groningen-invented-a-cycling-template-for-cities-all-over-the-world). Groningenin keskustasta tuli valtava kaupallinen sekä kaupunkikuvallinen menestys.
 - Slovenian Ljubljana loi laajan kävelykeskustan. Kansalaiset ja yritykset protestoivat äärimmäisesti. [10 vuotta myöhemmin 97% asukkaista kannattaa muutosta](https://www.bigissue.com/news/environment/people-protested-when-this-capital-city-went-car-free-now-they-love-it/)
@@ -57,7 +57,7 @@ Ilmiö on tuttu Suomesta ja maailmalta. Samat keskustelut käydään vuodesta to
 
 [Klikkaa itsesi virtuaalikierrokselle Groningenin kauppakeskustaan](https://earth.google.com/web/search/groningen/@53.21764889,6.56692585,10.04541733a,0d,60y,331.27821321h,80.59913221t,0r/data=CigiJgokCWHbo0-XwE5AEaBZwp2Gvk5AGaAtwgD0yDdAIT1mOJrzwDdAIhoKFlBIVFhyMVhMT1cyQU5OQ2F5ME1QcmcQAg)
 
-Kaava on toistuva:
+### Kaava on toistuva:
 
 - Hyvin äänekäs vastustus
 - Muutos on menestys niin yrittäjille kuin kaupunkilaisille
@@ -87,7 +87,7 @@ Kaupungit keräävät dataa ja teettävät tutkimuksia enemmän kuin koskaan. Ei
 
 Työn tulee olla jatkuvaa ja näkyvää, sillä disinformaatio leviää somessa helposti. Esimerkiksi [Kruunusillat-raitiotietä](https://fi.wikipedia.org/wiki/Kruunusillat) on spinnattu "Miljardin polkupyörä- ja raitiovaunusillaksi", vaikka todellisuudessa hanke sisältää kymmenen kilometriä raitotietä, kolme siltaa sekä pysäkit. Hanke maksaa **kokonaisuudessaan 326 M€**. Disinformaatio levisi nopeasti hyvin laajalle.
 
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">Nyt kun Suomi köyhtyy, kuinka fiksulta tuntuu, että Helsinki käyttää miljardi euroa polkupyörä- ja raitiovaunusiltaan?</p>&mdash; Päivän Byrokraatti (@pbyrokraatti) <a href="https://twitter.com/pbyrokraatti/status/1566882092671180802?ref_src=twsrc%5Etfw">September 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" style="margin-bottom: 24px" ><p lang="fi" dir="ltr">Nyt kun Suomi köyhtyy, kuinka fiksulta tuntuu, että Helsinki käyttää miljardi euroa polkupyörä- ja raitiovaunusiltaan?</p>&mdash; Päivän Byrokraatti (@pbyrokraatti) <a href="https://twitter.com/pbyrokraatti/status/1566882092671180802?ref_src=twsrc%5Etfw">September 5, 2022</a></blockquote>
 
 ## Datalla parempaa kaupunkia
 
@@ -95,7 +95,7 @@ Minusta yksi hienoimmista tavoista käyttää dataa kaupunkilaisten arjen parant
 
 Paikkatietodataa voidaan hyödyntää liikenne- ja asiakasvirtojen ennustamiseen. Tästä on hyötyä niin liikennesuunnittelussa kuin yrittäjillekin. Tampereella on julkistettu [Tampereen Pulssi](https://www.tamperelainen.fi/paikalliset/5919394) palvelu, joka ennustaa seuraavan viikon asiakasvirtoja kivijalkayrittäjille.
 
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">No nyt! Tampere-sovellukseen on tullut keskustan kävijäennusteet joka huomioi sään ja tapahtumat.<br><br>Tällä tavoin helpotetaan yritysten aukiolojen ja työvuorojen suunnittelua.<br><br>Videolla ensi lauantain kävijämääriä Hämeenkadulla. Näitä voit käydä myös itse katsomassa <a href="https://t.co/qdG6jqf7Bm">https://t.co/qdG6jqf7Bm</a> <a href="https://t.co/3AEFyGY8cb">pic.twitter.com/3AEFyGY8cb</a></p>&mdash; Lauri Nevanperä (@LauriNevanpera) <a href="https://twitter.com/LauriNevanpera/status/1656340473437384705?ref_src=twsrc%5Etfw">May 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" style="margin-bottom: 24px" ><p lang="fi" dir="ltr">No nyt! Tampere-sovellukseen on tullut keskustan kävijäennusteet joka huomioi sään ja tapahtumat.<br><br>Tällä tavoin helpotetaan yritysten aukiolojen ja työvuorojen suunnittelua.<br><br>Videolla ensi lauantain kävijämääriä Hämeenkadulla. Näitä voit käydä myös itse katsomassa <a href="https://t.co/qdG6jqf7Bm">https://t.co/qdG6jqf7Bm</a> <a href="https://t.co/3AEFyGY8cb">pic.twitter.com/3AEFyGY8cb</a></p>&mdash; Lauri Nevanperä (@LauriNevanpera) <a href="https://twitter.com/LauriNevanpera/status/1656340473437384705?ref_src=twsrc%5Etfw">May 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Mitä paremmin kaupunkilaiset ovat perillä kaupunkinsa asioista, sitä parempia päätöksiä kyetään tekemään. **Esplanadin kokeilusta tullaan keräämään huomattavia määriä dataa**. Ensimmäiset tulokset julkaistaan vuoden 2023 lopulla. Tulen raportoimaan tuloksista [Twitterissä](https://www.twitter.com/LauriNevanpera).
 

@@ -50,14 +50,14 @@ function dataBarPlugin(md: MarkdownIt) {
 
       // Create an animated data bar using inline CSS styles
       return `
-      <div style="display: flex; flex-direction: column; align-items: stretch;">
+      <figure style="display: flex; flex-direction: column; align-items: stretch; max-width: 378px;">
         <div style="border: 2px solid black; color: white;">
           <div style="width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
             ${value} %
           </div>
         </div>
-        <span style="">${title}</span>
-      </div>
+        <figcaption style="">${title}</figcaption>
+      </figure>
       `;
     }
 

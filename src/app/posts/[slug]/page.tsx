@@ -194,7 +194,7 @@ export default async function Post(props: Props) {
           <h2
             className={`${typography.variants.textBody} ${palette.text.secondary}`}
           >
-            Jaa jos pidit. Keskustelu jatkuu.
+            Jaa jos pidit. Pidä aihe keskustelussa.
           </h2>
         </div>
         <LazySocialMediaShare post={post} slug={props.params.slug} />
@@ -206,9 +206,7 @@ export default async function Post(props: Props) {
         <LazyClapButton slug={props.params.slug} />
       </div>
       <section className="mt-10">
-        <h2 className={`${typography.variants.sectionTitle()}`}>
-          Lisää samankaltaista
-        </h2>
+        <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>
         <PostGrid
           disableLargeFirstPost
           posts={recommended

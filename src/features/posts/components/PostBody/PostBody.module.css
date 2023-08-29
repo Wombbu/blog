@@ -53,7 +53,7 @@
 }
 
 .markdown > * {
-  @apply mx-auto mb-6 max-w-article;
+  @apply mx-auto mb-8 max-w-article;
 }
 
 .markdown *:first-child {
@@ -74,15 +74,10 @@
   @apply w-full max-w-none aspect-video;
 }
 .markdown figure {
-  @apply w-full mb-6 max-w-none flex flex-col items-center;
+  @apply w-full max-w-none flex flex-col items-center;
 }
 .markdown figcaption {
   @apply text-gray-500 font-primary text-sm text-center mt-2;
-}
-
-.markdown p,
-.markdown blockquote {
-  @apply mb-8;
 }
 
 .markdown h1 {

@@ -18,29 +18,6 @@ type Props = {
 export default function SocialMediaShare({ post, slug }: Props) {
   return (
     <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 border-gray-200 rounded-2xl w-full">
-      {/* <div className="flex gap-3">
-        <div className="rounded-full overflow-hidden">
-          <Image
-            src="/profiili.jpg"
-            width={4}
-            height={4}
-            alt="Lauri Nevanperä"
-            className="height-auto blur-sm w-12 h-12"
-          />
-        </div>
-        <div className="self-center">
-          <address className="font-bold font-primary text-md not-italic leading-none">
-            Sinä
-          </address>
-          <time
-            itemProp="datepublished"
-            dateTime={post.date}
-            className={`${typography.variants.secondaryTitle} leading-none`}
-          >
-            @Sinä
-          </time>
-        </div>
-      </div> */}
       <div
         className="aspect-video"
         style={{
@@ -71,25 +48,24 @@ export default function SocialMediaShare({ post, slug }: Props) {
         </div>
       </div>
       <TypeAnimation
-        className={`${typography.variants.textBody} ${palette.text.secondary} my-2`}
+        className={`${typography.variants.textBody} ${palette.text.secondary} my-2 h-12 sm:h-auto`}
         style={{
           fontSize: "1.25rem",
-          minHeight: "48px",
         }}
         sequence={[
           "Ei Pulitzerin arvoinen, mutta ajatuksia herättävä.",
           500,
-          "Jos asut kaupungissa, tämä saattaa kiinnostaa.",
+          "Kiinnostavaa asiaa kaupungissa asuvalle",
           500,
-          "Varsin mukiinmeneviä ajatuksia kaupungeista",
+          "Varsin mukiinmeneviä ajatuksia",
           500,
           "Asiaa tulevaisuuden kaupungeista. Mitä mieltä?",
           500,
-          "Nevanperä taas tykittelee",
+          "Nevanperä tykittelee",
           300,
-          "Nevanperä taas hourailee",
+          "Nevanperä hourailee",
           800,
-          "Tamperelaiset, huomio!",
+          "Tamperelaiset, huom!",
           5000,
         ]}
         wrapper="span"
