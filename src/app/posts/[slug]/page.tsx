@@ -159,12 +159,6 @@ export default async function Post(props: Props) {
         <PostBody content={contentHtml} />
       </article>
 
-      {/* <h1
-        className={`${palette.text.primary} font-primary text-3xl font-bold mb-10 text-center mt-10`}
-      >
-        Kiitos kun luit.
-      </h1> */}
-
       {/* <div className="flex flex-col gap-4 justify-center my-4 flex-wrap max-w-article mx-auto bg-black p-4">
         <h3
           className={`${typography.variants.sectionTitle}`}
@@ -192,13 +186,17 @@ export default async function Post(props: Props) {
         </div>
       </div> */}
 
-      <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 mt-20">
-        <h3
-          className={`${typography.variants.sectionTitle}`}
-          // style={{ color: "white" }}
-        >
-          Jaa somessa ❤️
-        </h3>
+      <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 mt-10">
+        <div>
+          <h1 className={`${typography.variants.sectionTitle}`}>
+            Kiitos kun luit.
+          </h1>
+          <h2
+            className={`${typography.variants.textBody} ${palette.text.secondary}`}
+          >
+            Jaa jos pidit. Keskustelu jatkuu.
+          </h2>
+        </div>
         <LazySocialMediaShare post={post} slug={props.params.slug} />
       </div>
       <div

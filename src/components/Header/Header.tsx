@@ -1,9 +1,6 @@
 import { HeaderLink } from "@/components/Header/HeaderLink";
-import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
 import { palette } from "@/essentials/theme/palette";
-import { typography } from "@/essentials/theme/typography";
 import { routes } from "@/essentials/utils/routes";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (

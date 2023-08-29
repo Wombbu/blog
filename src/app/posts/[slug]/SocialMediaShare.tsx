@@ -18,7 +18,7 @@ type Props = {
 export default function SocialMediaShare({ post, slug }: Props) {
   return (
     <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 border-gray-200 rounded-2xl w-full">
-      <div className="flex gap-3">
+      {/* <div className="flex gap-3">
         <div className="rounded-full overflow-hidden">
           <Image
             src="/profiili.jpg"
@@ -40,7 +40,7 @@ export default function SocialMediaShare({ post, slug }: Props) {
             @Sinä
           </time>
         </div>
-      </div>
+      </div> */}
       <div
         className="aspect-video"
         style={{
@@ -90,10 +90,10 @@ export default function SocialMediaShare({ post, slug }: Props) {
           "Nevanperä taas hourailee",
           800,
           "Tamperelaiset, huomio!",
-          10000,
+          5000,
         ]}
         wrapper="span"
-        speed={80}
+        speed={60}
         repeat={Infinity}
       />
       <div className="flex gap-2 flex-wrap items-end justify-end">
