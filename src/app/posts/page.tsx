@@ -1,5 +1,5 @@
-import { getAllPosts } from "@/features/posts/utils/md-utils/api";
-import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
+import { getAllPosts } from "@/model/posts/utils/md-utils/api";
+import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { routes } from "@/essentials/utils/routes";
 import { Metadata } from "next";
 

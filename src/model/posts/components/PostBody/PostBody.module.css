@@ -68,16 +68,23 @@
   @apply m-auto;
   width: auto;
   height: auto;
-  max-height: 720px;
+  max-height: 816px; /* Image with this height and 3/4 aspect ratio will be the same width as the article max width (612px) */
 }
 .markdown iframe {
   @apply w-full max-w-none aspect-video;
 }
 .markdown figure {
   @apply w-full max-w-none flex flex-col items-center;
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
 }
 .markdown figcaption {
   @apply text-gray-500 font-primary text-sm text-center mt-2;
+}
+
+.markdown figure > figcaption {
+  @apply px-2;
 }
 
 .markdown h1 {

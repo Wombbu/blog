@@ -1,11 +1,9 @@
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
-import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
-import { TagList } from "@/features/posts/components/Card/ImageOverlayTags";
+import { TagList } from "@/model/posts/components/Card/ImageOverlayTags";
 // import { AudioPlayer } from "@/features/posts/components/AudioPlayer";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./VisualPost.module.css";
 
 type Props = {
   date: string;
@@ -32,9 +30,9 @@ export const VisualPost = ({
   priority,
   imgClassName,
 }: Props) => (
-  <Link href={href} className={`${styles.card} flex flex-col`}>
+  <Link href={href} className={`flex flex-col`}>
     <figure>
-      <div className={`${styles.imgWrapper} relative -mx-4 sm:mx-0`}>
+      <div className={`relative -mx-4 sm:mx-0`}>
         <Image
           src={imageSrc}
           alt={title}

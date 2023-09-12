@@ -1,6 +1,6 @@
-import { getAllPosts } from "@/features/posts/utils/md-utils/api";
-import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
-import { Hero } from "@/features/front-page/Hero/Hero";
+import { getAllPosts } from "@/model/posts/utils/md-utils/api";
+import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
+import { Hero } from "@/components/Hero/Hero";
 import { routes } from "@/essentials/utils/routes";
 import { typography } from "@/essentials/theme/typography";
 import Link from "next/link";

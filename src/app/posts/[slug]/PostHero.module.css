@@ -19,10 +19,6 @@
   .heroImage {
     aspect-ratio: 3/2;
   }
-  .heroContainer {
-    /* width: auto; */
-    /* left: auto; */
-  }
 }
 
 @screen xl {

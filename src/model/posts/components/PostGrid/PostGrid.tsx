@@ -1,5 +1,5 @@
-import { Card } from "@/features/posts/components/Card/Card";
-import { VisualPost } from "@/features/posts/components/VisualPost/VisualPost";
+import { Card } from "@/model/posts/components/Card/Card";
+import { VisualPost } from "@/model/posts/components/VisualPost/VisualPost";
 
 type Props = {
   posts: React.ComponentProps<typeof Card>[];
@@ -29,7 +29,7 @@ export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
           priority={index < 3}
           imgClassName={
             index === 0 && !disableLargeFirstPost
-              ? "aspect-sdInverse sm:aspect-sd"
+              ? "aspect-sdInverse sm:aspect-video"
               : "aspect-sdInverse"
           }
         />

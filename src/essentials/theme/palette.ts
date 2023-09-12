@@ -7,7 +7,7 @@ export const palette = {
   },
   border: {
     primary: "border-gray-800",
-    secondary: "border-gray-600",
+    secondary: "border-gray-300",
     accent: "border-black",
   },
 };

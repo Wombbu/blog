@@ -1,4 +1,4 @@
-import { PostMetadata } from "@/features/posts/types/PostMetadata";
+import { PostMetadata } from "@/model/posts/types/PostMetadata";
 import Image from "next/image";
 
 export enum CustomTags {

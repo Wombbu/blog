@@ -56,9 +56,7 @@ Tilastoista ja kehityshankkeista johtuen en oikein voi kallistua tämän syyn ka
 
 Totean kuitenkin että autoliikenne tulee ottaa vastaisuudessakin huomioon keskustaan saapuessa, ja keskustan ympärillä tulisi olla autoliikenteelle priorisoitu keskustan kehä. Kaupunkikeskustan täytyy palvella koko kaupunkiseutua. Logistiikka, pelastustyö ja kunnossapito täytyy huomioida.
 
-![Helsingin keskustan katu](/assets/blog/keskustojen-naivettyminen/hki.jpg)
-
-<figcaption>Uudenmaankatu on tavallinen katu Helsingin ydinkeskustassa. Miten hoitaisit logistiikan täällä?</figcaption>
+![Uudenmaankatu on tavallinen katu Helsingin ydinkeskustassa. Miten hoitaisit logistiikan täällä?](/assets/blog/keskustojen-naivettyminen/hki.jpg)
 
 ## Korona
 
@@ -70,9 +68,7 @@ Toisin kuin muut mainitsemani teemat, korona ei ole pitkäaikainen trendi vaan l
 - Korona lopetti turismin lähes kokonaan. [Helsingissä matkailun koko on 2 miljardia euroa](https://matkailusaatio.fi/wp-content/uploads/2021/09/Helsingin_matkailun_potentiaali_2X.pdf)
 - Korona ajoi ihmiset etätöihin. [Helsingin keskustassa on huomattavan paljon toimistotilaa asuntoihin suhteutettuina](https://www.rakli.fi/blogi/ratkaisu-helsingin-ydinkeskustan-naivettymiseen-tyhjat-toimistot-asunnoiksi/)
 
-![Kuvaaja. Etätyö pomppaa kun koronaepidemia alkaa.](/assets/blog/keskustojen-naivettyminen/etatyo.webp)
-
-<figcaption><a href="https://nepton.fi/uutiset/etatyo-tilastot-koronakriisin-aikana/" target="_blank">Työajanseurantayritys Neptonin tilastossa etätyö nelinkertaistui koronan myötä</a></figcaption>
+![<a href="https://nepton.fi/uutiset/etatyo-tilastot-koronakriisin-aikana/" target="_blank">Työajanseurantayritys Neptonin tilastossa etätyö nelinkertaistui koronan myötä</a>](/assets/blog/keskustojen-naivettyminen/etatyo.webp)
 
 ## Mikä avuksi
 
@@ -80,10 +76,7 @@ Toisin kuin muut mainitsemani teemat, korona ei ole pitkäaikainen trendi vaan l
 
 Asiantuntijat kautta linjan tuntuvat olevan samaa mieltä: Vähittäiskaupan siirtyessä verkkoon ja kauppakeskuksiin, keskustan on luotava nahkansa viihtyisänä, elämyksellisenä paikkana jossa viettää aikaa mielellään. [Resepti on sama kuin Ideaparkissa](https://lvs.fi/2020/10/14/toivo-sukari-ideapark-on-kaupan-ja-viihtymisen-keskus/).
 
-<figure>
-  <img src="/assets/blog/keskustojen-naivettyminen/nokia-arena.jpeg" style="object-fit: cover;" loading="lazy" />
-  <figcaption>Keskustat muuntuvat elämyksellisempään suuntaan. Nokia Arena Tampereella on osa tätä kehitystä.</figcaption>
-</figure>
+![Keskustat muuntuvat elämyksellisempään suuntaan. Nokia Arena Tampereella on osa tätä kehitystä.](/assets/blog/keskustojen-naivettyminen/nokia-arena.jpeg)
 
 Katusuunnittelun vastuu on tässä yhtälössä suuri. Katujen tulee olla viihtyisiä ja mielenkiintoisia kävelijöille. Myös keskusta-asutuksen lisääminen on tärkeää, sillä esimerkiksi Tampereella kävelijät ovat suurin rahankäytöllinen ryhmä.
 

@@ -33,7 +33,7 @@ albentibus.
 > cupiens. Solida movet; sic solent quoque relinquunt Arachnes haec, viribus
 > super: visus.
 
-![](/assets/blog/reference-post/cover.jpg)
+![Referenssikuva](/assets/blog/reference-post/cover.jpg)
 
 ## Modo crimen et dubita
 

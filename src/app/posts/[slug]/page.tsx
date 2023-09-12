@@ -1,20 +1,14 @@
-import {
-  getAllPosts,
-  getPostBySlug,
-} from "@/features/posts/utils/md-utils/api";
-import PostBody from "@/features/posts/components/PostBody/PostBody";
-import markdownToHtml from "@/features/posts/utils/md-utils/markdownToHtml";
-import Image from "next/image";
+import { getAllPosts, getPostBySlug } from "@/model/posts/utils/md-utils/api";
+import PostBody from "@/model/posts/components/PostBody/PostBody";
+import markdownToHtml from "@/model/posts/utils/md-utils/markdownToHtml";
 import { typography } from "@/essentials/theme/typography";
-import module from "./PostHero.module.css";
-import Link from "next/link";
-import { button } from "@/essentials/theme/button";
-import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
-import { PostGrid } from "@/features/posts/components/PostGrid/PostGrid";
+import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
+import { Writer } from "@/app/posts/[slug]/Writer";
+import { PostHero } from "@/app/posts/[slug]/PostHero";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -27,10 +21,38 @@ const LazyClapButton = dynamic(
 );
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazySocialMediaShare = dynamic(() => import("./SocialMediaShare"), {
-  loading: () => null,
-  ssr: false,
-});
+const LazySocialMediaShare = dynamic(
+  () =>
+    import(
+      "../../../features/social-media-sharing/components/SocialMediaSharePost"
+    ),
+  {
+    loading: () => null,
+    ssr: false,
+  }
+);
+
+// https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
+const LazySocialMediaShareButtons = dynamic(
+  () =>
+    import(
+      "../../../features/social-media-sharing/components/SocialMediaShareButtons"
+    ),
+  {
+    loading: () => null,
+    ssr: false,
+  }
+);
+
+// https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
+const LazyShareViaModal = dynamic(
+  () =>
+    import("../../../features/social-media-sharing/components/ShareViaModal"),
+  {
+    loading: () => null,
+    ssr: false,
+  }
+);
 
 type Props = {
   params: {
@@ -71,90 +93,35 @@ export default async function Post(props: Props) {
   return (
     <>
       <article className="relative">
-        <figure className={module.heroContainer}>
-          <div className={`m-auto w-full ${module.imageWrapper}`}>
-            <div className="relative">
-              <Image
-                src={post.coverImage.url}
-                alt={post.coverImage.desc || "Kansikuva"}
-                width={960}
-                height={640}
-                className={module.heroImage}
-                loading="eager"
-              />
-              <Link
-                href={routes.posts}
-                className={`${button.variants.smolInverted} absolute top-2 left-2`}
-              >
-                Takaisin artikkeleihin
-              </Link>
-            </div>
-            <figcaption
-              className={`${typography.variants.caption} ${module.heroCaption} mt-1`}
-            >
-              {post.coverImage.desc ? post.coverImage.desc + " " : null}
-              {post.coverImage.credit ? (
-                <>
-                  KUVA: {post.coverImage.credit}
-                  {post.coverImage.license ? (
-                    <>
-                      {" / "}
-                      <a
-                        href={post.coverImage.licenseLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {post.coverImage.license}
-                      </a>
-                    </>
-                  ) : null}
-                </>
-              ) : null}
-            </figcaption>
-          </div>
-        </figure>
+        <PostHero post={post} />
         <div className="m-auto max-w-article">
           <h1
-            className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-8 sm:mb-8 sm:mt-12 text-center break-words`}
+            className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words`}
           >
             {post.title}
           </h1>
-          <p
-            className={`${typography.variants.subtitle} mb-8 sm:mb-12 text-center font-light`}
-          >
-            {post.excerpt}
-          </p>
+          {post.excerpt ? (
+            <p
+              className={`${typography.variants.subtitle} mb-6 text-center font-light`}
+            >
+              {post.excerpt}
+            </p>
+          ) : null}
+          <div className="flex justify-center mb-6">
+            <LazyShareViaModal slug={post.slug} title={post.title} />
+          </div>
+
           {post.audio ? (
             <audio controls preload="none" className="mb-8 sm:mb-12 m-auto">
               <source src={post.audio} type="audio/x-m4a" />
             </audio>
           ) : null}
-          <div className="flex gap-3  mb-6">
-            <a href="https://twitter.com/LauriNevanpera" target="_blank">
-              <Image
-                src="/profiili.jpg"
-                width={66}
-                height={66}
-                alt="Lauri Nevanperä"
-                className="height-auto rounded-full"
-              />
-            </a>
-            <div className="self-center">
-              <address className="font-bold font-primary text-md not-italic">
-                Lauri Nevanperä
-                <span className={`${palette.text.secondary} font-normal`}>
-                  {" | "}Tampere
-                </span>
-              </address>
-              <time
-                itemProp="datepublished"
-                dateTime={post.date}
-                className={`${typography.variants.secondaryTitle}`}
-              >
-                {formatDateStr(post.date)} | {post.readingTime} min lukuaika
-              </time>
+          <Writer post={post} />
+          {/* <div className="flex gap-2 items-center mb-4 p-4 bg-gray-200 self-center">
+            <div className="flex items-center gap-2 flex-wrap">
+              <IconShareAndroid />
             </div>
-          </div>
+          </div> */}
         </div>
         <PostBody content={contentHtml} />
       </article>
@@ -185,27 +152,31 @@ export default async function Post(props: Props) {
           turhuuksia. Lopeta tilaus koska vain.
         </div>
       </div> */}
-
-      <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 mt-10">
-        <div>
-          <h1 className={`${typography.variants.sectionTitle}`}>
-            Kiitos kun luit.
-          </h1>
-          <h2
-            className={`${typography.variants.textBody} ${palette.text.secondary}`}
-          >
-            Jaa jos pidit. Pidä aihe keskustelussa.
-          </h2>
+      <div
+        className={`relative w-screen bg-gray-100 py-6 sm:py-10`}
+        style={{ left: "calc(-50vw + 50%)" }}
+      >
+        <div className="flex flex-col items-stretch gap-6 max-w-article px-4 sm:px-0 m-auto">
+          <div>
+            <h1 className={`${typography.variants.sectionTitle}`}>
+              Kiitos kun luit.
+            </h1>
+            <h2
+              className={`${typography.variants.textBody} ${palette.text.secondary}`}
+            >
+              Jaa jos pidit. Pidä aihe keskustelussa.
+            </h2>
+          </div>
+          <LazySocialMediaShare post={post} />
         </div>
-        <LazySocialMediaShare post={post} slug={props.params.slug} />
       </div>
       <div
-        className="fixed bottom-4 z-50"
+        className="fixed bottom-4 z-30"
         style={{ left: "50%", transform: "translate(-50%, -50%)" }}
       >
         <LazyClapButton slug={props.params.slug} />
       </div>
-      <section className="mt-10">
+      <section className="mt-6 sm:mt-10">
         <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>
         <PostGrid
           disableLargeFirstPost
@@ -224,12 +195,12 @@ export default async function Post(props: Props) {
               href: routes.post(post.slug),
             }))}
         />
-        <Link
+        {/* <Link
           href={routes.posts}
           className={`${button.variants.large} flex-1 col-start-1 col-end-3 mt-4 sm:mt-2`}
         >
           Katso kaikki artikkelit
-        </Link>
+        </Link> */}
       </section>
     </>
   );

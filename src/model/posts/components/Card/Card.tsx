@@ -1,7 +1,7 @@
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
-import { ImageOverlayTags } from "@/features/posts/components/Card/ImageOverlayTags";
+import { ImageOverlayTags } from "@/model/posts/components/Card/ImageOverlayTags";
 // import { AudioPlayer } from "@/features/posts/components/AudioPlayer";
 import Image from "next/image";
 import Link from "next/link";

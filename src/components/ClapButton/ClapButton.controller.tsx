@@ -1,6 +1,6 @@
 "use client";
-import { fetchClaps } from "@/app/model/claps/getClaps";
-import { postClaps } from "@/app/model/claps/postClaps";
+import { fetchClaps } from "@/model/claps/getClaps";
+import { postClaps } from "@/model/claps/postClaps";
 import { ClapButton } from "@/components/ClapButton/ClapButton.view";
 import { useDebounce } from "@/essentials/utils/useDebounce";
 import React, { useState } from "react";

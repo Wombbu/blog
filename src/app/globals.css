@@ -19,3 +19,11 @@
   display: inline-block;
   vertical-align: text-bottom;
 }
+
+html:has(dialog[open]:modal) {
+  overflow: hidden;
+}
+
+html {
+  scrollbar-gutter: stable both-edges;
+}

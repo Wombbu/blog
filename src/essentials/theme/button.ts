@@ -1,14 +1,17 @@
+import { palette } from "@/essentials/theme/palette";
+
 const buttonBase =
-  "flex justify-center items-center inline-block border-gray-800 font-semibold ";
-const buttonPrimary = `${buttonBase} font-primary text-gray-800 hover:bg-gray-800 hover:text-white`;
-const buttonInverted = `${buttonBase} bg-gray-800 text-white hover:bg-white hover:text-gray-800`;
+  "flex justify-center items-center inline-block font-semibold ";
+const buttonPrimary = `${buttonBase} font-primary text-gray-800 hover:bg-gray-800`;
+const buttonInverted = `${buttonBase} bg-black text-white hover:bg-gray-800`;
 
 const variants = {
-  large: `${buttonPrimary} p-4 border-3 text-xl`,
-  smol: `${buttonPrimary} p-2 border-2`,
-  largeInverted: `${buttonInverted} p-4 border-3 text-xl`,
-  smolInverted: `${buttonInverted} p-2 border-2`,
-  rounded: `rounded-full flex items-center justify-center bg-white h-10 pr-6 pl-5 hover:bg-gray-100 border-2 border-gray-300 font-primary font-semibold`,
+  large: `${buttonPrimary} py-4 px-5 text-xl`,
+  smol: `${buttonPrimary} py-3 px-4`,
+  largeInverted: `${buttonInverted} p-4 text-xl`,
+  smolInverted: `${buttonInverted} py-3 px-4`,
+  rounded: `rounded-full flex items-center justify-center bg-white h-10 pr-6 pl-5 hover:bg-gray-100 border-2 ${palette.border.secondary} font-primary font-semibold`,
+  iconButton: `bg-gray-500 bg-opacity-0 hover:bg-opacity-20 active:bg-opacity-30 bg-opacity-10 flex justify-center items-center w-10 h-10 text-2xl`,
 };
 
 export const button = { variants };

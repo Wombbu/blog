@@ -32,9 +32,9 @@ Osviittaa antaa myös Helsingin Kaupungin ja Helsingin Kauppakamerin teettämä 
 
 ![Ostovoiman virtaus Helsingin keskustaan](/assets/blog/keskustat-autoilu-ja-yrittajat/ostovoiman-virtaus.jpeg)
 
-@graph[8 Autoilun osuus Helsingin keskustan ravintoloissa käytetystä rahasta]
-
 Minun ei ole tarkoitus lytätä henkilöautoilua keskustaan saapumisen tapana. Päin vastoin se on **monelle käytännöllisin tapa saapua keskustaan**. Esplanadin kokeilua voi vastustaa henkilöautoliikenteen sujuvuuden näkökulmasta. Esplanadin kokeilun vastustaminen vetoamalla näivettymiseen on kuitenkin harhaanjohtavaa.
+
+@graph[8 Autoilun osuus Helsingin keskustan ravintoloissa käytetystä rahasta]
 
 **Vikströmin oletukset ovat valtavasti pielessä**. Hän on saanut [paljon mediatilaa](https://yle.fi/a/74-20033086) vastustaessaan kokeilua, joka kaikkien kokemusten, tutkimusten ja tilastotietojen mukaan hyödyttää juuri hänen johtamaansa yritystä.
 
@@ -70,7 +70,7 @@ Ilmiö on tuttu Suomesta ja maailmalta. Samat keskustelut käydään vuodesta to
 Kuitenkin, kävelykaduksi muuttaminen kasvattaa asiakasvirtoja massiivisesti. Kohtasin konkreettisimman esimerkin tästä tänä keväänä Tampereen Tuomiokirkonkadulla. Kulkijamäärä ja tunnelma muuttuu täysin, kun katu vaihtuu kävelykaduksi. Esimerkki on äärimmäinen, mutta kuvastaa kävelykatujen vetovoimaa.
 
 <figure>
-  <video muted autoplay loop playsinline>
+  <video muted autoplay loop controls playsinline>
     <source src="/assets/blog/keskustat-autoilu-ja-yrittajat/tuomiokirkonkatu.mp4" type="video/mp4">
   </video>
 </figure>

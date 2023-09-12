@@ -1,0 +1,5 @@
+.shareUrlButton:active {
+  background-color: green;
+  border-color: #adadad;
+  color: #333;
+}

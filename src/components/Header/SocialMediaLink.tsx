@@ -19,7 +19,9 @@ export const SocialMediaLink = ({
     <a
       target="_blank"
       rel="noreferrer"
-      className={`${className || ""} rounded-full p-2 hover:shadow-outline`}
+      className={`${
+        className || ""
+      } rounded-full p-2 hover:bg-gray-200 bg-white`}
       {...aProps}
     >
       <Image

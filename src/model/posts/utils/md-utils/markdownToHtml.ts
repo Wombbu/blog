@@ -1,33 +1,8 @@
 import MarkdownIt from "markdown-it";
 import linkPreview from "markdown-it-link-preview";
 import iterator from "markdown-it-for-inline";
-
-// function dataBarPlugin(md: MarkdownIt) {
-//   md.renderer.rules.text = (tokens, idx, _options, _env, self) => {
-//     const token = tokens[idx];
-//     const text = token.content.trim();
-//     const regex = /@\[(\d{1,3})\]/;
-
-//     if (regex.test(text)) {
-//       const matches = text.match(regex);
-//       const dataValue = parseInt(matches[1]);
-
-//       // Ensure dataValue is within the valid range (0 to 100)
-//       const value = Math.min(100, Math.max(0, dataValue));
-
-//       // Create an animated data bar using inline CSS styles
-//       return `
-//         <div style="border: 2px solid black; color: white;">
-//           <div style="width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
-//           ${value} %
-//           </div>
-//         </div>
-//       `;
-//     }
-
-//     return self.renderInlineAsText(tokens, _options);
-//   };
-// }
+// @ts-expect-error
+import implicitFigures from "markdown-it-image-figures";
 
 function dataBarPlugin(md: MarkdownIt) {
   // @ts-ignore
@@ -50,9 +25,9 @@ function dataBarPlugin(md: MarkdownIt) {
 
       // Create an animated data bar using inline CSS styles
       return `
-      <figure style="display: flex; flex-direction: column; align-items: stretch; max-width: 378px;">
+      <figure style="display: flex; flex-direction: column; align-items: stretch; max-width: 378px; position: initial; width: auto; /*To prevent figure css from widening this*/">
         <div style="border: 2px solid black; color: white;">
-          <div style="width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
+          <div style="font-family: sans-serif; width: ${value}%; background-color: #000; margin: 0; padding: 0; animation: fill-bar 2s; padding: 4px; display: flex; align-items: center; justify-content: center;">
             ${value} %
           </div>
         </div>
@@ -81,7 +56,11 @@ const md = new MarkdownIt({
     }
   })
   .use(linkPreview)
-  .use(dataBarPlugin);
+  .use(dataBarPlugin)
+  .use(implicitFigures, {
+    figcaption: "alt",
+    lazy: true,
+  });
 
 export default function markdownToHtml(markdown: string) {
   const result = md.render(markdown);

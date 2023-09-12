@@ -7,7 +7,7 @@ import Link from "next/link";
 import {
   ImageOverlayTags,
   TagList,
-} from "@/features/posts/components/Card/ImageOverlayTags";
+} from "@/model/posts/components/Card/ImageOverlayTags";
 import { lessThan2Weeks } from "@/essentials/utils/lessThan2Weeks";
 
 type Props = {

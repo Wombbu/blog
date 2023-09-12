@@ -31,7 +31,7 @@ Ideana ei tosin ollut kertoa tylsästä arjestani, vaan homman pihvi tulee täss
 - Lääkärikäyntiä ja odottelua 20 min
 
 <figure>
- <video muted autoplay loop playsinline>
+ <video muted autoplay loop controls playsinline>
   <source src="/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 8.mov" type="video/mp4">
 </video>
 <figcaption>Työmatkaliikennettä. Huomatkaa säntillinen ryhmittyminen. / Video: Lauri Nevanperä</figcaption>

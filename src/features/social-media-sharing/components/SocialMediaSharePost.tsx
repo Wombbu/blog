@@ -1,23 +1,20 @@
 "use client";
-import { DiscussOnTwitter } from "@/components/DiscussOnTwitter";
-import { ShareOnFacebook } from "@/components/ShareOnFacebook";
-import { ShareOnReddit } from "@/components/ShareOnReddit";
-import { ShareOnTwitter } from "@/components/ShareOnTwitter";
-import ShareOnWhatsapp from "@/components/ShareOnWhatsapp";
+import SocialMediaShareButtons from "@/features/social-media-sharing/components/SocialMediaShareButtons";
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
-import { Post } from "@/features/posts/types/Post";
+import { Post } from "@/model/posts/types/Post";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 type Props = {
   post: Post;
-  slug: string;
 };
 
-export default function SocialMediaShare({ post, slug }: Props) {
+export default function SocialMediaShare({ post }: Props) {
   return (
-    <div className="flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 border-gray-200 rounded-2xl w-full">
+    <div
+      className={`flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 ${palette.border.secondary} rounded-2xl w-full bg-white`}
+    >
       <div
         className="aspect-video"
         style={{
@@ -47,7 +44,7 @@ export default function SocialMediaShare({ post, slug }: Props) {
           </div>
         </div>
       </div>
-      <TypeAnimation
+      {/* <TypeAnimation
         className={`${typography.variants.textBody} ${palette.text.secondary} my-2 h-12 sm:h-auto`}
         style={{
           fontSize: "1.25rem",
@@ -66,21 +63,14 @@ export default function SocialMediaShare({ post, slug }: Props) {
           "Nevanperä hourailee",
           800,
           "Tamperelaiset, huom!",
-          5000,
+          2000,
         ]}
         wrapper="span"
         speed={60}
         repeat={Infinity}
-      />
+      /> */}
       <div className="flex gap-2 flex-wrap items-end justify-end">
-        {post.tweet ? (
-          <DiscussOnTwitter url={post.tweet} />
-        ) : (
-          <ShareOnTwitter slug={slug} />
-        )}
-        <ShareOnFacebook slug={slug} />
-        <ShareOnWhatsapp slug={slug} />
-        {/* <ShareOnReddit slug={slug} title={post.title} /> */}
+        <SocialMediaShareButtons slug={post.slug} title={post.title} />
       </div>
     </div>
   );
