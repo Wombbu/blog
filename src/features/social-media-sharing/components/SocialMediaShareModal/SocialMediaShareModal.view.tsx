@@ -2,7 +2,6 @@ import { Modal } from "@/components/Modal/Modal";
 import { button } from "@/essentials/theme/button";
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
-import { IconLink } from "@/features/social-media-sharing/components/IconLink";
 import SocialMediaShareLinkButtons from "@/features/social-media-sharing/components/SocialMediaShareLinkButtons";
 import { BsLink45Deg } from "react-icons/bs";
 export const SocialMediaShareModalView = ({

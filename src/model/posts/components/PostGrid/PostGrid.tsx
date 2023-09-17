@@ -29,7 +29,7 @@ export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
           priority={index < 3}
           imgClassName={
             index === 0 && !disableLargeFirstPost
-              ? "aspect-sdInverse sm:aspect-video"
+              ? "aspect-sdInverse sm:aspect-goldenRatio"
               : "aspect-sdInverse"
           }
         />

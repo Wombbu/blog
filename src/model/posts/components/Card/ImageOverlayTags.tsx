@@ -148,7 +148,7 @@ export const TagList = ({ tags, hasAudio, isNew }: Props) => {
       ].map((tag) => (
         <div
           key={tag}
-          className="bg-black p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center"
+          className="p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center backdrop-blur-lg"
         >
           {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
             tag}
