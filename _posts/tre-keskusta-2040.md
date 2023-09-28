@@ -38,12 +38,12 @@ Henkilöautojen tunneli- ja luolaverkostoon satojen miljoonien, ellei miljardilu
 - Hämeenkatua ei voi ylittää Pellavetehtaankadulta. Korvaava väylä kolmen korttelin etäisyydellä
 - Aleksanterinkatu saatetaan sulkea muulta kun pelastusliikenteeltä. Korvaava väylä kahden korttelin etäisyydellä
 - Aleksis Kiven katu Laukontorin edestä muuttuu kävelykaduksi. Korvaava väylä korttelin toisella puolella.
-- Puutarhakadun kävelykatu saattaa avautua henkilöautoliikenteelle
+- Kuninkaankadun kävelykatu saattaa avautua henkilöautoliikenteelle
 - Jo aiemmin päätetty Tuomiokirkonkadun kävelykatu saattaa muuttua moottoriliikennekaduksi
 
 Suunnitelmissa huomaa muista Euroopan kaupungeista tuttua traffic circulation plan -ajattelua. Keskusta jaetaan neljään vyöhykkeeseen, ja vyöhykkeestä toiseen siirrytään keskustan autoliikenteelle priorisoidun kehän kautta. Ajatus on Eurooppalaisissa kaupungeissa toimivaksi todettu tapa rauhoittaa keskustan katuja läpiajoliikenteeltä. Ajatuksena on, että keskustaan saavutaan sujuvasti kehältä, kun taas keskustan sisällä kuljetaan muilla keinoilla kun autolla. Tämä on ollut kantava ajatus myös Tampereella koko viime vuosikymmenen, mutta poliittinen ohjaus on estänyt suunnitelman täytäntöönpanoa.
 
-Henkilöautot ajaisivat ja parkkeeraisivat kokolailla siellä missä nytkin. Puutarhakatu ja Tuomiokirkonkadun tuleva kävelykatuosuus saattavat muuttua moottoriliikennekaduiksi. Läpiajo Hämeenkadun yli poistuisi monin osin, kuten Itsenäisyydenkadulla.
+Henkilöautot ajaisivat ja parkkeeraisivat kokolailla siellä missä nytkin. Kuninkaankatu, ja Tuomiokirkonkadun tuleva kävelykatuosuus saattavat muuttua moottoriliikennekaduiksi. Läpiajo Hämeenkadun yli poistuisi monin osin, kuten Itsenäisyydenkadulla.
 
 ## Kävelyn muutokset:
 
@@ -161,7 +161,7 @@ Otavalankadulla kävelijämäärät eivät ole yhtä suuria, mutta ja myös jaet
 
 Henkilöautolla keskustaan saapuville suunnitelmat ovat parasta mitä voi toivoa. Ei jää epäilyksen puolikastakaan, etteikö suunnitelma olisi henkilöautoilutunneleiden osalta absoluuttista parasta mitä rahalla saa. Helsingin moottoritieltä tullessa tunneliin ajetaan suoraan moottoritien päättyessä. Tunneli haarautuu, ja voit valita ajatko itäiseen tai läntiseen keskustaan Hämeenkadun alle. Rantatunnelista syöksytään tunneliin, joka myös haarautuu kahteen haaraan: Voit valita tuletko ulos Amurintunnelista asuinalueelle, ajatko Frenckelliin vaiko Hämeenkadun alle. Maan alla on parkkiluolien verkosto joita tunnelit yhdistävät. Kuninkaankatu, Tuomiokirkonkadun jo päätetty kävelykatuosuus mahdollisesti avataan / säilyvät henkilöautoille.
 
-Mitä tulee kävelyn olosuhteiden ja katutilan kehittämiseen - kehitystä on, mutta laajuus jää nähtäväksi. Kävelykatuja saattaa poistua, useimmista kaduista tehdään Kyttälänkadun kaltaisia, ja katuvihreä lisääntyy. Kyttälänkatumainen linja lienee oikein sopiva läntisen keskustan leveille kaduille, kun leveys mahdollistaa kunnon jalkakäytävät ja katuvihreän. Läntistä keskustaa koettelee Puutarhakadun kävelykadun mahdollinen poisto, ja Kunkun parkin sekä Amurintunnelin luoma lisäliikenne. Läpiajoa vähentää traffic circulation planin mahdollinen käyttöönotto. Eteläiseen Kyttälään on mahdollista tehdä pihakatuja, mutta moottoriliikenteen liikenneverkkosuunnitelmassa tätä ei ole huomioitu. Suunnitelmat jättävät kädenlämpöisen kuvan
+Mitä tulee kävelyn olosuhteiden ja katutilan kehittämiseen - kehitystä on, mutta laajuus jää nähtäväksi. Kävelykatuja saattaa poistua, useimmista kaduista tehdään Kyttälänkadun kaltaisia, ja katuvihreä lisääntyy. Kyttälänkatumainen linja lienee oikein sopiva läntisen keskustan leveille kaduille, kun leveys mahdollistaa kunnon jalkakäytävät ja katuvihreän. Läntistä keskustaa koettelee Kuninkaankadun kävelykadun mahdollinen poisto, ja Kunkun parkin sekä Amurintunnelin luoma lisäliikenne. Läpiajoa vähentää traffic circulation planin mahdollinen käyttöönotto. Eteläiseen Kyttälään on mahdollista tehdä pihakatuja, mutta moottoriliikenteen liikenneverkkosuunnitelmassa tätä ei ole huomioitu. Suunnitelmat jättävät kädenlämpöisen kuvan
 
 ![Hallituskatua on mahdollista kehittää viherkatuna](/assets/blog/tre-keskusta-2040/hallituskatu-2.jpg)
 
