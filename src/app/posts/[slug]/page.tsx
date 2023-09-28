@@ -93,6 +93,12 @@ export default async function Post(props: Props) {
   return (
     <>
       <article className="relative">
+        <div
+          className="fixed bottom-4 z-30"
+          style={{ left: "50%", transform: "translate(-50%, -50%)" }}
+        >
+          <LazyClapButton slug={props.params.slug} />
+        </div>
         <PostHero post={post} />
         <div className="m-auto max-w-article">
           <h1
@@ -169,12 +175,6 @@ export default async function Post(props: Props) {
           </div>
           <LazySocialMediaShare post={post} />
         </div>
-      </div>
-      <div
-        className="fixed bottom-4 z-30"
-        style={{ left: "50%", transform: "translate(-50%, -50%)" }}
-      >
-        <LazyClapButton slug={props.params.slug} />
       </div>
       <section className="mt-6 sm:mt-10">
         <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>

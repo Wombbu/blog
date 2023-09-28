@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Header } from "@/components/Header/Header";
-import { Work_Sans, Source_Serif_4 } from "next/font/google";
+import { Work_Sans, Merriweather } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { AnalyticsWrapper } from "@/components/Analytics";
 import { Metadata } from "next";
@@ -38,8 +38,9 @@ const primaryFontFamily = Work_Sans({
   variable: "--font-family-primary",
 });
 
-const secondaryFontFamily = Source_Serif_4({
+const secondaryFontFamily = Merriweather({
   subsets: ["latin"],
+  weight: ["400", "700"],
   variable: "--font-family-secondary",
 });
 

@@ -3,7 +3,7 @@ title: "Kaupunkikeskustat näivettyvät. Miksi?"
 excerpt: ""
 date: "2023-05-01T17:00:00.000Z"
 readingTime: "3"
-tags: "Tampere, Helsinki"
+tags: "Tampere, Helsinki, Keskustan elinvoima"
 coverImage:
   url: "/assets/blog/keskustojen-naivettyminen/tre-keskusta - 5-1.jpeg"
   desc: "Pieni lelukauppa lopettaa Tampereella"

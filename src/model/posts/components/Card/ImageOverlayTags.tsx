@@ -10,6 +10,9 @@ export enum CustomTags {
   Video = "Video",
   New = "New",
   CityPlanning = "Kaupunkisuunnittelu",
+  Living = "Asuminen",
+  CityCenterVirtality = "Keskustan elinvoima",
+  Traffic = "Liikenne",
 }
 
 const EmojiTag = ({
@@ -129,6 +132,18 @@ const specialTags = [
   {
     name: CustomTags.CityPlanning,
     tag: <EmojiTag emoji="🏛️" text="Kaupunkisuunnittelu" />,
+  },
+  {
+    name: CustomTags.Living,
+    tag: <EmojiTag emoji="🏡" text="Asuminen" />,
+  },
+  {
+    name: CustomTags.CityCenterVirtality,
+    tag: <EmojiTag emoji="🏙️" text="Keskustan elinvoima" />,
+  },
+  {
+    name: CustomTags.Traffic,
+    tag: <EmojiTag emoji="🚦" text="Liikenne" />,
   },
 ];
 

@@ -3,7 +3,7 @@ title: "Miksi toimitusjohtaja vastusti Esplanadin kokeilua ja mitä voimme oppia
 excerpt: ""
 date: "2023-08-10T17:00:00.000Z"
 readingTime: "5"
-tags: "Tampere, Helsinki, Data"
+tags: "Tampere, Helsinki, Keskustan elinvoima"
 coverImage:
   url: "/assets/blog/keskustat-autoilu-ja-yrittajat/cover3.jpg"
   desc: "Kluuvikatu Helsingissä"

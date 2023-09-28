@@ -31,14 +31,14 @@ export const SocialMediaShareModalView = ({
         Jaa palveluun
       </h2>
 
-      <div className="flex gap-2 flex-wrap mb-4">
+      <div className="flex gap-2 flex-wrap mb-6">
         <SocialMediaShareLinkButtons slug={slug} title={title} />
       </div>
       <h2 className={`${typography.variants.caption} mb-2 text-black`}>
         Tai kopioi linkki
       </h2>
       <div
-        className={`flex gap-2 items-stretch mt-2 bg-white border-2 ${palette.border.secondary}`}
+        className={`flex gap-2 items-stretch bg-white border-2 ${palette.border.secondary}`}
       >
         <BsLink45Deg className="self-center ml-2 w-6 h-6 p-0" />
         <input
