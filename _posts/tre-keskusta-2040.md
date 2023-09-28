@@ -1,6 +1,6 @@
 ---
-title: "Tampereen keskustan liikenne vuonna 2040"
-excerpt: "Liikennejärjestelmäsuunnitelma määrittää keskustan kehityksen vuoteen 2040 asti. Kannattaa olla kuulolla mikäli keskusta-asiat kiinnostavat"
+title: "Tampereen keskusta vuonna 2040. Suunta päätetään nyt."
+excerpt: "Liikennejärjestelmäsuunnitelma määrittää keskustan kehitystä vuoteen 2040 asti. Avaan suunnitelmia tässä artikkelissa. Kannattaa olla kuulolla mikäli keskusta-asiat kiinnostavat"
 date: "2023-09-28T17:00:00.000Z"
 readingTime: "5"
 tags: "Tampere, Liikenne, Keskustan elinvoima"
@@ -10,8 +10,11 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Edustin Urbaani Tampere Ry:tä Keskustan Liikennejärjestelmäsuunnitelman sidosryhmätyöpajassa.
-Työpajassa esiteltiin suunniteltu liikenneverkko sekä vaihtoehtoja katutilan jaosta eri kaduilla. Liikennejärjestelmän suunnittelutyö kestää tämän vuoden loppuun.
+Artikkkelin otsikko on villi, mutta totuudenmukainen. Miten Tampereen keskustaa kehitetään seuraavat 20 vuotta? Tähän kysymykseen vastaa meneillään oleva Tampereen keskustan liikennejärjestelmäsuunnitelma.
+
+Edustin Urbaani Tampere Ry:tä suunnitelman sidosryhmätyöpajassa. Suunnitelma valmistuu vuoden loppuun mennessä, ja voit seurata etenemistä [Tampereen kaupungin verkkosivuilla](https://www.tampere.fi/kaupunkisuunnittelu/kaupunkiymparisto-uudistuu/keskustan-liikennejarjestelma-suunnitelma)
+
+Koostin suunnitelman nykytilan teille luettavaksi
 
 ## Aloitetaan henkilöautoiluhankkeista.
 
@@ -40,6 +43,8 @@ Henkilöautojen tunneli- ja luolaverkostoon satojen miljoonien, ellei miljardilu
 
 Suunnitelmissa huomaa muista Euroopan kaupungeista tuttua traffic circulation plan -ajattelua. Keskusta jaetaan neljään vyöhykkeeseen, ja vyöhykkeestä toiseen siirrytään keskustan autoliikenteelle priorisoidun kehän kautta. Ajatus on Eurooppalaisissa kaupungeissa toimivaksi todettu tapa rauhoittaa keskustan katuja läpiajoliikenteeltä. Ajatuksena on, että keskustaan saavutaan sujuvasti kehältä, kun taas keskustan sisällä kuljetaan muilla keinoilla kun autolla. Tämä on ollut kantava ajatus myös Tampereella koko viime vuosikymmenen, mutta poliittinen ohjaus on estänyt suunnitelman täytäntöönpanoa.
 
+Henkilöautot ajaisivat ja parkkeeraisivat kokolailla siellä missä nytkin. Puutarhakatu ja Tuomiokirkonkadun tuleva kävelykatuosuus saattavat muuttua moottoriliikennekaduiksi. Läpiajo Hämeenkadun yli poistuisi monin osin, kuten Itsenäisyydenkadulla.
+
 ## Kävelyn muutokset:
 
 - Kuninkaankatu, ja mahdollisesti myös Tuomiokirkonkadun jo päätetty kävelykatu avautuvat moottoriliikenteelle.
@@ -55,6 +60,8 @@ Suunnitelmissa huomaa muista Euroopan kaupungeista tuttua traffic circulation pl
 - Kyttälän hiljaisin katu, Pellavatehtaankatu katkaistaan moottoriliikenteeltä Hämeenkadun risteyksessä. Moottoriliikenne ohjautuu Verkatehtaankadulle, jossa kävelyä on n. 10x määrä Pellavatehtaankatuun verrattuna
 - Verkatehtaankadulle busiiliikennettä Areenan katusulkujen aikana
 
+## Suunnitelman vaiheistus
+
 ![Maan päälliset hankkeet ovat sidottu henkilöautotunneliverkostoon](/assets/blog/tre-keskusta-2040/tre-keskusta1.jpeg)
 
 ![Vaihe 1 keskittyy Kyttälän ja aseman alueeseen](/assets/blog/tre-keskusta-2040/tre-keskusta2.jpeg)
@@ -67,7 +74,7 @@ Suunnitelmissa huomaa muista Euroopan kaupungeista tuttua traffic circulation pl
 
 ## Satunnaisia huomioita
 
-Yksinkertaistaen voisi sanoa, että keskustan kaduista ollaan tekemässä Kyttälänkatuja, eli moottoriliikenteen katuja leveämmillä jalkakäytävillä, parkkipaikoilla ja katuvihreällä. Erilainen liiketoiminta vaatii erilaista ympäristöä, jota ei nyt juurikaan mahdollisteta. Ravintolat hyötyvät kävelykaduista, kun taas erikoiskauppa hyötyy moottoriliikennekadusta. Vaihtelu olisi hyväksi keskustan elämyksellisyydelle ja vetovoimalle, joka asiantuntijoiden mukaan on nousemassa keskustojen pääkilpailuvaltiksi kauppakeskuksiin verrattuna.
+Yksinkertaistaen voisi sanoa, että keskustan kaduista ollaan tekemässä Kyttälänkatuja, eli moottoriliikenteen katuja leveämmillä jalkakäytävillä, parkkipaikoilla ja katuvihreällä. Erilainen liiketoiminta vaatii erilaista ympäristöä, jota ei nyt juurikaan mahdollisteta. Ravintolat hyötyvät kävelykaduista, kun taas erikoiskauppa hyötyy moottoriliikennekadusta. Vaihtelu olisi hyväksi keskustan elämyksellisyydelle ja vetovoimalle, joka asiantuntijoiden mukaan on nousemassa keskustojen pääkilpailuvaltiksi kauppakeskuksiin nähden.
 
 Selkeitä kävelyalueita ei välttämättä muodostu, vaikkakin Aleksanterinkatu - Tuomiokirkonkatu välillä tämä mahdollisuus on. Mikäli Aleksanterinkatu pyhitetään pelastusliikenteelle ja Tuomiokirkonkadun kävelykatusuunnitelmia ei poisteta. Tämä on kuitenkin tässä vaiheessa avoinna oleva kysymys, sillä Tuomiokirkonkadun kävelykadun jatke on vasaran alla, eikä Aleksanterinkadun kohtalosta ole tietoa.
 
@@ -110,7 +117,7 @@ Ryhmämme kannatti Puutarhakadulle pyöräkatua, joka erottaa pyöräliikenteen 
 Kyttälän liikenneverkkoon on suunniteltu pieniä viilauksia:
 
 - Keskustan autoliikenteelle priorisoitu kehä siirtyy Rautatienkadulta Ratapihankadulle. Tämä mahdollistaa paremmat olosuhteet pyöräilylle ja kävelylle, säilyttäen autoliikenteen ja parkkeerauksen.
-- Aleksanterinkatu saattaa muuttua pelastusliikenteen kaduksi. Tämä mahdollistaa kadun vahvan kehittämisen viihtyisyyden näkökulmasta
+- Aleksanterinkatu saattaa muuttua pelastusliikenteen kaduksi. Tämä mahdollistaisi kadun vahvan kehittämisen viihtyisyyden näkökulmasta
 - Tuomiokirkonkadun jo päätettyä kävelykatua ei välttämättä toteuteta. Se saatetaan toteuttaa moottoriliikenteen katuna joka suljetaan moottoriliikenteeltä Areenan tapahtumien aikana
 - Pellavatehtaankatu katkaistaan moottoriliikenteeltä, ja Hatanpään valtatien henkilöautoliikenne ohjautuu Verkatehtaankadulle
 - Bussiliikenne ohjataan Verkatehtaankadulle Areenan tapahtumien aikana
