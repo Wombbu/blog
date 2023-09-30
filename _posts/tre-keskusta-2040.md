@@ -2,7 +2,7 @@
 title: "Tampereen keskusta vuonna 2040. Suunta päätetään nyt."
 excerpt: "Liikennejärjestelmäsuunnitelma määrittää keskustan kehitystä vuoteen 2040 asti. Avaan suunnitelmia tässä artikkelissa. Kannattaa olla kuulolla mikäli keskusta-asiat kiinnostavat"
 date: "2023-09-28T17:00:00.000Z"
-readingTime: "5"
+readingTime: "8"
 tags: "Tampere, Liikenne, Keskustan elinvoima"
 coverImage:
   url: "/assets/blog/tre-keskusta-2040/tre-keskusta12.jpeg"

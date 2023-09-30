@@ -45,10 +45,10 @@ export const VisualPost = ({
         <div
           className={`absolute bottom-0 left-0 right-0 px-2 sm:px-4 pt-40 pb-4 break-words flex flex-col items-center z-10 ${styles.gradientBlur}`}
         >
-          <figcaption className="font-primary font-bold text-gray-100 text-2xl sm:text-3xl hover:underline decoration-3 text-center max-w-xl mb-4">
+          <figcaption className="font-primary font-bold text-gray-100 text-2xl sm:text-3xl hover:underline decoration-3 text-center max-w-xl mb-4 sm:mb-4">
             {title}
           </figcaption>
-          <div className="flex gap-2 flex-wrap p-2 justify-center ">
+          <div className="flex gap-3 flex-wrap justify-center ">
             <TagList tags={tags} hasAudio={!!audio} isNew={false} />
           </div>
           {/* <p
@@ -57,7 +57,7 @@ export const VisualPost = ({
             {excerpt}
           </p> */}
           <figcaption
-            className={`${typography.variants.secondaryTitle} text-gray-300 text-center text-sm sm:block self-end mt-2`}
+            className={`${typography.variants.secondaryTitle} text-gray-300 text-center text-sm sm:block self-end mt-4 pr-2 sm:pr-0`}
           >
             {formatDateStr(date)} - {readingTime} min kesto
           </figcaption>
