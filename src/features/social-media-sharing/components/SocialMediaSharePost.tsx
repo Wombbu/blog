@@ -1,10 +1,8 @@
 "use client";
-import SocialMediaShareButtons from "@/features/social-media-sharing/components/SocialMediaShareButtons";
 import { palette } from "@/essentials/theme/palette";
-import { typography } from "@/essentials/theme/typography";
 import { Post } from "@/model/posts/types/Post";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
+import ShareViaModal from "@/features/social-media-sharing/components/ShareViaModal.controller";
 
 type Props = {
   post: Post;
@@ -13,7 +11,7 @@ type Props = {
 export default function SocialMediaShare({ post }: Props) {
   return (
     <div
-      className={`flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 ${palette.border.secondary} rounded-2xl w-full bg-white`}
+      className={`flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 ${palette.border.secondary} w-full bg-white`}
     >
       <div
         className="aspect-video"
@@ -31,7 +29,7 @@ export default function SocialMediaShare({ post }: Props) {
           width={600}
           height={300}
           loading="lazy"
-          className="object-cover absolute top-0 left-0 right-0 bottom-0 max-h-full rounded-lg"
+          className="object-cover absolute top-0 left-0 right-0 bottom-0 max-h-full "
         />
         <div
           className="text-white font-bold p-3 bg-black flex flex-col items-stretch mx-3 font-primary"
@@ -70,7 +68,7 @@ export default function SocialMediaShare({ post }: Props) {
         repeat={Infinity}
       /> */}
       <div className="flex gap-2 flex-wrap items-end justify-end">
-        <SocialMediaShareButtons slug={post.slug} title={post.title} />
+        <ShareViaModal slug={post.slug} title={post.title} />
       </div>
     </div>
   );
