@@ -13,6 +13,7 @@ export enum CustomTags {
   Living = "Asuminen",
   CityCenterVirtality = "Keskustan elinvoima",
   Traffic = "Liikenne",
+  Economy = "Talous",
 }
 
 const EmojiTag = ({
@@ -139,11 +140,15 @@ const specialTags = [
   },
   {
     name: CustomTags.CityCenterVirtality,
-    tag: <EmojiTag emoji="🏙️" text="Keskustan elinvoima" />,
+    tag: <EmojiTag emoji="✨" text="Keskustan elinvoima" />,
   },
   {
     name: CustomTags.Traffic,
     tag: <EmojiTag emoji="🚦" text="Liikenne" />,
+  },
+  {
+    name: CustomTags.Economy,
+    tag: <EmojiTag emoji="💶" text="Talous" />,
   },
 ];
 
@@ -163,7 +168,7 @@ export const TagList = ({ tags, hasAudio, isNew }: Props) => {
       ].map((tag) => (
         <div
           key={tag}
-          className="p-1 px-2 text-sm font-medium text-gray-100 min-w-0 flex items-center backdrop-blur-lg bg-opacity-10 bg-black"
+          className="p-1 px-2 text-sm font-medium text-gray-200 min-w-0 flex items-center"
         >
           {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
             tag}

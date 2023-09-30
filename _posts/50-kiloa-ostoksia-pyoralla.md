@@ -3,7 +3,7 @@ title: "50 kiloa ostoksia polkupyörällä?"
 excerpt: "Kuormapyörät ovat yleistyneet Suomessa. Onko niissä kuitenkaan ainesta henkilöauton korvaajaksi?"
 date: "2023-03-19T17:00:00.000Z"
 readingTime: "3"
-tags: "Liikkuminen, Talous"
+tags: "Liikenne, Talous"
 coverImage:
   url: "/assets/blog/50-kiloa-pyoralla/kuva14.jpeg"
   desc: "Ikean Ivar-kaappi matkalla kotiin"
