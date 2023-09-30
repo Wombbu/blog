@@ -11,7 +11,7 @@ export enum CustomTags {
   New = "New",
   CityPlanning = "Kaupunkisuunnittelu",
   Living = "Asuminen",
-  CityCenterVirtality = "Keskustan elinvoima",
+  Vitality = "Elinvoima",
   Traffic = "Liikenne",
   Economy = "Talous",
 }
@@ -139,8 +139,8 @@ const specialTags = [
     tag: <EmojiTag emoji="🏡" text="Asuminen" />,
   },
   {
-    name: CustomTags.CityCenterVirtality,
-    tag: <EmojiTag emoji="✨" text="Keskustan elinvoima" />,
+    name: CustomTags.Vitality,
+    tag: <EmojiTag emoji="✨" text="Elinvoima" />,
   },
   {
     name: CustomTags.Traffic,

@@ -3,7 +3,7 @@ title: "Lisää elinvoimaa Tampereen keskustaan. Visio Kyttälä"
 excerpt: ""
 date: "2023-02-25T17:00:00.00Z"
 readingTime: "8"
-tags: "Tampere, Keskustan elinvoima"
+tags: "Tampere, Elinvoima"
 coverImage:
   url: "/assets/blog/elinvoimaa-kyttälään/cover.jpg"
   desc: "Verkatehtaankatu vehreänä kävelykatuna"
