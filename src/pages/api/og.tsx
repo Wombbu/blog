@@ -8,6 +8,8 @@ const font = fetch(new URL("public/WorkSans-Bold.ttf", import.meta.url)).then(
   (res) => res.arrayBuffer()
 );
 
+// Og test url: http://localhost:3000/api/og?imgPath=/assets/blog/tre-keskusta-2040/tre-keskusta12.jpeg&title=Tampereen keskusta vuonna 2040&readingTime=5
+
 export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const imgPath = searchParams.get("imgPath");
@@ -50,8 +52,10 @@ export default async function handler(req: NextRequest) {
         />
         {title ? (
           <div
-            tw="text-white font-bold p-8 bg-black flex flex-col items-stretch mx-8"
-            style={{ fontFamily: "WorkSans_Bold" }}
+            tw="text-white font-bold p-8 flex flex-col items-stretch mx-8 bg-black"
+            style={{
+              fontFamily: "WorkSans_Bold",
+            }}
           >
             <div tw="text-2xl mb-1">Lauri Nevanperä</div>
             <div tw="text-5xl">{title}</div>

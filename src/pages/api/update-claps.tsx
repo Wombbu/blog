@@ -8,6 +8,9 @@ export default async function updateClaps(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  res.status(200).json({});
+  return;
+
   try {
     const q = faunadb.query;
 

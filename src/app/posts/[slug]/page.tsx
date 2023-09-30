@@ -95,12 +95,12 @@ export default async function Post(props: Props) {
   return (
     <>
       <article className="relative">
-        <div
+        {/* <div
           className="fixed bottom-4 z-30"
           style={{ left: "50%", transform: "translate(-50%, -50%)" }}
         >
           <LazyClapButton slug={props.params.slug} />
-        </div>
+        </div> */}
         <PostHero post={post} />
         <div className="m-auto max-w-article">
           <h1
