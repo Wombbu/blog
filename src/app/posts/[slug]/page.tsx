@@ -47,7 +47,9 @@ const LazySocialMediaShareButtons = dynamic(
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
 const LazyShareViaModal = dynamic(
   () =>
-    import("../../../features/social-media-sharing/components/ShareViaModal"),
+    import(
+      "../../../features/social-media-sharing/components/ShareViaModal.controller"
+    ),
   {
     loading: () => null,
     ssr: false,
@@ -123,41 +125,10 @@ export default async function Post(props: Props) {
             </audio>
           ) : null}
           <Writer post={post} />
-          {/* <div className="flex gap-2 items-center mb-4 p-4 bg-gray-200 self-center">
-            <div className="flex items-center gap-2 flex-wrap">
-              <IconShareAndroid />
-            </div>
-          </div> */}
         </div>
         <PostBody content={contentHtml} />
       </article>
 
-      {/* <div className="flex flex-col gap-4 justify-center my-4 flex-wrap max-w-article mx-auto bg-black p-4">
-        <h3
-          className={`${typography.variants.sectionTitle}`}
-          style={{ color: "white" }}
-        >
-          Kiinnostuitko?
-        </h3>
-        <div className="flex gap-2 p-2 items-stretch border-2 border-black bg-white">
-          <input
-            type="email"
-            placeholder="sinun@sahkopostisi.com"
-            className="flex-1 px-2"
-          />
-
-          <button className={`${button.variants.smolInverted}`}>
-            Tilaa artikkelit
-          </button>
-        </div>
-        <div
-          className={`${typography.variants.caption} text-center`}
-          style={{ color: "white" }}
-        >
-          Tieto uusista artikkeleista muutaman viikon välein. Ei spämmiä, ei
-          turhuuksia. Lopeta tilaus koska vain.
-        </div>
-      </div> */}
       <div
         className={`relative w-screen bg-gray-100 py-6 sm:py-10`}
         style={{ left: "calc(-50vw + 50%)" }}
