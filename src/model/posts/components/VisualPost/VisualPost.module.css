@@ -1,0 +1,8 @@
+.gradientBlur {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
