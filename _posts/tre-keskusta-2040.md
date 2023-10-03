@@ -10,9 +10,9 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Artikkkelin otsikko on villi, mutta totuudenmukainen. Miten Tampereen keskustaa kehitetään seuraavat 20 vuotta? Tähän kysymykseen vastaa meneillään oleva Tampereen keskustan liikennejärjestelmäsuunnitelma.
+Artikkelin otsikko on villi, mutta totuudenmukainen. Miten Tampereen keskustaa kehitetään seuraavat 20 vuotta? Tähän kysymykseen vastaa meneillään oleva Tampereen keskustan liikennejärjestelmäsuunnitelma.
 
-Edustin Urbaani Tampere Ry:tä suunnitelman sidosryhmätyöpajassa. Suunnitelma valmistuu vuoden loppuun mennessä, ja voit seurata etenemistä [Tampereen kaupungin verkkosivuilla](https://www.tampere.fi/kaupunkisuunnittelu/kaupunkiymparisto-uudistuu/keskustan-liikennejarjestelma-suunnitelma)
+Edustin Urbaani Tampere ry:tä suunnitelman sidosryhmätyöpajassa. Suunnitelma valmistuu vuoden loppuun mennessä, ja voit seurata etenemistä [Tampereen kaupungin verkkosivuilla](https://www.tampere.fi/kaupunkisuunnittelu/kaupunkiymparisto-uudistuu/keskustan-liikennejarjestelma-suunnitelma)
 
 Koostin suunnitelman nykytilan teille luettavaksi
 
