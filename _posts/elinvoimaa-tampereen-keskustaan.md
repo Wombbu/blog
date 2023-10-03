@@ -17,7 +17,7 @@ Etätyö on tullut jäädäkseen. Lähettipalvelut kuljettavat ravintola-annokse
 
 > Meidän keskustan alennustila on valitettavasti käsinkosketeltavissa. ... Se argumentti, että ennen oli paremmin, ei kerta kaikkiaan lennä enää.<cite>Lahden Kaupunkiympäristölautakunnan puheenjohtaja Francis McCarron (kok.) <a href="https://yle.fi/a/74-20011377" target="_blank">HS.fi</a></cite>
 
-![](/assets/blog/elinvoimaa-kyttälään/stockmann.HEIC)<figcaption style="margin-top: -16px;">Tyhjä liiketila Tampereen keskustassa</figcaption>
+![Tyhjä liiketila Tampereen keskustassa](/assets/blog/elinvoimaa-kyttälään/stockmann.HEIC)
 
 Ideaparkin perustaja, Toivo Sukari on todennut:
 
