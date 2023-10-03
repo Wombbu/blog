@@ -1,8 +1,22 @@
 import { Card } from "@/model/posts/components/Card/Card";
 import { VisualPost } from "@/model/posts/components/VisualPost/VisualPost";
 
+type Post = {
+  date: string;
+  imageSrc: string;
+  title: string;
+  excerpt: string;
+  readingTime: string;
+  slug: string;
+  tags?: string;
+  audio?: string;
+  href: string;
+  priority?: boolean;
+  blurDataURL?: string;
+};
+
 type Props = {
-  posts: React.ComponentProps<typeof Card>[];
+  posts: Post[];
   disableLargeFirstPost?: boolean;
 };
 
@@ -32,6 +46,7 @@ export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
               ? "aspect-sdInverse sm:aspect-goldenRatio"
               : "aspect-sdInverse"
           }
+          blurDataURL={post.blurDataURL}
         />
       </div>
     ))}

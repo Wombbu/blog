@@ -2,50 +2,43 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { Post } from "@/model/posts/types/Post";
+import { getPlaiceholder } from "plaiceholder";
 
 const postsDirectory = join(process.cwd(), "_posts");
+const publicDir = join(process.cwd(), "public");
 
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
 
-export function getPostBySlug(slug: string, fields: (keyof Post)[] = []) {
+export async function getPostBySlug(slug: string) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  type Items = {
-    [key: string]: string;
+  const file = fs.readFileSync(`${publicDir}${data.coverImage.url}`);
+  const { base64 } = await getPlaiceholder(file);
+
+  return {
+    ...data,
+    coverImage: {
+      ...data.coverImage,
+      blurDataURL: base64,
+    },
+    slug: realSlug,
+    content: content,
+  } as Post & {
+    slug: string;
+    content: string;
+    coverImage: { blurDataURL: string };
   };
-
-  // @ts-ignore
-  const items: Post = {};
-
-  // Ensure only the minimal needed data is exposed
-  fields.forEach((field) => {
-    if (field === "slug") {
-      items[field] = realSlug;
-    }
-    if (field === "content") {
-      items[field] = content;
-    }
-
-    if (typeof data[field] !== "undefined") {
-      items[field] = data[field];
-    }
-  });
-
-  return items;
 }
 
-export function getAllPosts(fields: (keyof Post)[] = []): Post[] {
+export async function getAllPosts(): Promise<Post[]> {
   const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+  const promises = slugs.map(async (slug) => getPostBySlug(slug));
+  const posts = await Promise.all(promises);
 
-  // @ts-ignore todo
-  return posts;
+  return posts.sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
 }

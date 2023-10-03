@@ -16,6 +16,8 @@ export const PostHero = ({ post }: Props) => (
         <Image
           src={post.coverImage.url}
           alt={post.coverImage.desc || "Kansikuva"}
+          placeholder="blur"
+          blurDataURL={post.coverImage.blurDataURL}
           width={960}
           height={640}
           className={module.heroImage}

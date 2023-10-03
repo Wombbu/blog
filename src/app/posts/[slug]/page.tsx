@@ -63,34 +63,11 @@ type Props = {
 };
 
 export default async function Post(props: Props) {
-  const post = getPostBySlug(props.params.slug, [
-    "title",
-    "date",
-    "slug",
-    "author",
-    "content",
-    "coverImage",
-    "excerpt",
-    "readingTime",
-    "audio",
-    "tags",
-    "tweet",
-  ]);
+  const post = await getPostBySlug(props.params.slug);
 
-  const recommended = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-    "readingTime",
-    "tags",
-    "excerpt",
-    "audio",
-  ]);
+  const recommended = await getAllPosts();
 
-  const contentHtml = await markdownToHtml(post.content || "");
+  const contentHtml = markdownToHtml(post.content || "");
 
   return (
     <>
@@ -164,6 +141,7 @@ export default async function Post(props: Props) {
               audio: post.audio,
               tags: post.tags,
               href: routes.post(post.slug),
+              blurDataURL: post.coverImage.blurDataURL,
             }))}
         />
         {/* <Link
@@ -178,7 +156,7 @@ export default async function Post(props: Props) {
 }
 
 export async function generateStaticParams() {
-  const posts = await getAllPosts(["slug"]);
+  const posts = await getAllPosts();
 
   return posts.map((post) => ({
     slug: post.slug,
@@ -190,19 +168,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const post = getPostBySlug(params.slug, [
-    "title",
-    "date",
-    "author",
-    "content",
-    "coverImage",
-    "excerpt",
-    "readingTime",
-    "audio",
-    "tags",
-    "coverImage",
-    "ogImageType",
-  ]);
+  const post = await getPostBySlug(params.slug);
   const ogImageUrl = `https://www.laurinevanpera.fi/api/og?imgPath=${
     post.coverImage.url
   }&readingTime=${post.readingTime}&title=${

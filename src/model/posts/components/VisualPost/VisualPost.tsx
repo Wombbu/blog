@@ -16,6 +16,7 @@ type Props = {
   href: string;
   priority?: boolean;
   imgClassName?: string;
+  blurDataURL?: string;
 };
 
 export const VisualPost = ({
@@ -29,12 +30,15 @@ export const VisualPost = ({
   href,
   priority,
   imgClassName,
+  blurDataURL,
 }: Props) => (
   <Link href={href} className={`flex flex-col`}>
     <figure>
       <div className={`relative -mx-4 sm:mx-0`}>
         <Image
           src={imageSrc}
+          placeholder="blur"
+          blurDataURL={blurDataURL}
           alt={title}
           width={756}
           height={756}

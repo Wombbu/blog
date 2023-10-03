@@ -4,17 +4,7 @@ import { routes } from "@/essentials/utils/routes";
 import { Metadata } from "next";
 
 export default async function Posts() {
-  const allPosts = await getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-    "readingTime",
-    "tags",
-    "audio",
-  ]);
+  const allPosts = await getAllPosts();
 
   return (
     <>
@@ -29,6 +19,7 @@ export default async function Posts() {
           excerpt: it.excerpt,
           audio: it.audio,
           href: routes.post(it.slug),
+          blurDataURL: it.coverImage.blurDataURL,
         }))}
       />
     </>

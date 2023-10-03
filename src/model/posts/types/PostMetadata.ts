@@ -14,6 +14,7 @@ export type PostMetadata = {
     credit?: string;
     license?: string;
     licenseLink?: string;
+    blurDataURL?: string;
   };
   ogImageType?: "ONLY_NAME";
   tweet?: string;

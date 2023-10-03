@@ -1,5 +1,3 @@
-import { getPostBySlug } from "@/model/posts/utils/md-utils/api";
-
 export default function Head({ params }: { params: { slug: string } }) {
   return (
     <>

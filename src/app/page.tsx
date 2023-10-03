@@ -6,18 +6,7 @@ import { typography } from "@/essentials/theme/typography";
 import Link from "next/link";
 
 export default async function Home() {
-  const allPosts = await getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-    "readingTime",
-    "tags",
-    "excerpt",
-    "audio",
-  ]);
+  const allPosts = await getAllPosts();
 
   return (
     <div>
@@ -41,6 +30,7 @@ export default async function Home() {
             excerpt: it.excerpt,
             audio: it.audio,
             href: routes.post(it.slug),
+            blurDataURL: it.coverImage.blurDataURL,
           }))}
         />
       </section>
