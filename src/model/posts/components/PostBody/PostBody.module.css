@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-base leading-snug sm:leading-normal font-secondary font-normal;
+  @apply text-base sm:leading-normal font-secondary font-normal;
 }
 
 .markdown p > a[target="_blank"]::after {
@@ -88,15 +88,15 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-10 leading-snug mb-2 font-bold font-primary;
+  @apply text-3xl mt-10 leading-snug font-bold font-primary mb-6;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-10 leading-snug font-bold mb-2 font-primary;
+  @apply text-2xl mt-10 leading-snug font-bold font-primary mb-6;
 }
 
 .markdown h3 {
-  @apply text-lg font-bold mt-8 leading-snug mb-2 font-primary;
+  @apply text-lg font-bold mt-8 leading-snug font-primary mb-6;
 }
 
 .markdown blockquote {
@@ -126,11 +126,15 @@
 }
 
 .markdown ul {
-  @apply list-disc list-inside pl-8;
+  @apply list-disc ml-4;
+}
+
+.markdown li {
+  @apply my-2;
 }
 
 .markdown ol {
-  @apply list-decimal list-inside pl-8;
+  @apply list-decimal list-inside;
 }
 
 .markdown ol p {
