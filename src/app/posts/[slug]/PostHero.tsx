@@ -18,8 +18,8 @@ export const PostHero = ({ post }: Props) => (
           alt={post.coverImage.desc || "Kansikuva"}
           placeholder="blur"
           blurDataURL={post.coverImage.blurDataURL}
-          width={960}
-          height={640}
+          width={1200}
+          height={800}
           className={module.heroImage}
           loading="eager"
         />
