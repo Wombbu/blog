@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Header } from "@/components/Header/Header";
-import { Work_Sans, Inter } from "next/font/google";
+import { Work_Sans, Roboto } from "next/font/google";
 import { Footer } from "@/components/Footer/Footer";
 import { AnalyticsWrapper } from "@/components/Analytics";
 import { Metadata } from "next";
@@ -38,7 +38,7 @@ const primaryFontFamily = Work_Sans({
   variable: "--font-family-primary",
 });
 
-const secondaryFontFamily = Inter({
+const secondaryFontFamily = Roboto({
   subsets: ["latin"],
   weight: ["400", "700"],
   variable: "--font-family-secondary",
