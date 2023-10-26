@@ -60,6 +60,7 @@ const md = new MarkdownIt({
   .use(implicitFigures, {
     figcaption: "alt",
     lazy: true,
+    async: true,
   });
 
 export default function markdownToHtml(markdown: string) {

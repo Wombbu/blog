@@ -79,12 +79,12 @@ export default async function Post(props: Props) {
           <LazyClapButton slug={props.params.slug} />
         </div> */}
         <PostHero post={post} />
+        <h1
+          className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words max-w-4xl m-auto`}
+        >
+          {post.title}
+        </h1>
         <div className="m-auto max-w-article">
-          <h1
-            className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words`}
-          >
-            {post.title}
-          </h1>
           {post.excerpt ? (
             <p
               className={`${typography.variants.subtitle} mb-6 text-center font-light`}

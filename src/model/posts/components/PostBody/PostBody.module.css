@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-base sm:leading-normal font-secondary font-normal;
+  @apply text-base sm:text-lg sm:leading-normal font-secondary font-normal;
 }
 
 .markdown p > a[target="_blank"]::after {

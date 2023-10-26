@@ -32,11 +32,11 @@ export default function SocialMediaShare({ post }: Props) {
           className="object-cover absolute top-0 left-0 right-0 bottom-0 max-h-full "
         />
         <div
-          className="text-white font-bold p-3 bg-black flex flex-col items-stretch mx-3 font-primary"
+          className="text-white font-bold p-3 bg-black flex flex-col items-stretch mx-5 font-primary"
           style={{ zIndex: 1 }}
         >
           <div className="text-xs sm:text-sm mb-0.5">Lauri Nevanperä</div>
-          <div className="text-md sm:text-2xl ">{post.title}</div>
+          <div className="text-xs sm:text-lg ">{post.title}</div>
           <div className="text-xs sm:text-sm mt-0.5 text-right self-end">
             {post.readingTime != null ? `${post.readingTime} min lukuaika` : ""}
           </div>
