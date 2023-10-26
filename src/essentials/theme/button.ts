@@ -11,7 +11,7 @@ const variants = {
   largeInverted: `${buttonInverted} p-4 text-xl`,
   smolInverted: `${buttonInverted} py-3 px-4`,
   rounded: `rounded-full flex items-center justify-center bg-white h-10 pr-6 pl-5 hover:bg-gray-100 border-2 ${palette.border.secondary} font-primary font-semibold`,
-  iconButton: `bg-gray-500 bg-opacity-0 hover:bg-opacity-20 active:bg-opacity-30 bg-opacity-10 flex justify-center items-center w-10 h-10 text-2xl`,
+  iconButton: `bg-gray-500 bg-opacity-0 hover:bg-opacity-20 active:bg-opacity-30 flex justify-center items-center w-10 h-10 text-2xl`,
 };
 
 export const button = { variants };
