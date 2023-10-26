@@ -1,7 +1,7 @@
 ---
 title: "Huhut Tampereen keskustan kuolemasta ovat liioiteltuja. Case Liikennetohtori"
 excerpt: "Tamperelainen kaupunginvaltuutettu teki valtuustoaloitteen keskustan elinvoiman kohentamiseksi, ja sai tietoon perustuvan vastauksen."
-date: "2023-10-13T17:00:00.000Z"
+date: "2023-10-26T17:00:00.000Z"
 readingTime: "10"
 tags: "Elinvoima, Kaupunkisuunnittelu"
 coverImage:
