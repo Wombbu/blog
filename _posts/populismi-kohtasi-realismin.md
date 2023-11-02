@@ -28,7 +28,7 @@ Allekirjoittajina oli Perussuomalaisten jäseniä, sekä kaksi henkilöä Kokoom
 
 ## Mietteeni valtuustoaloitteesta
 
-Ennen kuin pääsette näkemään viranhaltijan kirjoittamia tilastollisia faktoja, kerron itse mielipiteeni valtuustoaloitteesta. Olen kirjoittanut Suomen kaupunkikeskustojen hiljenemisestä muutamia artikkeleita:
+Ennen kuin pääsette näkemään viranhaltijan kirjoittamia tilastollisia faktoja, kerron itse mielipiteeni valtuustoaloitteesta. Olen kirjoittanut Suomen kaupunkikeskustoista muutamia artikkeleita:
 
 [@preview](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
 
@@ -91,7 +91,7 @@ Lempäälän kunnanvaltuuston puheenjohtaja, Kokoomuksen Jocka Träskbäck kampa
 
 Keskusteluun tarvitaan monipuolisuutta. Kävellen, autolla tai joukkoliikenteellä tulee keskustaan suurin piirtein saman verran rahaa, mutta ryhditön populismi ajaa keskustelua mustavalkoiseksi.
 
-On kaupunkilaisen etu, että ryhdittömän populismin lisäksi myös asiantuntijalausunnot saavat näkyvyyttä. Tämä asiantuntijalausunto on niin hyvin perusteltu ja täynnä kiinnostavaa faktaa ajankohtaisesta aiheesta, että olisi sääli mikäli se jäisi kaupungin pöytälaatikkoon pölyyntymään. Kaupunkilaisena minulle oli ilo huomata, että kaupungin päätösten tueksi tarjotaan laadukasta, tutkittua tietoa.
+On kaupunkilaisen etu, että ryhdittömän populismin lisäksi myös asiantuntijalausunnot saavat näkyvyyttä. Seuraavaksi tuleva asiantuntijalausunto on niin hyvin perusteltu ja täynnä kiinnostavaa faktaa ajankohtaisesta aiheesta, että olisi sääli mikäli se jäisi kaupungin pöytälaatikkoon pölyyntymään. Kaupunkilaisena minulle oli ilo huomata, että kaupungin päätösten tueksi tarjotaan laadukasta, tutkittua tietoa.
 
 Seuraavassa viranhaltijan päätösehdotus liikennetohtorin aloitteeseen.
 
