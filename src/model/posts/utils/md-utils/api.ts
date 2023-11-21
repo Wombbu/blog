@@ -3,6 +3,7 @@ import { join } from "path";
 import matter from "gray-matter";
 import { Post } from "@/model/posts/types/Post";
 import { getPlaiceholder } from "plaiceholder";
+import { jsonDb } from "@/essentials/db/db";
 
 const postsDirectory = join(process.cwd(), "_posts");
 const publicDir = join(process.cwd(), "public");
@@ -17,9 +18,21 @@ export async function getPostBySlug(slug: string) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  // This placeholder generation slows down the build process quite a bit. Make it optional / cached
-  const file = fs.readFileSync(`${publicDir}${data.coverImage.url}`);
-  const { base64 } = await getPlaiceholder(file);
+  let base64 = "";
+  // If the placeholder is already in the db, use it.
+  if (jsonDb?.data.mainImagePlaceholders[realSlug]) {
+    base64 = jsonDb.data.mainImagePlaceholders[realSlug];
+  } else {
+    // Otherwise, generate it and save it to the json db.
+    const file = fs.readFileSync(`${publicDir}${data.coverImage.url}`);
+    const placeholder = await getPlaiceholder(file);
+    base64 = placeholder.base64;
+
+    if (jsonDb) {
+      jsonDb.data.mainImagePlaceholders[realSlug] = placeholder.base64;
+      jsonDb.write();
+    }
+  }
 
   return {
     ...data,

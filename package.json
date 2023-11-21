@@ -19,6 +19,7 @@
     "eslint-config-next": "13.3.0",
     "faunadb": "^4.8.0",
     "gray-matter": "^4.0.3",
+    "lowdb": "^6.1.1",
     "markdown-it": "^13.0.1",
     "markdown-it-for-inline": "^0.1.1",
     "markdown-it-image-figures": "^2.1.1",
