@@ -9,6 +9,9 @@ import { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { Writer } from "@/app/posts/[slug]/Writer";
 import { PostHero } from "@/app/posts/[slug]/PostHero";
+import { SocialMediaLinks } from "@/components/SocialMediaLinks";
+import Link from "next/link";
+import { button } from "@/essentials/theme/button";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -112,7 +115,11 @@ export default async function Post(props: Props) {
       >
         <div className="flex flex-col items-stretch gap-6 max-w-article px-4 sm:px-0 m-auto">
           <div>
-            <h1 className={`${typography.variants.sectionTitle}`}>
+            <h1
+              className={`${typography.variants.sectionTitle({
+                noGutter: true,
+              })}`}
+            >
               Kiitos kun luit.
             </h1>
             <h2
@@ -122,15 +129,31 @@ export default async function Post(props: Props) {
             </h2>
           </div>
           <LazySocialMediaShare post={post} />
+          <div>
+            <h1
+              className={`${typography.variants.sectionTitle({
+                noGutter: true,
+              })}`}
+            >
+              Seuraa somessa
+            </h1>
+            <h2
+              className={`${typography.variants.textBody} ${palette.text.secondary}`}
+            >
+              Kerron uusista artikkeleista Twitterissä ja Instagramissa
+            </h2>
+          </div>
+          <SocialMediaLinks />
         </div>
       </div>
       <section className="mt-6 sm:mt-10">
-        <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>
+        <h2 className={`${typography.variants.sectionTitle()}`}>
+          Uusimmat artikkelit
+        </h2>
         <PostGrid
-          disableLargeFirstPost
           posts={recommended
             .filter((it) => it.slug !== post.slug)
-            .slice(0, 20)
+            .slice(0, 3)
             .map((post) => ({
               title: post.title,
               date: post.date,
@@ -143,13 +166,8 @@ export default async function Post(props: Props) {
               href: routes.post(post.slug),
               blurDataURL: post.coverImage.blurDataURL,
             }))}
+          withButton
         />
-        {/* <Link
-          href={routes.posts}
-          className={`${button.variants.large} flex-1 col-start-1 col-end-3 mt-4 sm:mt-2`}
-        >
-          Katso kaikki artikkelit
-        </Link> */}
       </section>
     </>
   );

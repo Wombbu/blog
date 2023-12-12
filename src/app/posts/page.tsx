@@ -2,12 +2,16 @@ import { getAllPosts } from "@/model/posts/utils/md-utils/api";
 import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { routes } from "@/essentials/utils/routes";
 import { Metadata } from "next";
+import { typography } from "@/essentials/theme/typography";
 
 export default async function Posts() {
   const allPosts = await getAllPosts();
 
   return (
     <>
+      <h1 className={`${typography.variants.pageTitle} text-center py-12`}>
+        Kaikki artikkelit
+      </h1>
       <PostGrid
         posts={allPosts.map((it) => ({
           date: it.date,

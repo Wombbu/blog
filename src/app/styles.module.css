@@ -1,0 +1,5 @@
+/* Move tweet styling to its own module */
+.tweetWrapper :global(.react-tweet-theme) {
+  --tweet-body-font-size: 1rem;
+  --tweet-container-margin: 0;
+}

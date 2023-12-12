@@ -1,5 +1,8 @@
+import { button } from "@/essentials/theme/button";
+import { routes } from "@/essentials/utils/routes";
 import { Card } from "@/model/posts/components/Card/Card";
 import { VisualPost } from "@/model/posts/components/VisualPost/VisualPost";
+import Link from "next/link";
 
 type Post = {
   date: string;
@@ -18,9 +21,14 @@ type Post = {
 type Props = {
   posts: Post[];
   disableLargeFirstPost?: boolean;
+  withButton?: true;
 };
 
-export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
+export const PostGrid = ({
+  posts,
+  disableLargeFirstPost,
+  withButton,
+}: Props) => (
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
     {posts.map((post, index) => (
       <div
@@ -50,5 +58,13 @@ export const PostGrid = ({ posts, disableLargeFirstPost }: Props) => (
         />
       </div>
     ))}
+    {withButton ? (
+      <Link
+        href={routes.posts}
+        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3`}
+      >
+        Katso kaikki artikkelit
+      </Link>
+    ) : null}
   </div>
 );

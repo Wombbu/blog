@@ -1,3 +1,4 @@
+import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import Image from "next/image";
 
 export const Hero = () => (
@@ -10,14 +11,18 @@ export const Hero = () => (
       className="object-cover rounded-full sm:mb-0 h-52 w-52"
       loading="eager"
     />
-    <div className="flex-auto" style={{ maxWidth: "425px" }}>
-      <h1 className="font-primary font-bold text-4xl sm:text-6xl mb-2 text-gray-800">
+    <div
+      className="flex-auto flex flex-col gap-2"
+      style={{ maxWidth: "425px" }}
+    >
+      <h1 className="font-primary font-bold text-4xl sm:text-6xl text-gray-800">
         Moro.
       </h1>
       <p className="font-primary text-md font-medium">
         Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
         toiminnanohjausjärjestelmää Tampereella.
       </p>
+      <SocialMediaLinks />
     </div>
   </section>
 );

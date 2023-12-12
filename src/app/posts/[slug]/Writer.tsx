@@ -1,3 +1,5 @@
+import { SocialMediaLink } from "@/components/SocialMediaLink";
+import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
@@ -31,6 +33,14 @@ export const Writer = ({ post }: Props) => (
       >
         {formatDateStr(post.date)} | {post.readingTime} min lukuaika
       </time>
+      {/* <time
+        itemProp="datepublished"
+        dateTime={post.date}
+        className={`${typography.variants.secondaryTitle} text-blue-500 cursor-pointer hover:underline flex items-center`}
+      >
+        Ota yhteyttä
+      </time> */}
     </div>
+    <SocialMediaLinks className="gap-2 flex-1 justify-end items-center scale-75 hidden sm:flex" />
   </div>
 );

@@ -42,7 +42,7 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
     <>
       {/* Modal dialog */}
       <dialog
-        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto bg-opacity-50 p-5 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain border-2 border-gray-300"
+        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto p-5 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain border-2 border-gray-300"
         ref={modalRef}
         onKeyDown={(event) => {
           if (event.key === "Escape") {

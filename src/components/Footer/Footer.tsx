@@ -1,4 +1,5 @@
-import { SocialMediaLink } from "@/components/Header/SocialMediaLink";
+import { SocialMediaLink } from "@/components/SocialMediaLink";
+import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
 
@@ -19,20 +20,7 @@ export const Footer = () => {
           2023 Lauri Nevanperä
         </a>
       </div>
-      <div className="flex gap-2">
-        <SocialMediaLink
-          href={`https://www.youtube.com/@tamperekulkee3983/videos`}
-          target="_blank"
-          src="/youtube-logo.svg"
-          alt="Profiili YouTubessa"
-        />
-        <SocialMediaLink
-          href={`https://twitter.com/LauriNevanpera`}
-          target="_blank"
-          src="/twitter-logo-blue.svg"
-          alt="Profiili Twitterissä"
-        />
-      </div>
+      <SocialMediaLinks />
     </footer>
   );
 };

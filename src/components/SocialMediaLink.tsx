@@ -9,7 +9,7 @@ type Props = {
 } & React.ComponentProps<"a">;
 
 export const SocialMediaLink = ({
-  size = 32,
+  size = 28,
   src,
   alt,
   className,
@@ -21,16 +21,19 @@ export const SocialMediaLink = ({
       rel="noreferrer"
       className={`${
         className || ""
-      } rounded-full p-2 hover:bg-gray-200 bg-white`}
+      } rounded-full p-2 hover:bg-gray-200 bg-white border-2 border-gray-300 flex-grow-0 flex-shrink-0`}
       {...aProps}
     >
       <Image
         src={src}
         alt={alt}
-        width={32}
-        height={32}
+        width={size}
+        height={size}
         // Force the image to be square regardless of the source img aspect ratio
-        style={{ width: "32px", height: "32px" }}
+        style={{
+          width: `${size}px`,
+          height: `${size}px`,
+        }}
       />
     </a>
   );
