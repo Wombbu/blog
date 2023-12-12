@@ -3,7 +3,11 @@ import { join } from "path";
 import matter from "gray-matter";
 import { Post } from "@/model/posts/types/Post";
 import { getPlaiceholder } from "plaiceholder";
-import { jsonDb } from "@/essentials/db/db";
+
+let imagePlaceholders: Record<
+  /*Slug*/ string,
+  /*base64 placeholder image*/ string
+> = {};
 
 const postsDirectory = join(process.cwd(), "_posts");
 const publicDir = join(process.cwd(), "public");
@@ -19,19 +23,15 @@ export async function getPostBySlug(slug: string) {
   const { data, content } = matter(fileContents);
 
   let base64 = "";
-  // If the placeholder is already in the db, use it.
-  if (jsonDb?.data.mainImagePlaceholders[realSlug]) {
-    base64 = jsonDb.data.mainImagePlaceholders[realSlug];
+  // If the placeholder is already stored, use it.
+  if (imagePlaceholders[realSlug]) {
+    base64 = imagePlaceholders[realSlug];
   } else {
-    // Otherwise, generate it and save it to the json db.
+    // Otherwise, generate it and save it.
     const file = fs.readFileSync(`${publicDir}${data.coverImage.url}`);
     const placeholder = await getPlaiceholder(file);
     base64 = placeholder.base64;
-
-    if (jsonDb) {
-      jsonDb.data.mainImagePlaceholders[realSlug] = placeholder.base64;
-      jsonDb.write();
-    }
+    imagePlaceholders[realSlug] = placeholder.base64;
   }
 
   return {
