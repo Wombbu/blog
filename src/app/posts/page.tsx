@@ -24,6 +24,8 @@ export default async function Posts() {
           audio: it.audio,
           href: routes.post(it.slug),
           blurDataURL: it.coverImage.blurDataURL,
+
+          isDraft: it.isDraft,
         }))}
       />
     </>

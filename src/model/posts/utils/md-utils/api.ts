@@ -12,11 +12,18 @@ let imagePlaceholders: Record<
 const postsDirectory = join(process.cwd(), "_posts");
 const publicDir = join(process.cwd(), "public");
 
+type PostExtended = Post & {
+  slug: string;
+  content: string;
+  coverImage: { blurDataURL: string };
+  isDraft?: boolean;
+};
+
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
 
-export async function getPostBySlug(slug: string) {
+export async function getPostBySlug(slug: string): Promise<PostExtended> {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -42,16 +49,23 @@ export async function getPostBySlug(slug: string) {
     },
     slug: realSlug,
     content: content,
+    isDraft: realSlug.includes("draft"),
   } as Post & {
     slug: string;
     content: string;
     coverImage: { blurDataURL: string };
+    isDraft?: boolean;
   };
 }
 
-export async function getAllPosts(): Promise<Post[]> {
+export async function getAllPosts(): Promise<PostExtended[]> {
   const slugs = getPostSlugs();
-  const promises = slugs.map(async (slug) => getPostBySlug(slug));
+  const isDevEnv = process.env.NODE_ENV !== "production";
+
+  const promises = slugs
+    // If the post file name contains 'draft', only show it in dev mode.
+    .filter((slug) => isDevEnv || !slug.includes("draft"))
+    .map(async (slug) => getPostBySlug(slug));
   const posts = await Promise.all(promises);
 
   return posts.sort((post1, post2) => (post1.date > post2.date ? -1 : 1));

@@ -34,6 +34,7 @@ export default async function Home() {
             audio: it.audio,
             href: routes.post(it.slug),
             blurDataURL: it.coverImage.blurDataURL,
+            isDraft: it.isDraft,
           }))}
           withButton
         />

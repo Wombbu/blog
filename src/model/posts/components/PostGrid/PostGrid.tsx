@@ -16,6 +16,7 @@ type Post = {
   href: string;
   priority?: boolean;
   blurDataURL?: string;
+  isDraft: boolean | undefined;
 };
 
 type Props = {
@@ -55,6 +56,7 @@ export const PostGrid = ({
               : "aspect-sdInverse"
           }
           blurDataURL={post.blurDataURL}
+          isDraft={post.isDraft || false}
         />
       </div>
     ))}

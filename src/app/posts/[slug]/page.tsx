@@ -165,6 +165,7 @@ export default async function Post(props: Props) {
               tags: post.tags,
               href: routes.post(post.slug),
               blurDataURL: post.coverImage.blurDataURL,
+              isDraft: post.isDraft,
             }))}
           withButton
         />
