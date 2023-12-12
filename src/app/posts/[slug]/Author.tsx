@@ -8,7 +8,7 @@ import Image from "next/image";
 
 type Props = { post: Post };
 
-export const Writer = ({ post }: Props) => (
+export const Author = ({ post }: Props) => (
   <div className="flex gap-3  mb-6">
     <a href="https://twitter.com/LauriNevanpera" target="_blank">
       <Image
@@ -41,6 +41,9 @@ export const Writer = ({ post }: Props) => (
         Ota yhteyttä
       </time> */}
     </div>
-    <SocialMediaLinks className="gap-2 flex-1 justify-end items-center scale-75 hidden sm:flex" />
+    <SocialMediaLinks
+      size={18}
+      className="gap-2 flex-1 justify-end items-center hidden sm:flex"
+    />
   </div>
 );

@@ -12,6 +12,11 @@ coverImage:
 
 Viime kuukausina on saanut lukea Tampereen pormestarin Kalervo Kummolan (kok) sekä Tampereen kaupungin vastaavan pysäköinninvalvojan Sami Huringin kiistasta. Oman lusikkansa soppaan on työntänyt Aamulehti, joka on pääkirjoituksissaan ottanut asiaan kantaa.
 
+<figure style="">
+<iframe width="560" height="auto" src="https://www.youtube-nocookie.com/embed/jaHvLNhJtjY?si=Y2UrO-O6_Q04_Oah&autoplay=1&loop=1&mute=1&modestbranding=1&autohide=0&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 1422px; max-height: 790px;"></iframe>
+<figcaption>Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022</figcaption>
+</figure>
+
 [@preview](https://www.aamulehti.fi/tampere/art-2000009905889.html)
 
 Moro-liitteen päätoimittaja Jari Mylläri on työntänyt lusikkansa soppaan, kuten tapahtuu aina kun puhutaan liikenteestä. Hän totesi [pääkirjoituksessaan](https://www.aamulehti.fi/moro/art-2000009961660.html) seuraavaa:

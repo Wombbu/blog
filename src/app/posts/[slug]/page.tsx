@@ -7,11 +7,9 @@ import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { Writer } from "@/app/posts/[slug]/Writer";
+import { Author } from "@/app/posts/[slug]/Author";
 import { PostHero } from "@/app/posts/[slug]/PostHero";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
-import Link from "next/link";
-import { button } from "@/essentials/theme/button";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -104,7 +102,7 @@ export default async function Post(props: Props) {
               <source src={post.audio} type="audio/x-m4a" />
             </audio>
           ) : null}
-          <Writer post={post} />
+          <Author post={post} />
         </div>
         <PostBody content={contentHtml} />
       </article>

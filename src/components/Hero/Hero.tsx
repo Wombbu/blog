@@ -8,7 +8,7 @@ export const Hero = () => (
       alt="Image of me"
       width={256}
       height={256}
-      className="object-cover rounded-full sm:mb-0 h-52 w-52"
+      className="object-cover rounded-full sm:mb-0 h-64 w-64"
       loading="eager"
     />
     <div
@@ -20,7 +20,7 @@ export const Hero = () => (
       </h1>
       <p className="font-primary text-md font-medium">
         Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
-        toiminnanohjausjärjestelmää Tampereella.
+        toiminnanohjausjärjestelmää ohjelmistoarkkitehtina Tampereella.
       </p>
       <SocialMediaLinks />
     </div>
