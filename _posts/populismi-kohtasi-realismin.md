@@ -46,12 +46,7 @@ Liikennetohtori on oikeassa, että juuri viime vuosina iskuja on tullut. Anttila
 
 Keskustat ovat hiljentyneet kaikkialla Suomessa. Tampere on itse asiassa onnistunut puolustustaistelussa erityisen hyvin. Tästä osoituksena [Tampereen keskusta on Suomen keskustojen elinvoimamittausten numero 1.](https://www.salokorpi.com/wp-content/uploads/2023/05/EKK-Suomen-TOP-12-elinvoimaiset-kaupunkikeskustat.pdf). Erityisen huonosti pärjää Lahti, joka on tunnettu yksipuolisesta henkilöautoilukeskustastaan, jota liikennetohtorin aloitteessa havitellaan.
 
-<figure>
-  <video muted autoplay loop controls playsinline>
-    <source src="/assets/blog/populismi-kohtasi-realismin/IMG_2684.mp4" type="video/mp4">
-  </video>
-  <figcaption>Tampereen keskusta on Suomen keskustojen elinvoimamittauksen numero 1. Jalankulkijoita Hämeenkadulla</figcaption>
-</figure>
+[@youtube](iUAIuw35Cag Tampereen keskusta on Suomen keskustojen elinvoimamittauksen numero 1. Jalankulkijoita Hämeenkadulla)
 
 Nousu on muuten jo alkanut.
 
@@ -65,12 +60,7 @@ Monipuolisuus on nykyaikaisen, taloudellisesti vahvan keskustan salaisuus. Kun j
 
 Osviittaa yksipuolisesta, vanhanaikaisesta keskustasta antaa Verkatehtaankadun tilankäyttö. Kadulla kulkee mittausten mukaan kuusinkertainen määrä jalankulkijoita verrattuna autoihin. Jalankulkijat jakavat ahtaan jalkakäytävän portaikkojen, kylttien, terassien, valoltolppien sekä potkulautojen kanssa. Liikennetohtorin aloite haluaa säilyttää nykytilan.
 
-<figure>
-  <video muted autoplay loop controls playsinline>
-    <source src="/assets/blog/populismi-kohtasi-realismin/verkatehtaankatu liikevaihto.mp4" type="video/mp4">
-  </video>
-  <figcaption>Verkatehtaankadun suunnitteluprioriteetit ovat selkeät</figcaption>
-</figure>
+[@youtube](eS8JUi1WOec Verkatehtaankadun suunnitteluprioriteetit ovat selkeät)
 
 Tietyt poliittiset tahot ovat antaneet ymmärtää, että kaupunkikeskustojen näivettyminen on tuore asia, joka johtuu henkilöautoilun koetusta hankaloittamisesta. Trendi kuitenkin on läsnä jokaisessa Suomen kaupunkikeskustassa, ja se on kestänyt vuosikymmeniä. [Avaan laajemmin syitä keskustojen hiljenemiseen tässä artikkelissa](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
 
@@ -80,12 +70,7 @@ Tieto on tärkeää, sillä NoHo-partnersin toimitusjohtaja oletti, että Helsin
 
 Seuraavassa videossa on Tampereen keskustaympäristöä satelliittikuvissa. Miltä tilanjako sinusta näyttää?
 
-<figure>
-  <video muted autoplay loop controls playsinline>
-    <source src="/assets/blog/populismi-kohtasi-realismin/tre-keskusta-autot-720.mp4" type="video/mp4">
-  </video>
-  <figcaption>Satelliittikuvat kertovat mihin Tampereen keskustan tila on käytetty. Asukkaista enemmistö on autottomia, ja 71% liikevaihdosta tulee muulla kuin henkilöautolla.</figcaption>
-</figure>
+[@youtube](WYe-tRoCHPQ Satelliittikuvat kertovat mihin Tampereen keskustan tila on käytetty. Asukkaista enemmistö on autottomia, ja 71% liikevaihdosta tulee muulla kuin henkilöautolla.)
 
 Lempäälän kunnanvaltuuston puheenjohtaja, Kokoomuksen Jocka Träskbäck kampanjoi Hämeenkadun uudistusta vastaan "Raha kulkee autolla" -lauseella. Lause on helposti ymmärrettävä, mutta harhaanjohtava. Reaalimaalimassa Tampereen keskustan rahasta kulkee autolla 29%. Träskbäck on kertonut tuovansa politiikkaan ryhtiliikkeen. Suosittelen hänelle ryhtiliikettä faktojen tarkistamisessa.
 
