@@ -12,6 +12,13 @@ export const SocialMediaLinks = ({ size, ...props }: Props) => (
       size={size}
     />
     <SocialMediaLink
+      href={`https://www.threads.net/@laurinevanpera`}
+      target="_blank"
+      src="/threads-logo.svg"
+      alt="Profiili Threadsissa"
+      size={size}
+    />
+    <SocialMediaLink
       href={`https://www.instagram.com/laurinevanpera/`}
       target="_blank"
       src="/instagram-logo.svg"

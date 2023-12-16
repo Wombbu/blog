@@ -27,3 +27,8 @@ html:has(dialog[open]:modal) {
 html {
   scrollbar-gutter: stable both-edges;
 }
+
+.react-tweet-theme {
+  --tweet-body-font-size: 1rem !important;
+  --tweet-container-margin: 0 !important;
+}

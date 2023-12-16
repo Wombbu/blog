@@ -10,6 +10,8 @@ import dynamic from "next/dynamic";
 import { Author } from "@/app/posts/[slug]/Author";
 import { PostHero } from "@/app/posts/[slug]/PostHero";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
+import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
+import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -133,12 +135,13 @@ export default async function Post(props: Props) {
                 noGutter: true,
               })}`}
             >
-              Seuraa somessa
+              Kiinnostuitko?
             </h1>
             <h2
               className={`${typography.variants.textBody} ${palette.text.secondary}`}
             >
-              Kerron uusista artikkeleista Twitterissä ja Instagramissa
+              Kerron uusista artikkeleista Twitterissä, Threadsissa ja
+              Instagramissa.
             </h2>
           </div>
           <SocialMediaLinks />
@@ -146,7 +149,7 @@ export default async function Post(props: Props) {
       </div>
       <section className="mt-6 sm:mt-10">
         <h2 className={`${typography.variants.sectionTitle()}`}>
-          Uusimmat artikkelit
+          Uudet artikkelit
         </h2>
         <PostGrid
           posts={recommended
@@ -166,6 +169,24 @@ export default async function Post(props: Props) {
               isDraft: post.isDraft,
             }))}
           withButton
+        />
+        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+          Twitter
+        </h2>
+        <TwitterGrid
+          tweetIds={["1539932433289805825", "1577931674649870343"]}
+        />
+        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+          Youtube
+        </h2>
+        <YoutubeGrid
+          youtubeVideos={[
+            {
+              id: "jaHvLNhJtjY",
+              title:
+                "Hervanta, Kontula… Miksi Suomen kaupungit hajautettiin 60-luvulla ja mitä seurauksia tästä oli?",
+            },
+          ]}
         />
       </section>
     </>

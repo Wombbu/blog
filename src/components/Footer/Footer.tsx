@@ -20,7 +20,7 @@ export const Footer = () => {
           2023 Lauri Nevanperä
         </a>
       </div>
-      <SocialMediaLinks />
+      <SocialMediaLinks size={20} />
     </footer>
   );
 };
