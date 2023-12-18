@@ -12,23 +12,13 @@ import { PostHero } from "@/app/posts/[slug]/PostHero";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
+import { SocialMediaSharePost } from "@/features/social-media-sharing/components/SocialMediaSharePost";
+import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
 const LazyClapButton = dynamic(
   () => import("../../../components/ClapButton/ClapButton.controller"),
-  {
-    loading: () => null,
-    ssr: false,
-  }
-);
-
-// https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazySocialMediaShare = dynamic(
-  () =>
-    import(
-      "../../../features/social-media-sharing/components/SocialMediaSharePost"
-    ),
   {
     loading: () => null,
     ssr: false,
@@ -128,7 +118,7 @@ export default async function Post(props: Props) {
               Jaa jos pidit. Pidä aihe keskustelussa.
             </h2>
           </div>
-          <LazySocialMediaShare post={post} />
+          <SocialMediaSharePost post={post} />
           <div>
             <h1
               className={`${typography.variants.sectionTitle({
@@ -207,11 +197,11 @@ export async function generateMetadata({
   params: { slug: string };
 }): Promise<Metadata> {
   const post = await getPostBySlug(params.slug);
-  const ogImageUrl = `https://www.laurinevanpera.fi/api/og?imgPath=${
-    post.coverImage.url
-  }&readingTime=${post.readingTime}&title=${
-    post.ogImageType === "ONLY_NAME" ? "" : post.title
-  }`;
+  const ogImageUrl = buildOgImageUrl({
+    imageUrl: post.coverImage.url,
+    title: post.title,
+    readingTime: post.readingTime,
+  });
 
   return {
     title: `${post.title} - Lauri Nevanperä`,

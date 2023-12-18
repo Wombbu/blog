@@ -4,6 +4,9 @@ const nextConfig = {
     appDir: true,
   },
   output: "standalone",
+  images: {
+    domains: ["localhost", "www.laurinevanpera.fi"],
+  },
 };
 
 module.exports = nextConfig;

@@ -1,6 +1,5 @@
 import { button } from "@/essentials/theme/button";
 import { routes } from "@/essentials/utils/routes";
-import { Card } from "@/model/posts/components/Card/Card";
 import { VisualPost } from "@/model/posts/components/VisualPost/VisualPost";
 import Link from "next/link";
 
@@ -63,7 +62,7 @@ export const PostGrid = ({
     {withButton ? (
       <Link
         href={routes.posts}
-        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3`}
+        className={`${button.variants.large} flex-1 mt-2 sm:mt-0 sm:col-start-1 sm:col-end-3`}
       >
         Katso kaikki artikkelit
       </Link>

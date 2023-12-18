@@ -17,7 +17,7 @@ export const YoutubeGrid = ({ youtubeVideos }: Props) => {
       ))}
       <a
         href="https://www.youtube.com/channel/UCW42r9LEBQpVcLz5HzApdpw"
-        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3 border-r-4 mt-2`}
+        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3 border-r-4 mt-2 sm:mt-0`}
       >
         Avaa Youtube
       </a>

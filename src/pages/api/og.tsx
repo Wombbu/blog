@@ -52,7 +52,7 @@ export default async function handler(req: NextRequest) {
         />
         {title ? (
           <div
-            tw="text-white font-bold p-8 flex flex-col items-stretch mx-8 bg-black"
+            tw="text-white font-bold p-8 flex flex-col items-stretch mx-8 bg-black bg-opacity-50"
             style={{
               fontFamily: "WorkSans_Bold",
             }}
@@ -66,7 +66,7 @@ export default async function handler(req: NextRequest) {
         ) : null}
         {title || !readingTime ? null : (
           <div
-            tw="absolute right-0 bottom-0 text-white font-bold p-6 bg-black flex flex-col m-8 text-3xl"
+            tw="absolute right-0 bottom-0 text-white font-bold p-6 bg-black flex flex-col m-8 text-3xl bg-opacity-50"
             style={{ fontFamily: "WorkSans_Bold" }}
           >
             <div>{readingTime + " min lukuaika"}</div>
