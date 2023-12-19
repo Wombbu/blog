@@ -56,7 +56,7 @@ export default function RootLayout({
         className={`font-sans ${primaryFontFamily.variable} ${secondaryFontFamily.variable}`}
       >
         <Header />
-        <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-6 sm:pb-8`}>
+        <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-8 sm:pb-12`}>
           {children}
         </main>
         <Footer />

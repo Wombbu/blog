@@ -11,13 +11,13 @@ type Props = {
 
 export const YoutubeGrid = ({ youtubeVideos }: Props) => {
   return (
-    <div className={`grid grid-cols-1 gap-2`}>
+    <div className={`grid grid-cols-1 gap-4`}>
       {youtubeVideos.map((video) => (
         <YoutubeEmbed {...video} key={video.id} />
       ))}
       <a
         href="https://www.youtube.com/channel/UCW42r9LEBQpVcLz5HzApdpw"
-        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3 border-r-4 mt-2 sm:mt-0`}
+        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3 border-r-4`}
       >
         Avaa Youtube
       </a>

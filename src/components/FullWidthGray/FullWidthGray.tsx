@@ -10,7 +10,7 @@ export const FullWidthGray = (props: Props) => (
     style={{ left: "calc(-50vw + 50%)" }}
     data-theme="light"
   >
-    <div className="flex flex-col items-stretch max-w-screen-lg px-4 sm:px-0 m-auto">
+    <div className="flex flex-col items-stretch max-w-screen-lg px-4 sm:px-8 m-auto">
       {props.children}
     </div>
   </div>

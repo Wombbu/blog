@@ -2,23 +2,23 @@ import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import Image from "next/image";
 
 export const Hero = () => (
-  <section className="flex items-center justify-center flex-col sm:flex-row py-8 sm:py-16 mb-3 sm:mb-8 flex-1 gap-8 ">
+  <section className="flex flex-col items-center">
     <Image
       src="/profiili.jpg"
       alt="Image of me"
-      width={256}
-      height={256}
-      className="object-cover rounded-full sm:mb-0 h-64 w-64"
+      width={960}
+      height={960}
+      className="object-cover sm:mb-0 w-full h-auto"
       loading="eager"
     />
     <div
-      className="flex-auto flex flex-col gap-2"
+      className="flex-auto flex flex-col gap-2 items-center py-16"
       style={{ maxWidth: "425px" }}
     >
-      <h1 className="font-primary font-bold text-4xl sm:text-6xl text-gray-800">
+      <h1 className="font-primary font-bold text-5xl sm:text-6xl text-gray-800 text-center mb-2">
         Moro.
       </h1>
-      <p className="font-primary text-md font-medium">
+      <p className="font-primary text-md font-medium text-center mb-4">
         Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
         toiminnanohjausjärjestelmää ohjelmistoarkkitehtina Tampereella.
       </p>

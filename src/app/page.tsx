@@ -37,13 +37,13 @@ export default async function Home() {
           }))}
           withButton
         />
-        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+        <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
           Twitter
         </h2>
         <TwitterGrid
           tweetIds={["1539932433289805825", "1577931674649870343"]}
         />
-        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+        <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
           Youtube
         </h2>
         <YoutubeGrid

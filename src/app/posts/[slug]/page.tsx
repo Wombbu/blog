@@ -12,24 +12,23 @@ import { PostHero } from "@/app/posts/[slug]/PostHero";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
-import { SocialMediaSharePost } from "@/features/social-media-sharing/components/SocialMediaSharePost";
 import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazyClapButton = dynamic(
-  () => import("../../../components/ClapButton/ClapButton.controller"),
-  {
-    loading: () => null,
-    ssr: false,
-  }
-);
+// const LazyClapButton = dynamic(
+//   () => import("../../../components/ClapButton/ClapButton.controller"),
+//   {
+//     loading: () => null,
+//     ssr: false,
+//   }
+// );
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazySocialMediaShareButtons = dynamic(
+const LazyShareViaModal = dynamic(
   () =>
     import(
-      "../../../features/social-media-sharing/components/SocialMediaShareButtons"
+      "../../../features/social-media-sharing/components/ShareViaModal.controller"
     ),
   {
     loading: () => null,
@@ -38,10 +37,10 @@ const LazySocialMediaShareButtons = dynamic(
 );
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazyShareViaModal = dynamic(
+const LazySocialMediaSharePost = dynamic(
   () =>
     import(
-      "../../../features/social-media-sharing/components/ShareViaModal.controller"
+      "../../../features/social-media-sharing/components/SocialMediaSharePost"
     ),
   {
     loading: () => null,
@@ -108,7 +107,7 @@ export default async function Post(props: Props) {
             <h1
               className={`${typography.variants.sectionTitle({
                 noGutter: true,
-              })}`}
+              })} mb-1`}
             >
               Kiitos kun luit.
             </h1>
@@ -118,12 +117,12 @@ export default async function Post(props: Props) {
               Jaa jos pidit. Pidä aihe keskustelussa.
             </h2>
           </div>
-          <SocialMediaSharePost post={post} />
+          <LazySocialMediaSharePost post={post} />
           <div>
             <h1
               className={`${typography.variants.sectionTitle({
                 noGutter: true,
-              })}`}
+              })}  mb-1`}
             >
               Kiinnostuitko?
             </h1>
@@ -137,7 +136,7 @@ export default async function Post(props: Props) {
           <SocialMediaLinks />
         </div>
       </div>
-      <section className="mt-6 sm:mt-10">
+      <section className="mt-12">
         <h2 className={`${typography.variants.sectionTitle()}`}>
           Uudet artikkelit
         </h2>
@@ -160,13 +159,13 @@ export default async function Post(props: Props) {
             }))}
           withButton
         />
-        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+        <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
           Twitter
         </h2>
         <TwitterGrid
           tweetIds={["1539932433289805825", "1577931674649870343"]}
         />
-        <h2 className={`${typography.variants.sectionTitle({})} mt-6`}>
+        <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
           Youtube
         </h2>
         <YoutubeGrid

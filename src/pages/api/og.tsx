@@ -57,11 +57,8 @@ export default async function handler(req: NextRequest) {
               fontFamily: "WorkSans_Bold",
             }}
           >
-            <div tw="text-2xl mb-1">Lauri Nevanperä</div>
+            <div tw="text-3xl mb-4">Lauri Nevanperä</div>
             <div tw="text-5xl">{title}</div>
-            <div tw="text-2xl mt-1 text-right self-end">
-              {readingTime != null ? `${readingTime} min lukuaika` : ""}
-            </div>
           </div>
         ) : null}
         {title || !readingTime ? null : (

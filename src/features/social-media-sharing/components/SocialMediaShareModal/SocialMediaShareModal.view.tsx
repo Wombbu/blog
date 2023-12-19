@@ -27,14 +27,14 @@ export const SocialMediaShareModalView = ({
         onClose();
       }}
     >
-      <h2 className={`${typography.variants.caption} mb-2 text-black`}>
+      <h2 className={`${typography.variants.caption} mb-3 text-black`}>
         Jaa palveluun
       </h2>
 
-      <div className="flex gap-2 flex-wrap mb-6">
+      <div className="flex gap-2 flex-wrap mb-8">
         <SocialMediaShareLinkButtons slug={slug} title={title} />
       </div>
-      <h2 className={`${typography.variants.caption} mb-2 text-black`}>
+      <h2 className={`${typography.variants.caption} mb-3 text-black`}>
         Tai kopioi linkki
       </h2>
       <div

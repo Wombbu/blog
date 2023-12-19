@@ -29,7 +29,7 @@ export const PostGrid = ({
   disableLargeFirstPost,
   withButton,
 }: Props) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     {posts.map((post, index) => (
       <div
         className={`${
@@ -62,7 +62,7 @@ export const PostGrid = ({
     {withButton ? (
       <Link
         href={routes.posts}
-        className={`${button.variants.large} flex-1 mt-2 sm:mt-0 sm:col-start-1 sm:col-end-3`}
+        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3`}
       >
         Katso kaikki artikkelit
       </Link>

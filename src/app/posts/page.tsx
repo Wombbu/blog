@@ -3,13 +3,14 @@ import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { routes } from "@/essentials/utils/routes";
 import { Metadata } from "next";
 import { typography } from "@/essentials/theme/typography";
+import { FullWidthGray } from "@/components/FullWidthGray/FullWidthGray";
 
 export default async function Posts() {
   const allPosts = await getAllPosts();
 
   return (
     <>
-      <h1 className={`${typography.variants.pageTitle} text-center py-12`}>
+      <h1 className={`${typography.variants.pageTitle} mb-6`}>
         Kaikki artikkelit
       </h1>
       <PostGrid

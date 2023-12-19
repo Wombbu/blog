@@ -42,7 +42,7 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
     <>
       {/* Modal dialog */}
       <dialog
-        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto p-5 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain"
+        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto p-8 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain"
         ref={modalRef}
         onKeyDown={(event) => {
           if (event.key === "Escape") {
@@ -56,7 +56,7 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
             <h1
               className={`${typography.variants.sectionTitle({
                 noGutter: true,
-              })} mb-4 flex flex-1 items-start`}
+              })} mb-6 flex flex-1 items-start`}
             >
               Jaa artikkeli
             </h1>
