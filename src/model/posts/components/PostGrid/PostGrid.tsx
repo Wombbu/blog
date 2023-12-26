@@ -20,23 +20,14 @@ type Post = {
 
 type Props = {
   posts: Post[];
-  disableLargeFirstPost?: boolean;
   withButton?: true;
 };
 
-export const PostGrid = ({
-  posts,
-  disableLargeFirstPost,
-  withButton,
-}: Props) => (
+export const PostGrid = ({ posts, withButton }: Props) => (
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     {posts.map((post, index) => (
       <div
-        className={`${
-          index === 0 && !disableLargeFirstPost
-            ? "col-start-1 col-end-2 sm:col-end-3"
-            : ""
-        }`}
+        className={`${"col-start-1 col-end-2 sm:col-end-3"}`}
         key={post.title}
       >
         <VisualPost
@@ -49,11 +40,7 @@ export const PostGrid = ({
           audio={post.audio}
           href={post.href}
           priority={index < 3}
-          imgClassName={
-            index === 0 && !disableLargeFirstPost
-              ? "aspect-sdInverse sm:aspect-goldenRatio"
-              : "aspect-sdInverse"
-          }
+          imgClassName={"aspect-sdInverse sm:aspect-goldenRatio"}
           blurDataURL={post.blurDataURL}
           isDraft={post.isDraft || false}
         />

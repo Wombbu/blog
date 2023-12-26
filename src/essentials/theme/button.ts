@@ -1,7 +1,7 @@
 import { palette } from "@/essentials/theme/palette";
 
 const buttonBase =
-  "flex justify-center items-center inline-block font-semibold ";
+  "flex justify-center items-center inline-block font-semibold";
 const buttonPrimary = `${buttonBase} font-primary text-gray-800 hover:bg-gray-800`;
 const buttonInverted = `${buttonBase} bg-black text-white hover:bg-gray-800`;
 

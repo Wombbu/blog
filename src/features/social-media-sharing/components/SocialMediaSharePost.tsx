@@ -1,8 +1,5 @@
-import { palette } from "@/essentials/theme/palette";
 import { Post } from "@/model/posts/types/Post";
-import Image from "next/image";
 import ShareViaModal from "@/features/social-media-sharing/components/ShareViaModal.controller";
-import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 
 type Props = {
   post: Post;
@@ -10,10 +7,8 @@ type Props = {
 
 export default function SocialMediaSharePost({ post }: Props) {
   return (
-    <div
-      className={`flex flex-col gap-4 justify-center flex-wrap max-w-article mx-auto mb-4 p-4 border-2 ${palette.border.secondary} w-full bg-white rounded-lg`}
-    >
-      <Image
+    <div className={`flex flex-col gap-4`}>
+      {/* <Image
         src={buildOgImageUrl({
           imageUrl: post.coverImage.url,
           title: post.title,
@@ -23,9 +18,9 @@ export default function SocialMediaSharePost({ post }: Props) {
         width={600}
         height={300}
         loading="lazy"
-        className="object-cover rounded-md"
-      />
-      <div className="flex gap-2 flex-wrap items-end justify-end">
+        className="object-cover"
+      /> */}
+      <div className="flex gap-2">
         <ShareViaModal slug={post.slug} title={post.title} />
       </div>
     </div>

@@ -36,7 +36,7 @@ export const VisualPost = ({
 }: Props) => (
   <Link href={href} className={`flex flex-col`}>
     <figure>
-      <div className={`relative -mx-4 sm:mx-0`}>
+      <div className={`relative`}>
         <Image
           src={imageSrc}
           placeholder="blur"
