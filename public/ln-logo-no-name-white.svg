@@ -1,0 +1,20 @@
+<svg version="1.1" viewBox="0.0 0.0 860.0 184.0" fill="none" stroke="none" stroke-linecap="square"
+    stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg">
+    <mask id="ln-logo-no-name-white-mask">
+        <path fill="white" d="m0 9.656168l151.1811 0l0 151.18109l-151.1811 0z" fill-rule="evenodd" />
+        <path fill="white" d="m166.01312 9.656168l151.18109 0l0 151.18109l-151.18109 0z"
+            fill-rule="evenodd" />
+        <path fill="black"
+            d="m286.81894 37.058212l0 100.3125l-29.03125 0l-31.156235 -54.265625l-7.59375 -14.890625l-0.15625 0l0.609375 18.546875l0 50.609375l-23.109375 0l0 -100.3125l29.03125 0l31.156235 54.25l7.609375 14.90625l0.15625 0l-0.609375 -18.546875l0 -50.609375l23.09375 0z"
+            fill-rule="nonzero" />
+        <path fill="black"
+            d="m67.072945 117.15196l50.3125 0l0 20.21875l-76.453125 0l0 -100.3125l26.140625 0l0 80.09375z"
+            fill-rule="nonzero" />
+    </mask>
+
+    <path fill="white" d="m0 9.656168l151.1811 0l0 151.18109l-151.1811 0z" fill-rule="evenodd"
+        mask="url(#ln-logo-no-name-white-mask)" />
+    <path fill="white" d="m166.01312 9.656168l151.18109 0l0 151.18109l-151.18109 0z"
+        fill-rule="evenodd" mask="url(#ln-logo-no-name-white-mask)" />
+</svg>

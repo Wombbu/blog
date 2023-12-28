@@ -14,6 +14,8 @@ export enum CustomTags {
   Vitality = "Elinvoima",
   Traffic = "Liikenne",
   Economy = "Talous",
+  CityCenter = "Kaupunkikeskustat",
+  Promenades = "Kävelykadut",
 }
 
 const EmojiTag = ({
@@ -132,7 +134,7 @@ const specialTags = [
   },
   {
     name: CustomTags.CityPlanning,
-    tag: <EmojiTag emoji="🏛️" text="Kaupunkisuunnittelu" />,
+    tag: <EmojiTag emoji="🏘️" text="Kaupunkisuunnittelu" />,
   },
   {
     name: CustomTags.Living,
@@ -149,6 +151,14 @@ const specialTags = [
   {
     name: CustomTags.Economy,
     tag: <EmojiTag emoji="💶" text="Talous" />,
+  },
+  {
+    name: CustomTags.CityCenter,
+    tag: <EmojiTag emoji="🏛️" text="Kaupunkikeskustat" />,
+  },
+  {
+    name: CustomTags.Promenades,
+    tag: <EmojiTag emoji="👞" text="Kävelykadut" />,
   },
 ];
 

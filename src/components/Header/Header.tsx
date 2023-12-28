@@ -1,15 +1,23 @@
 import { HeaderLink } from "@/components/Header/HeaderLink";
 import { palette } from "@/essentials/theme/palette";
 import { routes } from "@/essentials/utils/routes";
+import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (
-  <header className="bg-white flex items-end sm:items-end justify-between px-4 sm:px-8 py-8 sm:py-12 max-w-screen-lg m-auto">
+  <header className="flex items-end sm:items-end justify-between px-4 sm:px-8 py-8 sm:py-12 max-w-screen-lg m-auto">
     <Link
       href={routes.home}
       className={`${palette.text.primary} font-primary font-bold text-2xl sm:text-3xl mh-11`}
     >
-      Lauri Nevanperä
+      <Image
+        src="/ln-logo-black.svg"
+        alt="Lauri Nevanperä"
+        height={100}
+        width={200}
+        className="w-auto h-10 sm:h-12 md:h-14"
+        priority
+      />
     </Link>
     <div className="[&>*]:ml-0 sm:[&>*]:ml-4">
       <HeaderLink href={routes.posts}>Artikkelit</HeaderLink>

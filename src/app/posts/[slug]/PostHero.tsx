@@ -1,6 +1,7 @@
 import { button } from "@/essentials/theme/button";
 import { typography } from "@/essentials/theme/typography";
 import { routes } from "@/essentials/utils/routes";
+import { TagList } from "@/model/posts/components/Card/ImageOverlayTags";
 import { Post } from "@/model/posts/types/Post";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,6 +30,11 @@ export const PostHero = ({ post }: Props) => (
         >
           Takaisin artikkeleihin
         </Link>
+        <div className="absolute bottom-4 left-0 right-0 justify-center flex">
+          <div className="flex gap-2 bg-black bg-opacity-50 p-2">
+            <TagList hasAudio={!!post.audio} tags={post.tags} isNew={false} />
+          </div>
+        </div>
       </div>
       <figcaption
         className={`${typography.variants.caption} ${module.heroCaption} mt-1`}
