@@ -27,9 +27,29 @@ export const metadata: Metadata = {
   },
   icons: [
     {
-      rel: "icon",
-      url: "/favicon-2.ico",
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      url: "/apple-touch-icon.png?v=2",
     },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/favicon-32x32.png?v=2",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      url: "/favicon-16x16.png?v=2",
+    },
+    { rel: "manifest", url: "/site.webmanifest?v=2" },
+    {
+      rel: "mask-icon",
+      url: "/safari-pinned-tab.svg?v=2",
+      color: "#5bbad5",
+    },
+    { rel: "shortcut icon", url: "/favicon.ico?v=2" },
   ],
 };
 
