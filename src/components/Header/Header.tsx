@@ -15,7 +15,7 @@ export const Header = () => (
         alt="Lauri Nevanperä"
         height={100}
         width={200}
-        className="w-auto h-10 sm:h-12 md:h-14"
+        className="w-auto h-10 sm:h-12"
         priority
       />
     </Link>
