@@ -1,6 +1,6 @@
 ---
-title: "Kävelykatu marraskuussa"
-excerpt: "Ei voi toimia Suomessa. Vai voiko?"
+title: "Kävelykatu marraskuussa. Mitä kuuluu Espalle?"
+excerpt: "Miltä Esplanadi näyttää marraskuussa ja miltä kävelykatu voi parhaimmillaan talvella näyttää?"
 date: "2023-12-28T17:00:00.000Z"
 readingTime: "5"
 tags: "Kävelykadut, Elinvoima, Kaupunkikeskustat"

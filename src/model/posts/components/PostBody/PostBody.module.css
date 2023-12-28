@@ -167,7 +167,7 @@
 }
 
 .markdown :global(.link-preview-widget-image) {
-  @apply bg-no-repeat bg-center bg-cover col-span-5 sm:col-span-2 aspect-video sm:aspect-auto min-h-full row-start-1;
+  @apply bg-no-repeat bg-center bg-cover col-span-5 sm:col-span-2 aspect-ogImage sm:aspect-auto min-h-full row-start-1;
 }
 
 .markdown :global(.link-preview-widget-title) {

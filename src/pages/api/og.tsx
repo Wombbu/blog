@@ -52,13 +52,13 @@ export default async function handler(req: NextRequest) {
         />
         {title ? (
           <div
-            tw="text-white font-bold p-8 flex flex-col items-stretch mx-8 bg-black bg-opacity-50"
+            tw="text-white font-bold p-8 flex flex-col items-center mx-8 bg-black bg-opacity-50"
             style={{
               fontFamily: "WorkSans_Bold",
             }}
           >
-            <div tw="text-3xl mb-4">Lauri Nevanperä</div>
-            <div tw="text-5xl">{title}</div>
+            <div tw="text-3xl mb-4 text-center">Lauri Nevanperä</div>
+            <div tw="text-5xl text-center leading-tight">{title}</div>
           </div>
         ) : null}
         {title || !readingTime ? null : (

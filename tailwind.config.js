@@ -23,6 +23,7 @@ module.exports = {
         sdInverse: "3/4",
         videoInverse: "9/16",
         goldenRatio: "16/10",
+        ogImage: "1200/630",
       },
       maxWidth: {
         article: "612px",
