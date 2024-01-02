@@ -127,20 +127,6 @@ Kovaa dataa liikkujamääristä [kerätään koko ajan](https://www.hel.fi/fi/ka
 
 ## Ei toimi Suomessa
 
-Suomen talvi on yleinen tekosyy asioiden vastustamiseen.
-
-Vai toimivatko nämä asiat nyt jo? [Tampereen keskustassa on Suomen korkein elinvoimaluku](https://www.salokorpi.com/wp-content/uploads/2023/05/EKK-Suomen-TOP-12-elinvoimaiset-kaupunkikeskustat.pdf), vaikka keskustaa on kehitetty kaikista Suomen kaupungeista kävelypainotteisimmaksi. Helsingissä joka viides työ- tai opiskelumatka kuljetaan pyörällä. Oulusta nyt puhumattakaan.
-
-“Ei toimi Suomessa” -ajattelun myötä menetämme mahdollisuuksia tehdä kaupungistamme paremman paikan asukkaille ja yrittäjille. Kaikki talvisten kävelykatujen menestystekijät ovat jo nykypäivää, vaikkakin ripoteltuna ympäri kaupunkeja. Enää tarvitsee vain parsia ne kasaan.
-
-Vaikka Kööpenhaminassa Euroopan vanhin kävelykatu Strøget on kapasiteettinsa äärirajoilla, lähes puolet työmatkoista kuljetaan pyörillä ja kaupunki on pienimittakaavaista ja kaunista, se ei voi meillä toimia koska meillä on TALVI.
-
-Helsingin ilmasto on muutaman kymmenen vuoden päästä vastaava kuin Kööpenhaminassa. Muuttasivatkohan kyynikot tämän kuultuaan kantaansa kävelykeskustoihin ja kaupunkikehitykseen yleensäkin? Veikkaanpa että vastaus on silloinkin: **Ei toimi Suomessa. Meillä se on vain eri asia**
-
-![Euroopan ensimmäistä kävelykatua, Strøgetia vastustettiin "Ei autoja, ei liiketoimintaa" -iskulauseella. Nykyään se on kapasiteettinsa äärirajoilla 48 000 - 150 000 vuorokausikävijällään](/assets/blog/kavelykatu-marraskuussa/stroget.jpeg)
-
-## Ei toimi Suomessa
-
 Suomen talvi on yleinen tekosyy asioiden vastustamiseen. “Ei toimi Suomessa” -ajattelun myötä menetämme mahdollisuuksia tehdä kaupungistamme paremman paikan asukkaille ja yrittäjille. Vaikka Kööpenhaminassa Euroopan vanhin kävelykatu Strøget on kapasiteettinsa äärirajoilla, lähes puolet työmatkoista kuljetaan pyörillä ja kaupunki on pienimittakaavaista ja kaunista, se ei voi meillä toimia koska meillä on TALVI.
 
 Helsingin ilmasto on muutaman kymmenen vuoden päästä vastaava kuin Kööpenhaminassa. Muuttasivatkohan kyynikot tämän kuultuaan kantaansa kävelykeskustoihin ja kaupunkikehitykseen yleensäkin? Tuskinpa. **Ei toimi Suomessa.**
