@@ -51,7 +51,7 @@ export const VisualPost = ({
         <div
           className={`absolute bottom-0 left-0 right-0 px-2 sm:px-4 pt-40 pb-4 break-words flex flex-col items-center z-10 ${styles.gradientBlur}`}
         >
-          <figcaption className="font-primary font-bold text-gray-100 text-2xl sm:text-xl md:text-2xl lg:text-3xl hover:underline decoration-3 text-center max-w-xl mb-4 sm:mb-4">
+          <figcaption className="font-primary font-bold text-gray-100 text-2xl lg:text-3xl hover:underline decoration-3 text-center max-w-xl mb-4 sm:mb-4">
             {isDraft ? "🚧 " : null}
             {title}
           </figcaption>
