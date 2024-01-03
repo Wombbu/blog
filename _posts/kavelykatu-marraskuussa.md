@@ -1,7 +1,7 @@
 ---
 title: "Kävelykatu marraskuussa. Onko potentiaalia ja mitä kuuluu Esplanadille?"
 excerpt: "Miltä kävelykatu voi parhaimmillaan näyttää talvella ja miltä Esplanadi näyttää marraskuussa?"
-date: "2023-12-28T17:00:00.000Z"
+date: "2024-01-03T17:00:00.000Z"
 readingTime: "5"
 tags: "Kävelykadut, Elinvoima, Kaupunkikeskustat"
 coverImage:
@@ -10,11 +10,11 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Olet varmasti törmännyt kommentteihin, joiden mukaan Suomessa kävelykadut eivät toimi talvella, eikä niitä tule rakentaa. Talvella on lunta ja märkää, eikä terassillakaan voi istua.
+Olet varmasti törmännyt kommentteihin, joiden mukaan Suomessa ei tule rakentaa kävelykatuja. Talvella on lunta ja märkää, eikä terassillakaan voi istua.
 
-Piruilija yhdistäisi saman logiikan puistoihin ja omakotitalojen pihoihin. Pihathan ovat turhia, kun nurmi on kuitenkin puolet vuodesta lumen peitossa, marraskuussa on pimeää ja vettäkin voi sataa.
+Piruilija yhdistäisi saman logiikan omakotitalojen pihoihin. Pihathan ovat turhia, kun nurmi on kuitenkin puolet vuodesta lumen peitossa, marraskuussa on pimeää ja vettäkin voi sataa.
 
-Järkevä ihminen näkee että asia ei ole näin mustavalkoinen, oli kyse sitten kotipihoista tai kävelykaduista. Päin vastoin, niin kotipihalla, kuin kävelykadullakin on arvo. Tilastojen valossa kävelykatu yhdistää [viihtyvyyden ja taloudellisen vahvuuden](https://www.laurinevanpera.fi/posts/yrittajat-ja-data).
+Järkevä ihminen näkee että asia ei ole näin mustavalkoinen, oli kyse sitten kotipihoista tai kävelykaduista. Tilastojen valossa kävelykatu yhdistää hyvin [viihtyvyyden ja taloudellisen vahvuuden](https://www.laurinevanpera.fi/posts/yrittajat-ja-data).
 
 **Olen kuitenkin sitä mieltä, että Suomen kävelykadut ovat talvisin alihyödynnettyjä.**
 
@@ -71,15 +71,15 @@ Oma juttunsa ovat katetut, pysyvät terassit. Jälleen arkipäivää kävelykadu
 
 ![Plevnan terassi kävelykadulla](/assets/blog/kavelykatu-marraskuussa/plevna-terassi.jpg)
 
-Oikeastihan paikan ei tarvitse olla high endiä, jotta sisälle saadaan lämmin ja välitön tunnelma. Kävelin yksi ilta Tammelantorin currywurst-kojulle syömään iltapalaa ylityöpäivän jälkeen. Ajattelin syöväni wurstin ulkona pimeässä. Koju olikin katettu ja sisällä oli karaoke. Paikalla oli vieläpä sattumalta kaksi ystävääni. Aivan uskomaton sattuma ja lämmin meininki. Kaupunkielämää parhaimmillaan!
+Paikan ei tarvitse olla high endiä, jotta sisälle saadaan lämmin ja välitön tunnelma. Kävelin yksi ilta Tammelantorin currywurst-kojulle syömään iltapalaa ylityöpäivän jälkeen. Ajattelin syöväni wurstin ulkona pimeässä. Koju olikin katettu ja sisällä oli karaoke. Paikalla oli vieläpä sattumalta kaksi ystävääni. Aivan uskomaton sattuma ja lämmin meininki. Kaupunkielämää parhaimmillaan!
 
 [@youtube](O1TMeQjseK4 Tammelantorin currywurst. Vahva suositus!)
 
 ## Kesäkatu vs talvikatu
 
-Tampereen Joulutorin mökit ovat kaupungin omistamia. Olen pallotellut ajatusta, että nämä mökit voisi vuokrata nimellisellä hinnalla keskustayrittäjille jotka haluaisivat piristää kaupunkia ja liiketoimintaansa laajentamalla toimintaansa talviseen katutilaan.
+Tampereen Joulutorin mökit ovat kaupungin omistamia. Olen pallotellut ajatusta, että nämä mökit voisi vuokrata nimellisellä hinnalla kivijalkayrittäjille jotka haluaisivat piristää kaupunkia ja liiketoimintaansa laajentamalla toimintaansa talviseen katutilaan.
 
-Kerroin ideani Tampere Tunnetuksi Ry:n toiminnanjohtajalle, Riikka Töytärille kun näimme ohimennen. Töytäri on Tampereen Joulutorin ohjausryhmässä. Töytäri suhtautui kannustavasti, ja ohjeisti että tapahtumatuottaja on olennainen jotta kadusta saadaan järkevän näköinen.
+Kerroin ideani Tampere Tunnetuksi Ry:n toiminnanjohtajalle Riikka Töytärille kun näimme ohimennen. Töytäri on Tampereen Joulutorin ohjausryhmässä. Töytäri suhtautui kannustavasti, ja ohjeisti että tapahtumatuottaja on olennainen jotta kadusta saadaan järkevän näköinen.
 
 Yksi kaupunkikeskustojen ongelmista on, että liiketilojen omistus on hajautunutta, toisin kuin kauppakeskuksissa. Raklin järjestämässä tulevaisuudenkestävät kaupunkikeskustat -klinikalla on puitu hajautuneen [omistuksen ongelmaa](https://view.taiqa.com/rakli/tulevaisuuden-kaupunkikeskustat-tulosraportti-2023#/page=14)
 
