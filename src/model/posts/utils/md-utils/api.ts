@@ -1,16 +1,12 @@
-import fs from "fs";
-import { join } from "path";
-import matter from "gray-matter";
 import { Post } from "@/model/posts/types/Post";
-import { getPlaiceholder } from "plaiceholder";
+import { getBase64Img } from "@/model/posts/utils/getBase64Img";
+import { getPostSlugs } from "@/model/posts/utils/getPostSlugs";
+import { readSlug } from "@/model/posts/utils/readSlug";
 
 let imagePlaceholders: Record<
   /*Slug*/ string,
   /*base64 placeholder image*/ string
 > = {};
-
-const postsDirectory = join(process.cwd(), "_posts");
-const publicDir = join(process.cwd(), "public");
 
 type PostExtended = Post & {
   slug: string;
@@ -19,15 +15,10 @@ type PostExtended = Post & {
   isDraft?: boolean;
 };
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
-}
-
 export async function getPostBySlug(slug: string): Promise<PostExtended> {
   const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
+
+  const { data, content } = readSlug(realSlug);
 
   let base64 = "";
   // If the placeholder is already stored, use it.
@@ -35,10 +26,10 @@ export async function getPostBySlug(slug: string): Promise<PostExtended> {
     base64 = imagePlaceholders[realSlug];
   } else {
     // Otherwise, generate it and save it.
-    const file = fs.readFileSync(`${publicDir}${data.coverImage.url}`);
-    const placeholder = await getPlaiceholder(file);
-    base64 = placeholder.base64;
-    imagePlaceholders[realSlug] = placeholder.base64;
+    imagePlaceholders[realSlug] = await getBase64Img({
+      coverImageUrl: data.coverImage.url,
+    });
+    base64 = imagePlaceholders[realSlug];
   }
 
   return {
