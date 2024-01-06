@@ -3,8 +3,8 @@ import linkPreview from "markdown-it-link-preview";
 import iterator from "markdown-it-for-inline";
 // @ts-expect-error
 import implicitFigures from "markdown-it-image-figures";
-import { dataBarPlugin } from "@/model/posts/utils/md-utils/dataBarPlugin";
-import { youtubeEmbedPlugin } from "@/model/posts/utils/md-utils/youtubeEmbedPlugin";
+import { dataBarPlugin } from "@/model/posts/utils/markdown-it-plugins/dataBarPlugin";
+import { youtubeEmbedPlugin } from "@/model/posts/utils/markdown-it-plugins/youtubeEmbedPlugin";
 
 const md = new MarkdownIt({
   html: true,

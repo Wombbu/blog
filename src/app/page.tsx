@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/model/posts/utils/md-utils/api";
+import { getAllPosts } from "@/model/posts/utils/getAllPosts";
 import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { Hero } from "@/components/Hero/Hero";
 import { routes } from "@/essentials/utils/routes";

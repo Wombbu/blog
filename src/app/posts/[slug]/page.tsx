@@ -1,6 +1,6 @@
-import { getAllPosts, getPostBySlug } from "@/model/posts/utils/md-utils/api";
+import { getAllPosts } from "@/model/posts/utils/getAllPosts";
 import PostBody from "@/model/posts/components/PostBody/PostBody";
-import markdownToHtml from "@/model/posts/utils/md-utils/markdownToHtml";
+import markdownToHtml from "@/model/posts/utils/markdownToHtml";
 import { typography } from "@/essentials/theme/typography";
 import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
@@ -13,6 +13,7 @@ import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
+import { getPostBySlug } from "@/model/posts/utils/getPostBySlug";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
