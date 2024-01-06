@@ -8,7 +8,7 @@ export const Hero = () => (
       alt="Image of me"
       width={960}
       height={960}
-      className="object-cover sm:mb-0 w-full h-auto"
+      className="object-cover sm:mb-0 w-full h-auto max-w-xl"
       loading="eager"
     />
     <div

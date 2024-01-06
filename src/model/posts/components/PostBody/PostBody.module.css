@@ -69,7 +69,7 @@
   width: auto;
   height: auto;
   max-height: 816px; /* Image with this height and 3/4 aspect ratio will be the same width as the article max width (612px) */
-  max-width: 1088px; /* Width of image with 4/3 aspect ratio, with a height of 816px */
+  /* max-width: 1088px; Width of image with 4/3 aspect ratio, with a height of 816px. This will cause the img to overflow on smaller screens */
 }
 .markdown iframe {
   @apply w-full aspect-video;
