@@ -25,7 +25,7 @@ export function youtubeEmbedPlugin(md: MarkdownIt) {
       // Create an animated data bar using inline CSS styles
       return `
       <figure>
-<iframe width="1422" height="auto" src="https://www.youtube-nocookie.com/embed/${videoId}?playlist=${videoId}&loop=1&playsinline=1&mute=1&controls=0&showinfo=0&disablekb=1&fs=0&color=white&hl=fi&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 1422px; max-height: 800px;"></iframe>
+<iframe width="1088" height="auto" src="https://www.youtube-nocookie.com/embed/${videoId}?playlist=${videoId}&loop=1&playsinline=1&mute=1&controls=0&showinfo=0&disablekb=1&fs=0&color=white&hl=fi&iv_load_policy=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 1088px; max-height: 800px;"></iframe>
 <figcaption>${caption}</figcaption>
 </figure> 
       `;

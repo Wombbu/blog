@@ -69,9 +69,10 @@
   width: auto;
   height: auto;
   max-height: 816px; /* Image with this height and 3/4 aspect ratio will be the same width as the article max width (612px) */
+  max-width: 1088px; /* Width of image with 4/3 aspect ratio, with a height of 816px */
 }
 .markdown iframe {
-  @apply w-full max-w-none aspect-video;
+  @apply w-full aspect-video;
 }
 .markdown figure {
   @apply w-full max-w-none flex flex-col items-center;
