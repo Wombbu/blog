@@ -1,11 +1,7 @@
 import { Post } from "@/model/posts/types/Post";
 import { getBase64Img } from "@/model/posts/utils/getBase64Img";
-import { readSlug } from "@/model/posts/utils/readSlug";
-
-let imagePlaceholders: Record<
-  /*Slug*/ string,
-  /*base64 placeholder image*/ string
-> = {};
+import { imgPlaceholderCache } from "@/model/posts/utils/imgPlaceholderCache";
+import { readSlugGrayMatter } from "@/model/posts/utils/readSlugGrayMatter";
 
 export type PostExtended = Post & {
   slug: string;
@@ -17,18 +13,14 @@ export type PostExtended = Post & {
 export async function getPostBySlug(slug: string): Promise<PostExtended> {
   const realSlug = slug.replace(/\.md$/, "");
 
-  const { data, content } = readSlug(realSlug);
+  const { data, content } = readSlugGrayMatter(realSlug);
 
-  let base64 = "";
+  const base64 = imgPlaceholderCache.getSync(data.coverImage.url);
   // If the placeholder is already stored, use it.
-  if (imagePlaceholders[realSlug]) {
-    base64 = imagePlaceholders[realSlug];
-  } else {
-    // Otherwise, generate it and save it.
-    imagePlaceholders[realSlug] = await getBase64Img({
-      coverImageUrl: data.coverImage.url,
-    });
-    base64 = imagePlaceholders[realSlug];
+  if (!base64) {
+    throw new Error(
+      "Image placeholder not found in cache. This should be done in prebuild step"
+    );
   }
 
   return {
