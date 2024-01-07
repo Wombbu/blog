@@ -24,12 +24,12 @@
     "faunadb": "^4.8.0",
     "file-system-cache": "^2.4.4",
     "gray-matter": "^4.0.3",
-    "jsdom": "^23.1.0",
     "lowdb": "^6.1.1",
     "markdown-it": "^13.0.1",
     "markdown-it-for-inline": "^0.1.1",
     "markdown-it-image-figures": "^2.1.1",
     "next": "13.4.13-canary.6",
+    "node-html-parser": "^6.1.12",
     "plaiceholder": "^3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -44,7 +44,6 @@
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
-    "@types/jsdom": "^21.1.6",
     "@types/markdown-it": "^12.2.3",
     "@types/xmlhttprequest": "^1.8.2",
     "autoprefixer": "^10.4.13",
