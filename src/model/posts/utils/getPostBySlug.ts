@@ -1,23 +1,13 @@
 import { Post } from "@/model/posts/types/Post";
-import { getBase64Img } from "@/model/posts/utils/getBase64Img";
 import { imgPlaceholderCache } from "@/model/posts/utils/imgPlaceholderCache";
 import { readSlugGrayMatter } from "@/model/posts/utils/readSlugGrayMatter";
 
-export type PostExtended = Post & {
-  slug: string;
-  content: string;
-  coverImage: { blurDataURL: string };
-  isDraft?: boolean;
-};
+export const getPostBySlug = (slug: string): Post => {
+  const { data, content } = readSlugGrayMatter(slug);
 
-export async function getPostBySlug(slug: string): Promise<PostExtended> {
-  const realSlug = slug.replace(/\.md$/, "");
+  const blurDataURL = imgPlaceholderCache.getSync(data.coverImage.url);
 
-  const { data, content } = readSlugGrayMatter(realSlug);
-
-  const base64 = imgPlaceholderCache.getSync(data.coverImage.url);
-  // If the placeholder is already stored, use it.
-  if (!base64) {
+  if (!blurDataURL) {
     throw new Error(
       "Image placeholder not found in cache. This should be done in prebuild step"
     );
@@ -27,15 +17,10 @@ export async function getPostBySlug(slug: string): Promise<PostExtended> {
     ...data,
     coverImage: {
       ...data.coverImage,
-      blurDataURL: base64,
+      blurDataURL,
     },
-    slug: realSlug,
+    slug,
     content: content,
-    isDraft: realSlug.includes("draft"),
-  } as Post & {
-    slug: string;
-    content: string;
-    coverImage: { blurDataURL: string };
-    isDraft?: boolean;
+    isDraft: slug.includes("draft"),
   };
-}
+};

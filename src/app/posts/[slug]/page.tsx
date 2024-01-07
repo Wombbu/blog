@@ -14,6 +14,7 @@ import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 import { getPostBySlug } from "@/model/posts/utils/getPostBySlug";
+import { Post } from "@/model/posts/types/Post";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -56,9 +57,9 @@ type Props = {
 };
 
 export default async function Post(props: Props) {
-  const post = await getPostBySlug(props.params.slug);
+  const post = getPostBySlug(props.params.slug);
 
-  const recommended = await getAllPosts();
+  const recommended = getAllPosts();
 
   const contentHtml = markdownToHtml(post.content || "");
 

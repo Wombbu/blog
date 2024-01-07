@@ -5,6 +5,11 @@ import { IScriptParams } from "@/scripts/IScriptParams";
 
 loadEnvConfig(process.cwd());
 
+/**
+ * Fetches Next.js config and runs all scripts in the pre-build folder
+ *
+ * This must be run with tsx instead of node or ts-node.
+ */
 const runAsync = async () => {
   // find all scripts in subfolder
   const files = fs

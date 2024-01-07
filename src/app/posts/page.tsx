@@ -5,8 +5,8 @@ import { Metadata } from "next";
 import { typography } from "@/essentials/theme/typography";
 import { FullWidthGray } from "@/components/FullWidthGray/FullWidthGray";
 
-export default async function Posts() {
-  const allPosts = await getAllPosts();
+export default function Posts() {
+  const allPosts = getAllPosts();
 
   return (
     <>

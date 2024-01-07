@@ -7,8 +7,8 @@ import Link from "next/link";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 
-export default async function Home() {
-  const allPosts = await getAllPosts();
+export default function Home() {
+  const allPosts = getAllPosts();
 
   return (
     <div>
