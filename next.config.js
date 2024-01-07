@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
   images: {
-    domains: ["localhost", "www.laurinevanpera.fi"],
+    remotePatterns: [
+      { hostname: "**localhost" },
+      { hostname: "**.laurinevanpera.fi" },
+    ],
   },
 };
 
