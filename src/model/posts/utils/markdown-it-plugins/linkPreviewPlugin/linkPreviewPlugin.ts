@@ -6,7 +6,7 @@ import Cache from "file-system-cache";
 
 export const linkPreviewCache = Cache({
   basePath: "./.link-preview-cache",
-  ttl: Infinity,
+  ttl: 60 * 60 * 24 * 7 * 30, // 30 days
 });
 
 const HTML_ESCAPE_REPLACE_RE = /[&<>"']/g;
