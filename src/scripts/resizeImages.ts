@@ -1,7 +1,8 @@
 import sharp from "sharp";
-
 import fs from "fs";
 import { join } from "path";
+
+sharp.cache(false);
 
 // Recursive function to get files
 const getFiles = (dir: string, files: string[] = []) => {
@@ -24,15 +25,14 @@ const getFiles = (dir: string, files: string[] = []) => {
 
 const assetDirectory = join(process.cwd(), "public/assets/blog");
 
+const formatsToConvert = [".HEIC", ".png", ".webp"];
+const formatsToConvertRegexp = /\.HEIC|\.png|\.webp/;
+const formatsToNotConvert = [".jpeg", ".jpg", ".JPG"];
+const allFormats = [...formatsToConvert, ...formatsToNotConvert];
+
 async function resizeImages() {
-  const imgPaths = getFiles(assetDirectory).filter(
-    (path) =>
-      path.includes(".jpeg") ||
-      path.includes(".jpg") ||
-      path.includes(".JPG") ||
-      path.includes(".HEIC") ||
-      path.includes(".png") ||
-      path.includes(".webp")
+  const imgPaths = getFiles(assetDirectory).filter((path) =>
+    allFormats.some((format) => path.includes(format))
   );
   console.log(`🌇 Resizing images: 
   
@@ -63,10 +63,13 @@ async function resizeImages() {
             .toBuffer();
 
           await sharp(resizedImageBuffer).toFile(
-            path.replace(/\.HEIC|\.png|\.webp/, ".jpg")
+            path.replace(formatsToConvertRegexp, ".jpg")
           );
 
-          await fs.promises.unlink(path);
+          // Delete the original image if it's in a format that have been converted to .jpg
+          if (formatsToConvertRegexp.test(path)) {
+            await fs.promises.unlink(path);
+          }
         }
       })
     );

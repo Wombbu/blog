@@ -48,7 +48,7 @@ Kummolan mielestä poliisin sakottaminen on hyvän maun vastaista.
 
 On selvä asia, että poliisien työ on tärkää, ja monesti se vaatii erikoisiin paikkoihin parkkeeraamista. Sanonpa kuitenkin, että poliisien sakottaminen on aivan ok jos siihen on aihetta. Ei siinä ole mitään ihmeellistä. Otetaan tosielämän tilanne Hatanpään valtatieltä.
 
-![Hatanpään valtatiellä oli neljä kaistaa harvalle bussiliikenteelle](/assets/blog/kummola-vs-hurinki/hvv.png)
+![Hatanpään valtatiellä oli neljä kaistaa harvalle bussiliikenteelle](/assets/blog/kummola-vs-hurinki/hvv.jpg)
 
 Hatanpään valtatiellä oli 4 kaistaa autoille. Valtatiellä kulki harvalukuinen bussiliikenne. Laki, arkijärki ja poliisin [ohjeistus](https://poliisi.fi/-/moottoriajoneuvot-eivat-kuulu-jalkakaytavalle) sanoo, että tällöin pysäköidään ajoradalle. Muutama auto minuutissa pääsee kyllä ohi. Kaistoja riittää.
 

@@ -68,7 +68,7 @@ Toisin kuin muut mainitsemani teemat, korona ei ole pitkäaikainen trendi vaan l
 - Korona lopetti turismin lähes kokonaan. [Helsingissä matkailun koko on 2 miljardia euroa](https://matkailusaatio.fi/wp-content/uploads/2021/09/Helsingin_matkailun_potentiaali_2X.pdf)
 - Korona ajoi ihmiset etätöihin. [Helsingin keskustassa on huomattavan paljon toimistotilaa asuntoihin suhteutettuina](https://www.rakli.fi/blogi/ratkaisu-helsingin-ydinkeskustan-naivettymiseen-tyhjat-toimistot-asunnoiksi/)
 
-![<a href="https://nepton.fi/uutiset/etatyo-tilastot-koronakriisin-aikana/" target="_blank">Työajanseurantayritys Neptonin tilastossa etätyö nelinkertaistui koronan myötä</a>](/assets/blog/keskustojen-naivettyminen/etatyo.webp)
+![<a href="https://nepton.fi/uutiset/etatyo-tilastot-koronakriisin-aikana/" target="_blank">Työajanseurantayritys Neptonin tilastossa etätyö nelinkertaistui koronan myötä</a>](/assets/blog/keskustojen-naivettyminen/etatyo.jpg)
 
 ## Mikä avuksi
 

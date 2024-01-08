@@ -42,7 +42,7 @@ Ravintola-alan kannattaa miettiä, onko kokonaiskuvassa järkevintä panostaa ra
 ravintolapalveluja hyödynnettäessä](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf).
 
 <figure>
-  <img src="/assets/blog/keskustat-autoilu-ja-yrittajat/tehtyjen-matkojen-kulkutapa.png">
+  <img src="/assets/blog/keskustat-autoilu-ja-yrittajat/tehtyjen-matkojen-kulkutapa.jpg">
   <figcaption>23% Helsingin työmatkoista tehdään autolla</figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ Helsingissä vaikutusvaltaisia ravintolavaikuttajia on noussut Esplanadia vastaa
 https://twitter.com/AkuVikstrm/status/1661423927984259078
 
 <figure>
-<img src="/assets/blog/keskustat-autoilu-ja-yrittajat/kommentit.png">
+<img src="/assets/blog/keskustat-autoilu-ja-yrittajat/kommentit.jpg">
 <figcaption>Asia herättää keskustelua Aamulehdessä</figcaption>
 </figure>
 

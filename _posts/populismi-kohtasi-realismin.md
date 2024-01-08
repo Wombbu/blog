@@ -18,7 +18,7 @@ Esittelen teille liikennetohtorin valtuustoaloitteen, sekä viranhaltijan valmis
 
 ## Valtuustoaloite
 
-![Valtuustoaloite](/assets/blog/populismi-kohtasi-realismin/valtuustoaloite.png)
+![Valtuustoaloite](/assets/blog/populismi-kohtasi-realismin/valtuustoaloite.jpg)
 
 > Ehdotan että Tampereen kaupunki edistää Hämeenkadun ja lähikatujen elinvoiman palauttamista.
 > Katujen kaventaminen ja ajoreittien sulkeminenon lopetettava. Keskustan maanpäällisten pysäköintipaikkojan säilyttäminen ja lisääminen turvattava.

@@ -17,7 +17,7 @@ Etätyö on tullut jäädäkseen. Lähettipalvelut kuljettavat ravintola-annokse
 
 > Meidän keskustan alennustila on valitettavasti käsinkosketeltavissa. ... Se argumentti, että ennen oli paremmin, ei kerta kaikkiaan lennä enää.<cite>Lahden Kaupunkiympäristölautakunnan puheenjohtaja Francis McCarron (kok.) <a href="https://yle.fi/a/74-20011377" target="_blank">HS.fi</a></cite>
 
-![Tyhjä liiketila Tampereen keskustassa](/assets/blog/elinvoimaa-kyttälään/stockmann.HEIC)
+![Tyhjä liiketila Tampereen keskustassa](/assets/blog/elinvoimaa-kyttälään/stockmann.jpg)
 
 Ideaparkin perustaja, Toivo Sukari on todennut:
 
@@ -54,7 +54,7 @@ Lähtökohtana pidän vuoden 2021-2024 vaiheyleiskaavan tavoitteita
 - Liiketoimintaa, viihtyvyyttä ja asukasmukavuutta haittaava läpiajo siirrettävä keskustan kehälle
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kyttala-kartta.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/kyttala-kartta.jpg" style=" object-fit: cover;" />
   <figcaption>Vision alue koskee Eteläistä kyttälää</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.c
 **Kadun kummassakin päässä tulee olemaan tärkeä viheralue.** Toisessa päässä tuleva asemapuisto ja toisessa koskenranta <a href="https://www.tampere.fi/kaupunkisuunnittelu/kaupunkiymparisto-uudistuu/takonraitti" target="_blank">Takonraitteineen</a>.
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/asemakeskus-terminaali.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/asemakeskus-terminaali.jpg" style=" object-fit: cover;" />
   <figcaption>Asemakeskuksen katettu joukkoliikenneterminaali tulee olemaan Verkatehtaankadun kohdalla</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ Kun kävelykatu tehdään oikeaan paikkaan, sillä on suuri potentiaali lisätä
 </figure>
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-talvi2.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/verkatehtaankatu-talvi2.jpg" style=" object-fit: cover;" />
   <figcaption>Vahva katuympäristö mahdollistaa yrittäjille talviterassit, ja houkuttelee kävelijöitä vuoden ympäri. Kuvassa panimoravintola Plevnan terasseja leikattuna Verkatehtaankadulle</figcaption>
 </figure>
 
@@ -146,7 +146,7 @@ Kadulla on paljon ravintoloita, ja ravintoloille tulee mahdollistaa katutilan k�
 Tuomiokirkonkadun kävelykatusuunnitelma on saanut alkunsa vuonna 1991 kun TKL halusi Tuomiokirkonkadun päädyt kävelykaduksi nysseliikenteen ruuhkautumisen vuoksi. 2010-luvulla Tuomiokirkonkadusta on suunniteltu luomaan selkeä kävelyreitti Hämeenkadulta Areenalle. Tai tarkemmin ottaen Sorin aukiolle muutaman sadan metrin päähän areenasta. Katu on keskustan leveimpiä, ellei levein. Itse asiassa mielestäni katu on turhan leveä kävelykaduksi. Katu onkin saanut lähes ennennäkemättömän yksimielisen tyrmäyksen. Katu on tyrmätty jopa kävelykatuhankkeisiin hyvin positiivisesti suhtautuvassa Lisää kaupunkia Tampereelle facebook-ryhmässä, ja kadun karuudesta on useita some-ketjuja, mielipidekirjoituksia sekä uutisia. Tässä osa: <a href="https://www.facebook.com/groups/399167496814768/permalink/1928162287248607/" target="_blank">Ketju</a> <a href="https://www.aamulehti.fi/moro/art-2000007572319.html" target="_blank">Uutinen 1</a> <a href="https://www.aamulehti.fi/moro/art-2000007573849.html" target="_blank">Uutinen 2</a>
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/huono4.HEIC" style="object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/huono4.jpg" style="object-fit: cover;" />
   <figcaption>Tuomiokirkonkatu</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ Kasvillisuus haihduttaa vettä ympäri vuorokauden ja tätä kautta tekee katuil
 <h2 id="kokonaiskuva">Kokonaiskuva</h2>
 
 <figure>
-  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/etelainen-kyttala-kartta.png" style=" object-fit: cover;" />
+  <img loading="lazy" src="/assets/blog/elinvoimaa-kyttälään/etelainen-kyttala-kartta.jpg" style=" object-fit: cover;" />
   <figcaption>Suunnitelman mukainen Kyttälä ohjaa läpiajon keskustan kehälle sekä säilyttää pohjois-etelä yhteydet</figcaption>
 </figure>
 
