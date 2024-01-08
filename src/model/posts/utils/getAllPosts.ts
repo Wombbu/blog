@@ -1,4 +1,3 @@
-import { Post } from "@/model/posts/types/Post";
 import { getPostBySlug } from "@/model/posts/utils/getPostBySlug";
 import { getPostSlugs } from "@/model/posts/utils/getPostSlugs";
 
