@@ -26,7 +26,7 @@ export const SocialMediaLinks = ({ size, ...props }: Props) => (
       size={size}
     />
     <SocialMediaLink
-      href={`https://www.youtube.com/@tamperekulkee3983/videos`}
+      href={`https://www.youtube.com/@LauriNevanpera/videos`}
       target="_blank"
       src="/youtube-logo.svg"
       alt="Profiili YouTubessa"
