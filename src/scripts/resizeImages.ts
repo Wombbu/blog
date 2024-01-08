@@ -34,9 +34,6 @@ async function resizeImages() {
   const imgPaths = getFiles(assetDirectory).filter((path) =>
     allFormats.some((format) => path.includes(format))
   );
-  console.log(`🌇 Resizing images: 
-  
-  ${imgPaths.join("\n")}`);
   try {
     await Promise.all(
       imgPaths.map(async (path) => {
@@ -47,6 +44,10 @@ async function resizeImages() {
           (!isCoverImg && (metadata?.height || 1001) > 1000) ||
           (isCoverImg && (metadata?.width || 1601) > 1600)
         ) {
+          console.log(
+            `🌇 Resizing image: ${path}. Original height: ${metadata?.height}. New height: 1000px`
+          );
+
           const resizedImageBuffer = await img
             .resize(
               isCoverImg
