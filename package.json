@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prebuild": "tsx ./src/scripts/runner.ts",
+    "resizeimages": "tsx ./src/scripts/resizeImages.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
