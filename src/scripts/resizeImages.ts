@@ -24,27 +24,49 @@ const getFiles = (dir: string, files: string[] = []) => {
 
 const assetDirectory = join(process.cwd(), "public/assets/blog");
 
-export default async function resizeImages() {
+async function resizeImages() {
   const imgPaths = getFiles(assetDirectory).filter(
     (path) =>
-      path.includes(".HEIC") ||
       path.includes(".jpeg") ||
+      path.includes(".jpg") ||
+      path.includes(".JPG") ||
+      path.includes(".HEIC") ||
       path.includes(".png") ||
       path.includes(".webp")
   );
-  console.log(imgPaths);
+  console.log(`🌇 Resizing images: 
+  
+  ${imgPaths.join("\n")}`);
   try {
     await Promise.all(
       imgPaths.map(async (path) => {
         const img = sharp(path);
         const metadata = await img.metadata();
-        if (metadata.width && metadata.width > 816) {
-          await img
-            .resize({
-              height: 816,
-            })
-            .toFormat("jpeg", { mozjpeg: true, quality: 80 })
-            .toFile(path.replace(/\.HEIC|\.jpeg|\.png|\.webp/, ".jpeg"));
+        const isCoverImg = path.includes("cover");
+        if (
+          (!isCoverImg && (metadata?.height || 1001) > 1000) ||
+          (isCoverImg && (metadata?.width || 1601) > 1600)
+        ) {
+          const resizedImageBuffer = await img
+            .resize(
+              isCoverImg
+                ? // Cover images are restricted by width, so we want to resize them by width
+                  {
+                    width: 1600,
+                  }
+                : // Other images are restricted by height, so we resize them by height
+                  {
+                    height: 1000,
+                  }
+            )
+            .toFormat("jpeg", { mozjpeg: true, quality: 90 })
+            .toBuffer();
+
+          await sharp(resizedImageBuffer).toFile(
+            path.replace(/\.HEIC|\.png|\.webp/, ".jpg")
+          );
+
+          await fs.promises.unlink(path);
         }
       })
     );
@@ -52,3 +74,5 @@ export default async function resizeImages() {
     console.log(error);
   }
 }
+
+resizeImages();
