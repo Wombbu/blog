@@ -5,7 +5,7 @@ date: "2024-01-04T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere, Liikenne"
 coverImage:
-  url: "/assets/blog/elinvoimaa-kyttälään/tkk.jpg"
+  url: "/assets/blog/kummola-vs-hurinki/cover.jpg"
   desc: "Tuomiokirkonkatu"
   credit: "Lauri Nevanperä"
 ---

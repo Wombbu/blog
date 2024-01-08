@@ -5,7 +5,7 @@ date: "2023-04-25T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere"
 coverImage:
-  url: "/assets/blog/tampereen-supervuosi/kansi4.jpg"
+  url: "/assets/blog/tampereen-supervuosi/cover.jpg"
   desc: "Näsinneula"
   credit: "Lauri Nevanperä"
 tweet: "https://twitter.com/LauriNevanpera/status/1650935210307887108"

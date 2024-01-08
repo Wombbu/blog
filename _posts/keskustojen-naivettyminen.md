@@ -5,7 +5,7 @@ date: "2023-05-01T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere, Helsinki, Elinvoima"
 coverImage:
-  url: "/assets/blog/keskustojen-naivettyminen/tre-keskusta - 5-1.jpeg"
+  url: "/assets/blog/keskustojen-naivettyminen/cover.jpeg"
   desc: "Pieni lelukauppa lopettaa Tampereella"
   credit: "Lauri Nevanperä"
 ---

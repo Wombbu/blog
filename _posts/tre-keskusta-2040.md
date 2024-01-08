@@ -5,7 +5,7 @@ date: "2023-09-28T17:00:00.000Z"
 readingTime: "8"
 tags: "Tampere, Liikenne, Elinvoima"
 coverImage:
-  url: "/assets/blog/tre-keskusta-2040/tre-keskusta12.jpeg"
+  url: "/assets/blog/tre-keskusta-2040/cover.jpeg"
   desc: "Tampellan Esplanadi"
   credit: "Lauri Nevanperä"
 ---

@@ -5,7 +5,7 @@ date: "2023-03-19T17:00:00.000Z"
 readingTime: "3"
 tags: "Liikenne, Talous"
 coverImage:
-  url: "/assets/blog/50-kiloa-pyoralla/kuva14.jpeg"
+  url: "/assets/blog/50-kiloa-pyoralla/cover.jpeg"
   desc: "Ikean Ivar-kaappi matkalla kotiin"
   credit: "Lauri Nevanperä"
 tweet: "https://twitter.com/LauriNevanpera/status/1637881500711395333"

@@ -5,7 +5,7 @@ date: "2023-03-31T17:00:00.000Z"
 readingTime: "5"
 tags: "Tampere, Helsinki"
 coverImage:
-  url: "/assets/blog/kaupunkisuunnittelu-on-murroksessa/vartin-kaupunki - 6.jpeg"
+  url: "/assets/blog/kaupunkisuunnittelu-on-murroksessa/cover.jpeg"
   desc: "Vartin kaupungissa työmatka voi olla 10 min kävelyä koskenrannassa"
   credit: "Lauri Nevanperä"
 tweet: "https://twitter.com/LauriNevanpera/status/1642195897994952706"
