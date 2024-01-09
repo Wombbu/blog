@@ -1,4 +1,5 @@
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
+import { typography } from "@/essentials/theme/typography";
 import Image from "next/image";
 import profileImg from "../../../public/profiili.jpg";
 
@@ -17,10 +18,12 @@ export const Hero = () => (
       className="flex-auto flex flex-col gap-2 items-center py-16"
       style={{ maxWidth: "425px" }}
     >
-      <h1 className="font-primary font-bold text-5xl sm:text-6xl text-gray-800 text-center mb-2">
+      <h1
+        className={`font-primary font-bold text-5xl sm:text-6xl text-black text-center mb-2`}
+      >
         Moro.
       </h1>
-      <p className="font-primary text-md font-medium text-center mb-4">
+      <p className={`${typography.variants.textBody} text-center mb-4`}>
         Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
         toiminnanohjausjärjestelmää ohjelmistoarkkitehtina Tampereella.
       </p>

@@ -140,12 +140,11 @@ export default async function Post(props: Props) {
       </div>
       <section className="mt-12">
         <h2 className={`${typography.variants.sectionTitle()}`}>
-          Uudet artikkelit
+          Kolme uusinta
         </h2>
         <PostGrid
           posts={recommended
             .filter((it) => it.slug !== post.slug)
-            .slice(0, 3)
             .map((post) => ({
               title: post.title,
               date: post.date,

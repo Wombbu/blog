@@ -1,6 +1,7 @@
 import { button } from "@/essentials/theme/button";
 import { routes } from "@/essentials/utils/routes";
 import { VisualPost } from "@/model/posts/components/VisualPost/VisualPost";
+import Image from "next/image";
 import Link from "next/link";
 
 type Post = {
@@ -24,8 +25,8 @@ type Props = {
 };
 
 export const PostGrid = ({ posts, withButton }: Props) => (
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-    {posts.map((post, index) => (
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    {posts.slice(0, withButton ? 3 : undefined).map((post, index) => (
       <div
         className={`${"col-start-1 col-end-2 sm:col-end-3"}`}
         key={post.title}
@@ -46,13 +47,37 @@ export const PostGrid = ({ posts, withButton }: Props) => (
         />
       </div>
     ))}
+
     {withButton ? (
-      <Link
-        href={routes.posts}
-        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3`}
-      >
-        Katso kaikki artikkelit
-      </Link>
+      <>
+        <div className="sm:col-start-1 sm:col-end-3 flex gap-2">
+          {posts.slice(3, 9).map((post, index) => (
+            <Link
+              key={post.href}
+              href={post.href}
+              className={`flex flex-col ${index >= 3 ? "hidden md:block" : ""}`}
+            >
+              <Image
+                src={post.imageSrc}
+                alt={post.title}
+                width={240}
+                height={260}
+                loading="lazy"
+                className={`object-cover aspect-sdInverse sm:aspect-square flex-1 h-auto min-w-0`}
+                key={post.imageSrc}
+              />
+            </Link>
+          ))}
+        </div>
+        <div className="sm:col-start-1 sm:col-end-3 flex justify-center">
+          <Link
+            href={routes.posts}
+            className={`${button.variants.largeInverted} flex-1`}
+          >
+            Katso kaikki artikkelit
+          </Link>
+        </div>
+      </>
     ) : null}
   </div>
 );

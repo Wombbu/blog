@@ -18,11 +18,11 @@ export default function Home() {
           <h2
             className={`${typography.variants.sectionTitle()} hover:underline decoration-3`}
           >
-            Uudet artikkelit
+            Kolme uusinta
           </h2>
         </Link>
         <PostGrid
-          posts={allPosts.slice(0, 3).map((it) => ({
+          posts={allPosts.map((it) => ({
             date: it.date,
             imageSrc: it.coverImage.url,
             title: it.title,
