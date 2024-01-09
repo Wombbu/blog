@@ -1,5 +1,3 @@
-import { IconLink } from "@/features/social-media-sharing/components/IconLink";
-import SocialMediaShareButtons from "@/features/social-media-sharing/components/SocialMediaShareButtons";
 import { button } from "@/essentials/theme/button";
 import { typography } from "@/essentials/theme/typography";
 import { MdClose } from "react-icons/md";

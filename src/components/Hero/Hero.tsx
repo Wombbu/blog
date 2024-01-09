@@ -1,15 +1,17 @@
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import Image from "next/image";
+import profileImg from "../../../public/profiili.jpg";
 
 export const Hero = () => (
   <section className="flex flex-col items-center">
     <Image
-      src="/profiili.jpg"
-      alt="Image of me"
-      width={960}
-      height={960}
+      src={profileImg}
+      alt="Kuva minusta"
+      width={600}
+      height={600}
       className="object-cover sm:mb-0 w-full h-auto max-w-xl"
       loading="eager"
+      placeholder="blur"
     />
     <div
       className="flex-auto flex flex-col gap-2 items-center py-16"

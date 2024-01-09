@@ -1,7 +1,6 @@
 import { HeaderLink } from "@/components/Header/HeaderLink";
 import { palette } from "@/essentials/theme/palette";
 import { routes } from "@/essentials/utils/routes";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Header = () => (
@@ -10,14 +9,15 @@ export const Header = () => (
       href={routes.home}
       className={`${palette.text.primary} font-primary font-bold text-2xl sm:text-3xl mh-11`}
     >
-      <Image
+      {/* <Image
         src="/ln-logo-black.svg"
         alt="Lauri Nevanperä"
         height={100}
         width={200}
         className="w-auto h-10 sm:h-12 md:h-14"
         priority
-      />
+      /> */}
+      Lauri Nevanperä
     </Link>
     <div className="[&>*]:ml-0 sm:[&>*]:ml-4">
       <HeaderLink href={routes.posts}>Artikkelit</HeaderLink>
