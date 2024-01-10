@@ -24,8 +24,8 @@ export const Hero = () => (
         Moro.
       </h1>
       <p className={`${typography.variants.textBody} text-center mb-4`}>
-        Otan kantaa kaupunkikehitykseen. Leipätyökseni kehitän kiinteistöalan
-        toiminnanohjausjärjestelmää ohjelmistoarkkitehtina Tampereella.
+        Otan kantaa taloudellisesti vahvojen ja asukkaille pehmeiden kaupunkien
+        puolesta. Leipätyökseni olen ohjelmistoarkkitehti Tampereella.
       </p>
       <SocialMediaLinks />
     </div>

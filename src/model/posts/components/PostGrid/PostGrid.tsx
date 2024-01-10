@@ -50,13 +50,9 @@ export const PostGrid = ({ posts, withButton }: Props) => (
 
     {withButton ? (
       <>
-        <div className="sm:col-start-1 sm:col-end-3 flex gap-2">
+        <div className="sm:col-start-1 sm:col-end-3 grid grid-cols-3 md:grid-cols-6 gap-2">
           {posts.slice(3, 9).map((post, index) => (
-            <Link
-              key={post.href}
-              href={post.href}
-              className={`flex flex-col ${index >= 3 ? "hidden md:block" : ""}`}
-            >
+            <Link key={post.href} href={post.href} className={`flex flex-col`}>
               <Image
                 src={post.imageSrc}
                 alt={post.title}
@@ -65,6 +61,8 @@ export const PostGrid = ({ posts, withButton }: Props) => (
                 loading="lazy"
                 className={`object-cover aspect-sdInverse sm:aspect-square flex-1 h-auto min-w-0`}
                 key={post.imageSrc}
+                blurDataURL={post.blurDataURL}
+                placeholder="blur"
               />
             </Link>
           ))}
