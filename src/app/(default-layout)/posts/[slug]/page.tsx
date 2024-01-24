@@ -7,8 +7,8 @@ import { palette } from "@/essentials/theme/palette";
 import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { Author } from "@/app/posts/[slug]/Author";
-import { PostHero } from "@/app/posts/[slug]/PostHero";
+import { Author } from "@/app/(default-layout)/posts/[slug]/Author";
+import { PostHero } from "@/app/(default-layout)/posts/[slug]/PostHero";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
@@ -30,7 +30,7 @@ import { Post } from "@/model/posts/types/Post";
 const LazyShareViaModal = dynamic(
   () =>
     import(
-      "../../../features/social-media-sharing/components/ShareViaModal.controller"
+      "../../../../features/social-media-sharing/components/ShareViaModal.controller"
     ),
   {
     loading: () => null,
@@ -42,7 +42,7 @@ const LazyShareViaModal = dynamic(
 const LazySocialMediaSharePost = dynamic(
   () =>
     import(
-      "../../../features/social-media-sharing/components/SocialMediaSharePost"
+      "../../../../features/social-media-sharing/components/SocialMediaSharePost"
     ),
   {
     loading: () => null,
@@ -139,9 +139,7 @@ export default async function Post(props: Props) {
         </div>
       </div>
       <section className="mt-12">
-        <h2 className={`${typography.variants.sectionTitle()}`}>
-          Kolme uusinta
-        </h2>
+        <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>
         <PostGrid
           posts={recommended
             .filter((it) => it.slug !== post.slug)
@@ -161,13 +159,13 @@ export default async function Post(props: Props) {
           withButton
         />
         <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
-          Twitter
+          Seuraa Twitterissä
         </h2>
         <TwitterGrid
           tweetIds={["1539932433289805825", "1577931674649870343"]}
         />
         <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
-          Youtube
+          Katso Youtubessa
         </h2>
         <YoutubeGrid
           youtubeVideos={[

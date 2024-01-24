@@ -1,4 +1,3 @@
-import { HeaderLink } from "@/components/Header/HeaderLink";
 import { palette } from "@/essentials/theme/palette";
 import { routes } from "@/essentials/utils/routes";
 import Link from "next/link";
@@ -7,7 +6,7 @@ export const Header = () => (
   <header className="flex items-center justify-center px-4 sm:px-8 py-8 sm:py-12 max-w-screen-lg m-auto">
     <Link
       href={routes.home}
-      className={`${palette.text.accent} font-primary font-bold text-2xl sm:text-3xl mh-11`}
+      className={`${palette.text.accent} font-primary font-bold text-2xl sm:text-3xl mh-11 text-gray-800`}
     >
       {/* <Image
         src="/ln-logo-black.svg"

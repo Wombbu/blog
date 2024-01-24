@@ -1,9 +1,38 @@
-import "./globals.css";
-import { Header } from "@/components/Header/Header";
+import "../globals.css";
 import { Work_Sans, Roboto } from "next/font/google";
-import { Footer } from "@/components/Footer/Footer";
-import { AnalyticsWrapper } from "@/components/Analytics";
 import { Metadata } from "next";
+import { RootLayoutBase } from "@/components/RootLayoutBase/RootLayoutBase";
+import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/Footer";
+
+const primaryFontFamily = Work_Sans({
+  subsets: ["latin"],
+  variable: "--font-family-primary",
+});
+
+const secondaryFontFamily = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-family-secondary",
+});
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <RootLayoutBase
+      primaryFontFamilyVariable={primaryFontFamily.variable}
+      secondaryFontFamilyVariable={secondaryFontFamily.variable}
+      mainClassName="max-w-screen-lg mx-auto px-4 sm:px-8 pb-8 sm:pb-12"
+      header={<Header />}
+      footer={<Footer />}
+    >
+      {children}
+    </RootLayoutBase>
+  );
+}
 
 export const metadata: Metadata = {
   title: "Lauri Nevanperä",
@@ -52,36 +81,3 @@ export const metadata: Metadata = {
     { rel: "shortcut icon", url: "/favicon.ico?v=2" },
   ],
 };
-
-const primaryFontFamily = Work_Sans({
-  subsets: ["latin"],
-  variable: "--font-family-primary",
-});
-
-const secondaryFontFamily = Roboto({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-family-secondary",
-});
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head></head>
-      <body
-        className={`font-sans ${primaryFontFamily.variable} ${secondaryFontFamily.variable}`}
-      >
-        <Header />
-        <main className={`max-w-screen-lg mx-auto px-4 sm:px-8 pb-8 sm:pb-12`}>
-          {children}
-        </main>
-        <Footer />
-        <AnalyticsWrapper />
-      </body>
-    </html>
-  );
-}

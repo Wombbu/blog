@@ -18,7 +18,7 @@ export default function Home() {
           <h2
             className={`${typography.variants.sectionTitle()} hover:underline decoration-3`}
           >
-            Kolme uusinta
+            Lue artikkeli
           </h2>
         </Link>
         <PostGrid
@@ -38,13 +38,13 @@ export default function Home() {
           withButton
         />
         <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
-          Twitter
+          Seuraa Twitterissä
         </h2>
         <TwitterGrid
           tweetIds={["1539932433289805825", "1577931674649870343"]}
         />
         <h2 className={`${typography.variants.sectionTitle({})} mt-12`}>
-          Youtube
+          Katso Youtubessa
         </h2>
         <YoutubeGrid
           youtubeVideos={[

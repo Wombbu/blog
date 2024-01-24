@@ -1,9 +1,9 @@
 export const palette = {
   text: {
-    primary: "text-gray-800",
-    secondary: "text-gray-500",
-    accent: "text-black",
-    white: "text-gray-100",
+    primary: "text-primary",
+    secondary: "text-secondary",
+    accent: "text-accent",
+    white: "text-inverse",
   },
   border: {
     primary: "border-gray-800",

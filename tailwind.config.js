@@ -18,6 +18,10 @@ module.exports = {
       boxShadow: {
         outline: "0 0 0 3px rgba(0, 0, 0, 0.9)",
       },
+      backgroundColor: {
+        strongTown: "rgb(28, 63, 96)",
+        softTown: "rgb(201, 113, 84)",
+      },
       aspectRatio: {
         sd: "4/3",
         sdInverse: "3/4",
@@ -27,6 +31,15 @@ module.exports = {
       },
       maxWidth: {
         article: "612px",
+      },
+      colors: {
+        accent: "var(--text-accent-color)",
+        primary: "var(--text-primary-color)",
+        secondary: "var(--text-secondary-color)",
+        inverse: "var(--text-inverted-color)",
+        pageColor: "var(--page-color)",
+        strongTown: "rgb(28, 63, 96)",
+        softTown: "rgb(201, 113, 84)",
       },
     },
   },

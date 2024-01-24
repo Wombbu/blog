@@ -1,3 +1,9 @@
+/* 
+This file contains the essential styling for the app
+
+This file must be imported in all root layouts 
+*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

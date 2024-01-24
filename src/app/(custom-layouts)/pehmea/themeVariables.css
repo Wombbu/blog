@@ -1,0 +1,7 @@
+html {
+  --text-accent-color: rgb(255, 255, 255);
+  --text-primary-color: rgb(229 231 235);
+  --text-secondary-color: rgb(214, 219, 227);
+  --text-inverted-color: rgb(31 41 55);
+  --page-color: rgb(201, 113, 84); /* softTown theme color*/
+}
