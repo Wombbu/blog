@@ -2,6 +2,10 @@
   @apply text-base sm:text-lg sm:leading-normal font-secondary font-normal;
 }
 
+.markdown > p {
+  @apply text-primary;
+}
+
 .markdown p > a[target="_blank"]::after {
   content: "";
   width: 1em;
@@ -14,42 +18,6 @@
   background-size: contain;
   display: inline-block;
   vertical-align: text-bottom;
-}
-
-.markdown native-gallery {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-  gap: 16px;
-}
-
-.markdown native-gallery-wrapper {
-  @apply max-w-article block;
-  position: relative;
-}
-
-.markdown native-gallery-wrapper::after {
-  @apply bottom-1 bg-gray-900 absolute p-1 text-white text-center font-primary font-semibold;
-  content: "Liu'uta";
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.markdown native-gallery:not(.-loaded) [loading="lazy"] {
-  /* without display none images with loading="lazy" are loaded immediately */
-  display: none;
-}
-
-.markdown native-gallery img {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  -webkit-user-drag: none;
-  user-select: none;
-  scroll-snap-align: center;
 }
 
 .markdown > * {
@@ -65,23 +33,17 @@
 }
 
 .markdown img {
-  @apply m-auto;
-  width: auto;
-  height: auto;
-  max-height: 816px; /* Image with this height and 3/4 aspect ratio will be the same width as the article max width (612px) */
-  /* max-width: 1088px; Width of image with 4/3 aspect ratio, with a height of 816px. This will cause the img to overflow on smaller screens */
+  @apply m-auto w-full h-auto max-w-article;
 }
-.markdown iframe {
-  @apply w-full aspect-video;
-}
+
 .markdown figure {
-  @apply w-full max-w-none flex flex-col items-center;
+  @apply w-full max-w-none flex flex-col items-center py-2 sm:py-4;
   position: relative;
   width: 100vw;
   left: calc(-50vw + 50%);
 }
 .markdown figcaption {
-  @apply text-gray-500 font-primary text-sm text-center mt-2;
+  @apply text-gray-500 font-primary text-sm text-center mt-2 max-w-article;
 }
 
 .markdown figure > figcaption {
@@ -89,15 +51,15 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-10 leading-snug font-bold font-primary mb-6;
+  @apply text-3xl mt-10 leading-snug font-bold font-primary mb-6 text-accent;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-10 leading-snug font-bold font-primary mb-6;
+  @apply text-2xl mt-10 leading-snug font-bold font-primary mb-6 text-accent;
 }
 
 .markdown h3 {
-  @apply text-lg font-bold mt-8 leading-snug font-primary mb-6;
+  @apply text-lg font-bold mt-8 leading-snug font-primary mb-6 text-accent;
 }
 
 .markdown blockquote {

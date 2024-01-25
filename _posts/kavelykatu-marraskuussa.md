@@ -28,7 +28,7 @@ Joulutorimaisuus sopii hyväksi lähtökohdaksi kävelykaduille. Lämmintä valo
 
 Mikä tekee joulutorista niin miellyttävän paikan, että se pursuaa ihmisiä avautumisesta sulkeutumiseen?
 
-[@youtube](8nU2C-8BkCg Kävely Tampereen Joulutorin läpi)
+<youtube videoid="8nU2C-8BkCg" caption="Kävely Tampereen Joulutorin läpi"></youtube>
 
 ## Joulutorin menestystekijät
 
@@ -73,7 +73,7 @@ Oma juttunsa ovat katetut, pysyvät terassit. Jälleen arkipäivää kävelykadu
 
 Paikan ei tarvitse olla high endiä, jotta sisälle saadaan lämmin ja välitön tunnelma. Kävelin yksi ilta Tammelantorin currywurst-kojulle syömään iltapalaa ylityöpäivän jälkeen. Ajattelin syöväni wurstin ulkona pimeässä. Koju olikin katettu ja sisällä oli karaoke. Paikalla oli vieläpä sattumalta kaksi ystävääni. Aivan uskomaton sattuma ja lämmin meininki. Kaupunkielämää parhaimmillaan!
 
-[@youtube](O1TMeQjseK4 Tammelantorin currywurst. Vahva suositus!)
+<youtube videoid="O1TMeQjseK4" caption="Tammelantorin currywurst. Vahva suositus!"></youtube>
 
 ## Kesäkatu vs talvikatu
 

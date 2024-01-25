@@ -61,7 +61,7 @@ export default async function Post(props: Props) {
 
   const recommended = getAllPosts();
 
-  const contentHtml = markdownToHtml(post.content || "");
+  // const contentHtml = markdownToHtml(post.content || "");
 
   return (
     <>
@@ -74,14 +74,14 @@ export default async function Post(props: Props) {
         </div> */}
         <PostHero post={post} />
         <h1
-          className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words max-w-4xl m-auto`}
+          className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words max-w-4xl m-auto text-accent`}
         >
           {post.title}
         </h1>
         <div className="m-auto max-w-article">
           {post.excerpt ? (
             <p
-              className={`${typography.variants.subtitle} mb-6 text-center font-light`}
+              className={`font-primary text-xl sm:text-2xl mb-6 text-center font-light text-primary`}
             >
               {post.excerpt}
             </p>
@@ -97,7 +97,7 @@ export default async function Post(props: Props) {
           ) : null}
           <Author post={post} />
         </div>
-        <PostBody content={contentHtml} />
+        <PostBody content={post.content} />
       </article>
 
       <div
@@ -182,7 +182,7 @@ export default async function Post(props: Props) {
 }
 
 export async function generateStaticParams() {
-  const posts = await getAllPosts();
+  const posts = getAllPosts();
 
   return posts.map((post) => ({
     slug: post.slug,
@@ -194,7 +194,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const post = await getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug);
   const ogImageUrl = buildOgImageUrl({
     imageUrl: post.coverImage.url,
     title: post.title,

@@ -14,7 +14,6 @@ type Post = {
   tags?: string;
   audio?: string;
   href: string;
-  priority?: boolean;
   blurDataURL?: string;
   isDraft: boolean | undefined;
 };
@@ -40,7 +39,6 @@ export const PostGrid = ({ posts, withButton }: Props) => (
           excerpt={post.excerpt}
           audio={post.audio}
           href={post.href}
-          priority={index < 3}
           imgClassName={"aspect-sdInverse sm:aspect-goldenRatio"}
           blurDataURL={post.blurDataURL}
           isDraft={post.isDraft || false}

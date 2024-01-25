@@ -69,7 +69,7 @@ Ilmiö on tuttu Suomesta ja maailmalta. Samat keskustelut käydään vuodesta to
 
 Kuitenkin, kävelykaduksi muuttaminen kasvattaa asiakasvirtoja massiivisesti. Kohtasin konkreettisimman esimerkin tästä tänä keväänä Tampereen Tuomiokirkonkadulla. Kulkijamäärä ja tunnelma muuttuu täysin, kun katu vaihtuu kävelykaduksi. Esimerkki on äärimmäinen, mutta kuvastaa kävelykatujen vetovoimaa.
 
-[@youtube](DkaidKtkfAw Tuomiokirkonkatu)
+<youtube videoid="DkaidKtkfAw" caption="Tuomiokirkonkatu"></youtube>
 
 > Suomessa jalankulkijoiden määrän on havaittu kasvavan usein 30–100 % [FCG - Kävelykatujen lisääminen keskusteluttaa – mitä tiedämme vaikutuksista kivijalkakauppoihin?](https://www.fcg.fi/nakemyksia/kavelykatujen-lisaaminen-keskusteluttaa-mita-tiedamme-vaikutuksista-kivijalkakauppoihin/)
 

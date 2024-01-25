@@ -4,7 +4,7 @@ import MarkdownIt from "markdown-it";
  * Markdown-it plugin. Creates a youtube embed
  *
  * Usage:
- * [@youtube](dsfajö434r3 Kulkijoita Hämeenkadulla)
+ * <youtube videoid="dsfajö434r3" caption="Kulkijoita Hämeenkadulla"></youtube>
  */
 export function youtubeEmbedPlugin(md: MarkdownIt) {
   // @ts-ignore

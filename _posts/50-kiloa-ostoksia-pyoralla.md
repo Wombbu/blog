@@ -86,7 +86,7 @@ Tavaran kuljettaminen pyörällä ei tarvitse kuormapyörää. Etenkin peräkär
 
 Kuromapyörä voi olla monelle ympärivuotinen auton korvaaja ja taloudellisen liikkumavaran mahdollistaja. Ostopäätöstä tehdessä kannattaa kuitenkin miettiä omia päivittäisiä matkoja. Seuraavien vuosikymmenien aikana yhä useammille mahdollistuu lyhyiden päivittäismatkojen vapaus, sillä kaupunkisuunnittelu on siirtymässä 60-lukulaisesta hajautuneiden istumakaupunkien ideologiasta ajatteluun jossa lähes kaikki palvelut olisivat 15 min etäisyydellä. Tästä aiheesta lisää myöhemmin.
 
-[@youtube](JF6WVW5-CvY Hääpari ja kuljettaja / Video Lauri Nevanperä)
+<youtube videoid="JF6WVW5-CvY" caption="Hääpari ja kuljettaja / Video Lauri Nevanperä"></youtube>
 
 **Päivitys:**
 Artikkeli vartin kaupungeista löytyy täältä:

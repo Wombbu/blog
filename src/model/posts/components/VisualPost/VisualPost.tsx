@@ -14,7 +14,6 @@ type Props = {
   tags?: string;
   audio?: string;
   href: string;
-  priority?: boolean;
   imgClassName?: string;
   blurDataURL?: string;
   isDraft: boolean;
@@ -29,7 +28,6 @@ export const VisualPost = ({
   excerpt,
   audio,
   href,
-  priority,
   imgClassName,
   blurDataURL,
   isDraft,
@@ -42,10 +40,10 @@ export const VisualPost = ({
           placeholder="blur"
           blurDataURL={blurDataURL}
           alt={title}
+          loading={"lazy"}
           width={756}
           height={756}
           className={`object-cover w-full z-10 flex ${imgClassName}`}
-          priority={priority}
           style={{}}
         />
         <div

@@ -1,4 +1,5 @@
 import "../globals.css";
+import "./themeVariables.css";
 import { Work_Sans, Roboto } from "next/font/google";
 import { Metadata } from "next";
 import { RootLayoutBase } from "@/components/RootLayoutBase/RootLayoutBase";

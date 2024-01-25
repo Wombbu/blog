@@ -80,7 +80,7 @@ Selkeitä kävelyalueita ei välttämättä muodostu, vaikkakin Aleksanterinkatu
 
 Olemassaolevat ja jo päätetyt kävelykadut ovat vasaran alla, joskin Aleksis Kiven kadulle tulee korttelin verran uutta kävelykatua. Suomen kävelykaduilla kävelijämäärät ovat 50% - 200% verrokkeja suurempaa, liikevaihto 20% suurempaa, ja ne luovat luovat elämyksellistä ympäristöä, vetovoimaa ja lumovoimaa.
 
-[@youtube](DkaidKtkfAw Kulkijamäärä ja tunnelma muuttuu täysin, kun katu vaihtuu kävelykaduksi.)
+<youtube videoid="DkaidKtkfAw" caption="Kulkijamäärä ja tunnelma muuttuu täysin, kun katu vaihtuu kävelykaduksi."></youtube>
 
 Koska Suomi on arktinen maa, uskon että katetut terassit tulevat olemaan tulevaisuudessa tärkeitä. Katettuja terasseja on jo nyt ympäri Suomen kävelykatuja - Rovaniemellä lasi-igluja, Helsingissä lasikatoksia. Tampereella katettuja terasseja on Plevnalla, Pyymäellä, Kuumalla ja Funky Woolla. Ehkä tulevaisuudessa talviset kävelykadut ovat Tampereen Joulutorin kaltaisia? Pieniä mökkejä, porontaljaa, vilttejä, soihtuja, valoja. Ravintoloitsijat ja myymälät voisivat laajentaa liiketoimintaansa kadulle. Kävelykatujen määrän mahdollisesti vähentyessä tämä kehitys saattaa saada kaupungissamme vastatuulta.
 
@@ -88,7 +88,7 @@ Koska Suomi on arktinen maa, uskon että katetut terassit tulevat olemaan tuleva
 
 Keskustan kävellyimmälle sivukaduille ohjataan enemmän moottoriliikennettä (Verkatehtaankatu ja mahdollisesti Kuninkaankatu). Vähiten käveltyjä, epäviihtyisiä katuja katkaistaan moottoriliikenteeltä (Pellavatehtaankatu, Näsilinnankatu). Tämä kielii, että kävelyn määrillä ei liene ollut suurta painotusta liikenneverkkosuunnittelussa. Katujen katkaisu liittyy aiemmin mainittuun, muualta Euroopasta tunnettuun traffic circulation planiin, ja se on sinällään ymmärrettävä toimi. Kadun katkaisulla moottoriliikenteeltä on kuitenkin aina poliittinen hinta, ja minusta varsin ankea, sekä vähän kävelty Pellavatehtaankatu on katu jonka mielellään näkisi moottoriliikenteen läpiajokatuna, mikäli se mahdollistaa enemmän käveltyjen katujen kehittämisen kävelypainotteisemmiksi.
 
-[@youtube](MMRBpub52Mw Tuhat kävelijää tunnissa ei näytä paljolta, mutta on enemmän mitä tällä kohden kulkee autoja Hämeenpuistossa. Kuninkaankadun kävelykadun poistoa harkitaan)
+<youtube videoid="MMRBpub52Mw" caption="Tuhat kävelijää tunnissa ei näytä paljolta, mutta on enemmän mitä tällä kohden kulkee autoja Hämeenpuistossa. Kuninkaankadun kävelykadun poistoa harkitaan"></youtube>
 
 Kävelyn- ja viihtyisyyden edistämishankkeet ovat kytketty parkkiluola- ja tunnelihankkeisiin. Tämä viivästyttää erityisesti läntisen keskustan hankkeita. Läntinen keskusta kaipaisi kipeästi kehitystä. Onko näitä mahdollista irtikytkeä?
 
@@ -120,13 +120,13 @@ Olen esitellyt puolisen vuotta sitten Visio Kyttälän, jossa Eteläiseen Kyttä
 
 ![Puuvillatehtaankatu katkaistaan henkilöautoliikenteeltä](/assets/blog/tre-keskusta-2040/puuvillatehtaankatu.jpg)
 
-[@youtube](e_kwcHQoHl4 Jolloin läpiajo ohjautuu Verkatehtaankadulle)
+<youtube videoid="e_kwcHQoHl4" caption="Jolloin läpiajo ohjautuu Verkatehtaankadulle"></youtube>
 
 Koska katu on keskustan kapein, täynnä liiketoimintaa ja kävelyä, muodostuu oikeita tilankäytöllisiä ongelmia. Katutilavaihtoehdoissa Verkatehtaankadulle on kaavailtu joko pihakatua, eli shared spacea tai perinteistä ajorata + jalkakäytävä -yhdistelmää. Perinteisessä jalkakäytävä + ajorata -yhdistelmässä jalkakäytävä levenee toiselta puolelta puoli metriä ja toiselta metrin. Jalkakäytäville asettuu istutuksia, terasseja, mainoskylttejä sekä huoltoajoa (huoltoajo tapahtuu nykyiselläänkin monin osin jalkakäytävältä). Ehdotetussa vaihtoehdossa jalkakäytävän leveys ei täytä edes minimiohjeita vilkkaasti kävellylle kadulle, eikä varsinkaan ole esteettömyyden erityistasoa. Jalkakäytävien leveydet olisivat 2.5m (0.5m levennys nykytilaan) ja 3m (1 m levennys nykytilaan). Verkatehaankadusta ei saa esteetöntä, saati ylipäätään kävelylle toimivaa perinteisellä jalkakäytävät + ajorata -tilanjaolla.
 
-[@youtube](uFNa-sHxSAI Kyttälänkatu osoittaa, että kapeilla kaduilla perinteinen ajorata + jalkakäytävä muuttuu ongelmalliseksi ratkaisuksi melko pienestä)
+<youtube videoid="uFNa-sHxSAI" caption="Kyttälänkatu osoittaa, että kapeilla kaduilla perinteinen ajorata + jalkakäytävä muuttuu ongelmalliseksi ratkaisuksi melko pienestä"></youtube>
 
-[@youtube](umSAgNMBaBg Tätä jalkakäytävää levennettäisiin puoli metriä)
+<youtube videoid="umSAgNMBaBg" caption="Tätä jalkakäytävää levennettäisiin puoli metriä"></youtube>
 
 Vaihtoehdoksi jää pihakatu, eli shared space. Tilankäytöllisistä syistä se on mielestäni Verkatehtaankadulle ainoa vaihtoehto. Ongelmaksi muodostuu kadulle kaavailtu lisäliikenne. Shared space ei toimi hyvällä tahdolla, vaan se vaatii liikenteen rajoitusta. Tämä on todettu aiemmin Turussa https://www.hs.fi/kotimaa/turku/art-2000009034243.html , vaikkakin kertaluokkaa leveämmällä kadulla. Verkatehtaankadulla kävelijöitä on huipputunnin aikaan yli 600, ja näillä kävelijämassoilla menestyksen eväät lienevät paremmat kuin Turussa. Hatanpään valtatien henkilöauto- ja bussiliikenteelle ajattelisi kuitenkin löytyvän parempia reittiä. Onko liikennejärjestelmää suunniteltu todella kävelyn näkökulmasta?
 

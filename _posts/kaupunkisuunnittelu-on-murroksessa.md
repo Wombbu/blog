@@ -30,7 +30,7 @@ Ideana ei tosin ollut kertoa tylsästä arjestani, vaan homman pihvi tulee täss
 - Kävelyä 20 min
 - Lääkärikäyntiä ja odottelua 20 min
 
-[@youtube](82Pa5s_dDuM Työmatkaliikennettä. Huomatkaa säntillinen ryhmittyminen.)
+<youtube videoid="82Pa5s_dDuM" caption="Työmatkaliikennettä. Huomatkaa säntillinen ryhmittyminen."></youtube>
 
 Kävellen tai pyörällä kulkien ensimmäinen tunti on ilmaista, sillä liikunta täytyy saada jostain. Parhaimmillaan sen saa asioita hoitaessa. Työteho parani, sillä <a href="https://www.hs.fi/hyvinvointi/art-2000009361649.html" target="_blank">liikunta parantaa keskittymistä töissä</a>
 

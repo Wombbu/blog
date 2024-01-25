@@ -66,9 +66,9 @@ Viimeisimmässä liikennemittauksessa Verkatehtaankadulla kulki illan huipputunn
 
 Käytetyissä euroissa luvut ovat samansuuntaisia. <a href="https://fi.ramboll.com/media/rfi/tampereen-asiointitutkimus" target="_blank">Kestävillä liikennemuodoilla tulee 71% Tampereen keskustassa käytetystä rahasta.</a> Tutkimus koskee koko keskustaa. Muuhun keskustaan verrattuna Verkatehtaankadulla on erityisen paljon kävelijöitä ja erityisen vähän autoliikennettä. Verkatehtaankatu on suhteellisen kapea, ja mittakaavaltaan täydellistä kävely-ympäristöä.
 
-[@youtube](pD8slbbsiaw Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022)
+<youtube videoid="pD8slbbsiaw" caption="Ihmisvilinää Verkatehtaankadulla torstai-iltapäivänä 9.6.2022"></youtube>
 
-[@youtube](M8Q7aXr_iGA Ihmisvilinää Verkatehtaankadulla lauantai-aamupäivänä 25.2.2023)
+<youtube videoid="M8Q7aXr_iGA" caption="Ihmisvilinää Verkatehtaankadulla lauantai-aamupäivänä 25.2.2023"></youtube>
 
 **Kadun kummassakin päässä on joukkoliikenteen solmukohta.** Toisesssa päässä Hatanpään valtatien joukkoliikennekeskittymä ja toisessa asemakeskuksen joukkoliikennekeskittymä.
 

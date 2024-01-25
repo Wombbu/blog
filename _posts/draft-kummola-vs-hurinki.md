@@ -118,7 +118,7 @@ Jari Mylläri kysyy Aamulehti Moron pääkirjoituksessaan poliisien sakotukseen 
 
 # ARTIKKELI LOPPU TÄSSÄ ANNI
 
-[@youtube](jaHvLNhJtjY Morienttes nääs)
+<youtube videoid="jaHvLNhJtjY" caption="Morienttes nääs"></youtube>
 
 Moro-liitteen päätoimittaja Jari Mylläri on työntänyt lusikkansa soppaan, kuten tapahtuu aina kun puhutaan liikenteestä. Hän totesi [pääkirjoituksessaan](https://www.aamulehti.fi/moro/art-2000009961660.html) seuraavaa:
 
