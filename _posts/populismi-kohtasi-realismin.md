@@ -30,11 +30,11 @@ Allekirjoittajina oli Perussuomalaisten jäseniä, sekä kaksi henkilöä Kokoom
 
 Ennen kuin pääsette näkemään viranhaltijan kirjoittamia tilastollisia faktoja, kerron itse mielipiteeni valtuustoaloitteesta. Olen kirjoittanut Suomen kaupunkikeskustoista muutamia artikkeleita:
 
-[@preview](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
+[Miksi keskustat ovat näivettyneet](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
 
-[@preview](https://www.laurinevanpera.fi/posts/yrittajat-ja-data)
+[Miksi yrittäjät vastustavat kävelykeskustoja](https://www.laurinevanpera.fi/posts/yrittajat-ja-data)
 
-[@preview](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)
+[Visio elinvoimaisemmasta Tampereen keskustasta](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)
 
 Liikennetohtori on oikeassa, että Tampereen keskusta on hiljentynyt huippuvuosistaan. Kehitys ei ole itse asiassa lainkaan tuoretta, vaan se on jatkunut jo 30 vuotta.
 
@@ -51,8 +51,6 @@ Keskustat ovat hiljentyneet kaikkialla Suomessa. Tampere on itse asiassa onnistu
 Nousu on muuten jo alkanut.
 
 Pellas Cafe [rikkoo myyntiennätyksiä Hämeenkadun varrella](https://www.aamulehti.fi/uutiset/art-2000008845914.html). Click shoes hehkuttaa liikepaikkaa Hämeenkadulla. Pentik, Relove, Normal ovat avanneet myymälänsä uudistuneelle Hämeenkadulle. Sokos investoi vahvasti Hämeenkadun myymäläänsä, muuttaen sen Prismaksi, ja avasi katutasoon kahvilan. [Myynti räjähti käsiin.](https://www.hs.fi/kotimaa/art-2000009949021.html)
-
-[@preview](https://www.hs.fi/kotimaa/art-2000009949021.html)
 
 Pieni lelukauppa muuttaa Ideaparkiin, mutta jatkaa Hämeenkadun Stockmannilla. Tapahtuma oli ikävä mutta suuressa kuvassa pieni. Minusta on hienoa että Pirkanmaalla on erilaista liiketoimintaympäristöä eri liiketoiminnalle. Se mikä menestyy Ideaparkissa, ei välttämättä menesty Tampereen keskustassa ja toisinpäin. Nähtäväksi jää miten lelukauppa menestyy Ideaparkissa. Toivottavasti hyvin!
 
@@ -92,7 +90,7 @@ Hämeenkadun autoliikenteen määrät olivat ennen 30.6.2014 alkanutta kadun it�
 
 > Tarkastelujaksolla 6/2022–6/2023 Hämeenkadulla oli vuorokaudessa n. 60 000 bussi- ja raitiovaunumatkustajaa, 25 000 jalankulkijaa, 2 500 polkupyöräilijää sekä 2 000 sähköpotkulautailijaa.
 
-@graph[12 Henkilöautoilun osuus Hämeenkadun kulkijoista kun autoilu oli sallittu]
+<bar value="12" label="Henkilöautoilun osuus Hämeenkadun kulkijoista kun autoilu oli sallittu"></bar>
 
 Tarkastelujaksolla 6/2022–6/2023 Hämeenkadulla oli vuorokaudessa n. 60 000 bussi- ja raitiovaunumatkustajaa, 25 000 jalankulkijaa, 2 500 polkupyöräilijää sekä 2 000 sähköpotkulautailijaa. Kaikkia yhteen laskien siis lähes 90 000 ihmistä liikkui vuorokaudessa Hämeenkadulla. Suhteutettuna henkilöautolla matkustavien vähenemään luku on suuri. Lisäksi on huomioitava, että Hämeenkadulla pysäköintipaikkojen määrä oli vähäinen ja henkilöautoliikenteestä merkittävä osa oli läpiajoliikennettä.
 

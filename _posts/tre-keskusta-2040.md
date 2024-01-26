@@ -114,9 +114,7 @@ Kyttälän liikenneverkkoon on suunniteltu pieniä viilauksia:
 
 Aleksanterinkadun katkaisu henkilöautoliikenteeltä mahdollistaisi hienoa kaupunkiympäristöä ja helpottaisi Vuolteenkadun ja Hatanpään valtatien risteyksen ruuhkia. Tämä mahdollistaisi terassitilaa alueen ravintolakeskittymälle sekä mahdollistaisi Tuomiokirkonkadun kanssa Tampereen ensimmäisen vahvasti kävelypainotteisen alueen muodostumisen. Nähtäväksi jää, onko kadun katkaisu henkilöautoliikenteeltä poliittisesti mahdollista.
 
-[@preview](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)
-
-Olen esitellyt puolisen vuotta sitten Visio Kyttälän, jossa Eteläiseen Kyttälään on kaavailtu hyvin kävelypainotteista ympäristöä. Suunnitelman ytimessä on Verkatehtaankadu, joka on Tampereen kävellyin sivukatu, eivätkä jalkakäytävät riitä enää jalankululle ja ajoradalla kävellään jatkuvasti. Olinkin ihmeissäni Verkatehtaankadun moottoriliikenteellisen roolin kasvattamisesta. Verkatehtaankadusta muodostuu suunnitelmien myötä ainoa jatke Hatanpään Valtatielle henkilöautoliikenteen näkökulmasta. Myös bussit ohjataan Verkatehtaankadulle Hämeenkadun sijaan Areenan katusulkujen aikana. Onko tämä nyt juuri se katu, jolle moottoriliikennettä halutaan lisää?
+Olen esitellyt puolisen vuotta sitten [Visio Kyttälän](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan), jossa Eteläiseen Kyttälään on kaavailtu hyvin kävelypainotteista ympäristöä. Suunnitelman ytimessä on Verkatehtaankadu, joka on Tampereen kävellyin sivukatu, eivätkä jalkakäytävät riitä enää jalankululle ja ajoradalla kävellään jatkuvasti. Olinkin ihmeissäni Verkatehtaankadun moottoriliikenteellisen roolin kasvattamisesta. Verkatehtaankadusta muodostuu suunnitelmien myötä ainoa jatke Hatanpään Valtatielle henkilöautoliikenteen näkökulmasta. Myös bussit ohjataan Verkatehtaankadulle Hämeenkadun sijaan Areenan katusulkujen aikana. Onko tämä nyt juuri se katu, jolle moottoriliikennettä halutaan lisää?
 
 ![Puuvillatehtaankatu katkaistaan henkilöautoliikenteeltä](/assets/blog/tre-keskusta-2040/puuvillatehtaankatu.jpg)
 

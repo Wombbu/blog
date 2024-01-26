@@ -38,9 +38,7 @@ Minusta on hyvä että kauppakeskuksia on kaavoitettu, sillä tämä helpottaa a
 
 Keskustasta onkin tullut korostuneesti kävelijöiden, joukkoliikenteen ja pyöräilijöiden rahankäyttöpaikka. [Helsingin keskustassa autoilun osuus rahankäytöstä on 8-18%](https://fi.ramboll.com/media/rfi/helsingin-keskustan-asiointiselvitys), ja [Tampereella se on 29% (mittaus korona-aikana)](https://fi.ramboll.com/media/rfi/tampereen-asiointitutkimus).
 
-[@preview](https://areena.yle.fi/1-50150595)
-
-<figcaption>Yhdysvalloissa asutusta on hajautettu vuosikymmeniä pidempään, ja kuolleita keskustoja on elvytetty jo 70-luvulla. Videolla lisää aiheesta</figcaption>
+Yhdysvalloissa asutusta on hajautettu vuosikymmeniä pidempään, ja kuolleita keskustoja on elvytetty jo 70-luvulla. [Videolla lisää aiheesta](https://areena.yle.fi/1-50150595)
 
 ## Autoilun sujuvuus ja parkkipaikat
 
@@ -82,4 +80,4 @@ Katusuunnittelun vastuu on tässä yhtälössä suuri. Katujen tulee olla viihty
 
 Mielestäni Tampereella on varsin hyvä lähtökohta: **Keskustaan saavutaan nopeasti jotta siellä voidaan olla hitaasti**.
 
-[@preview](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)
+Kiinnostaako Tampereen keskustan elinvoima? Lue artikkelini [Lisää elinvoimaa Kyttälään](https://www.laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)

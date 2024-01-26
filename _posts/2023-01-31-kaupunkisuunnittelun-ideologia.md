@@ -16,4 +16,4 @@ Lehtien kommenttipalstoilla näkee usein puhuttavan ideologisesta kaupunkisuunni
 
 Yksi asia on varma: Kaupunkisuunnittelu on aina ollut ja tulee aina olemaan ideologista. Kaupungista riippumatta.
 
-<iframe src="https://www.youtube.com/embed/jaHvLNhJtjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<youtube videoId="jaHvLNhJtjY" caption="Kaupunkeja on suunniteltu monilla eri ideologioilla"></youtube>

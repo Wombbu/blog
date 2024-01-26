@@ -166,7 +166,3 @@
 .markdown :global(.link-preview-widget-url) {
   @apply font-primary text-black text-xs mt-2;
 }
-
-.markdown :after(:global(.twitter-tweet)) {
-  @apply mt-4;
-}

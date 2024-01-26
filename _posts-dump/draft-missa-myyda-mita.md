@@ -46,7 +46,7 @@ ravintolapalveluja hyödynnettäessä](https://www.hel.fi/static/liitteet/kaupun
   <figcaption>23% Helsingin työmatkoista tehdään autolla</figcaption>
 </figure>
 
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">Helsingistä tehdään uutta Espoota ajamalla kansa kauppakeskuksiin ja nitistämällä keskustan elinvoimaisuus hankkeilla, jotka eivät palvele asukkaita tai yrityksiä.<br>Espoossa, jos pyytää taxia ajamaan keskustaan, se ajaa Helsinkiin. Tätä menoa ei kauan.<a href="https://t.co/JBFBbblugg">https://t.co/JBFBbblugg</a></p>&mdash; Aku Vikström (@AkuVikstrm) <a href="https://twitter.com/AkuVikstrm/status/1661221319327842307?ref_src=twsrc%5Etfw">May 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<tweet id="1661221319327842307"></tweet>
 
 [LINKKI LOUNASTWIITTIIN](https://twitter.com/AkuVikstrm/status/1661423927984259078)
 [LINKKI VIKSTRÖMIN ESPAA VASTUSTAVAAN TWIITTEIIN](https://twitter.com/AkuVikstrm/status/1661221319327842307)
@@ -59,7 +59,7 @@ ravintolapalveluja hyödynnettäessä](https://www.hel.fi/static/liitteet/kaupun
 
 ## Hämeenkadun Pieni Lelukauppa
 
-[@preview](https://www.aamulehti.fi/tampere/art-2000009665117.html)
+[Uutinen](https://www.aamulehti.fi/tampere/art-2000009665117.html)
 
 Tampereen Hämeenkadulla sijaitseva Pieni Lelukauppa ilmoitti sulkevansa ovensa ja avaavansa uuden toimipisteen Lempäälän Ideaparkin. Kaupan yrittäjä Janne Kataja on nostanut muuton pääsyyksi autoilun hankaluuden. Syntyi kohu.
 
@@ -77,7 +77,7 @@ Liike muuttaa Ideaparkkiin. Ideaparkissakaan ei pääse noutamaan ostoksiaan nop
 
 Kokoomuksen varavaltuutettu Arttu Virtanen demonstroi Twitterissä liikkeen parkkipaikkatilanteen:
 
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">300m säteellä tästä putiikista on 1 775 parkkipaikkaa. 100m säteellä 320 paikkaa. Pohjoisessa ja lännessä keskustakehä, joka on osayleiskaavassa määritelty autoilun pääväyläksi. Autoilurajoitukset punaisella.<br><br>Taitaa vika olla yrittäjässä kun ei bisnes suju, ei parkkipaikoissa. <a href="https://t.co/kUiwYJ556v">https://t.co/kUiwYJ556v</a> <a href="https://t.co/N1huv3CZEO">pic.twitter.com/N1huv3CZEO</a></p>&mdash; Arttu Rintanen (@ArttuRintanen) <a href="https://twitter.com/ArttuRintanen/status/1670790583974019077?ref_src=twsrc%5Etfw">June 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<tweet id="1670790583974019077"></tweet>
 
 Ostovoima jakautuu Tampereella melko tasaisesti kävelyn **(34%)**, yksityisautoilun **(29%)** sekä joukkoliikenteen **(27%)** kesken. Suurten tuotteiden kaupassa autoilevat korostuvat. Yrityksen sijaintia valitessa tulisi tietää alustavasti kuinka monta prosenttia liikevaihdosta tulee "pienen leikkimökin kokoisista lelulaatikoista", ja valita sijainti tiedon perusteella. Minusta tässä kaupungin rooli korostuu. **Kaupungin tulisi tarjota tietoa eri sijaintien asiakaskunnasta sekä kävelijämääristä**
 
@@ -86,7 +86,7 @@ Kaupungilta hyviä avauksia tässä ovatkin olleet
 - [**Keskustan asiointitutkimus**, joka kertoo millä kulkumuodoilla raha virtaa keskustaan](https://www.tampere.fi/sites/default/files/2023-05/Tampereen%20keskustan%20asiointitutkimuksen%20raportti%201-12-2021.pdf)
 - [**Tampereen pulssi** -palvelu, joka ennustaa kävijävirtoja keskustan alueella](https://www.tampere.fi/ajankohtaista/2023/05/10/kavijavirtoja-ennustava-tampereen-pulssi-palvelu-on-julkaistu)
 
-<blockquote class="twitter-tweet"><p lang="fi" dir="ltr">No nyt! Tampere-sovellukseen on tullut keskustan kävijäennusteet joka huomioi sään ja tapahtumat.<br><br>Tällä tavoin helpotetaan yritysten aukiolojen ja työvuorojen suunnittelua.<br><br>Videolla ensi lauantain kävijämääriä Hämeenkadulla. Näitä voit käydä myös itse katsomassa <a href="https://t.co/qdG6jqf7Bm">https://t.co/qdG6jqf7Bm</a> <a href="https://t.co/3AEFyGY8cb">pic.twitter.com/3AEFyGY8cb</a></p>&mdash; Lauri Nevanperä (@LauriNevanpera) <a href="https://twitter.com/LauriNevanpera/status/1656340473437384705?ref_src=twsrc%5Etfw">May 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<tweet id="1656340473437384705"></tweet>
 
 Monipuolisuus on nykyaikaisen, taloudellisesti vahvan keskustan salaisuus. Kun jokainen katu ei ole samasta puusta, mahdollistuu eri liiketoiminnalle erilaisia toimintaympäristöjä. Ravintolalla, vähittäiskaupalla ja erikoiskaupalla on erilaisia tarpeita. Kun keskustan katuja kehitetään monipuolisesti, muodostuu erilaisille liiketoiminnoille parasta mahdollista toimintaympäristöä. Esimerkiksi Pellas Cafe [rikkoo myyntiennätyksiä Hämeenkadun varrella](https://www.aamulehti.fi/uutiset/art-2000008845914.html). Pentik, Click shoes, Relove, Normal ovat avanneet myymälänsä uudistuneelle Hämeenkadulle. Sokos on uudistamassa vahvasti myymäläänsä Prismaksi, jossa ei myydä suurta tavaraa ja avasi katutasoon kahvilan.
 
@@ -121,7 +121,7 @@ Suuri osa elävyydestä koostuu lähellä elävistä ihmisistä. Maailmalla teht
 
 **Keskustojen elinvoima on aihe joka on itselleni tärkeä.** Olen listannut viisi haastetta kaupunkikeskustojen elinvoimalle:
 
-[@preview](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
+[Artikkeli](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen)
 
 ## Odotukset, tieto myyntipaikoista
 

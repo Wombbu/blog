@@ -23,6 +23,7 @@ export const PostHero = ({ post }: Props) => (
           height={800}
           className={module.heroImage}
           loading="eager"
+          priority={true}
         />
         <Link
           href={routes.posts}

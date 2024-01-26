@@ -4,6 +4,7 @@ import markdownStyles from "./PostBody.module.css";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { Element } from "react-markdown/lib";
 import Image from "next/image";
+import { Tweet } from "react-tweet";
 
 type Props = {
   content: string;
@@ -11,7 +12,11 @@ type Props = {
 
 const PostBody = ({ content }: Props) => {
   return (
-    <section className={`${markdownStyles["markdown"]} mt-4`}>
+    <section
+      className={`${markdownStyles["markdown"]} mt-4`}
+      // For react-tweet
+      data-theme="light"
+    >
       <ReactMarkdown
         rehypePlugins={[rehypeRaw]}
         components={{
@@ -60,7 +65,47 @@ const PostBody = ({ content }: Props) => {
               );
             }
 
+            if (firstElement?.tagName === "bar") {
+              const props = firstElement.properties as {
+                value: string;
+                label: string;
+              };
+              return (
+                <figure>
+                  <div className="border-2 border-solid border-primary text-white w-full max-w-article">
+                    <div
+                      className="font-primary bg-primary m-0 p-1 flex items-center justify-center"
+                      style={{
+                        width: `${props.value}%`,
+                        animation: "fill-bar 2s",
+                      }}
+                    >
+                      {props.value} %
+                    </div>
+                  </div>
+                  <figcaption>{props.label}</figcaption>
+                </figure>
+              );
+            }
+
+            if (firstElement?.tagName === "tweet") {
+              const props = firstElement.properties as {
+                id: string;
+              };
+
+              return <Tweet id={props.id} />;
+            }
+
             return <p>{paragraph.children}</p>;
+          },
+          a: (link) => {
+            const href = link.href as string;
+
+            return (
+              <a href={href} target="_blank" rel="noopener noreferrer">
+                {link.children}
+              </a>
+            );
           },
         }}
       >

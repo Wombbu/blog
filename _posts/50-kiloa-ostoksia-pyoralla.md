@@ -89,5 +89,5 @@ Kuromapyörä voi olla monelle ympärivuotinen auton korvaaja ja taloudellisen l
 <youtube videoid="JF6WVW5-CvY" caption="Hääpari ja kuljettaja / Video Lauri Nevanperä"></youtube>
 
 **Päivitys:**
-Artikkeli vartin kaupungeista löytyy täältä:
-[@preview](https://www.laurinevanpera.fi/posts/kaupunkisuunnittelu-on-murroksessa)
+
+[Artikkeli vartin kaupungeista löytyy täältä](https://www.laurinevanpera.fi/posts/kaupunkisuunnittelu-on-murroksessa)

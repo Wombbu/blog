@@ -13,6 +13,7 @@ export const Hero = () => (
       className="object-cover sm:mb-0 w-full h-auto max-w-xl"
       loading="eager"
       placeholder="blur"
+      priority={true}
     />
     <div
       className="flex-auto flex flex-col gap-2 items-center py-16"

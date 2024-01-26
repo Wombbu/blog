@@ -1,6 +1,5 @@
 import { getAllPosts } from "@/model/posts/utils/getAllPosts";
 import PostBody from "@/model/posts/components/PostBody/PostBody";
-import markdownToHtml from "@/model/posts/utils/markdownToHtml";
 import { typography } from "@/essentials/theme/typography";
 import { routes } from "@/essentials/utils/routes";
 import { palette } from "@/essentials/theme/palette";
@@ -58,10 +57,7 @@ type Props = {
 
 export default async function Post(props: Props) {
   const post = getPostBySlug(props.params.slug);
-
   const recommended = getAllPosts();
-
-  // const contentHtml = markdownToHtml(post.content || "");
 
   return (
     <>
