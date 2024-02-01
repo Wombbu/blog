@@ -71,7 +71,7 @@ const PostBody = ({ content }: Props) => {
                 label: string;
               };
               return (
-                <figure>
+                <figure className="p-4 sm:p-0">
                   <div className="border-2 border-solid border-primary text-white w-full max-w-article">
                     <div
                       className="font-primary bg-primary m-0 p-1 flex items-center justify-center"
