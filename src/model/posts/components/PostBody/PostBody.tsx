@@ -5,6 +5,7 @@ import { YouTubeEmbed } from "@next/third-parties/google";
 import { Element } from "react-markdown/lib";
 import Image from "next/image";
 import { Tweet } from "react-tweet";
+import { typography } from "@/essentials/theme/typography";
 
 type Props = {
   content: string;
@@ -85,6 +86,27 @@ const PostBody = ({ content }: Props) => {
                   </div>
                   <figcaption>{props.label}</figcaption>
                 </figure>
+              );
+            }
+            if (firstElement?.tagName === "infocard") {
+              const props = firstElement.properties as {
+                label: string;
+              };
+              // @ts-ignore
+              const children = firstElement.children[0]?.value as string;
+              console.log(children);
+              return (
+                <div className="p-4 border-2 border-gray-300 rounded-md bg-gray-100">
+                  <div className={`${typography.variants.sectionTitle()}`}>
+                    💡 {props.label}
+                  </div>
+
+                  <p
+                    className={`${typography.variants.textBody} whitespace-pre-wrap`}
+                  >
+                    {children}
+                  </p>
+                </div>
               );
             }
 

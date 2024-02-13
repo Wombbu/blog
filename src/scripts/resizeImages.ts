@@ -42,7 +42,8 @@ async function resizeImages() {
         const isCoverImg = path.includes("cover");
         if (
           (!isCoverImg && (metadata?.height || 1001) > 1000) ||
-          (isCoverImg && (metadata?.width || 1601) > 1600)
+          (isCoverImg && (metadata?.width || 1601) > 1600) ||
+          formatsToConvertRegexp.test(path)
         ) {
           console.log(
             `🌇 Resizing image: ${path}. Original height: ${metadata?.height}. New height: 1000px`
