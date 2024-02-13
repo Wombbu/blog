@@ -24,7 +24,7 @@ Kaikki kokemukset sekä tilastot kertovat, että nimenomaan Vikströmin yritys h
 
 Ero reaalimaailmaan on valtava, sillä [kaikista Helsingin työmatkoista **23%** tehdään autolla](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/julkaisut/julkaisu-06-23.pdf). Ydinkeskustaan suuntautuvissa työmatkoissa luku on oletettavasti alhaisempi.
 
-<bar value="3" label="Autoilun osuus koko Helsingin työmatkoista"></bar>
+<bar value="23" label="Autoilun osuus koko Helsingin työmatkoista"></bar>
 
 Osviittaa antaa myös Helsingin Kaupungin ja Helsingin Kauppakamerin teettämä [asiointiselvitys](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/julkaisut/julkaisu-22-19.pdf).
 
