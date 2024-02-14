@@ -30,7 +30,7 @@ On totta että parin sadan metrin kävely vaikeuttaa autolla tehtäviä matkoja.
 
 Yhden parkkiruudun rakentaminen betonikannen alle [maksaa keskimäärin 50 000 €](https://www.rakli.fi/wp-content/uploads/2019/06/kaavamaaraysten_kustannusvaikutukset_raportti_nettires.pdf). Ruutuja ei saada myytyä tällä hinnalla, ja kulut leivotaan asuntoihin.
 
-Maksaisitko 50 000 euroa parkkiruudusta? Et maksaisi. Hinnat leivotaan asuntoihin.
+Maksaisitko 50 000 euroa parkkiruudusta? Et maksaisi.
 
 ![Maksaisitko parkkiruudusta täällä 50 000 euroa?](/assets/blog/betonipihat/pihakansi.jpg)
 
