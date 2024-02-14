@@ -10,13 +10,13 @@ coverImage:
   credit: "Lauri Nevanperä"
 ---
 
-Selasin vähän aikaa sitten Tampereella myytäviä asuntoja. Silmiin pisti taloyhtiö, johon oli yhtäkkiä tullut myyntiin peräti **seitsemän** asuntoa. Suurin osa perheasuntoja.
+Selasin vähän aikaa sitten Tampereella myytäviä asuntoja. Silmiin pisti taloyhtiö, johon oli tullut myyntiin peräti **seitsemän** asuntoa. Suurin osa perheasuntoja.
 
 Taloyhtiössä oli pihakansiremontti.
 
 Myynti-ilmoituksista selvisi, että 49 autopaikan betonikannen uusimisen kustannus on yli 2 miljoonaa euroa. Tämä oli monelle liikaa.
 
-Kaksi päivää kuluu, ja luen Facebookista kun tamperelainen kunnallispoliitikko Antti Ivanoff (kok) [juhlii](https://www.facebook.com/groups/599370287268328/posts/1612627105942636/?comment_id=1614691589069521), että Hakametsään rakennetaan pihakannet parkkitalon sijaan. Autolle on näin lyhyempi matka.
+Kaksi päivää kuluu. Luen Facebookista kun tamperelainen kunnallispoliitikko Antti Ivanoff (kok) [juhlii](https://www.facebook.com/groups/599370287268328/posts/1612627105942636/?comment_id=1614691589069521), että Hakametsään rakennetaan pihakannet parkkitalon sijaan. Autolle on näin lyhyempi matka.
 
 <infocard label="Pihakansi">Pihakansi on taloyhtiön betonipiha, jonka alle on kaivettu autoluola. Parkkiruudun rakennuskustannus pihakannen alle on 50 000 €</infocard>
 
@@ -60,13 +60,13 @@ Parkkitalo asuinalueen reunalla rauhoittaa naapuruston kadut.
 
 ![Tiivis Hervanta on tunnettu rauhallisesta luonnosta. Autolle kävellään muutama sata metriä.](/assets/blog/betonipihat/hervanta.jpg)
 
-## Mitä tamperelainen haluaa
+## Mitä tamperelainen haluaa?
 
 Sanoisin että tavallinen tamperelainen ei halua että hänen valintansa maksatetaan jollain toisella. Tavallinen tamperelainen ei halua maksaa asumisestaan liikoja, eikä halua kustantaa ylimääräistä 40 000 € remonttia taloyhtiössään. Tavallinen tamperelainen haluaa, että hänen kotipihansa on vehreä ja asuinalue rauhallinen ja turvallinen.
 
 Uskon että tavallinen tamperelainen autonomistaja on valmis kävelemään muutaman sata metriä autolle vastineeksi näistä.
 
-Hakametsässä parkkitalo vaihtui poliittisen painostuksen vuoksi pihakanteen. Tämän myötä Hakametsään muuttava tavallinen tamperelainen joutuu hyväksymään, että hänen auton säilytyksensä subventoidaan muiden toimesta, hänen taloyhtiöönsä tulee ylimääräinen 40 000 € remontti, ja hänen kotipihansa on betonia.
+Hakametsässä parkkitalo vaihtui poliittisen painostuksen vuoksi pihakanteen. Tämän myötä Hakametsään muuttava tavallinen tamperelainen joutuu hyväksymään, että hänen auton säilytyksensä subventoidaan muiden toimesta, hänen asuntoonsa tulee ylimääräinen 40 000 € remontti, ja hänen kotipihansa on betonia.
 
 ## Tulevaisuus on parempi
 
