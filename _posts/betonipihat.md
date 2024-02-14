@@ -62,7 +62,7 @@ Parkkitalo asuinalueen reunalla rauhoittaa naapuruston kadut.
 
 ## Mitä tamperelainen haluaa?
 
-Sanoisin että tavallinen tamperelainen ei halua että hänen valintansa maksatetaan jollain toisella. Tavallinen tamperelainen ei halua maksaa asumisestaan liikoja, eikä halua kustantaa ylimääräistä 40 000 € remonttia taloyhtiössään. Tavallinen tamperelainen haluaa, että hänen kotipihansa on vehreä ja asuinalue rauhallinen ja turvallinen.
+Sanoisin että tavallinen tamperelainen ei halua että hänen valintansa maksatetaan jollain toisella. Tavallinen tamperelainen ei halua maksaa asumisestaan liikoja, eikä halua kustantaa ylimääräistä miljoonaremonttia taloyhtiössään. Tavallinen tamperelainen haluaa, että hänen kotipihansa on vehreä ja asuinalue rauhallinen ja turvallinen.
 
 Uskon että tavallinen tamperelainen autonomistaja on valmis kävelemään muutaman sata metriä autolle vastineeksi näistä.
 
