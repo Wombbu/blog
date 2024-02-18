@@ -5,7 +5,8 @@ import { YouTubeEmbed } from "@next/third-parties/google";
 import { Element } from "react-markdown/lib";
 import Image from "next/image";
 import { Tweet } from "react-tweet";
-import { typography } from "@/essentials/theme/typography";
+import { Card } from "@/components/Card/Card";
+import { GetNotifiedCard } from "@/components/GetNotifiedCard/GetNotifiedCard";
 
 type Props = {
   content: string;
@@ -94,20 +95,14 @@ const PostBody = ({ content }: Props) => {
               };
               // @ts-ignore
               const children = firstElement.children[0]?.value as string;
-              console.log(children);
               return (
-                <div className="p-4 border-2 border-gray-300 rounded-md bg-gray-100">
-                  <div className={`${typography.variants.sectionTitle()}`}>
-                    💡 {props.label}
-                  </div>
-
-                  <p
-                    className={`${typography.variants.textBody} whitespace-pre-wrap`}
-                  >
-                    {children}
-                  </p>
-                </div>
+                <Card spacing="normal" label={`💡 ${props.label}`}>
+                  {children}
+                </Card>
               );
+            }
+            if (firstElement?.tagName === "getnotified") {
+              return <GetNotifiedCard />;
             }
 
             if (firstElement?.tagName === "tweet") {

@@ -4,12 +4,12 @@ export default function Head({ params }: { params: { slug: string } }) {
       <title>{`Artikkelit - Lauri Nevanperä`}</title>
       <meta
         name="description"
-        content="Kantaaottavaa asiaa kaupunkisuunnittelusta"
+        content="Taloudellisesti vahvojen ja asukkaille pehmeiden kaupunkien puolesta"
       />
       <meta name="og:title" content="Artikkelit - Lauri Nevanperä" />
       <meta
         name="og:description"
-        content="Kantaaottavaa asiaa kaupunkisuunnittelusta"
+        content="Taloudellisesti vahvojen ja asukkaille pehmeiden kaupunkien puolesta"
       />
       <meta
         name="og:image"

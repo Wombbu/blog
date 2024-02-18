@@ -68,6 +68,8 @@ Uskon että tavallinen tamperelainen autonomistaja on valmis kävelemään muuta
 
 Hakametsässä parkkitalo vaihtui poliittisen painostuksen vuoksi pihakanteen. Tämän myötä Hakametsään muuttava tavallinen tamperelainen joutuu hyväksymään, että hänen auton säilytyksensä subventoidaan muiden toimesta, hänen asuntoonsa tulee ylimääräinen 40 000 € remontti, ja hänen kotipihansa on betonia.
 
+<getnotified></getnotified>
+
 ## Tulevaisuus on parempi
 
 Antti Ivanoff on Kokoomuksen valinta kaavoituksesta päättävään yhdyskuntalautakuntaan, eli hänet on valittu määrittelemään ja vetämään Kokoomuksen linjaa parkkeerauskysymyksessä. Aivan kenestä tahansa ei siis ole kyse.

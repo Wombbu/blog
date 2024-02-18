@@ -32,7 +32,11 @@
   @apply block pt-2 text-sm;
 }
 
-.markdown img {
+.markdown :global(.react-tweet-theme) {
+  @apply m-auto max-w-article;
+}
+
+.markdown figure img {
   @apply m-auto w-full h-auto max-w-article;
 }
 
@@ -84,7 +88,7 @@
   content: "''";
 }
 
-.markdown a {
+.markdown p > a {
   @apply text-blue-600 underline break-words;
 }
 
