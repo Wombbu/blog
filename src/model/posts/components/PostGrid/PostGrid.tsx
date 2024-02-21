@@ -39,7 +39,7 @@ export const PostGrid = ({ posts, withButton }: Props) => (
           excerpt={post.excerpt}
           audio={post.audio}
           href={post.href}
-          imgClassName={"aspect-sdInverse sm:aspect-goldenRatio"}
+          imgClassName={"aspect-videoInverse sm:aspect-goldenRatio"}
           blurDataURL={post.blurDataURL}
           isDraft={post.isDraft || false}
         />
