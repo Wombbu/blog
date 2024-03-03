@@ -6,7 +6,7 @@ readingTime: "3"
 tags: "Tampere, Liikenne, Talous"
 coverImage:
   url: "/assets/blog/tehokas-liikenne/cover.jpg"
-  desc: "Hervannassa kävelysiltojen rakentaminen on jäissä"
+  desc: "Hervannassa sillanrakentaminen on jäissä"
   credit: "Lauri Nevanperä"
 ---
 
