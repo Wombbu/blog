@@ -33,7 +33,7 @@
 }
 
 .markdown :global(.react-tweet-theme) {
-  @apply m-auto max-w-article;
+  @apply mx-auto max-w-article;
 }
 
 .markdown figure img {

@@ -24,7 +24,7 @@ type Props = {
 export const CtaSection = ({ post }: Props) => {
   return (
     <FullWidthGray>
-      <div className="flex flex-col items-stretch gap-6 max-w-article px-4 sm:px-0 m-auto">
+      <div className="flex flex-1 flex-col items-stretch gap-6 max-w-article m-auto">
         <div>
           <h1
             className={`${typography.variants.sectionTitle({
