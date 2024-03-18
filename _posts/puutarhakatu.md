@@ -32,7 +32,7 @@ Muistatteko kun Tampereella poistettiin katuvihreää 2010-luvun lopulla oikein 
 
 ![Puutarhakdun viherkatu suunnitteluaineistosta](/assets/blog/puutarhakatu/viherkatu-piirretty.jpg)
 
-Viherkadulla oli vaihtoehtoon verrattuna **kolminkertainen** määrä istutuksia kadussa ja kolmannes enemmän katupuita. Katupuut olivat kunnollsia leveäkasvuisia. Hylätyssä vaihtoehdossa puolet puista olisivat pylväsmallisia riukuja. Katuvihreä vähenisi nykytilaan verrattuna.
+Viherkadulla oli vaihtoehtoon verrattuna **kolminkertainen** määrä istutuksia kadussa ja kolmannes enemmän katupuita. Katupuut olivat kunnollsia leveäkasvuisia. Hylätyssä vaihtoehdossa puolet puista olisivat pylväsmallisia riukuja. Vaihtoehdossa katuvihreä vähenisi nykytilaan verrattuna.
 
 ![Satakunnankadulla on kunnon puita ja riukuja. Kuvat otettu samana päivänä.](/assets/blog/puutarhakatu/pylvasvaahterat.jpg)
 
@@ -112,8 +112,15 @@ Piti hieraista silmiäni. Vastavirtapyöräily Tampereella on sallittua ja arkip
 - Mariankadulla
 - Mustalahdenkadulla
 
-Paljon hyvää menetetään mutta eipä _ajella sikin sokin molempiin suuntiin_.
-
 Muutosvastarintaiset poliitikot saivat haluamansa.
+
+- Vähemmän katuvihreää
+- Vähemmän parkkipaikkoja
+- Kapeampi jalkakäytävä
+- Vähemmän tilaa yrittäjille
+- Turvattomammat risteykset
+- Logistiikan ongelmiin ei ratkaisua
+
+Mutta eipä _ajella sikin sokin molempiin suuntiin_.
 
 Nämä hetket saavat miettimään ehdolle asettumista tulevissa kunnallisvaaleissa. Ehkäpä.
