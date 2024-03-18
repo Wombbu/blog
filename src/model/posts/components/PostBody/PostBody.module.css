@@ -82,12 +82,6 @@
   content: "''";
 }
 
-.markdown blockquote::after {
-  @apply italic text-5xl font-primary font-bold flex justify-center items-center text-center mt-5;
-
-  content: "''";
-}
-
 .markdown p > a {
   @apply text-blue-600 underline break-words;
 }

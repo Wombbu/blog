@@ -86,7 +86,7 @@ Mikäli tapahtumakävijät pysäköivät riskillä minne sattuu eikä tapahtumaj
 
 ## Aamulehti Moro-liite
 
-Aamulehden Moro -liitteen päätoimittaja Jari Mylläri on tunnettu poliittisesta kampanjoinnistaan. Moro-liite on ottanut hanakasti kantaa liikenneasioihin, eikä kanta jää epäselväksi. Pääkirjoitukset edustavat lehden linjaa, ja linja ei todella jää epäselväksi. Linjaa jatkaa Myllärin toimituksessa oleva "Liikenetohtori", eli Perussuomalaisten kaupunginvaltuutettu Arto Grönroos. [Grönroosin tuoreesta valtuustoaloitteesta lisää täällä](https://www.laurinevanpera.fi/posts/populismi-kohtasi-realismin)
+Aamulehden Moro -liitteen päätoimittaja Jari Mylläri on tunnettu poliittisesta kampanjoinnistaan. Moro-liite on ottanut hanakasti kantaa liikenneasioihin, eikä kanta jää epäselväksi. Pääkirjoitukset edustavat lehden linjaa. Linjaa jatkaa Myllärin toimituksessa oleva "Liikenetohtori", eli Perussuomalaisten kaupunginvaltuutettu Arto Grönroos. [Grönroosin tuoreesta valtuustoaloitteesta lisää täällä](https://www.laurinevanpera.fi/posts/populismi-kohtasi-realismin)
 
 Edellisten vaalien alla huomioni kiinnitti kun hän julisti pääkirjoituksessaan Tampereen kunnallisvaalien olevan liikennevaalit. Kas kummaa, samana aamuna Perussuomalaisten Veikko Vallin sattui julisti täysin saman ajatuksen melko pitkässä Facebook-kirjoituksessaan. Sattumaa tai ei, melko synkronoidusti saivat samanhenkiset liikennevaalikirjoituksensa julkaistua.
 
