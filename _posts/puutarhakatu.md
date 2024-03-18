@@ -32,7 +32,7 @@ Muistatteko kun Tampereella poistettiin katuvihreää 2010-luvun lopulla oikein 
 
 ![Puutarhakdun viherkatu suunnitteluaineistosta](/assets/blog/puutarhakatu/viherkatu-piirretty.jpg)
 
-Viherkadulla oli vaihtoehtoon verrattuna **kolminkertainen** määrä istutuksia kadussa ja kolmannes enemmän katupuita. Katupuut olivat kunnollsia leveäkasvuisia. Hylätyssä vaihtoehdossa puolet uusista puista olisivat pylväsmallisia riukuja.
+Viherkadulla oli vaihtoehtoon verrattuna **kolminkertainen** määrä istutuksia kadussa ja kolmannes enemmän katupuita. Katupuut olivat kunnollsia leveäkasvuisia. Hylätyssä vaihtoehdossa puolet puista olisivat pylväsmallisia riukuja. Katuvihreä vähenisi nykytilaan verrattuna.
 
 ![Satakunnankadulla on kunnon puita ja riukuja. Kuvat otettu samana päivänä.](/assets/blog/puutarhakatu/pylvasvaahterat.jpg)
 
