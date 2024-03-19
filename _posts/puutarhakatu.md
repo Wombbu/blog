@@ -80,9 +80,9 @@ Viherkatu mahdollistaa yrittäjille kadun käyttämisen liiketoimintaan paremmin
 
 ## Viherkatu torpataan
 
-Aavistukseni osui oikeaan. Kaupunginhallituksen kokouksessa Kokoomuksen edustaja ehdottaa että Puutarhakatu otetaan uudelleen käsittelyyn kaupunginvaltuustossa. SDP:n edustaja kannattaa.
+Aavistukseni osui oikeaan. Kaupunginhallituksen kokouksessa Kokoomuksen edustaja ehdottaa että Puutarhakatu otetaan uudelleen käsittelyyn kaupunginhallituksessa. SDP:n edustaja kannattaa.
 
-Kummolan tultua pormestariksi Tampereella on tullut tavaksi yliajaa yhdyskuntalautakunnan päätöksiä kaupunginhallituksessa. Kun päätös ei miellytä, uusi päätös voidaan tehdä asiaan perehtyneen lautakunnan sijaan kaupunginvaltuustossa jossa rivivaltuutetut eivät ole ehtineet perehtyä katusuunnitteluun.
+Kummolan tultua pormestariksi Tampereella on tullut tavaksi yliajaa yhdyskuntalautakunnan päätöksiä kaupunginhallituksessa. Kun päätös ei miellytä, uusi päätös voidaan tehdä asiaan perehtyneen lautakunnan sijaan kaupunginhallituksessa jossa rivivaltuutetut eivät ole ehtineet perehtyä katusuunnitteluun.
 
 Kaupunginhallitus hylkää viherkadun. Puutarhakatu rakennetaan aiemmin hylätyn vaihtoehdon mukaisesti.
 
