@@ -76,7 +76,7 @@ Tiesitkö, että Puutarhakatu on Tampereen ja Suomen lämpösaarkeilmiön pahint
 
 ### Yrittäjät
 
-Yrittäjäjärjestö [Tampere Tunnetuksi Ry](https://rakastampere.fi/jasenille/) oli viherkadun kannalla. Viherkatu mahdollistaa mm. elämyksellisen ympäristön ja kadun käyttämisen liiketoimintaan paremmin kuin hylätty vaihtoehto.
+Yrittäjäjärjestö oli viherkadun kannalla. Viherkatu mahdollistaa mm. elämyksellisen ympäristön ja kadun käyttämisen liiketoimintaan paremmin kuin hylätty vaihtoehto.
 
 ## Viherkatu torpataan
 
