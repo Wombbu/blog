@@ -18,7 +18,7 @@ Lautakunnalla oli kaksi vaihtoehtoa kadun tulevaisuudeksi. Viherkatu ja tavallin
 
 > Pyöräkatuvaihtoehto on liikenteellisten ja teknisten arviointien perusteella suositeltavin ratkaisu Puutarhakadulle.
 
-Kuluu muutama päivä, ja törmään Facebookissa Kokoomuksen Antti Ivanoffin (kok.) viherkatua kritisoivaan kommenttiin. Alan epäillä, että asiaa ei ole vielä taputeltu.
+Kuluu muutama päivä, ja törmään Facebookissa Kokoomuksen Antti Ivanoffin viherkatua kritisoivaan kommenttiin. Alan epäillä, että asiaa ei ole vielä taputeltu.
 
 Ennen kuin kerron miten tapahtumat etenivät, kerron miksi Yhdyskuntalautakunnssa päädyttiin viherkatuun.
 
