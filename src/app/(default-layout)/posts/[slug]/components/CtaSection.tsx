@@ -9,10 +9,7 @@ import Image from "next/image";
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
 const LazySocialMediaSharePost = dynamic(
-  () =>
-    import(
-      "../../../../../features/social-media-sharing/components/SocialMediaSharePost"
-    ),
+  () => import("../../../../../components/AnimatedTweet/AnimatedTweet"),
   {
     loading: () => null,
     ssr: false,
