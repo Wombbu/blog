@@ -6,6 +6,8 @@ import { palette } from "@/essentials/theme/palette";
 import { Post } from "@/model/posts/types/Post";
 import { button } from "@/essentials/theme/button";
 import Image from "next/image";
+import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric";
+import ShareViaModal from "@/features/social-media-sharing/components/ShareViaModal.controller";
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
 const LazySocialMediaSharePost = dynamic(
@@ -31,7 +33,7 @@ export const CtaSection = ({ post }: Props) => {
         >
           Kiitos kun luit.
         </h1>
-        <LazySocialMediaSharePost post={post} />
+        <ShareViaModal slug={post.slug} title={post.title} />
         <h1
           className={`${typography.variants.sectionTitle({
             noGutter: true,

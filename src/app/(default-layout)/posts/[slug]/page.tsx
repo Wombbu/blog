@@ -13,7 +13,6 @@ import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 import { getPostBySlug } from "@/model/posts/utils/getPostBySlug";
 import { CtaSection } from "@/app/(default-layout)/posts/[slug]/components/CtaSection";
-import AnimatedTweet from "@/components/AnimatedTweet/AnimatedTweet";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering

@@ -13,3 +13,10 @@ export const Default: Story = {
     text: "Hello world.",
   },
 };
+
+export const WithImage: Story = {
+  args: {
+    imgSrc: "https://via.placeholder.com/600x300",
+    text: "Hello world.",
+  },
+};

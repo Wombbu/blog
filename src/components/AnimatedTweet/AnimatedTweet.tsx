@@ -1,4 +1,5 @@
 "use client";
+import { textToArray } from "@/components/AnimatedTweet/textToArray";
 import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
 import Image from "next/image";
@@ -35,8 +36,7 @@ export default function AnimatedTweet({ imgSrc, text }: Props) {
         style={{
           fontSize: "1.25rem",
         }}
-        // Append the previous text to the current text
-        sequence={text.split("|")}
+        sequence={text ? textToArray(text) : []}
         wrapper="span"
         speed={60}
         aria-label="text"
