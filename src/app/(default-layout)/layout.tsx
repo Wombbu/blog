@@ -1,21 +1,13 @@
 import "../globals.css";
 import "./themeVariables.css";
-import { Work_Sans, Roboto } from "next/font/google";
 import { Metadata } from "next";
 import { RootLayoutBase } from "@/components/RootLayoutBase/RootLayoutBase";
 import { Header } from "@/components/Header/Header";
 import { Footer } from "@/components/Footer/Footer";
+import { defaultLayoutGoogleFontClassNames } from "@/app/(default-layout)/defaultLayoutGoogleFontClassNames";
 
-const primaryFontFamily = Work_Sans({
-  subsets: ["latin"],
-  variable: "--font-family-primary",
-});
-
-const secondaryFontFamily = Roboto({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-family-secondary",
-});
+const { primaryFontClassName, secondaryFontClassName } =
+  defaultLayoutGoogleFontClassNames;
 
 export default function RootLayout({
   children,
@@ -24,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <RootLayoutBase
-      primaryFontFamilyVariable={primaryFontFamily.variable}
-      secondaryFontFamilyVariable={secondaryFontFamily.variable}
+      primaryFontFamilyVariable={primaryFontClassName}
+      secondaryFontFamilyVariable={secondaryFontClassName}
       mainClassName="max-w-screen-lg mx-auto px-4 sm:px-8 pb-8 sm:pb-12"
       header={<Header />}
       footer={<Footer />}
