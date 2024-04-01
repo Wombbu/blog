@@ -151,7 +151,7 @@ Pormestarimme mielestä Kyttälässä ajoratapyöräily tulee kyseeseen. Kyttäl
 
 Omia faktojaan kertovat myös kartat. Tampereen keskustan sisällä ei juuri ole katuja joissa olisi erillinen pyörätie. Seuraavassa kuvassa _kaikki_ erilliset pyörätiet Tampereen keskustassa:
 
-![Pyörätiet Tampereen keskustassa.](/assets/blog/aamulehti/pyoratiet.png)
+![Pyöräteitä on lähinnä keskustan kehällä ja suurillä väylillä](/assets/blog/aamulehti/pyoratiet.jpg)
 
 Tampereen Polkupyöräilijät Ry suositteli ajoratapyöräilyä selkeys- ja risteysturvallisuussyistä. Erillisillä pyöräteillä sattuu paljon risteysonnettomuuksia autojen kanssa. 
 
