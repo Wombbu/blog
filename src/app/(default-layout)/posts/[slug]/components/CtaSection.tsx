@@ -2,16 +2,16 @@ import { FullWidthGray } from "@/components/FullWidthGray/FullWidthGray";
 import { typography } from "@/essentials/theme/typography";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import dynamic from "next/dynamic";
-import { palette } from "@/essentials/theme/palette";
 import { Post } from "@/model/posts/types/Post";
 import { button } from "@/essentials/theme/button";
 import Image from "next/image";
-import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric";
-import ShareViaModal from "@/features/social-media-sharing/components/ShareViaModal.controller";
 
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
-const LazySocialMediaSharePost = dynamic(
-  () => import("../../../../../components/AnimatedTweet/AnimatedTweet"),
+const LazyShareViaModal = dynamic(
+  () =>
+    import(
+      "../../../../../features/social-media-sharing/components/ShareViaModal.controller"
+    ),
   {
     loading: () => null,
     ssr: false,
@@ -33,7 +33,7 @@ export const CtaSection = ({ post }: Props) => {
         >
           Kiitos kun luit.
         </h1>
-        <ShareViaModal slug={post.slug} title={post.title} />
+        <LazyShareViaModal slug={post.slug} title={post.title} />
         <h1
           className={`${typography.variants.sectionTitle({
             noGutter: true,

@@ -1,12 +1,12 @@
 .markdown {
-  @apply text-base sm:text-lg sm:leading-normal font-secondary font-normal;
+  @apply text-base sm:text-lg sm:leading-normal font-secondary font-normal break-words;
 }
 
 .markdown > p {
   @apply text-primary;
 }
 
-.markdown p > a[target="_blank"]::after {
+.markdown a[target="_blank"]::after {
   content: "";
   width: 1em;
   height: 1em;

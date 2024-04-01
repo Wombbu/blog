@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const GetNotifiedCard = () => {
   return (
-    <Card spacing="normal" label="🔔 Tilaa uudet artikkelit puhelimeesi">
+    <Card label="🔔 Tilaa uudet artikkelit puhelimeesi" alignCenter>
       <p className={`mb-6 ${typography.variants.textBody}`}>
         Liity whatsapp-yhteisöön. Saat uudet artikkelit suoraan puhelimeesi. Ei
         spämmiä, ei turhuuksia.

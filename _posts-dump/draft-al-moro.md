@@ -46,7 +46,7 @@ Moron poliittiset kannanotot vaihtelevat tunteikkaista kirjoituksista (ranta-tam
 
 ![Yksi Moron käyttämistä tekniikoista on tehdä oma kysely, jolla perustellaan agendaa "Kaupunkilaisten mielipiteillä"](/assets/blog/al-moro/kaupunkilaiset.jpg)
 
-Aamulehti Moron liikennetohtori Arto Grönroos saa palstatilaa hyvin paljon. [Uusista valtuustoaloitteista uutisoidaan hanakasti](https://www.aamulehti.fi/moro/art-2000010147041.html). Kun Grönroos tekee valtuustoaloitteen ratikkapysäkin nimimuutoksesta, Mylläri kirjoittaa **Tampereen kadunnimitoimikunta ei anna tuumaakaan periksi**.
+Aamulehti Moron liikennetohtori Arto Grönroos saa palstatilaa paljon. [Uusista valtuustoaloitteista uutisoidaan hanakasti](https://www.aamulehti.fi/moro/art-2000010147041.html). Kun Grönroos tekee valtuustoaloitteen ratikkapysäkin nimimuutoksesta, Mylläri kirjoittaa **Tampereen kadunnimitoimikunta ei anna tuumaakaan periksi**.
 
 ![Moron liikennetohtoria, Perussuomalaisten kunnanvaltuutettua Arto Grönroosia buffataan usein](../public/assets/blog/al-moro/gronroos.jpg)
 

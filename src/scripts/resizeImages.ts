@@ -50,6 +50,7 @@ async function resizeImages() {
           );
 
           const resizedImageBuffer = await img
+            .withMetadata()
             .resize(
               isCoverImg
                 ? // Cover images are restricted by width, so we want to resize them by width

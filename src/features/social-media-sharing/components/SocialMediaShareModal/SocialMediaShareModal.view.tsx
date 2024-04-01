@@ -19,7 +19,6 @@ export const SocialMediaShareModalView = ({
   onCopy: () => void;
   copied: boolean;
 }) => {
-  console.log("copied", copied);
   return (
     <Modal
       isOpen={isOpen}
@@ -28,17 +27,10 @@ export const SocialMediaShareModalView = ({
       }}
     >
       <h2 className={`${typography.variants.caption} mb-3 text-black`}>
-        Jaa palveluun
-      </h2>
-
-      <div className="flex gap-2 flex-wrap mb-8">
-        <SocialMediaShareLinkButtons slug={slug} title={title} />
-      </div>
-      <h2 className={`${typography.variants.caption} mb-3 text-black`}>
-        Tai kopioi linkki
+        Kopioi linkki
       </h2>
       <div
-        className={`flex gap-2 items-stretch bg-white border-2 ${palette.border.secondary}`}
+        className={`flex gap-2 items-stretch bg-white border-2  mb-8 ${palette.border.secondary}`}
       >
         <BsLink45Deg className="self-center ml-2 w-6 h-6 p-0" />
         <input
@@ -54,6 +46,14 @@ export const SocialMediaShareModalView = ({
         >
           {copied ? "✓ Kopioitu" : "Kopioi"}
         </button>
+      </div>
+
+      <h2 className={`${typography.variants.caption} mb-3 text-black`}>
+        Tai jaa palveluun
+      </h2>
+
+      <div className="flex gap-2 flex-wrap">
+        <SocialMediaShareLinkButtons slug={slug} title={title} />
       </div>
     </Modal>
   );

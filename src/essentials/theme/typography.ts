@@ -11,6 +11,7 @@ export const variants = {
   secondaryTitle: `${palette.text.secondary} font-primary text-md`,
   pageTitle: `${palette.text.accent} text-4xl font-primary font-bold`,
   caption: `${palette.text.secondary} font-primary text-sm`,
+  link: `text-blue-600 underline`,
 };
 
 export const typography = { variants };

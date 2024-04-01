@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/app/globals.css";
+import "../src/app/(default-layout)/themeVariables.css";
 import { defaultLayoutGoogleFontClassNames } from "../src/app/(default-layout)/defaultLayoutGoogleFontClassNames";
 
 const { primaryFontClassName, secondaryFontClassName } =

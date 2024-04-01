@@ -59,7 +59,7 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
               Jaa artikkeli
             </h1>
             <button
-              className={button.variants.iconButton}
+              className={button.variants.iconButton()}
               onClick={() => onClose()}
             >
               <MdClose />

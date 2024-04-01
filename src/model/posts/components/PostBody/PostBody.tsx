@@ -7,6 +7,9 @@ import Image from "next/image";
 import { Tweet } from "react-tweet";
 import { Card } from "@/components/Card/Card";
 import { GetNotifiedCard } from "@/components/GetNotifiedCard/GetNotifiedCard";
+import { animatedTweet } from "@/model/posts/components/PostBody/custom-tags/animatedTweet";
+import { question } from "@/model/posts/components/PostBody/custom-tags/question";
+import { collapse } from "@/model/posts/components/PostBody/custom-tags/collapse";
 
 type Props = {
   content: string;
@@ -56,7 +59,7 @@ const PostBody = ({ content }: Props) => {
                   <Image
                     src={image.src}
                     alt={image.alt}
-                    height={816}
+                    height={612}
                     width={612}
                     loading="lazy"
                     placeholder="blur"
@@ -96,7 +99,7 @@ const PostBody = ({ content }: Props) => {
               // @ts-ignore
               const children = firstElement.children[0]?.value as string;
               return (
-                <Card spacing="normal" label={`💡 ${props.label}`}>
+                <Card label={`💡 ${props.label}`} alignCenter>
                   {children}
                 </Card>
               );
@@ -111,6 +114,18 @@ const PostBody = ({ content }: Props) => {
               };
 
               return <Tweet id={props.id} />;
+            }
+
+            if (animatedTweet.isVisible(firstElement)) {
+              return animatedTweet.render(firstElement);
+            }
+
+            if (question.isVisible(firstElement)) {
+              return question.render(firstElement);
+            }
+
+            if (collapse.isVisible(firstElement)) {
+              return collapse.render(firstElement);
             }
 
             return <p>{paragraph.children}</p>;
