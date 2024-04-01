@@ -19,7 +19,7 @@ type Props = {
 export default function AnimatedTweet({ imgSrc, text }: Props) {
   const { containerRef, isVisible } = useOnScreen({
     intersectionObserverOptions: {
-      rootMargin: "0px 0px -50% 0px",
+      rootMargin: "0px 0px -40% 0px",
     },
     onlyOnce: true,
   });

@@ -86,6 +86,14 @@
   @apply text-blue-600 underline break-words;
 }
 
+.markdown strong > a {
+  @apply text-blue-600 underline break-words;
+}
+
+.markdown li > a {
+  @apply text-blue-600 underline break-words;
+}
+
 .markdown ul {
   @apply list-disc pl-4;
 }
