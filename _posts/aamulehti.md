@@ -1,6 +1,6 @@
 ---
 title: "Aamulehden pääkirjoitus vai poliittista Twitteriä? Case Puutarhakatu."
-excerpt: "Vallan vahtikoira vai puudeli? Sinä päätät."
+excerpt: "Vallan vahtikoira työnsi lusikkansa Puutarhakadun soppaan. Lopputulos oli outo."
 date: "2024-04-01T05:35:07.322Z"
 readingTime: "5"
 tags: "Tampere, Asuminen, Elinvoima"

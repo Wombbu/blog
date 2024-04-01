@@ -1,6 +1,5 @@
 import { YoutubeEmbed } from "@/components/YoutubeEmbed/YoutubeEmbed";
 import { button } from "@/essentials/theme/button";
-import { Tweet } from "react-tweet";
 
 type Props = {
   youtubeVideos: {
