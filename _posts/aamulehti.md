@@ -65,13 +65,13 @@ Ja nyt, hyvä lukijani, tulee sinun vuorosi visailla. Seuraavassa näet muutamia
 
 <animated-tweet text="Polkupyöräilijöiden ohjaaminen autoliikenteen sekaan kuulostaa ideologisesti houkuttelevalta vaihtoehdolta,| mutta onneksi turvallisuus ja järjestys asetettiin tässä tapauksessa etusijalle." imgSrc=""></animated-tweet>
 
-<question options="Aamulehti|Poliittinen Twitter" answerIndex="0" answerDesc="Tässäkin tapauksessa teksti on Aamulehden pääkirjoituksesta" title=""></question>
+<question options="Aamulehti|Poliittinen Twitter" answerIndex="0" answerDesc="Teksti on Aamulehden pääkirjoituksesta" title=""></question>
 
 ### Aamulehden pääkirjoituksesta vai Twitteristä #2
 
 <animated-tweet text="Juu, ei näin." imgSrc="/assets/blog/aamulehti/puutarhakatu.jpg"></animated-tweet>
 
-<question options="Aamulehti|Poliittinen Twitter" answerIndex="0" answerDesc="Tämä on toden totta Aamulehden pääkirjoituksesta. Pääkirjoituksessa oli kuva viherkadusta tällä saatteella." title=""></question>
+<question options="Aamulehti|Poliittinen Twitter" answerIndex="0" answerDesc="Tämä on toden totta Aamulehden pääkirjoituksen kuvatekstinä." title=""></question>
 
 ### Aamulehden pääkirjoituksesta vai Twitteristä #3
 
