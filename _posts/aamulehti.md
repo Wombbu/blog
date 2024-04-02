@@ -103,7 +103,7 @@ Voisi ajatella, että asiantuntijoita, järjestöjä, kadun käyttäjiä ja yrit
 
 ![Puilla saa luotua miljöitä korttelikaupungissa.](/assets/blog/aamulehti/puut-yolla.jpg)
 
-Olen aloittanut Puutarhakadun suunnitelmien pohtimisen kolmisen vuotta sitten, kirjoittanut kolme tilastollisiin faktoihin pohjaavaa kirjoitusta Suomen keskustojen elinvoimasta, käsitellyt katua työpajassa, kirjoittanut kadusta kaksi kirjoitusta, tehnyt jakelutyötä kaksi vuotta, kunnossapitotyötä vuoden, ollut pyöräliikennejärjestön hallituksessa kaksi vuotta ja asunut keskutassa vuosia. 
+Olen aloittanut Puutarhakadun suunnitelmien pohtimisen kolmisen vuotta sitten, kirjoittanut kolme tilastollisiin faktoihin pohjaavaa kirjoitusta Suomen keskustojen elinvoimasta, käsitellyt katua työpajassa, kirjoittanut kadusta kaksi kirjoitusta, tehnyt jakelutyötä kaksi vuotta, kunnossapitotyötä vuoden, ollut pyöräliikennejärjestön hallituksessa kaksi vuotta ja asunut keskustassa vuosia. 
 
 Tämä saa minut Aamulehden pääkirjoitustoimittajan silmissä ideologiksi jolla ei ole mitään käsitystä realismista. Tekisi mieli kysyä toimittajalta, miten hän on työstänyt Puutarhakatua edeltävien vuosien aikana. Vai onko pääkirjoitus vain tunteisiin pohjaava Kalervo Kummolan mainos?
 
