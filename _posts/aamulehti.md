@@ -21,7 +21,7 @@ Näkökulmaa antavat myös
 
 Kokonaiskuva kadusta on muodostunut ajan kanssa ja asiaa työstäen.
  
-Aamulehden oli niin kärjistävä, poliittinen ja mutkat suoriksi vetävä, että sitä ei juuri erota satunnaisista Twitter-viesteistä. Pääsettekin kohta arvuuttelemaan tätä itse. Tässä artikkelissa on nimittäin visa: **Aamulehden pääkirjoituksesta vai Twitteristä**.
+Aamulehden pääkirjoitus oli niin kärjistävä, poliittinen ja mutkat suoriksi vetävä, että sitä ei juuri erota satunnaisista Twitter-viesteistä. Pääsettekin kohta arvuuttelemaan tätä itse. Tässä artikkelissa on nimittäin visa: **Aamulehden pääkirjoituksesta vai Twitteristä**.
 
 Ennen kuin pääsette visailemaan, käyn nopeasti läpi mistä Puutarhakadun saagassa on kyse:
 
