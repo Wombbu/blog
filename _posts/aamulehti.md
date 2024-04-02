@@ -199,7 +199,7 @@ Aamulehden pääkirjoitus vaikutti enemmän poliittiselta mainokselta kuin vakav
 
 Minkälaiset ovat ne silmälasit joilla Aamulehti näkee tämän maailman?
 
-<infocard label="Aamulehti">Aamulehdellä on 700 000 viikkolukijaa. Mikäli koet, että Aamulehden mielipide Puutarhakadusta ja Kalervo Kummolasta ansaitsee vastapainoa, jaa kirjoitus. Jos haluat kuulla uusista artikkeleista ensimmäisten joukossa, tilaa ilmoitukset Whatsappiin 👇</infocard>
+<infocard label="Aamulehti">Aamulehdellä on 700 000 viikkolukijaa. Mikäli koet, että Aamulehden mielipide Puutarhakadusta ansaitsee vastapainoa, jaa kirjoitus. Jos haluat kuulla uusista artikkeleista ensimmäisten joukossa, tilaa ilmoitukset Whatsappiin 👇</infocard>
 
 <getnotified></getnotified>
 
