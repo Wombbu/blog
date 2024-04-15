@@ -18,7 +18,7 @@
     "types-ramda": "0.29.4"
   },
   "dependencies": {
-    "@next/third-parties": "^14.1.0",
+    "@next/third-parties": "^14.2.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
@@ -36,7 +36,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-lite-youtube-embed": "^2.4.0",
     "react-markdown": "^9.0.1",
     "react-medium-image-zoom": "^5.1.10",
     "react-tweet": "^3.1.1",
