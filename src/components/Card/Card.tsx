@@ -21,13 +21,13 @@ export const Card = ({
         rest.className || ""
       }`}
     >
-      <div className={`py-4 sm:py-8 px-4 lg:px-6`}>
+      <div className={`py-6 sm:py-8 px-4 sm:px-6`}>
         <div className={`mx-auto ${alignCenter ? "text-center" : ""}`}>
           <div className="flex justify-between">
             <h2
-              className={`mb-4 ${typography.variants.sectionTitle()} font-white flex-1 ${
-                alignCenter ? "text-center" : ""
-              }`}
+              className={`mb-4 ${typography.variants.sectionTitle({
+                noGutter: true,
+              })} font-white flex-1 ${alignCenter ? "text-center" : ""}`}
             >
               {label}
             </h2>

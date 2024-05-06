@@ -10,6 +10,7 @@ import { GetNotifiedCard } from "@/components/GetNotifiedCard/GetNotifiedCard";
 import { animatedTweet } from "@/model/posts/components/PostBody/custom-tags/animatedTweet";
 import { question } from "@/model/posts/components/PostBody/custom-tags/question";
 import { collapse } from "@/model/posts/components/PostBody/custom-tags/collapse";
+import { mapsEmbed } from "@/model/posts/components/PostBody/custom-tags/mapsEmbed";
 
 type Props = {
   content: string;
@@ -63,7 +64,7 @@ const PostBody = ({ content }: Props) => {
                     width={612}
                     loading="lazy"
                     placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAIAAADETxJQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMUlEQVR4nGPYe+//1h//XeuOM2zbe+H/ixdiDAwMveVJGxsjVcR4GVx1+bwdNKQYGAC0sRB+mPDsEQAAAABJRU5ErkJggg=="
+                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Ww8AAj8BXkQ+xPEAAAAASUVORK5CYII="
                   />
                   <figcaption>{image.alt}</figcaption>
                 </figure>
@@ -77,7 +78,7 @@ const PostBody = ({ content }: Props) => {
               };
               return (
                 <figure className="p-4 sm:p-0">
-                  <div className="border-2 border-solid border-primary text-white w-full max-w-article">
+                  <div className="border-2  border-solid border-primary text-white w-full max-w-article overflow-hidden">
                     <div
                       className="font-primary bg-primary m-0 p-1 flex items-center justify-center"
                       style={{
@@ -126,6 +127,10 @@ const PostBody = ({ content }: Props) => {
 
             if (collapse.isVisible(firstElement)) {
               return collapse.render(firstElement);
+            }
+
+            if (mapsEmbed.isVisible(firstElement)) {
+              return mapsEmbed.render(firstElement);
             }
 
             return <p>{paragraph.children}</p>;

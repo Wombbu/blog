@@ -33,6 +33,9 @@ module.exports = {
       maxWidth: {
         article: "612px",
       },
+      height: {
+        128: "32rem",
+      },
       colors: {
         accent: "var(--text-accent-color)",
         primary: "var(--text-primary-color)",

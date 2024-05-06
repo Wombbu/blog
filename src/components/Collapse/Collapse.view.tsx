@@ -16,34 +16,25 @@ export default function Collapse({ label, content }: Props) {
   return (
     <Card
       id={label}
-      label={`💡 ${label}`}
-      labelButton={
-        <button
-          className={button.variants.iconButton({ rounded: true })}
-          onClick={() => setExpanded((expanded) => !expanded)}
-        >
-          {expanded ? <MdExpandLess /> : <MdExpandMore />}
-        </button>
-      }
+      label={`${label}`}
       className={expanded ? "h-auto" : "h-72 overflow-hidden relative"}
     >
       {content}
       {!expanded ? (
-        <>
-          <div
-            className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-100 h-24 pointer-events-none border-gray-100"
-            style={{ borderBottomWidth: "64px" }}
-          />
-          <button
-            className={`absolute bottom-4 sm:bottom-8 left-4 sm:left-6 ${typography.variants.link}`}
-            onClick={() => setExpanded((expanded) => !expanded)}
-          >
-            Lue lisää <MdExpandMore className="inline" />
-          </button>
-        </>
+        <div className="absolute bottom-0 left-0 right-0">
+          <div className="bg-gradient-to-b from-transparent to-gray-100 pointer-events-none h-12" />
+          <div className="flex justify-center  py-6 sm:py8 bg-gray-100">
+            <button
+              className={`${button.variants.rounded}`}
+              onClick={() => setExpanded((expanded) => !expanded)}
+            >
+              Lue lisää <MdExpandMore className="inline w-6 h-6 ml-2 -mr-2" />
+            </button>
+          </div>
+        </div>
       ) : null}
       <button
-        className={`block mt-2 ${typography.variants.link}`}
+        className={`block mt-6 sm:mt-8 ${button.variants.rounded} m-auto`}
         onClick={() => {
           setExpanded((expanded) => !expanded);
           window.scrollTo({
@@ -51,12 +42,7 @@ export default function Collapse({ label, content }: Props) {
           });
         }}
       >
-        {expanded ? "Pienennä" : "Lue lisää"}{" "}
-        {expanded ? (
-          <MdExpandLess className="inline" />
-        ) : (
-          <MdExpandMore className="inline" />
-        )}
+        Pienennä <MdExpandLess className="inline w-6 h-6 ml-2 -mr-2" />
       </button>
     </Card>
   );

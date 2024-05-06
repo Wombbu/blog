@@ -25,8 +25,9 @@ export const Hero = () => (
         Moro.
       </h1>
       <p className={`${typography.variants.textBody} text-center mb-4`}>
-        Vaikutan taloudellisesti vahvojen ja asukkaille pehmeiden kaupunkien
-        puolesta. Leipätyökseni olen ohjelmistoarkkitehti Tampereella.
+        Vaikutan asukkaalle pehmeän ja taloudellisesti vahvan Tampereen
+        puolesta. Leipätyökseni olen ohjelmistoarkkitehti ja kehitän
+        kiinteistöalan järjestelmiä.
       </p>
       <SocialMediaLinks />
     </div>

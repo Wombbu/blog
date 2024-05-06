@@ -17,7 +17,7 @@ export const Footer = () => {
           href="mailto:lauri.nevanpera@gmail.com"
           className={`${palette.text.secondary} font-primary text-md hover:underline`}
         >
-          2023 Lauri Nevanperä
+          2024 Lauri Nevanperä
         </a>
       </div>
       <SocialMediaLinks size={20} />

@@ -5,7 +5,7 @@ date: "2024-03-11T17:00:00.000Z"
 readingTime: "3"
 tags: "Tampere, Politiikka, Journalismi"
 coverImage:
-  url: "/assets/blog/al-moro/cover.jpg"
+  url: "/assets/blog/al-moro/cover.JPG"
   desc: "Halo-ilmiö Tampereen yllä"
   credit: "Lauri Nevanperä"
 ---
@@ -13,6 +13,8 @@ coverImage:
 Selasin Facebookia muutama vuosi takaperin, juuri ennen kunnallisvaaleja. Vastaani tuli Aamulehti Moron pääkirjoitus kunnallisvaaleista. _Nämä ovat liikennevaalit_, julisti Moro-liitteen päätoimittaja Jari Mylläri. Samana aamuna oli julkaistu Perussuomalaisten kunnallispoliitikon Veikko Vallinin kirjoitus kunnallisvaaleista. _Nämä ovat liikennevaalit_, julisti myös Vallin.
 
 Sattumaa tai ei, asia jäi mieleeni etenkin kun Moro-liitteen liikennetohtori oli varavaltuutettu, ja ehdolla Perussuomalaisten kunnallisvaaliehdokkaana.
+
+<maps-embed location="Ritakatu 11, Tampere"></maps-embed>
 
 Aloin seuraamaan Moro-liitteen uutisointia ja pääkirjoituksia tarkemmin. Lehti oli liikennepoliittinen, tästä ei ole kahta sanaa. Seuraava kirjoitus on hyvä esimerkki Moron poliittisesta vaikuttamisesta. Etenkin tunteikas lopetus on vahva: **Vihervasemmistolle ideologia on ihmisiä tärkeämpää.**
 
@@ -48,6 +50,6 @@ Moron poliittiset kannanotot vaihtelevat tunteikkaista kirjoituksista (ranta-tam
 
 Aamulehti Moron liikennetohtori Arto Grönroos saa palstatilaa paljon. [Uusista valtuustoaloitteista uutisoidaan hanakasti](https://www.aamulehti.fi/moro/art-2000010147041.html). Kun Grönroos tekee valtuustoaloitteen ratikkapysäkin nimimuutoksesta, Mylläri kirjoittaa **Tampereen kadunnimitoimikunta ei anna tuumaakaan periksi**.
 
-![Moron liikennetohtoria, Perussuomalaisten kunnanvaltuutettua Arto Grönroosia buffataan usein](../public/assets/blog/al-moro/gronroos.jpg)
+![Moron liikennetohtoria, Perussuomalaisten kunnanvaltuutettua Arto Grönroosia buffataan usein](/assets/blog/al-moro/gronroos.jpg)
 
 ### Hyvä Kalervo Kummola, entä Kaupunkatu ja Tammelantori
