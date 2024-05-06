@@ -1,5 +1,5 @@
 ---
-title: "Alettiinko Tampereen keskustaa kehittämään 80-luvun opein?"
+title: "Keskustakehitystä 80-luvun opein? Case Kauppakamari"
 excerpt: ""
 date: "2024-05-06T17:00:00.000Z"
 readingTime: "5"
@@ -64,6 +64,10 @@ Millä liikevaihto sitten tulee oikeasti Tampereen keskustaan nykypäivänä? T�
 
 ![](/assets/blog/80-luku-vs-nykyaika/kulkutapa-kulutus-tre.jpg)
 
+Vastakkainasetteluun ei tule sortua. Päin vastoin, sillanrakennus on tärkeää vaikka mielipiteet eroavat. Kauppakamari ja paikalliset yrittäjät tekevät hyvää työtä. Faktojen ja tilastojen pitää kuitenkin olla aina politiikan ytimessä, ja niistä pitää voida keskustella.
+
+## 80-luku vs nykypäivä
+
 Juha Kostiainen on ansiokkaasti analysoinut [kaupunkikeskustojen roolia maailman muutoksessa](https://nokkelakaupunki.fi/2023/08/21/verkon-palvelut-ovat-muuttaneet-keskusta-asioinnin-kiireisesta-sprintista-elamykselliseksi-kavelymatkaksi/). Suuri suositus myös muille Juhan kirjoituksille. Nämä tehdään vuosikymmenten perehtyneisyydellä ja rautaisella ammattitaidolla.
 
 80-luvulla kaikki mikä nykyään hoidetaan nykyisin internetissä, hoidettiin keskustassa. 
@@ -103,15 +107,15 @@ Siinä missä eläkeläiset ja 55+ vuotiaat haluavat säilyttää nykytilan, muu
 
 Minusta kadunvarsiparkkeerauksella on paikkansa tietyiltä osin myös kaupunkikeskustoissa. Siinä missä ravintoloilla autoilupainotteisuus tuottaa taloudellista heikkoutta, esimerkiksi erikoistavaraliikkeillä parkkipaikasta liikkeen edessä on monesti hyötyä. Keskustoja tulisikin kehittää järkevästi, eri alueiden luonne huomioiden. Esimerkiksi Aleksanterinkadun ravintolakeskittymä hyötyisi valtavasti suuresta kävelypainotteisuudesta.
 
-Tampereen keskustan liikennejärjestelmäsuunnitelmassa kadusta tulee kuitenkin autopainotteinen “liikekatu”, eli parkkipaikkoja priorisoidaan. Tämä on poliittisen ohjauksen tuoma muutos, sillä alunperin kadulla piti olla vain hälytysajo. Reaalimaailman kokemuksiin pohjaten etenkin ravintolat hyötyvät vahvasta kävelypainotuksesta, ja muutos alkuperäiseen ehdotukseen on taloudellisesti heikko. Kauppakamarin ulostulojen perusteella uskon heidän jopa halunneen tätä taloudellisesti heikkoa muutosta.
+Tampereen keskustan uudessa liikennejärjestelmäsuunnitelmassa kadusta tulee kuitenkin autopainotteinen “liikekatu”, eli parkkipaikkoja priorisoidaan. Tämä on poliittisen ohjauksen tuoma muutos, sillä alunperin kadulla piti olla vain hälytysajo. Reaalimaailman kokemuksiin pohjaten etenkin ravintolat hyötyvät vahvasta kävelypainotuksesta, ja muutos alkuperäiseen ehdotukseen on taloudellisesti heikko. 
 
-Samaten kadun henkilöautopainotus tukottaa edelleen hyvin takkuista Suvantokadun risteystä, jossa on sisäänajo Ratinan ja Koskikeskuksen parkkihalleihin. Risteys on lähes katastrofaalinen , mutta tilannetta ei haluta helpottaa.
+Samaten kadun henkilöautopainotus tukottaa edelleen hyvin takkuista Suvantokadun risteystä, jossa on sisäänajo Ratinan ja Koskikeskuksen parkkihalleihin. Risteys on lähes katastrofaalinen, mutta tilannetta ei haluta helpottaa.
 
-<maps-embed mapMode="directions" origin="Aleksanterinkatu 21" destination="Aleksanterinkatu 41" mode="driving" caption="Aleksanterinkatu johtaa Suvantokadun risteykseen, joka alkaa olla katastrofaalisen ruuhkautunut"></maps-embed>
+<maps-embed mapMode="directions" origin="Aleksanterinkatu 21, Tampere" destination="Aleksanterinkatu 41, Tampere" mode="driving" caption="Aleksanterinkatu johtaa Suvantokadun risteykseen, joka alkaa olla katastrofaalisen ruuhkautunut"></maps-embed>
 
 Nakamura (2010) on korostanut, että perustamalla laajempi, keskustan eri kohteita toisiinsa yhdistävä jalankulkualue, on suuremmat hyödyt jalankululle ja suuremmat positiiviset talousvaikutukset kuin yksittäisen kadun muuttamisella kävelykaduksi.
 
-Kävelyalueille saatiin kuitenkin heittää Tampereen keskustan liikennejärjestelmäsuunnitelmassa hyvästit. Tampereen keskustan molemmat kävelykadut ovat vasaran alla, ja suunnitelma näyttää lähinnä hienosäädöltä jota ei oikein edes haluttaisi tehdä. 
+Kävelyalueille saatiin kuitenkin heittää Tampereen keskustan liikennejärjestelmäsuunnitelmassa hyvästit. Tampereen keskustan molemmat kävelykadut ovat vasaran alla (Kuninkaankatu, Tuomiokirkonkadun jo päätetty osuus). Suunnitelma näyttää lähinnä hienosäädöltä jota ei oikein edes haluttaisi tehdä.
 
 <youtube videoid="M8Q7aXr_iGA" caption="Ihmisvilinää Verkatehtaankadulla lauantai-aamupäivänä 25.2.2023"></youtube>
 
@@ -119,7 +123,7 @@ Maanalaiseen autoiluverkkon tehdään satojen miljoonien satsaukset. Helsingin m
 
 ![Tampereen keskustan saavutettavuutta henkilöautolla on kehitetty uudella Ratapihankadulla, josta ajetaan Hämpin parkkiin. Tässä Ratapihankatu yhdistyy Rantatunneliin](/assets/blog/80-luku-vs-nykyaika/tunneli.jpg)
 
-Onkin aiheellista kysyä: Tehdäänkö tulevaisuuden keskustaa 80-luvun ideologialla? Olen saanut useammalta katusuunnittelun ammattilaiselta turhautuneita yhteydenottoja artikkeleideni myötä. Työ ei kulje kun jatkuvasti penätään selvityksiä asioista mitkä eivät sovi konservatiivipäättäjien ideologiaan, eikä muutoksiin olla valmiita vaikka ne ovat tutkitun tiedon mukaisia.
+On aiheellista kysyä: Tehdäänkö tulevaisuuden keskustaa 80-luvun ideologialla? Olen saanut useammalta katusuunnittelun ammattilaiselta turhautuneita yhteydenottoja. Työ ei kulje kun jatkuvasti penätään selvityksiä asioista mitkä eivät sovi vanhanaikaiseen ideologiaan, eikä muutoksiin olla valmiita vaikka ne ovat tutkitun tiedon mukaisia.
 
 Tampereen valtuustossa on nyt hyvin vahva konservatiivienemmistö, ja tämä enemmistö onnistui nyt liikennejärjestelmäsuunnitelman myötä sementoimaan  miten keskustaa kehitetään vuoteen 2040 asti. Tämä miellyttänee Kokoomusta (tämä puolue on muuten muuttunut Anna-Kaisa Ikosen ja Aleksi Jäntin eduskuntaan pääsyn jälkeen paljon), Perussuomalaisia ja SDP:n konservatiiviosastoa, mutta taloudellisesti vahvaa ja asukkaille pehmeää keskustaa tällä ei luoda.
 
@@ -127,5 +131,5 @@ Puutarhakadulla priorisoitiin läpiajon nopeus vehreän elinympäristön ja vahv
 
 Vuonna 2040 55 vuotiaat ovat 70 vuotiaita, ja 35 vuotiaat 50 vuotiaita. Tampereen keskusta on uudistettu nykyvaltuuston liikennejärjestelmäsuunnitelman mukaisesti, mutta onko se nousevan sukupolven mieleen? Kyselyt kertovat, että ei ole.
 
-<infocard label="Muutosta">Nykyinen tilanne Tampereen kunnallispolitiikassa on turhauttava ihmisille pehmeää mutta taloudellisesti vahvaa kaupunkia kannattaville. Kuulette minusta ensi vuoden kunnallisvaalien alla. Jos koet, että nykyinen meininki kaipaa vastapainoa, jaa kirjoitus. Jos haluat kuulla uusista artikkeleista ensimmäisten joukossa, tilaa ilmoitukset Whatsappiin 👇</infocard>
+<infocard label="Muutosta">Tampereella on 20-50 vuotiaita liki tuplamäärä verrattuna 50-80 vuotiaisiin. Jos enemmistö herää kunnallisvaaleissa, niin seuraavat vuodet voivat olla aivan erilaisia. Kuulette minusta ensi vuoden kunnallisvaalien alla. Jos haluat kuulla uusista artikkeleista ensimmäisten joukossa, tilaa ilmoitukset Whatsappiin 👇</infocard>
 
