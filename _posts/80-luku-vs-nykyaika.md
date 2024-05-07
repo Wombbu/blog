@@ -28,7 +28,7 @@ Ei tietenkään. Keskustojen elinvoima on laskenut kautta linjan Suomessa. Syyt 
 
 Suomalaisten kaupunkikeskustojen näivettymisen siemenet ovat kylvetty vuosikymmeniä sitten. Olen perannut syitä keskustojen näivettymiseen [lähteytetyssä artikkelissani](https://www.laurinevanpera.fi/posts/keskustojen-naivettyminen). 
 
-Kauppakamarin väite keskustan elinvoiman hiipumisesta ei ole pitänyt paikkaansa viiteen vuoteen. Koronasta, inflaatioshokista ja korkojen noususta huolimatta tyhjien liiketilojen lukumäärä on vähentynyt 2019-2023. 13%. Haastavia aikoja kaiken kaikkiaan, mutta 2010-luvun määrätietoisen kehittämisen myötä Tampereesta on noussut [Suomen keskustojen elinvoimaykkönen](https://www.salokorpi.com/wp-content/uploads/2023/05/EKK-Suomen-TOP-12-elinvoimaiset-kaupunkikeskustat.pdf)!
+Kauppakamarin väite keskustan elinvoiman hiipumisesta ei ole pitänyt paikkaansa viiteen vuoteen. Koronasta, inflaatioshokista ja korkojen noususta huolimatta tyhjien liiketilojen lukumäärä on vähentynyt kolmetoista prosenttia vuodesta 2019. Haastavia aikoja kaiken kaikkiaan, mutta 2010-luvun määrätietoisen kehittämisen myötä Tampereesta on noussut [Suomen keskustojen elinvoimaykkönen](https://www.salokorpi.com/wp-content/uploads/2023/05/EKK-Suomen-TOP-12-elinvoimaiset-kaupunkikeskustat.pdf)!
 
 <tweet id="1781996624694129029"></tweet>
 
@@ -38,11 +38,11 @@ Erityisesti ravintolat ja kahvilat hyötyvät hyvistä kävelyolosuhteista. Näi
 
 ## Tarina Tuomiokirkonkadulta
 
-Autoin muutama viikko sitten paikallista yrittäjää muuttamaan Verkatehtaankadulle Tuomiokirkonkadun Kuparitalosta. Kuparitalo on Tuomiokirkonkadun vinoparkkiosuudella. Parkkipaikkoja on aivan liikkeen oven edessä valtavasti. Verkatehtaankadulla jonne uusi liiketila tuli parkkipaikkoja ei ole nimeksikään. **Puolet kuparitalon liiketiloista on nyt tyhjillään.** Seuraavalla videolla näet näivettynyttä Tuomiokirkonkatua:
+Autoin muutama viikko sitten paikallista yrittäjää muuttamaan Tuomiokirkonkadulta Verkatehtaankadulle. Liiketila oli Tuomiokirkonkadun vinoparkkiosuudella, ja parkkipaikkoja on liikkeen oven edessä paljon. Verkatehtaankadulla jonne uusi liiketila tuli parkkipaikkoja ei ole nimeksikään. **Puolet liiketiloista on nyt tyhjillään talossa josta yritys muutti pois.** Seuraavalla videolla näet näivettynyttä Tuomiokirkonkatua:
 
 <youtube videoid="obYkFfFGWBo" caption="Tuomiokirkonkadun vinoparkkiosuudella liiketilat ovat tyhjillään. Katu on keskustan autoliikenteelle priorisoidun kehän vieressä."></youtube>
 
-Kuparitalosta 50 metriä eteenpäin kuitenkin tunnelma muuttuu. Vinoparkit poistuvat, katu muuttuu kävelykaduksi, eikä yksikään liiketila ole tyhjänä. Tuomiokirkonkadun kävelykatuosuus ei ole näivettynyt lainkaan, päinvastoin.
+Katua eteenpäin kulkiessa tunnelma muuttuu. Vinoparkit poistuvat, katu muuttuu kävelykaduksi, eikä yksikään liiketila ole tyhjänä. Tuomiokirkonkadun kävelykatuosuus ei ole näivettynyt lainkaan, päinvastoin.
 
 <youtube videoid="um0whWUwGno" caption="Kävelykadulla tehdään bisnestä"></youtube>
 
@@ -64,13 +64,13 @@ Millä liikevaihto sitten tulee oikeasti Tampereen keskustaan nykypäivänä? T�
 
 ![](/assets/blog/80-luku-vs-nykyaika/kulkutapa-kulutus-tre.jpg)
 
-Vastakkainasetteluun ei tule sortua. Päin vastoin, sillanrakennus on tärkeää vaikka mielipiteet eroavat. Kauppakamari ja paikalliset yrittäjät tekevät hyvää työtä. Faktojen ja tilastojen pitää kuitenkin olla aina politiikan ytimessä, ja niistä pitää voida keskustella.
+Vastakkainasetteluun ei tule sortua. Päin vastoin, sillanrakennus on tärkeää vaikka mielipiteet eroavat. Kauppakamari ja paikalliset yrittäjät tekevät hyvää työtä. Faktojen ja tilastojen pitää kuitenkin olla aina politiikan ytimessä.
 
 ## 80-luku vs nykypäivä
 
 Juha Kostiainen on ansiokkaasti analysoinut [kaupunkikeskustojen roolia maailman muutoksessa](https://nokkelakaupunki.fi/2023/08/21/verkon-palvelut-ovat-muuttaneet-keskusta-asioinnin-kiireisesta-sprintista-elamykselliseksi-kavelymatkaksi/). Suuri suositus myös muille Juhan kirjoituksille. Nämä tehdään vuosikymmenten perehtyneisyydellä ja rautaisella ammattitaidolla.
 
-80-luvulla kaikki mikä nykyään hoidetaan nykyisin internetissä, hoidettiin keskustassa. 
+80-luvulla kaikki mikä nykyään hoidetaan internetissä, hoidettiin keskustassa. 
 
 - Pankit
 - Vakuutukset
