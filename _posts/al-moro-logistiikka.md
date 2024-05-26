@@ -9,7 +9,7 @@ coverImage:
   desc: "Brutalismia. Lontoon ikonisten Barbican-tornien edessä oli samanhenkinen kuorma-auto."
 ---
 
-Juttelin pari viikkoa sitten hierojani kanssa. Hieroja sattui olemaan entinen jäteauton kuljettaja. Ennen ohjelmistoarkkitehdin uraani olin muutaman vuoden kuorma-autokuskina, ja juteltavaa riitti keskustan logistiikan vaikeudesta.
+Juttelin pari viikkoa sitten alaa vaihtaneen jäteauton kuljettajan kanssa. Ennen ohjelmistoarkkitehdin uraani olin muutaman vuoden kuorma-autokuskina, ja juteltavaa riitti keskustan logistiikan vaikeudesta.
 
 Kelataan muutama viikko eteenpäin, ja Aamulehti Moro-liitteen päätoimittaja Jari Mylläri kritisoi [pääkirjoituksessaan](https://www.aamulehti.fi/moro/art-2000010444544.html) kaupungin työntekijöitä ja luottamushenkilöitä aivan urakalla keskustalogistiikan ongelmista:
 
