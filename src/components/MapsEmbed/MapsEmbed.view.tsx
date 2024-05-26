@@ -11,7 +11,7 @@ export default function MapsEmbed({ iframeProps, ...mapsOptions }: Props) {
       src={createMapsUrl(mapsOptions)}
       title="Street view"
       {...iframeProps}
-      className={`border-none aspect-goldenRatioInverse sm:aspect-goldenRatio w-full ${
+      className={`border-none aspect-sdInverse sm:aspect-sd w-full ${
         iframeProps?.className || ""
       }`}
     />
