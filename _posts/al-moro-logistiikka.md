@@ -106,7 +106,7 @@ Kaikkein paras ratkaisu olisi kävelykatu. Tämä kun mahdollistaisi kesäterass
 
 ![Muokkasin Plevnan talviterasseja Verkatehtaankadulle vuosi sitten julkaisemassani [Visio Kyttälässä](https://laurinevanpera.fi/posts/elinvoimaa-tampereen-keskustaan)](/assets/blog/al-moro-logistiikka/verkatehtaankatu-talvi2.jpg)
 
-<infocard label="Nähdään pian">Kuulet minusta ensi vuoden kunnallisvaaleissa. Tästä lisää myöhemmin.</infocard>
+<infocard label="Muutosta?">Kuulet minusta ensi vuoden kunnallisvaaleissa. Tästä lisää myöhemmin.</infocard>
 
 ## Kohti tulevaisuutta
 
