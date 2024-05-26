@@ -1,5 +1,5 @@
 ---
-title: "Aamulehti Moro-liitteen viisi väitettä Tampereen keskustasta"
+title: "Aamulehti Moro-liitteen viisi väitettä Tampereen viranhaltijoista ja keskustalogistiikasta"
 excerpt: "Moro-liitteen päätoimittaja viljelee syytöksiä keskustalogistiikan tilasta. Perataan faktat."
 date: "2024-05-26T05:35:07.322Z"
 readingTime: "5"
