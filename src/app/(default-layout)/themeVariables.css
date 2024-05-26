@@ -3,4 +3,5 @@ html {
   --text-primary-color: rgb(31 41 55);
   --text-secondary-color: rgb(107 114 128);
   --text-inverted-color: rgb(229 231 235);
+  --page-color: rgb(255 255 255);
 }

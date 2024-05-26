@@ -3,7 +3,6 @@ import rehypeRaw from "rehype-raw";
 import markdownStyles from "./PostBody.module.css";
 import { YouTubeEmbed } from "@next/third-parties/google";
 import { Element } from "react-markdown/lib";
-import Image from "next/image";
 import { Tweet } from "react-tweet";
 import { Card } from "@/components/Card/Card";
 import { GetNotifiedCard } from "@/components/GetNotifiedCard/GetNotifiedCard";
@@ -11,6 +10,7 @@ import { animatedTweet } from "@/model/posts/components/PostBody/custom-tags/ani
 import { question } from "@/model/posts/components/PostBody/custom-tags/question";
 import { collapse } from "@/model/posts/components/PostBody/custom-tags/collapse";
 import { mapsEmbed } from "@/model/posts/components/PostBody/custom-tags/mapsEmbed";
+import { ZoomImage } from "@/model/posts/components/PostBody/ZoomImage";
 
 type Props = {
   content: string;
@@ -55,20 +55,7 @@ const PostBody = ({ content }: Props) => {
                 src: string;
                 alt: string;
               };
-              return (
-                <figure>
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    height={612}
-                    width={612}
-                    loading="lazy"
-                    placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Ww8AAj8BXkQ+xPEAAAAASUVORK5CYII="
-                  />
-                  <figcaption>{image.alt}</figcaption>
-                </figure>
-              );
+              return <ZoomImage src={image.src} alt={image.alt} />;
             }
 
             if (firstElement?.tagName === "bar") {

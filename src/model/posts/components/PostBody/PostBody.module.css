@@ -6,7 +6,7 @@
   @apply text-primary;
 }
 
-.markdown a[target="_blank"]::after {
+.markdown > p > a[target="_blank"]::after {
   content: "";
   width: 1em;
   height: 1em;
@@ -37,7 +37,7 @@
 }
 
 .markdown figure img {
-  @apply m-auto w-full h-auto max-w-article;
+  /* @apply m-auto w-full h-auto max-w-article; */
 }
 
 .markdown figure {
