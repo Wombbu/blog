@@ -5,7 +5,7 @@ date: "2024-06-03T05:35:07.322Z"
 readingTime: "3"
 tags: "Tampere, Liikenne, Elinvoima"
 coverImage:
-  url: "/assets/blog/lyhyesti-rongankadusta/cover.JPG "
+  url: "/assets/blog/lyhyesti-rongankadusta/cover.jpg"
   desc: "Uudella Rongankadulla kävely, pyöräily, autoilu ja kutsuvuus ovat huomioitu tasapuolisesti. Tässä ajetaan uudella pyörätiellä"
 ---
 
@@ -110,4 +110,9 @@ Koko saaga oli turhauttavaa luettavaa. Toivon kuitenkin että pystyin jakamaan t
 Nähdään kunnallisvaaleissa!
 
 <getnotified></getnotified>
+
+Ja hei! Satuin tekemään pari vuotta sitten videon Rongankadun uudistuksesta. Jos aihe kiinnostaa, niin tässäpä tämä.
+
+<youtube videoid="B29BaQw0KUI" caption=""></youtube>
+
 
