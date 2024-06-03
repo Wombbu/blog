@@ -5,7 +5,7 @@ date: "2024-06-03T05:35:07.322Z"
 readingTime: "3"
 tags: "Tampere, Liikenne, Elinvoima"
 coverImage:
-  url: "/assets/blog/lyhyesti-rongankadusta/cover.jpg"
+  url: "/assets/blog/lyhyesti-rongankadusta-2/cover.jpg"
   desc: "Uudella Rongankadulla kävely, pyöräily, autoilu ja kutsuvuus ovat huomioitu tasapuolisesti. Tässä ajetaan uudella pyörätiellä"
 ---
 
@@ -19,7 +19,7 @@ Vuosi kuluu, ja Aamulehti julkaisee uutisen [Lotus Gardenin konkurssista](https:
 
 Uhkaava varjo lankesi Tampereen ylle. Maa tärisi ja villieläimet pakenivat. **Aamulehden kommenttiosasto oli herätetty**.
 
-![Kommenttiosasto oli taattua laatua](/assets/blog/lyhyesti-rongankadusta/kommentit.jpg)
+![Kommenttiosasto oli taattua laatua](/assets/blog/lyhyesti-rongankadusta-2/kommentit.jpg)
 
 Seuraavaksi Moro-liite **haastatteli Kalervo Kummolaa parkkipaikoista Aamulehden kommenttiosion pohjalta** (nerokasta meta-huumoria). [Haastattelu](https://www.aamulehti.fi/moro/art-2000010466460.html)
 
@@ -35,7 +35,7 @@ Tämän jälkeen kadun konkurssi ja parkkipaikat yhdistettiin vielä uuden apula
 
 No sepä tässä jäi vain kertomatta, että **Lotus Garden on tehnyt tappiota lähes taukoamatta VUODESTA 2017**
 
-![Ei olisi muuten ollut vaikea tarkistaa](/assets/blog/lyhyesti-rongankadusta/voitto.jpg)
+![Ei olisi muuten ollut vaikea tarkistaa](/assets/blog/lyhyesti-rongankadusta-2/voitto.jpg)
 
 Ja tiedättekö mitä? Alkuperäisessä konkurssiuutisessa oleva yrittäjän toteamus parkkipaikoista ei liittynyt kokemuksiin valmiista Rongankadusta, vaan se oli *vuoden vanha*, **remontin aikainen** kommentti. Tajusin muuten tämän vasta uutisen kolmannen kerran luettuani.
 
@@ -69,7 +69,7 @@ Entäpä sitten ympäristön viihtyisyyden vaikutus ravintoloiden liikevaihtoon?
 
 Suomessa kadun muutos kävelykaduksi [kasvattaa mediaanimyyntiä 23%, hyödyttäen nimenomaan ravintoloita eniten.](https://www.hel.fi/static/liitteet/kaupunkiymparisto/julkaisut/aineistot/aineistoja-09-20.pdf)
 
-![Vinoparkit kuultavat tyhjän liiketilan ikkunasta. Tässä Tuomiokirkonkadun vinoparkkien edessä olevassa talossa on kolme tyhjää liiketilaa.](/assets/blog/lyhyesti-rongankadusta/IMG_6606.JPG)
+![Vinoparkit kuultavat tyhjän liiketilan ikkunasta. Tässä Tuomiokirkonkadun vinoparkkien edessä olevassa talossa on kolme tyhjää liiketilaa.](/assets/blog/lyhyesti-rongankadusta-2/IMG_6606.JPG)
 
 ### Näivettyykö keskusta?
 
@@ -77,7 +77,7 @@ Niin. Täyttyvätkö liiketilat näivettyvässä keskustassa? Koronasta, inflaat
 
 2010-luvun määrätietoisen kehittämisen myötä Tampereesta on noussut Suomen keskustojen elinvoimaykkönen [(EKK)](https://www.salokorpi.com/wp-content/uploads/2023/05/EKK-Suomen-TOP-12-elinvoimaiset-kaupunkikeskustat.pdf)!
 
-![Suomen keskustojen elinvoima mitattuna. Lähde: EKK](/assets/blog/lyhyesti-rongankadusta/ekk.jpg)
+![Suomen keskustojen elinvoima mitattuna. Lähde: EKK](/assets/blog/lyhyesti-rongankadusta-2/ekk.jpg)
 
 ### Reiluus
 
@@ -89,13 +89,13 @@ Entäpä sitten tilanjako? Onko autoilua nyt sorsittu ja pyöräilijät viilett�
 
 Ja tila oli jaettu aiemmin seuraavasti:
 
-![Vanhan Rongankadun tilankäyttöä](/assets/blog/lyhyesti-rongankadusta/vanha-rongankatu-katutila.jpg)
+![Vanhan Rongankadun tilankäyttöä](/assets/blog/lyhyesti-rongankadusta-2/vanha-rongankatu-katutila.jpg)
 
 Hmm.
 
 Entäpä uudella kadulla?
 
-![Uudella Rongankadulla tilanne on tasaisempi](/assets/blog/lyhyesti-rongankadusta/uusi-rongankatu-katutila.jpg)
+![Uudella Rongankadulla tilanne on tasaisempi](/assets/blog/lyhyesti-rongankadusta-2/uusi-rongankatu-katutila.jpg)
 
 Näyttää reilummalta.
 
