@@ -5,10 +5,10 @@ import Image from "next/image";
 
 export const GetNotifiedCard = () => {
   return (
-    <Card label="🔔 Tilaa uudet artikkelit puhelimeesi" alignCenter>
+    <Card label="Uudet artikkelit puhelimeesi" alignCenter>
       <p className={`mb-6 ${typography.variants.textBody}`}>
-        Liity whatsapp-yhteisöön. Saat uudet artikkelit suoraan puhelimeesi. Ei
-        spämmiä, ei turhuuksia.
+        Jos haluat kuulla uusista artikkeleista ensimmäisten joukossa, liity
+        Whatsapp-yhteisöön 👇
       </p>
       <a
         href="https://chat.whatsapp.com/EiQjzdPh1qq6AOt7nnj2vG"
@@ -21,7 +21,7 @@ export const GetNotifiedCard = () => {
           height={22}
           className={`mr-2`}
         />{" "}
-        Tilaa ilmoitukset
+        Liity yhteisöön
       </a>
     </Card>
   );

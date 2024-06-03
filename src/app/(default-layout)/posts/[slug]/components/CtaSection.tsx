@@ -39,7 +39,7 @@ export const CtaSection = ({ post }: Props) => {
             noGutter: true,
           })} text-center mt-6`}
         >
-          Tilaa artikkelit puhelimeesi
+          Uudet artikkelit puhelimeesi
         </h1>
         <a
           href="https://chat.whatsapp.com/EiQjzdPh1qq6AOt7nnj2vG"
@@ -52,7 +52,7 @@ export const CtaSection = ({ post }: Props) => {
             height={22}
             className={`mr-2`}
           />{" "}
-          Tilaa ilmoitukset
+          Liity yhteisöön
         </a>
         <h1
           className={`${typography.variants.sectionTitle({
