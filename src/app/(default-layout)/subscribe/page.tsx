@@ -73,7 +73,7 @@ export const metadata: Metadata = {
       "Uutiskirjeessä kerron kun julkaisen uutta sisältöä, ja silloin tällöin kirjoitan yksinoikeudella tilaajille.",
     images: [
       {
-        url: "https://www.laurinevanpera.fi/email-example.jpg",
+        url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola2.jpg&title=Tilaa%20uutiskirje",
         width: 1200,
         height: 627,
         alt: "Lauri Nevanperä",
