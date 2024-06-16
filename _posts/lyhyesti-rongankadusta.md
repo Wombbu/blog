@@ -23,6 +23,8 @@ Uhkaava varjo lankesi Tampereen ylle. Maa tärisi ja villieläimet pakenivat. **
 
 Seuraavaksi Moro-liite **haastatteli Kalervo Kummolaa parkkipaikoista Aamulehden kommenttiosion pohjalta** (nerokasta meta-huumoria). [Haastattelu](https://www.aamulehti.fi/moro/art-2000010466460.html)
 
+<subscribe></subscribe>
+
 Kummola antoi mielestäni melko neutraalin haastattelun. Remontin venähtäminen sai kritiikkiä. Parkkipaikkoja olisi saanut olla enemmän kuten aina, mutta olihan siinä sitten se kysymys katupuista. Keskusta tulee olla saavutettava kaikilla kulkumuodoilla jne.
 
 Moro-liite spinnasi minusta suoraan sanottuna melko neutraaleista ja tolkullisista haastatteluvastauksista hyvin sensaationhakuisen jutun. Jutussa jopa puhutaan kaupunkilaisista, ja tarkoitetaan **Aamulehden kommenttipalstaa**. Mukaan vedettiin luonnollisesti myös keskustan oletettu näivettyminen.

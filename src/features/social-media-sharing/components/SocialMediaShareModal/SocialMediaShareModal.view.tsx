@@ -30,7 +30,7 @@ export const SocialMediaShareModalView = ({
         Kopioi linkki
       </h2>
       <div
-        className={`flex gap-2 items-stretch bg-white border-2  mb-8 ${palette.border.secondary}`}
+        className={`flex gap-2 items-stretch bg-white border-2  mb-8 ${palette.border.primary}`}
       >
         <BsLink45Deg className="self-center ml-2 w-6 h-6 p-0" />
         <input
@@ -41,7 +41,7 @@ export const SocialMediaShareModalView = ({
         />
 
         <button
-          className={`${button.variants.smolInverted} whitespace-nowrap`}
+          className={`${button.rectangular.primary.medium} whitespace-nowrap`}
           onClick={() => onCopy()}
         >
           {copied ? "✓ Kopioitu" : "Kopioi"}

@@ -1,7 +1,12 @@
+import { NewsLetterDialog } from "@/model/subscribers/components/NewsLetterDialog/NewsLetterDialog.view";
 import { SocialMediaLinks } from "@/components/SocialMediaLinks";
 import { typography } from "@/essentials/theme/typography";
+import SubscribeController from "@/model/subscribers/components/SubscribeInput/SubscribeInput.controller";
 import Image from "next/image";
 import profileImg from "../../../public/profiili.jpg";
+import classNames from "classnames";
+import { palette } from "@/essentials/theme/palette";
+import SubscribeEmbed from "@/model/subscribers/components/SubscribeEmbed/SubscribeEmbed.controller";
 
 export const Hero = () => (
   <section className="flex flex-col items-center">
@@ -20,16 +25,21 @@ export const Hero = () => (
       style={{ maxWidth: "425px" }}
     >
       <h1
-        className={`font-primary font-bold text-5xl sm:text-6xl text-black text-center mb-2`}
+        className={classNames(
+          typography.variants.largeTitle,
+          "!text-5xl sm:!text-6xl",
+          `mb-2`
+        )}
       >
         Moro.
       </h1>
       <p className={`${typography.variants.textBody} text-center mb-4`}>
-        Vaikutan asukkaalle pehmeän ja taloudellisesti vahvan Tampereen
-        puolesta. Leipätyökseni olen ohjelmistoarkkitehti ja kehitän
-        kiinteistöalan järjestelmiä.
+        Vaikutan taloudellisesti vahvan ja asukkaalle pehmeän Tampereen
+        puolesta.
+        <br /> Nähdään kunnallisvaaleissa 2025!
       </p>
       <SocialMediaLinks />
+      <SubscribeEmbed wrapperClassName="mt-12" />
     </div>
   </section>
 );

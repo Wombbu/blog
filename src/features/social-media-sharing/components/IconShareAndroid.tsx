@@ -1,6 +1,5 @@
-export const IconShareAndroid = () => (
+export const IconShareAndroid = (props: React.ComponentProps<"svg">) => (
   <svg
-    className="w-6 h-6 mr-2"
     fill="#000000"
     height="800px"
     width="800px"
@@ -8,6 +7,7 @@ export const IconShareAndroid = () => (
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 458.624 458.624"
+    {...props}
   >
     <g>
       <g>

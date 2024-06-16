@@ -43,11 +43,11 @@ export default function Question({
         {options.map((option, index) => (
           <button
             key={option}
-            className={`${button.variants.large} flex-1 ${
+            className={`${button.rectangular.secondary.large} flex-1 ${
               answered && index === selectedAnswerIndex && correctAnswer
-                ? "bg-green-700 hover:!bg-green-500 text-white"
+                ? "!bg-green-700 hover:!bg-green-500 !text-white"
                 : answered && index === selectedAnswerIndex && !correctAnswer
-                ? "bg-red-700 hover:!bg-red-500 text-white"
+                ? "!bg-red-700 hover:!bg-red-500 !text-white"
                 : null
             }`}
             style={{

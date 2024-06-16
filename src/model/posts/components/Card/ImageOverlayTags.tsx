@@ -1,4 +1,6 @@
+import { palette } from "@/essentials/theme/palette";
 import { PostMetadata } from "@/model/posts/types/PostMetadata";
+import classNames from "classnames";
 import Image from "next/image";
 
 export enum CustomTags {
@@ -31,7 +33,7 @@ const EmojiTag = ({
 }) => (
   <>
     <span
-      className="mr-1.5 text-lg flex align-center"
+      className="font-primary mr-1.5 text-lg flex align-center"
       style={{
         textShadow: shadow ? "0px 0px 5px rgba(255,255,255)" : undefined,
         height: "16px",
@@ -188,7 +190,10 @@ export const TagList = ({ tags, hasAudio, isNew }: Props) => {
       ].map((tag) => (
         <div
           key={tag}
-          className="text-sm font-medium text-gray-200 min-w-0 flex items-center"
+          className={classNames(
+            "text-sm font-medium min-w-0 flex items-center font-primary",
+            palette.text.inverse
+          )}
         >
           {specialTags.find((specialTag) => specialTag.name === tag)?.tag ||
             tag}

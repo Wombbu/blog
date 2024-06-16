@@ -25,16 +25,17 @@ export default function Collapse({ label, content }: Props) {
           <div className="bg-gradient-to-b from-transparent to-gray-100 pointer-events-none h-12" />
           <div className="flex justify-center  py-6 sm:py8 bg-gray-100">
             <button
-              className={`${button.variants.rounded}`}
+              className={`${button.rounded.secondary.medium}`}
               onClick={() => setExpanded((expanded) => !expanded)}
             >
-              Lue lisää <MdExpandMore className="inline w-6 h-6 ml-2 -mr-2" />
+              <MdExpandMore className="inline w-6 h-6" />
+              Lue lisää
             </button>
           </div>
         </div>
       ) : null}
       <button
-        className={`block mt-6 sm:mt-8 ${button.variants.rounded} m-auto`}
+        className={`block mt-6 sm:mt-8 ${button.rounded.secondary.medium} m-auto`}
         onClick={() => {
           setExpanded((expanded) => !expanded);
           window.scrollTo({
@@ -42,7 +43,7 @@ export default function Collapse({ label, content }: Props) {
           });
         }}
       >
-        Pienennä <MdExpandLess className="inline w-6 h-6 ml-2 -mr-2" />
+        <MdExpandLess className="inline w-6 h-6" /> Pienennä
       </button>
     </Card>
   );

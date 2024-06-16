@@ -30,14 +30,14 @@ export default function RootLayout({
 export const metadata: Metadata = {
   title: "Lauri Nevanperä",
   description:
-    "Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta.",
+    "Taloudellisesti vahvan ja asukkaalle pehmeän Tampereen puolesta",
   openGraph: {
     locale: "fi_FI",
     type: "website",
     url: "https://www.laurinevanpera.fi/",
     title: "Lauri Nevanperä",
     description:
-      "Asiaa kaupunkisuunnittelusta, paikallistaloudesta ja asumisesta.",
+      "Taloudellisesti vahvan ja asukkaalle pehmeän Tampereen puolesta",
     images: [
       {
         url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola1.jpg&title=Asiaa%20kaupungeista",

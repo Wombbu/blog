@@ -13,6 +13,11 @@ import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { buildOgImageUrl } from "@/model/og-image/buildOgImageUrl";
 import { getPostBySlug } from "@/model/posts/utils/getPostBySlug";
 import { CtaSection } from "@/app/(default-layout)/posts/[slug]/components/CtaSection";
+import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric.view";
+import { NewsLetterDialog } from "@/model/subscribers/components/NewsLetterDialog/NewsLetterDialog.view";
+import SubscribeInputController from "@/model/subscribers/components/SubscribeInput/SubscribeInput.controller";
+import classNames from "classnames";
+import SubscribeEmbed from "@/model/subscribers/components/SubscribeEmbed/SubscribeEmbed.controller";
 
 // Do not server side render clap button to be able to use static rendering on this route
 // https://beta.nextjs.org/docs/rendering/static-and-dynamic-rendering
@@ -31,7 +36,7 @@ const LazyShareViaModal = dynamic(
       "../../../../features/social-media-sharing/components/ShareViaModal.controller"
     ),
   {
-    loading: () => null,
+    loading: () => <ShareButtonGeneric>Jaa artikkeli</ShareButtonGeneric>,
     ssr: false,
   }
 );
@@ -57,7 +62,11 @@ export default async function Post(props: Props) {
         </div> */}
         <PostHero post={post} />
         <h1
-          className={`${palette.text.primary} font-primary text-3xl sm:text-4xl md:text-5xl font-bold mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words max-w-4xl m-auto text-accent`}
+          className={classNames(
+            typography.variants.largeTitle,
+            "!text-3xl sm:!text-4xl md:!text-5xl",
+            `mt-8 mb-6 sm:mb-8 sm:mt-12 text-center break-words max-w-4xl m-auto`
+          )}
         >
           {post.title}
         </h1>
@@ -69,7 +78,8 @@ export default async function Post(props: Props) {
               {post.excerpt}
             </p>
           ) : null}
-          <div className="flex justify-center mb-6">
+          <div className="flex flex-col sm:flex-row justify-center items-center mb-6 gap-3">
+            <NewsLetterDialog variant="rounded_cta_button" />
             <LazyShareViaModal slug={post.slug} title={post.title} />
           </div>
 
@@ -82,6 +92,7 @@ export default async function Post(props: Props) {
         </div>
         <PostBody content={post.content} />
       </article>
+      <SubscribeEmbed />
       <CtaSection post={post} />
       <section className="mt-12">
         <h2 className={`${typography.variants.sectionTitle()}`}>Lue lisää</h2>

@@ -1,3 +1,4 @@
+import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
 
 type Props = {
@@ -17,7 +18,7 @@ export const Card = ({
   return (
     <section
       {...rest}
-      className={`bg-gray-100 border-2 border-gray-300 rounded-lg ${
+      className={`bg-gray-100 border-2 rounded-lg ${palette.border.secondary} ${
         rest.className || ""
       }`}
     >

@@ -13,7 +13,7 @@ export const TwitterGrid = ({ tweetIds }: Props) => {
       ))}
       <a
         href="https://twitter.com/LauriNevanpera"
-        className={`${button.variants.large} flex-1 sm:col-start-1 sm:col-end-3`}
+        className={`${button.rectangular.secondary.large} flex-1 sm:col-start-1 sm:col-end-3`}
       >
         Avaa Twitter
       </a>

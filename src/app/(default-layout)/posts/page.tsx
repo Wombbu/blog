@@ -3,14 +3,15 @@ import { PostGrid } from "@/model/posts/components/PostGrid/PostGrid";
 import { routes } from "@/essentials/utils/routes";
 import { Metadata } from "next";
 import { typography } from "@/essentials/theme/typography";
+import classNames from "classnames";
 
 export default function Posts() {
   const allPosts = getAllPosts();
 
   return (
     <>
-      <h1 className={`${typography.variants.pageTitle} mb-6`}>
-        Kaikki artikkelit
+      <h1 className={classNames(typography.variants.largeTitle, "mb-6")}>
+        Kaikki artikkelit ({allPosts.length})
       </h1>
       <PostGrid
         posts={allPosts.map((it) => ({

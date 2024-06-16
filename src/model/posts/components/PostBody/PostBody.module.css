@@ -47,7 +47,7 @@
   left: calc(-50vw + 50%);
 }
 .markdown figcaption {
-  @apply text-gray-500 font-primary text-sm text-center mt-2 max-w-article;
+  @apply text-secondary font-primary text-sm text-center mt-2 max-w-article;
 }
 
 .markdown figure > figcaption {
@@ -119,7 +119,7 @@
 }
 
 .markdown hr {
-  @apply border-0 border-b-2 border-gray-200 aspect-videoInverse;
+  @apply border-0 border-b-2 border-secondary aspect-videoInverse;
 }
 
 .markdown :global(.link-preview-widget) {
@@ -159,7 +159,7 @@
 }
 
 .markdown :global(.link-preview-widget-description) {
-  @apply font-primary text-gray-500 text-sm;
+  @apply font-primary text-secondary text-sm;
 
   /* Limit text row count */
   overflow: hidden;

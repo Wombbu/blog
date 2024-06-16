@@ -68,7 +68,7 @@ export const PostGrid = ({ posts, withButton }: Props) => (
         <div className="sm:col-start-1 sm:col-end-3 flex justify-center">
           <Link
             href={routes.posts}
-            className={`${button.variants.largeInverted} flex-1`}
+            className={`${button.rectangular.primary.large} flex-1`}
           >
             Katso kaikki artikkelit
           </Link>

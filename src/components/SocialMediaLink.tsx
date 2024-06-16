@@ -1,3 +1,4 @@
+import { palette } from "@/essentials/theme/palette";
 import Image from "next/image";
 
 type NextImageProps = React.ComponentProps<typeof Image>;
@@ -19,9 +20,9 @@ export const SocialMediaLink = ({
     <a
       target="_blank"
       rel="noreferrer"
-      className={`${
-        className || ""
-      } rounded-full p-2 hover:bg-gray-200 bg-white border-2 border-gray-300 flex-grow-0 flex-shrink-0`}
+      className={`${className || ""} ${
+        palette.border.secondary
+      } rounded-full p-2 hover:bg-gray-200 bg-white border-2 flex-grow-0 flex-shrink-0`}
       {...aProps}
     >
       <Image

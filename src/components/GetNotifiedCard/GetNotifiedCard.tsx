@@ -12,7 +12,7 @@ export const GetNotifiedCard = () => {
       </p>
       <a
         href="https://chat.whatsapp.com/EiQjzdPh1qq6AOt7nnj2vG"
-        className={`${button.variants.rounded} w-full sm:w-auto`}
+        className={`${button.rounded.secondary.medium} w-full sm:w-auto`}
       >
         <Image
           src="/whatsapp.svg"

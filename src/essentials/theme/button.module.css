@@ -1,0 +1,35 @@
+@keyframes dotsAnimation {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+}
+
+.loadingButton[data-loading="true"] {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.loadingButton[data-loading="true"]::before {
+  content: "";
+  color: inherit;
+  position: absolute;
+  font-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: inherit;
+  animation: dotsAnimation 1.5s infinite;
+}

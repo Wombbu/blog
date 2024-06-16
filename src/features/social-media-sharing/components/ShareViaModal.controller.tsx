@@ -1,5 +1,5 @@
 "use client";
-import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric";
+import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric.view";
 import { ShareViaWebShareApi } from "@/features/social-media-sharing/components/ShareViaWebShareApi";
 import { SocialMediaShareModalView } from "@/features/social-media-sharing/components/SocialMediaShareModal/SocialMediaShareModal.view";
 import { useState } from "react";

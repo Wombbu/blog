@@ -6,6 +6,7 @@ import { typography } from "@/essentials/theme/typography";
 import Link from "next/link";
 import { YoutubeGrid } from "@/components/YoutubeGrid/YoutubeGrid";
 import { TwitterGrid } from "@/components/TwitterGrid/TwitterGrid";
+import SubscribeEmbed from "@/model/subscribers/components/SubscribeEmbed/SubscribeEmbed.controller";
 
 export default function Home() {
   const allPosts = getAllPosts();

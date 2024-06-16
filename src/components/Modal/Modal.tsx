@@ -8,6 +8,7 @@ type Props = {
   hasCloseBtn?: boolean;
   onClose: () => void;
   children: React.ReactNode;
+  label?: React.ReactNode;
 };
 
 /**
@@ -19,7 +20,7 @@ type Props = {
  *   overflow: hidden;
  * }
  */
-export const Modal = ({ isOpen, onClose, children }: Props) => {
+export const Modal = ({ isOpen, onClose, children, label }: Props) => {
   const modalRef = useRef<HTMLDialogElement | null>(null);
 
   useEffect(() => {
@@ -40,7 +41,7 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
     <>
       {/* Modal dialog */}
       <dialog
-        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto p-8 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain"
+        className=" bg-white w-11/12 md:max-w-md mx-auto my-auto p-6 sm:p-8 backdrop:backdrop-blur-lg overscroll-contain backdrop:overscroll-contain"
         ref={modalRef}
         onKeyDown={(event) => {
           if (event.key === "Escape") {
@@ -56,10 +57,10 @@ export const Modal = ({ isOpen, onClose, children }: Props) => {
                 noGutter: true,
               })} mb-6 flex flex-1 items-start`}
             >
-              Jaa artikkeli
+              {label || "Jaa artikkeli"}
             </h1>
             <button
-              className={button.variants.iconButton()}
+              className={button.iconButton.rounded.medium}
               onClick={() => onClose()}
             >
               <MdClose />

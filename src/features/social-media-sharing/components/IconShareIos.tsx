@@ -6,7 +6,6 @@ export const IconShareIos = (props: React.ComponentProps<"svg">) => (
     height="24"
     viewBox="0 0 24 24"
     width="24"
-    className="w-6 h-6 mr-2 pb-0.5"
     {...props}
   >
     <path d="M0 0h24v24H0V0z" fill="none" />

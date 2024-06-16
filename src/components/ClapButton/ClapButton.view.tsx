@@ -34,7 +34,7 @@ export const ClapButton = ({
         +{userClaps}
       </div>
       <button
-        className={`${styles.clapButton} ${palette.text.secondary} ${button.variants.rounded} `}
+        className={`${styles.clapButton} ${button.rounded.secondary.medium} `}
         onClick={() => {
           buttonRef.current
             ?.getAnimations({ subtree: true })

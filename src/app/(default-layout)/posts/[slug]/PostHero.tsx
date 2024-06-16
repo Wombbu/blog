@@ -5,6 +5,7 @@ import { TagList } from "@/model/posts/components/Card/ImageOverlayTags";
 import { Post } from "@/model/posts/types/Post";
 import Image from "next/image";
 import Link from "next/link";
+import { MdArrowBack } from "react-icons/md";
 import module from "./PostHero.module.css";
 
 type Props = {
@@ -27,9 +28,9 @@ export const PostHero = ({ post }: Props) => (
         />
         <Link
           href={routes.posts}
-          className={`${button.variants.smolInverted} absolute top-2 left-2`}
+          className={`${button.rectangular.primary.medium} !absolute top-2 left-2`}
         >
-          Takaisin artikkeleihin
+          <MdArrowBack /> Takaisin artikkeleihin
         </Link>
         <div className="absolute bottom-4 left-0 right-0 justify-center flex">
           <div className="flex gap-2 bg-black bg-opacity-50 p-2">

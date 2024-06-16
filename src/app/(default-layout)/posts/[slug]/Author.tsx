@@ -4,12 +4,13 @@ import { palette } from "@/essentials/theme/palette";
 import { typography } from "@/essentials/theme/typography";
 import { formatDateStr } from "@/essentials/utils/formatDateStr";
 import { Post } from "@/model/posts/types/Post";
+import classNames from "classnames";
 import Image from "next/image";
 
 type Props = { post: Post };
 
 export const Author = ({ post }: Props) => (
-  <div className="flex gap-3  mb-6">
+  <div className="flex gap-3 mb-6">
     <a href="https://twitter.com/LauriNevanpera" target="_blank">
       <Image
         src="/profiili.jpg"
@@ -20,7 +21,13 @@ export const Author = ({ post }: Props) => (
       />
     </a>
     <div className="self-center">
-      <address className="font-bold font-primary text-md not-italic">
+      <address
+        className={classNames(
+          "not-italic",
+          typography.variants.textBody,
+          "!font-bold"
+        )}
+      >
         Lauri Nevanperä
         <span className={`${palette.text.secondary} font-normal`}>
           {" | "}Tampere

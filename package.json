@@ -18,12 +18,13 @@
     "types-ramda": "0.29.4"
   },
   "dependencies": {
+    "@mailerlite/mailerlite-nodejs": "^1.2.2",
     "@next/third-parties": "^14.2.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "@vercel/analytics": "^0.1.10",
-    "classnames": "^2.3.2",
+    "classnames": "^2.5.1",
     "eslint": "8.32.0",
     "eslint-config-next": "^14.0.4",
     "faunadb": "^4.8.0",
@@ -43,7 +44,9 @@
     "rehype-raw": "^7.0.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
+    "swr": "^2.2.5",
     "typescript": "4.9.4",
+    "wretch": "^2.9.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {

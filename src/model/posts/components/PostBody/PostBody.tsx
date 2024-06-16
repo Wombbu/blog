@@ -11,6 +11,7 @@ import { question } from "@/model/posts/components/PostBody/custom-tags/question
 import { collapse } from "@/model/posts/components/PostBody/custom-tags/collapse";
 import { mapsEmbed } from "@/model/posts/components/PostBody/custom-tags/mapsEmbed";
 import { ZoomImage } from "@/model/posts/components/PostBody/ZoomImage";
+import { subscribe } from "@/model/posts/components/PostBody/custom-tags/subscribe";
 
 type Props = {
   content: string;
@@ -118,6 +119,10 @@ const PostBody = ({ content }: Props) => {
 
             if (mapsEmbed.isVisible(firstElement)) {
               return mapsEmbed.render(firstElement);
+            }
+
+            if (subscribe.isVisible(firstElement)) {
+              return subscribe.render(firstElement);
             }
 
             return <p>{paragraph.children}</p>;

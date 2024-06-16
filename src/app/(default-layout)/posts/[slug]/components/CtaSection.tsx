@@ -34,16 +34,9 @@ export const CtaSection = ({ post }: Props) => {
           Kiitos kun luit.
         </h1>
         <LazyShareViaModal slug={post.slug} title={post.title} />
-        <h1
-          className={`${typography.variants.sectionTitle({
-            noGutter: true,
-          })} text-center mt-6`}
-        >
-          Uudet artikkelit puhelimeesi
-        </h1>
         <a
           href="https://chat.whatsapp.com/EiQjzdPh1qq6AOt7nnj2vG"
-          className={`${button.variants.rounded}`}
+          className={`${button.rounded.secondary.medium}`}
         >
           <Image
             src="/whatsapp.svg"
@@ -52,7 +45,7 @@ export const CtaSection = ({ post }: Props) => {
             height={22}
             className={`mr-2`}
           />{" "}
-          Liity yhteisöön
+          Liity Whatsapp-yhteisöön
         </a>
         <h1
           className={`${typography.variants.sectionTitle({

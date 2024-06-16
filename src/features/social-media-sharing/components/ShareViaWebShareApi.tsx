@@ -1,5 +1,5 @@
 import { routes } from "@/essentials/utils/routes";
-import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric";
+import { ShareButtonGeneric } from "@/features/social-media-sharing/components/ShareButtonGeneric.view";
 
 export const webShareAvailable = () =>
   navigator?.share && typeof navigator?.share === "function";
