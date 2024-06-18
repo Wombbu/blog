@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "Taloudellisesti vahvan ja asukkaalle pehmeän Tampereen puolesta",
     images: [
       {
-        url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola1.jpg&title=Asiaa%20kaupungeista",
+        url: "https://www.laurinevanpera.fi/api/og?imgPath=/assets/blog/elinvoimaa-kytt%C3%A4l%C3%A4%C3%A4n/kokkola1.jpg&title=Taloudellisesti%20vahvan%20ja%20asukkaalle%20pehme%C3%A4n%20Tampereen%20puolesta",
         width: 1200,
         height: 627,
         alt: "Lauri Nevanperä",
